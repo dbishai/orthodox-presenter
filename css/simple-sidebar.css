@@ -68,6 +68,9 @@
     display: block;
     text-decoration: none;
     color: #fff;
+    font-family: 'OswaldLight', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .sidebar-nav li a:hover {

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="assets/cross.ico">
 
     <title>Orthodox Presenter</title>
 
@@ -16,24 +17,49 @@
 
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
-
     <link href="css/style.css" rel="stylesheet">
     <link href="css/simple-sidebar.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-  </head>
 
-  <body>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        window.jQuery || document.write(
+            '<script src="../js/jquery.min.js"><\/script>')
+         $(document).ready(function()
+        {
+            var monthNames = [
+                "January", "February", "March",
+                "April", "May", "June", "July",
+                "August", "September", "October",
+                "November", "December"
+            ];
 
-  <!--<h1 class="centerTitle">Orthodox Presenter</h1> -->
+            var date = new Date();
+            var day = date.getDate();
+            var monthIndex = date.getMonth();
+            var year = date.getFullYear();
+            var today = monthNames[monthIndex] + " " + day + ", " +
+                year;
+            $('a#today').html(
+                "<span class='glyphicon glyphicon-calendar' aria-hidden='true'>"
+            );
+            $('a#today').append(" " + today);
+        });
+    </script>
+</head>
+
+<body>
+
+    <!--<h1 class="centerTitle">Orthodox Presenter</h1> -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <!-- <a class="navbar-brand" href="#">Orthodox Presenter</a>-->
-          <span id="menu-toggle" class="glyphicon glyphicon-menu-hamburger hamburger" aria-hidden="true"></span>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <h1 class="nav navbar-form centerTitle">Orthodox Presenter</h1>
-<!--          <ul class="nav navbar-nav navbar-right">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- <a class="navbar-brand" href="#">Orthodox Presenter</a>-->
+                <span id="menu-toggle" class="glyphicon glyphicon-menu-hamburger hamburger" aria-hidden="true"></span>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <h1 class="nav navbar-form centerTitle">Orthodox Presenter</h1>
+                <!--          <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Settings</a></li>
             <li><a href="#">Profile</a></li>
@@ -42,8 +68,8 @@
           <form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search...">
           </form> -->
+            </div>
         </div>
-      </div>
     </nav>
 
     <div id="wrapper">
@@ -52,16 +78,17 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <p>Menu<p>
+                    <p>Menu
+                        <p>
                 </li>
                 <li>
-                    <a href="#">Date</a>
+                    <a id="today" href="#"></a>
                 </li>
                 <li>
-                    <a href="#">Languages</a>
+                    <a href="#"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Languages</a>
                 </li>
                 <li>
-                    <a href="#">Presentation Mode</a>
+                    <a href="#"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Presentation Mode</a>
                 </li>
             </ul>
         </div>
@@ -72,22 +99,25 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
+                        <section id="todoapp"></section>
 
-<div class="relative_left">
-<p>
-We worship the Father and the Son, and the Holy Spirit, hail to the Church, the house of the angels.
-</p>
-</div>
-<div class="relative_center">
-<p>
-Ten`ou`wst `m`Viwt nem `pSyri@ nem pi`Penuma =e=;=u@ ,ere ]`ekklycia@ `pyi `nte ni`aggeloc
-</p>
-</div>
-<div class="relative_right">
-<p>
-نسجد للآب والابن، والروح القدس. السلام للكنيسة، بيت الملائكة.
-</p>
-</div>
+                        <div class="relative_left">
+                            <p>
+                                We worship the Father and the Son, and the Holy Spirit, hail to the Church, the
+                                house of the angels.
+                            </p>
+                        </div>
+                        <div class="relative_center">
+                            <p>
+                                Ten`ou`wst `m`Viwt nem `pSyri@ nem pi`Penuma =e=;=u@ ,ere ]`ekklycia@ `pyi `nte
+                                ni`aggeloc
+                            </p>
+                        </div>
+                        <div class="relative_right">
+                            <p>
+                                نسجد للآب والابن، والروح القدس. السلام للكنيسة، بيت الملائكة.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -100,14 +130,15 @@ Ten`ou`wst `m`Viwt nem `pSyri@ nem pi`Penuma =e=;=u@ ,ere ]`ekklycia@ `pyi `nte 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <!-- Menu Toggle Script -->
     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+        $("#menu-toggle").click(function(e)
+        {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
     </script>
-  </body>
+    <script src="js/bundle.js"></script>
+</body>
+
 </html>

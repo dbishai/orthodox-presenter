@@ -1,36 +1,46 @@
 @font-face {
+    font-family: OswaldLight;
+    src: url(../fonts/Oswald-Light.ttf);
+}
+@font-face {
+    font-family: OswaldRegular;
+    src: url(../fonts/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: OswaldBold;
+    src: url(../fonts/Oswald-Bold.ttf);
+}
+@font-face {
     font-family: CSNewAthanasius;
     src: url(../fonts/CS-New-Athanasius.ttf);
 }
 .centerTitle {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'OswaldLight', sans-serif;
   font-weight: 300;
   float: right;
-  color: #ffffff;
+  color: #bcc64b;
 }
 .hamburger {
   padding-top: 15px;
   font-size: 24px;
   color: #ffffff;
 }
-div.static {
-
-    position: static;
-    border: 3px solid #000000;
-}
 div.relative_left {
 width: 32%;
     position: relative;
     float: left;
+    padding: 5px;
 }
 div.relative_center {
 width: 32%;
     font-family: CSNewAthanasius;
     position: relative;
     float: left;
+    padding: 5px;
 }
 div.relative_right {
 width: 32%;
     position: relative;
     float: left;
+    padding: 5px;
 }
