@@ -9,7 +9,7 @@ var _sections = {
     0: {
         "id": 0,
         "title": "Liturgies",
-        "load": null",
+        "load": null,
         "img": "../../images/placeholder.png",
         "sub": {
             10: {
