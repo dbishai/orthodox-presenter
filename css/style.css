@@ -1,46 +1,67 @@
 @font-face {
-    font-family: OswaldLight;
-    src: url(../fonts/Oswald-Light.ttf);
+  font-family: CrimsonTextRoman;
+  src: url(../fonts/CrimsonText-Roman.ttf);
 }
 @font-face {
-    font-family: OswaldRegular;
-    src: url(../fonts/Oswald-Regular.ttf);
+  font-family: Noticia;
+  src: url(../fonts/NoticiaText-Regular.ttf);
 }
 @font-face {
-    font-family: OswaldBold;
-    src: url(../fonts/Oswald-Bold.ttf);
+  font-family: OswaldLight;
+  src: url(../fonts/Oswald-Light.ttf);
 }
 @font-face {
-    font-family: CSNewAthanasius;
-    src: url(../fonts/CS-New-Athanasius.ttf);
+  font-family: OswaldRegular;
+  src: url(../fonts/Oswald-Regular.ttf);
 }
-.centerTitle {
-  font-family: 'OswaldLight', sans-serif;
-  font-weight: 300;
+@font-face {
+  font-family: OswaldBold;
+  src: url(../fonts/Oswald-Bold.ttf);
+}
+@font-face {
+  font-family: CSNewAthanasius;
+  src: url(../fonts/CS-New-Athanasius.ttf);
+}
+.page-title {
+  font-family: 'CrimsonTextRoman', sans-serif;
   float: right;
   color: #bcc64b;
 }
 .hamburger {
-  padding-top: 15px;
+  padding-top: 12px;
   font-size: 24px;
   color: #ffffff;
 }
 div.relative_left {
-width: 32%;
-    position: relative;
-    float: left;
-    padding: 5px;
+  width: 32%;
+  position: relative;
+  float: left;
+  padding: 5px;
 }
 div.relative_center {
-width: 32%;
-    font-family: CSNewAthanasius;
-    position: relative;
-    float: left;
-    padding: 5px;
+  width: 32%;
+  font-family: CSNewAthanasius;
+  position: relative;
+  float: left;
+  padding: 5px;
 }
 div.relative_right {
-width: 32%;
-    position: relative;
-    float: left;
-    padding: 5px;
+  width: 32%;
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+#services .glyphicon {
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+div.extra-padding {
+  padding: 10px;
 }
