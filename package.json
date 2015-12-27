@@ -1,6 +1,7 @@
 {
   "name": "orthodox-presenter",
   "version": "0.0.1",
+  "license": "GPL-3.0",
   "description": "Free and open-source web app for use in Orthodox church services",
   "repository": "https://github.com/dbishai/orthodox-presenter",
   "main": "js/app.js",
