@@ -22,7 +22,7 @@ var MainSection = React.createClass({
             sections.push(<SectionItem key={key} section={allSections[key]} />);
         }
         return (
-            <section id="services">
+            <section id="sections">
           <div className="row placeholders">
             {sections}
           </div>

@@ -81,7 +81,7 @@
                     <p>MENU</p>
                 </li>
                 <li>
-                <a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a>
+                    <a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a>
                 </li>
                 <li>
                     <a id="today" href="#"></a>
@@ -94,6 +94,15 @@
                 </li>
                 <li>
                     <a href="#"><span class="glyphicon glyphicon-text-background" aria-hidden="true"></span> Theme</a>
+                    <div class="theme">
+                        <ul class="list-group">
+                            <li id="light_on_dark" class="list-group-item">Light on Dark</li>
+                            <li id="dark_on_light" class="list-group-item">Dark on Light</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="mailto:dbishai@outlook.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Feedback</a>
                 </li>
             </ul>
         </div>
@@ -141,6 +150,18 @@
         {
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
+        });
+        $("li#light_on_dark").click(function(e)
+        {
+            $("body").css("background-color", "#000");
+            $("body").css("color", "#fff");
+            $("#sections .glyphicon").css("border", "2px solid #fff");
+        });
+        $("li#dark_on_light").click(function(e)
+        {
+            $("body").css("background-color", "#fff");
+            $("body").css("color", "#000");
+            $("#sections .glyphicon").css("border", "2px solid #000");
         });
     </script>
     <script src="js/bundle.js"></script>
