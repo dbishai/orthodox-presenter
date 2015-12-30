@@ -11,7 +11,7 @@ var _sections = {
         "title": "Liturgies",
         "load": null,
         "img": "../../images/placeholder.png",
-        "sub": {
+        "node": {
             10: {
                 "id": 10,
                 "title": "St. Basil",
@@ -78,7 +78,7 @@ var _sections = {
 };
 
 function updateAll(id) {
-  _sections = _sections[id]["sub"];
+  _sections = _sections[id]["node"];
 }
 
 var SectionStore = assign({}, EventEmitter.prototype, {
