@@ -7,7 +7,8 @@ var classNames = require('classnames');
 var SectionItem = React.createClass({
 
     propTypes: {
-        section: ReactPropTypes.object.isRequired
+        section: ReactPropTypes.object.isRequired,
+        stack: ReactPropTypes.object.isRequired
     },
 
     getInitialState: function() {
@@ -19,17 +20,24 @@ var SectionItem = React.createClass({
     render: function() {
         var section = this.props.section;
 
-        return (<div key={section.id} className="col-xs-6 col-sm-3 extra-padding">
-          <span className="glyphicon glyphicon-cloud" onClick={this._onClick}> </span>
-              <h4 onClick={this._onClick}>
-              {section.title}
-              </h4>
-          </div>);
+        if (this.state.isLeaf) {
+          return null;
+        } else {
+          return (<div key={section.id} className="col-xs-6 col-sm-3 extra-padding">
+            <span className="glyphicon glyphicon-cloud menu-item" onClick={this._onClick}> </span>
+                <h4 onClick={this._onClick}>
+                {section.title}
+                </h4>
+            </div>);
+        }
     },
 
     _onClick: function() {
-        if (typeof this.props.section["node"] != 'undefined') {
-            SectionActions.updateAll(this.props.section.id);
+        var section = this.props.section;
+        var stack = this.props.stack;
+        if (typeof section["node"] != 'undefined') {
+            stack["nodes"].push(section.id);
+            SectionActions.next(section.id);
         } else {
             this.setState({
                 isLeaf: true

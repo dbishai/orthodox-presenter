@@ -75,10 +75,20 @@ var _sections = {
         "title": "Vespers",
         "img": "../../images/placeholder.png"
     }
+
 };
 
-function updateAll(id) {
-  _sections = _sections[id]["node"];
+var Sections = _sections;
+
+function next(id) {
+  Sections = Sections[id]["node"];
+}
+
+function prev(ids) {
+  Sections = _sections;
+  for (var i = 0; i < ids.length; i++) {
+    Sections = Sections[ids[i]]["node"];
+  }
 }
 
 var SectionStore = assign({}, EventEmitter.prototype, {
@@ -88,7 +98,7 @@ var SectionStore = assign({}, EventEmitter.prototype, {
      * @return {object}
      */
     getAll: function() {
-        return _sections;
+        return Sections;
     },
 
     emitChange: function() {
@@ -114,11 +124,15 @@ AppDispatcher.register(function(action) {
     var text;
 
     switch (action.actionType) {
-        case OPConstants.UPDATE_ALL:
-            updateAll(action.id);
+        case OPConstants.NEXT:
+            next(action.id);
             SectionStore.emitChange();
             break;
 
+        case OPConstants.PREV:
+            prev(action.ids);
+            SectionStore.emitChange();
+            break;
         default:
     }
 });

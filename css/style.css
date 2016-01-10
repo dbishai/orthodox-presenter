@@ -51,7 +51,7 @@ div.relative_right {
     float: left;
     padding: 5px;
 }
-#sections .glyphicon {
+#sections .menu-item {
     border: 2px solid #000;
     border-radius: 50%;
     display: inline-block;

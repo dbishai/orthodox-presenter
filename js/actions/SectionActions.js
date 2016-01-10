@@ -6,9 +6,9 @@ var SectionActions = {
   /**
    * @param  {string} id
    */
-  updateAll: function(id) {
+  next: function(id) {
     AppDispatcher.dispatch({
-      actionType: OPConstants.UPDATE_ALL,
+      actionType: OPConstants.NEXT,
       id: id
     });
   }
