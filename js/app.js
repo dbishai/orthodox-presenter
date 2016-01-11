@@ -1,8 +1,9 @@
 var React = require('react');
+var ReactDOM = require('react-dom');
 
 var OrthodoxPresenterApp = require('./components/OPApp.react');
 
-React.render(
+ReactDOM.render(
   <OrthodoxPresenterApp />,
   document.getElementById('OP_app')
 );

@@ -51,6 +51,23 @@ div.relative_right {
     float: left;
     padding: 5px;
 }
+
+#sections .glyphicon {
+  cursor:pointer;
+}
+
+#sections .nav-item {
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 #sections .menu-item {
     border: 2px solid #000;
     border-radius: 50%;
