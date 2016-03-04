@@ -1,14 +1,13 @@
 var React = require('react');
 var ReactPropTypes = React.PropTypes;
-var SectionActions = require('../actions/SectionActions');
+var NavActions = require('../actions/NavActions');
 
 var classNames = require('classnames');
 
 var SectionItem = React.createClass({
 
     propTypes: {
-        section: ReactPropTypes.object.isRequired,
-        stack: ReactPropTypes.object.isRequired
+        sectionItem: ReactPropTypes.object.isRequired
     },
 
     getInitialState: function() {
@@ -18,26 +17,26 @@ var SectionItem = React.createClass({
     },
 
     render: function() {
-        var section = this.props.section;
+        var sectionItem = this.props.sectionItem;
 
         if (this.state.isLeaf) {
           return null;
         } else {
-          return (<div key={section.id} className="col-xs-6 col-sm-3 extra-padding">
-            <span className="glyphicon glyphicon-cloud menu-item" onClick={this._onClick}> </span>
-                <h4 onClick={this._onClick}>
-                {section.title}
-                </h4>
+          return (
+            <div key={sectionItem.id} className="col-xs-6 col-sm-3 extra-padding">
+              <span className="glyphicon glyphicon-cloud menu-item" onClick={this._onClick}> </span>
+              <h4 onClick={this._onClick}>
+                {sectionItem.title}
+              </h4>
             </div>);
         }
     },
 
     _onClick: function() {
-        var section = this.props.section;
+        var sectionItem = this.props.sectionItem;
         var stack = this.props.stack;
-        if (typeof section["node"] != 'undefined') {
-            stack["nodes"].push(section.id);
-            SectionActions.next(section.id);
+        if (typeof sectionItem["node"] != 'undefined') {
+          NavActions.next(sectionItem.id);
         } else {
             this.setState({
                 isLeaf: true

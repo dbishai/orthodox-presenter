@@ -3,9 +3,13 @@ var OPConstants = require('../constants/OPConstants');
 
 var NavActions = {
 
-  /**
-   * @param  {string} id
-   */
+  next: function(id) {
+    AppDispatcher.dispatch({
+      actionType: OPConstants.NEXT,
+      id: id
+    });
+  },
+
   prev: function(ids) {
     AppDispatcher.dispatch({
       actionType: OPConstants.PREV,

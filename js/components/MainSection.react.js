@@ -6,7 +6,8 @@ var NavItem = require('./NavItem.react');
 var MainSection = React.createClass({
 
     propTypes: {
-        allSections: ReactPropTypes.object.isRequired
+        allSections: ReactPropTypes.object.isRequired,
+        allCommands: ReactPropTypes.object.isRequired
     },
 
     /**
@@ -17,35 +18,44 @@ var MainSection = React.createClass({
             return null;
         }
 
-        var allSections = this.props.allSections;
-        var sections = [];
-
-        // menu navigation commands
-        var allCommands = { 
-          0: {"action": "back"}
-        };
+        var sectionItems = [];
         var commands = [];
 
-        // stack keeps track of menu nodes
-        var nodeStack = {"nodes": []};
+        // menu sections
+        var allSections = this.props.allSections;
+
+        // nav commands
+        var allCommands = this.props.allCommands;
+
+        // menu navigation commands
 
         for (var key in allCommands) {
-            commands.push(<NavItem key={key} command={allCommands[key]} stack={nodeStack}/>);
+            commands.push(<NavItem key={key} command={allCommands[key]}/>);
         }
 
         for (var key in allSections) {
-            sections.push(<SectionItem key={key} section={allSections[key]} stack={nodeStack}/>);
+            sectionItems.push(<SectionItem key={key} sectionItem={allSections[key]}/>);
         }
 
         return (
-          <section id="sections">
-            {commands}
-            <div className="row placeholders">
-              {sections}
+        <div id="page-content-wrapper">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-lg-12">
+                <div>
+                  <section id="sections">
+                    {commands}
+                    <div className="row placeholders">
+                      {sectionItems}
+                    </div>
+                  </section>
+                </div>
+              </div>
             </div>
-          </section>
+          </div>
+        </div>
         );
-    },
+    }
 
 });
 

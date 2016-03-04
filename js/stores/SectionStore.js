@@ -15,7 +15,14 @@ var _sections = {
             10: {
                 "id": 10,
                 "title": "St. Basil",
-                "load": "st_basil"
+                "load": "st_basil",
+                "node": {
+                  40: {
+                    "id": 40,
+                    "title": "test"
+                  }
+                }
+
             },
             11: {
                 "id": 11,
@@ -121,7 +128,6 @@ var SectionStore = assign({}, EventEmitter.prototype, {
 });
 
 AppDispatcher.register(function(action) {
-    var text;
 
     switch (action.actionType) {
         case OPConstants.NEXT:
@@ -133,7 +139,6 @@ AppDispatcher.register(function(action) {
             prev(action.ids);
             SectionStore.emitChange();
             break;
-        default:
     }
 });
 

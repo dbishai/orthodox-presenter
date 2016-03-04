@@ -1,39 +1,37 @@
 var React = require('react');
 var ReactPropTypes = React.PropTypes;
 var NavActions = require('../actions/NavActions');
+var NavStore = require('../stores/NavStore');
 
 var classNames = require('classnames');
 
 var NavItem = React.createClass({
 
     propTypes: {
-        command: ReactPropTypes.object.isRequired,
-        stack: ReactPropTypes.object.isRequired
+        command: ReactPropTypes.object.isRequired
     },
 
     getInitialState: function() {
         return {
+          nodeStack: NavStore.getAll()
         };
     },
 
     render: function() {
         var command = this.props.command;
-        var nodeStack = this.props.stack["nodes"];
-   /*     if (nodeStack.length == 0) {
+        if (this.state.nodeStack.length == 0) {
           return null;
-        } else { */
+        } else {
           return (
             <span className="glyphicon glyphicon-arrow-left nav-item" onClick={this._onClick}></span>
             );
-        //}
+        }
     },
 
     _onClick: function() {
-      var nodeStack = this.props.stack["nodes"];
       var command = this.props.command;
-      nodeStack.pop();
       if (command.action == "back") {
-        NavActions.prev(nodeStack);
+        NavActions.prev(this.state.nodeStack);
       }
     }
 

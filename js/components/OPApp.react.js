@@ -1,13 +1,18 @@
-var MainSection = require('./MainSection.react');
 var React = require('react');
+var MainSection = require('./MainSection.react');
+var NavMenu = require('./NavMenu.react');
 var SectionStore = require('../stores/SectionStore');
+var NavStore = require('../stores/NavStore');
+var NavMenuStore = require('../stores/NavMenuStore');
 
 /**
  * Retrieve the current Section data from the SectionStore
  */
 function getSectionState() {
   return {
-    allSections: SectionStore.getAll()
+    allSections: SectionStore.getAll(),
+    allNavMenuItems: NavMenuStore.getAll(),
+    allCommands: NavStore.getCommands()
   };
 }
 
@@ -30,9 +35,13 @@ var OrthodoxPresenterApp = React.createClass({
    */
   render: function() {
     return (
-      <div>
+      <div id="wrapper">
+        <NavMenu
+          allNavMenuItems={this.state.allNavMenuItems}
+        />
         <MainSection
           allSections={this.state.allSections}
+          allCommands={this.state.allCommands}
         />
       </div>
     );
