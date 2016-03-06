@@ -7,13 +7,21 @@ var classNames = require('classnames');
 var SectionItem = React.createClass({
 
     propTypes: {
+      //TODO: use parent property to only show one node at a time
         sectionItem: ReactPropTypes.object.isRequired
     },
 
     getInitialState: function() {
-        return {
-            isLeaf: false
-        };
+        //if (typeof this.props.sectionItem["node"] === 'undefined') {
+        //  return {
+        //    isLeaf: true
+        //  };
+        //} else {
+          return {
+              isLeaf: false,
+              loadDoc: false
+          };
+        //}
     },
 
     render: function() {
@@ -21,6 +29,10 @@ var SectionItem = React.createClass({
 
         if (this.state.isLeaf) {
           return null;
+        } else if (this.state.loadDoc) {
+          return (
+              <p>{sectionItem.load}</p>
+          );
         } else {
           return (
             <div key={sectionItem.id} className="col-xs-6 col-sm-3 extra-padding">
@@ -28,20 +40,25 @@ var SectionItem = React.createClass({
               <h4 onClick={this._onClick}>
                 {sectionItem.title}
               </h4>
-            </div>);
+            </div>
+          );
         }
     },
 
     _onClick: function() {
         var sectionItem = this.props.sectionItem;
-        var stack = this.props.stack;
         if (typeof sectionItem["node"] != 'undefined') {
           NavActions.next(sectionItem.id);
-        } else {
-            this.setState({
-                isLeaf: true
-            });
+        } else if (typeof sectionItem["load"] != 'undefined') {
+          this.setState({
+              loadDoc: true
+          });
         }
+        /*} else {
+          this.setState({
+              isLeaf: true
+          });
+        }*/
     }
 
 });

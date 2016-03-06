@@ -16,12 +16,13 @@ var _sections = {
                 "id": 10,
                 "title": "St. Basil",
                 "load": "st_basil",
-                "node": {
+         /*       "node": {
                   40: {
                     "id": 40,
-                    "title": "test"
+                    "title": "test",
+                    "load": "st_basil"
                   }
-                }
+                }*/
 
             },
             11: {
@@ -49,7 +50,7 @@ var _sections = {
     1: {
         "id": 1,
         "title": "Vespers",
-        "load": "vespers",
+        //"load": "vespers",
         "img": "../../images/placeholder.png"
     },
     2: {
