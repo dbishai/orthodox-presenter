@@ -64,12 +64,16 @@ div.relative_right {
     border: 2px solid #000;
     border-radius: 50%;
     display: inline-block;
-    font-size: 25px;
+    font-size: 26px;
     height: 50px;
     width: 50px;
     line-height: 50px;
     text-align: center;
     vertical-align: middle;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
 }
 #sections .menu-item {
     border: 2px solid #000;
@@ -100,10 +104,24 @@ div.theme {
     width: 60%;
     margin: 0 auto;
 }
-h4.section_title {
+h1.section_title {
     font-family: 'CrimsonTextRoman', sans-serif;
     font-size: 50px;
     cursor: pointer;
-    text-shadow: 1px 1px 10px #fff;
+    text-shadow: 1px 1px 1px #fff;
     margin: 10px;
+    color: #262626;
+}
+
+h1:hover {
+    text-shadow: 5px 5px 10px #ffffe6;
+}
+
+div.description {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+div.section-item {
+  padding-top: 30px;
 }

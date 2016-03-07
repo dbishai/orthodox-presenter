@@ -9,12 +9,13 @@ var _sections = {
     0: {
         "id": 0,
         "title": "LITURGIES",
+        "description": "\"This is My body which is given for you; My blood, which is shed for you.\" (Luke 22:19-20)",
         //"load": "liturgies",
         "img": "../../images/placeholder.png",
         "node": {
             10: {
                 "id": 10,
-                "title": "St. Basil",
+                "title": "ST. BASIL",
                 //"load": "st_basil",
                 "node": {
                   20: {
@@ -27,7 +28,7 @@ var _sections = {
             },
             11: {
                 "id": 11,
-                "title": "St. Gregory",
+                "title": "ST. GREGORY",
                 //"load": "st_gregory"
                 "node": {
                   21: {
@@ -39,17 +40,17 @@ var _sections = {
             },
             12: {
                 "id": 12,
-                "title": "St. Cyril",
+                "title": "ST. CYRIL",
                 //"load": "st_cyril"
             },
             13: {
                 "id": 13,
-                "title": "Matins",
+                "title": "MATINS",
                 //"load": "matins"
             },
             14: {
                 "id": 14,
-                "title": "Vespers",
+                "title": "VESPERS",
                 //"load": "vespers"
             }
         }
@@ -57,17 +58,20 @@ var _sections = {
     1: {
         "id": 1,
         "title": "PSALMODY",
+        "description": "Praise the Lord! Praise God in His sanctuary; Praise Him in His mighty firmament! (Psalm 150:1)",
         //"load": "vespers",
         "img": "../../images/placeholder.png"
     },
     2: {
         "id": 2,
         "title": "READINGS",
+        "description": "How sweet are Your words to my taste! Yes, sweeter than honey to my mouth! (Psalm 119:103)",
         "img": "../../images/placeholder.png"
     },
     3: {
         "id": 3,
         "title": "HYMNS",
+        "description": "I will sing unto the LORD as long as I live: I will sing praise to my God while I have my being. (Psalm 104:33)",
         "img": "../../images/placeholder.png"
     }/*,
     4: {
