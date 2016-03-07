@@ -8,42 +8,49 @@ var CHANGE_EVENT = 'change';
 var _sections = {
     0: {
         "id": 0,
-        "title": "Liturgies",
-        "load": "liturgies",
+        "title": "LITURGIES",
+        //"load": "liturgies",
         "img": "../../images/placeholder.png",
         "node": {
             10: {
                 "id": 10,
                 "title": "St. Basil",
-                "load": "st_basil",
-         /*       "node": {
-                  40: {
-                    "id": 40,
+                //"load": "st_basil",
+                "node": {
+                  20: {
+                    "id": 20,
                     "title": "test",
                     "load": "st_basil"
                   }
-                }*/
+                }
 
             },
             11: {
                 "id": 11,
                 "title": "St. Gregory",
-                "load": "st_gregory"
+                //"load": "st_gregory"
+                "node": {
+                  21: {
+                    "id": 21,
+                    "title": "test",
+                    "load": "st_gregory"
+                  }
+                }
             },
             12: {
                 "id": 12,
                 "title": "St. Cyril",
-                "load": "st_cyril"
+                //"load": "st_cyril"
             },
             13: {
                 "id": 13,
                 "title": "Matins",
-                "load": "matins"
+                //"load": "matins"
             },
             14: {
                 "id": 14,
                 "title": "Vespers",
-                "load": "vespers"
+                //"load": "vespers"
             }
         }
     },

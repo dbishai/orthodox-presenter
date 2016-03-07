@@ -22,6 +22,12 @@
     font-family: CSNewAthanasius;
     src: url(../fonts/CS-New-Athanasius.ttf);
 }
+body {
+  background-image: url("../images/background.jpg");
+  background-size: auto cover;
+/*  background-repeat: no-repeat;*/
+  background-position: 50% 0%;
+}
 .page-title {
     font-family: 'CrimsonTextRoman', sans-serif;
     float: right;
@@ -51,11 +57,9 @@ div.relative_right {
     float: left;
     padding: 5px;
 }
-
 #sections .glyphicon {
-  cursor:pointer;
+    cursor: pointer;
 }
-
 #sections .nav-item {
     border: 2px solid #000;
     border-radius: 50%;
@@ -67,7 +71,6 @@ div.relative_right {
     text-align: center;
     vertical-align: middle;
 }
-
 #sections .menu-item {
     border: 2px solid #000;
     border-radius: 50%;
@@ -96,4 +99,9 @@ li#dark_on_light {
 div.theme {
     width: 60%;
     margin: 0 auto;
+}
+h4.section_title {
+    font-family: 'CrimsonTextRoman', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
 }
