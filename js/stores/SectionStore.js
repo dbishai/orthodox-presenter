@@ -56,20 +56,20 @@ var _sections = {
     },
     1: {
         "id": 1,
-        "title": "Vespers",
+        "title": "PSALMODY",
         //"load": "vespers",
         "img": "../../images/placeholder.png"
     },
     2: {
         "id": 2,
-        "title": "Liturgies",
+        "title": "READINGS",
         "img": "../../images/placeholder.png"
     },
     3: {
         "id": 3,
-        "title": "Liturgies",
+        "title": "HYMNS",
         "img": "../../images/placeholder.png"
-    },
+    }/*,
     4: {
         "id": 4,
         "title": "Liturgies",
@@ -89,7 +89,7 @@ var _sections = {
         "id": 7,
         "title": "Vespers",
         "img": "../../images/placeholder.png"
-    }
+    }*/
 
 };
 

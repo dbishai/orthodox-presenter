@@ -34,9 +34,9 @@ var SectionItem = React.createClass({
           );
         } else {
           return (
-            <div key={sectionItem.id} className="col-xs-6 col-sm-3 extra-padding">
+            <div key={sectionItem.id} className="col-xs-6 col-sm-6 extra-padding">
                 <h4 onClick = {this._onClick} className="section_title">
-                  {sectionItem.title}
+                  <u>{sectionItem.title}</u>
                 </h4>
             </div >
             );

@@ -12,27 +12,34 @@ var NavMenus = {
     },
     1: {
         "id": 1,
+        "html_id": "today",
+        "title": "",
+        "url": "#",
+        "span_class": ""
+    },
+    2: {
+        "id": 2,
         "html_id": "lang",
         "title": "Languages",
         "url": "#",
         "span_class": "glyphicon glyphicon-list"
     },
-    2: {
-        "id": 2,
+    3: {
+        "id": 3,
         "html_id": "mode",
         "title": "Presentation Mode",
         "url": "#",
         "span_class": "glyphicon glyphicon-blackboard"
     },
-    3: {
-        "id": 3,
+    4: {
+        "id": 4,
         "html_id": "theme",
         "title": "Theme",
         "url": "#",
         "span_class": "glyphicon glyphicon-text-background"
     },
-    4: {
-        "id": 4,
+    5: {
+        "id": 5,
         "html_id": "feedback",
         "title": "Feedback",
         "url": "mailto:dbishai@outlook.com",
