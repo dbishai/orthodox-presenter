@@ -1,127 +1,130 @@
 @font-face {
-    font-family: CrimsonTextRoman;
-    src: url(../fonts/CrimsonText-Roman.ttf);
+  font-family: CrimsonTextRoman;
+  src: url(../fonts/CrimsonText-Roman.ttf);
 }
 @font-face {
-    font-family: Noticia;
-    src: url(../fonts/NoticiaText-Regular.ttf);
+  font-family: Noticia;
+  src: url(../fonts/NoticiaText-Regular.ttf);
 }
 @font-face {
-    font-family: OswaldLight;
-    src: url(../fonts/Oswald-Light.ttf);
+  font-family: OswaldLight;
+  src: url(../fonts/Oswald-Light.ttf);
 }
 @font-face {
-    font-family: OswaldRegular;
-    src: url(../fonts/Oswald-Regular.ttf);
+  font-family: OswaldRegular;
+  src: url(../fonts/Oswald-Regular.ttf);
 }
 @font-face {
-    font-family: OswaldBold;
-    src: url(../fonts/Oswald-Bold.ttf);
+  font-family: OswaldBold;
+  src: url(../fonts/Oswald-Bold.ttf);
 }
 @font-face {
-    font-family: CSNewAthanasius;
-    src: url(../fonts/CS-New-Athanasius.ttf);
+  font-family: CSNewAthanasius;
+  src: url(../fonts/CS-New-Athanasius.ttf);
 }
 body {
   background-image: url("../images/background.jpg");
   background-size: auto cover;
-/*  background-repeat: no-repeat;*/
+  /*  background-repeat: no-repeat;*/
   background-position: 50% 0%;
 }
 .page-title {
-    font-family: 'CrimsonTextRoman', sans-serif;
-    float: right;
-    color: #bcc64b;
+  font-family: 'CrimsonTextRoman', sans-serif;
+  float: right;
+  color: #bcc64b;
 }
 .hamburger {
-    padding-top: 12px;
-    font-size: 24px;
-    color: #ffffff;
+  padding-top: 12px;
+  font-size: 24px;
+  color: #ffffff;
 }
 div.relative_left {
-    width: 32%;
-    position: relative;
-    float: left;
-    padding: 5px;
+  width: 32%;
+  position: relative;
+  float: left;
+  padding: 5px;
 }
 div.relative_center {
-    width: 32%;
-    font-family: CSNewAthanasius;
-    position: relative;
-    float: left;
-    padding: 5px;
+  width: 32%;
+  font-family: CSNewAthanasius;
+  position: relative;
+  float: left;
+  padding: 5px;
 }
 div.relative_right {
-    width: 32%;
-    position: relative;
-    float: left;
-    padding: 5px;
+  width: 32%;
+  position: relative;
+  float: left;
+  padding: 5px;
 }
 #sections .glyphicon {
-    cursor: pointer;
+  cursor: pointer;
 }
 #sections .nav-item {
-    border: 2px solid #000;
-    border-radius: 50%;
-    display: inline-block;
-    font-size: 26px;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: middle;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: 5;
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 26px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 5;
 }
 #sections .menu-item {
-    border: 2px solid #000;
-    border-radius: 50%;
-    display: inline-block;
-    font-size: 60px;
-    height: 140px;
-    line-height: 140px;
-    text-align: center;
-    vertical-align: middle;
-    width: 140px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
 }
 div.extra-padding {
-    padding: 10px;
+  padding: 10px;
 }
 li#light_on_dark {
-    background-color: #000;
-    color: #fff;
-    font-family: 'OswaldRegular', sans-serif;
-    text-shadow: 1px 1px 7px #fff;
+  background-color: #000;
+  color: #fff;
+  font-family: 'OswaldRegular', sans-serif;
+  text-shadow: 1px 1px 7px #fff;
 }
 li#dark_on_light {
-    background-color: #fff;
-    color: #000;
-    font-family: 'OswaldRegular', sans-serif;
+  background-color: #fff;
+  color: #000;
+  font-family: 'OswaldRegular', sans-serif;
 }
 div.theme {
-    width: 60%;
-    margin: 0 auto;
+  width: 60%;
+  margin: 0 auto;
 }
 h1.section_title {
-    font-family: 'CrimsonTextRoman', sans-serif;
-    font-size: 50px;
-    cursor: pointer;
-    text-shadow: 1px 1px 1px #fff;
-    margin: 10px;
-    color: #262626;
+  font-family: 'CrimsonTextRoman', sans-serif;
+  font-size: 50px;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #fff;
+  margin: 10px;
+  color: #262626;
 }
-
 h1:hover {
-    text-shadow: 5px 5px 10px #ffffe6;
+  text-shadow: 5px 5px 10px #ffffe6;
 }
-
 div.description {
+  font-family: 'Noticia', sans-serif;
+  color: #262626;
   position: relative;
   width: 50%;
   margin: 0 auto;
 }
 div.section-item {
   padding-top: 30px;
+}
+li.nav-menu-item:hover {
+  background-color: #1a75ff;
 }

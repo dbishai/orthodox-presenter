@@ -1,6 +1,21 @@
 //var AppDispatcher = require('../dispatcher/AppDispatcher');
 var EventEmitter = require('events').EventEmitter;
 var assign = require('object-assign');
+var getCopticDateString = require('../lib/CopticCalendar.js').getCopticDateString;
+
+var monthNames = [
+    "January", "February", "March",
+    "April", "May", "June", "July",
+    "August", "September", "October",
+    "November", "December"
+];
+
+var date = new Date();
+var day = date.getDate();
+var monthIndex = date.getMonth();
+var year = date.getFullYear();
+var gregDate = monthNames[monthIndex] + " " + day + ", " + year;
+var copticDate = getCopticDateString(monthIndex, day, year);
 
 var NavMenus = {
     0: {
@@ -12,34 +27,41 @@ var NavMenus = {
     },
     1: {
         "id": 1,
-        "html_id": "today",
-        "title": "",
+        "html_id": "date",
+        "title": gregDate, 
         "url": "#",
-        "span_class": ""
+        "span_class": "glyphicon glyphicon-calendar"
     },
     2: {
         "id": 2,
+        "html_id": "coptic_date",
+        "title": copticDate,
+        "url": "#",
+        "span_class": "glyphicon glyphicon-calendar"
+    },
+    3: {
+        "id": 3,
         "html_id": "lang",
         "title": "Languages",
         "url": "#",
         "span_class": "glyphicon glyphicon-list"
     },
-    3: {
-        "id": 3,
+    4: {
+        "id": 4,
         "html_id": "mode",
         "title": "Presentation Mode",
         "url": "#",
         "span_class": "glyphicon glyphicon-blackboard"
     },
-    4: {
-        "id": 4,
+    5: {
+        "id": 5,
         "html_id": "theme",
         "title": "Theme",
         "url": "#",
         "span_class": "glyphicon glyphicon-text-background"
     },
-    5: {
-        "id": 5,
+    6: {
+        "id": 6,
         "html_id": "feedback",
         "title": "Feedback",
         "url": "mailto:dbishai@outlook.com",
