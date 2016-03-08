@@ -16,16 +16,7 @@ var getCopticMonthDate = function (CopticMonthObject, year) {
   return new Date(year, _m, _d);
 };
 
-var getCopticDate = function (monthIndex, day, year) {
-  var copticMonth = "";
-  var copticDay = day;
-  var copticYear = year - 284;
-  var leapYear = isLeapYear(year);
-  //Coptic New Year
-  if ((monthIndex + 1) >= 9 && day >= (leapYear ? 12 : 11)) {
-    copticYear++;
-  }
-  var CopticMonthObjects = [
+var CopticMonthObjects = [
   {
     name: "Thout",
     startDate: "09/11",
@@ -91,7 +82,17 @@ var getCopticDate = function (monthIndex, day, year) {
     startDate: "09/06",
     leap: false
   }
-  ];
+];
+
+var getCopticDate = function (monthIndex, day, year) {
+  var copticMonth = "";
+  var copticDay = day;
+  var copticYear = year - 284;
+  var leapYear = isLeapYear(year);
+  //Coptic New Year
+  if ((monthIndex + 1) >= 9 && day >= (leapYear ? 12 : 11)) {
+    copticYear++;
+  }
 
   for (var i = 0; i < CopticMonthObjects.length; i++) {
     var m = CopticMonthObjects[i];
@@ -102,12 +103,12 @@ var getCopticDate = function (monthIndex, day, year) {
       m_next = CopticMonthObjects[0];
     }
     var gregDate = new Date(year, monthIndex + 1, day);
-    var copticStartDate = getCopticMonthDate(m, year);
-    var copticEndDate = getCopticMonthDate(m_next, year);
+    var copticMonthStartDate = getCopticMonthDate(m, year);
+    var copticMonthEndDate = getCopticMonthDate(m_next, year);
 
-    if (gregDate >= copticStartDate && gregDate < copticEndDate) {
+    if (gregDate >= copticMonthStartDate && gregDate < copticMonthEndDate) {
       copticMonth = m.name;
-      copticDay = Math.floor((gregDate - copticStartDate)/(1000 * 24 * 3600));
+      copticDay = Math.floor((gregDate - copticMonthStartDate)/(1000 * 24 * 3600));
       break;
     }
   }
