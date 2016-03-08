@@ -90,7 +90,7 @@ var getCopticDate = function (monthIndex, day, year) {
     name: "Pi Kogi Enavot",
     startDate: "09/06",
     leap: false
-  },
+  }
   ];
 
   for (var i = 0; i < CopticMonthObjects.length; i++) {
