@@ -1,7 +1,7 @@
 //var AppDispatcher = require('../dispatcher/AppDispatcher');
 var EventEmitter = require('events').EventEmitter;
 var assign = require('object-assign');
-var getCopticDateString = require('../lib/CopticCalendar.js').getCopticDateString;
+var CopticCalendar = require('../lib/CopticCalendar.js');
 
 var monthNames = [
     "January", "February", "March",
@@ -15,7 +15,7 @@ var day = date.getDate();
 var monthIndex = date.getMonth();
 var year = date.getFullYear();
 var gregDate = monthNames[monthIndex] + " " + day + ", " + year;
-var copticDate = getCopticDateString(monthIndex, day, year);
+var copticDate = CopticCalendar.getCopticDateString(year, monthIndex, day);
 
 var NavMenus = {
     0: {
