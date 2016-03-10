@@ -23,10 +23,12 @@
   src: url(../fonts/CS-New-Athanasius.ttf);
 }
 body {
+  /*
   background-image: url("../images/background.jpg");
   background-size: auto cover;
-  /*  background-repeat: no-repeat;*/
   background-position: 50% 0%;
+  */
+  background-color: #333333;
 }
 .page-title {
   font-family: 'CrimsonTextRoman', sans-serif;
@@ -37,21 +39,9 @@ body {
   padding-top: 12px;
   font-size: 24px;
   color: #ffffff;
+  cursor: pointer;
 }
-div.relative_left {
-  width: 32%;
-  position: relative;
-  float: left;
-  padding: 5px;
-}
-div.relative_center {
-  width: 32%;
-  font-family: CSNewAthanasius;
-  position: relative;
-  float: left;
-  padding: 5px;
-}
-div.relative_right {
+div.main-section {
   width: 32%;
   position: relative;
   float: left;
@@ -127,4 +117,10 @@ div.section-item {
 }
 li.nav-menu-item:hover {
   background-color: #1a75ff;
+}
+p.main-section {
+  color: #fff;
+}
+h4.main-section {
+  color: #ffff66;
 }

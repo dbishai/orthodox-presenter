@@ -8,29 +8,31 @@ var classNames = require('classnames');
 var NavItem = React.createClass({
 
     propTypes: {
-        command: ReactPropTypes.object.isRequired
+        navItem: ReactPropTypes.object.isRequired
     },
 
     getInitialState: function() {
         return {
-          nodeStack: NavStore.getAll()
+          nodeStack: NavStore.getStack()
         };
     },
 
     render: function() {
-        var command = this.props.command;
+        var navItem = this.props.navItem;
         if (this.state.nodeStack.length == 0) {
           return null;
         } else {
           return (
-            <span className="glyphicon glyphicon-arrow-left nav-item" onClick={this._onClick}></span>
+            <li key={navItem.id} className="sidebar-brand nav-menu-item" onClick={this._onClick}>
+              <span className={navItem.span_class}></span>
+            </li>
             );
         }
     },
 
     _onClick: function() {
-      var command = this.props.command;
-      if (command.action == "back") {
+      var navItem = this.props.navItem;
+      if (navItem.action == "back") {
         NavActions.prev(this.state.nodeStack);
       }
     }

@@ -5,36 +5,33 @@ var assign = require('object-assign');
 
 var CHANGE_EVENT = 'change';
 
-var Commands = { 
-  0: {
-    "id" : 0,
-    "action": "back",
-    "span_class": "glyphicon glyphicon-arrow-left"
-  }
-};
+var Document = [];
 
-var nodeStack = [];
-
-function next(id) {
-  nodeStack.push(id);
+function load(doc) {
+  var path = doc.replace(/\s+/g, "");
+  path = doc.replace(/\.+/g, "_").toLowerCase();
+  var file = "docs/" + path + "/" + path + ".json";
+  $.getJSON(file)
+   .done(function(data) {
+     Document = data;
+     DocumentStore.emitChange();
+     console.log( "JSON Data: " + JSON.stringify(data) );
+  })
+  .fail(function(jqxhr, textStatus, error) {
+    var err = textStatus + ", " + error;
+    console.log( "Request Failed: " + err );
+  });
 }
 
-function prev() {
-  nodeStack.pop();
-}
-
-var NavStore = assign({}, EventEmitter.prototype, {
+var DocumentStore = assign({}, EventEmitter.prototype, {
 
     /**
      * Get the entire collection of SECTIONs.
      * @return {object}
      */
     getAll: function() {
-      return Commands;
-    },
-
-    getStack: function() {
-      return nodeStack;
+      console.log(JSON.stringify(Document));
+        return Document;
     },
 
     emitChange: function() {
@@ -59,16 +56,10 @@ var NavStore = assign({}, EventEmitter.prototype, {
 AppDispatcher.register(function(action) {
 
     switch (action.actionType) {
-        case OPConstants.NEXT:
-            next(action.id);
-            NavStore.emitChange();
-            break;
-
-        case OPConstants.PREV:
-            prev();
-            NavStore.emitChange();
+        case OPConstants.LOAD:
+            load(action.doc);
             break;
     }
 });
 
-module.exports = NavStore;
+module.exports = DocumentStore;

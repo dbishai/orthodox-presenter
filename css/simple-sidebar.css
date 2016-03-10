@@ -94,6 +94,9 @@
     color: #fff;
 }
 
+.sidebar-nav > .sidebar-brand span {
+    color: #fff;
+}
 .sidebar-nav > .sidebar-brand p {
     color: #fff;
 }

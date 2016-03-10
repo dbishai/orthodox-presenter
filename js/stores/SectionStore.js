@@ -41,7 +41,7 @@ var _sections = {
             12: {
                 "id": 12,
                 "title": "ST. CYRIL",
-                //"load": "st_cyril"
+                "load": "st_cyril"
             },
             13: {
                 "id": 13,
@@ -72,7 +72,15 @@ var _sections = {
         "id": 3,
         "title": "HYMNS",
         "description": "I will sing unto the LORD as long as I live: I will sing praise to my God while I have my being. (Psalm 104:33)",
-        "img": "../../images/placeholder.png"
+        "img": "../../images/placeholder.png",
+        "node": {
+            10: {
+                "id": 10,
+                "title": "Niethnos Tiro",
+                "load": "niethnos_tiro"
+            }
+        }
+
     }/*,
     4: {
         "id": 4,

@@ -1,6 +1,7 @@
 var React = require('react');
 var ReactPropTypes = React.PropTypes;
 var NavActions = require('../actions/NavActions');
+var SectionActions = require('../actions/SectionActions');
 
 var classNames = require('classnames');
 
@@ -27,29 +28,20 @@ var SectionItem = React.createClass({
     render: function() {
         var sectionItem = this.props.sectionItem;
 
-        if (this.state.loadDoc && this.state.isLeaf) {
-            return ( < p > {
-                    sectionItem.load
-                } < /p>
-          );
-        } else {
           return (
-            <div key={sectionItem.id} className="col-xs-12 col-sm-12 col-md-6 section-item">
-                <h1 onClick = {this._onClick} className="section_title">
-                  <u>{sectionItem.title}</u>
-                </h1>
-                <div className="description">
-                  <i>{sectionItem.description}</i>
-                </div>
-            </div >
-            );
-        }
+            <li key={sectionItem.id} className="sidebar-brand nav-menu-item" onClick={this._onClick}>
+              <a href="#">{sectionItem.title}</a>
+            </li>
+          );
     },
 
     _onClick: function() {
         var sectionItem = this.props.sectionItem;
         if (typeof sectionItem["node"] != 'undefined') {
             NavActions.next(sectionItem.id);
+        } else if (this.state.loadDoc && this.state.isLeaf) {
+          console.log("load");
+            SectionActions.load(sectionItem.load);
         }
     }
 

@@ -19,7 +19,9 @@ var NavMenuItem = React.createClass({
 
         return (
           <li key={navMenuItem.id} className="sidebar-brand nav-menu-item">
-            <a id={navMenuItem.html_id} href={navMenuItem.url}><span className={navMenuItem.span_class} aria-hidden='true'></span> {navMenuItem.title}</a>
+            <a id={navMenuItem.html_id} href={navMenuItem.url}>
+              <span className={navMenuItem.span_class} aria-hidden='true'></span> {navMenuItem.title}
+            </a>
           </li>
         );
     }

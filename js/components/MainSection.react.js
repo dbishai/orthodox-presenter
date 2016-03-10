@@ -1,56 +1,46 @@
 var React = require('react');
 var ReactPropTypes = React.PropTypes;
-var SectionItem = require('./SectionItem.react');
-var NavItem = require('./NavItem.react');
+var DocumentItem = require('./DocumentItem.react');
 
 var MainSection = React.createClass({
 
     propTypes: {
-        allSections: ReactPropTypes.object.isRequired,
-        allCommands: ReactPropTypes.object.isRequired
+        allDocumentItems: ReactPropTypes.array.isRequired
     },
 
     /**
      * @return {object}
      */
     render: function() {
-        if (Object.keys(this.props.allSections).length < 1) {
-            return null;
-        }
-
-        var sectionItems = [];
-        var commands = [];
-
-        // menu sections
-        var allSections = this.props.allSections;
-
-        // nav commands
-        var allCommands = this.props.allCommands;
-
-        // menu navigation commands
-
-        for (var key in allCommands) {
-            commands.push(<NavItem key={key} command={allCommands[key]}/>);
-        }
-
-        for (var key in allSections) {
-            sectionItems.push(<SectionItem key={key} sectionItem={allSections[key]}/>);
-        }
+      if (this.props.allDocumentItems.length < 1) {
+          return null;
+      }
+      var docEngItems = [];
+      var docCopItems = [];
+      var docAraItems = [];
+      var allDocumentItems = this.props.allDocumentItems;
+      var i = 0;
+      for (var response in allDocumentItems[0].items) {
+          docEngItems.push(<DocumentItem key={i} documentItem={allDocumentItems[0].items.response}/>);
+      }
+      for (var response in allDocumentItems[1].items) {
+          docCopItems.push(<DocumentItem key={i} documentItem={allDocumentItems[1].items.response}/>);
+      }
+      for (var response in allDocumentItems[2].items) {
+          docAraItems.push(<DocumentItem key={i} documentItem={allDocumentItems[2].items.response}/>);
+      }
 
         return (
-        <div id="page-content-wrapper">
+         <div id="page-content-wrapper">
           <div className="container-fluid">
-            <div className="row">
-              <div className="col-lg-12">
-                <div>
-                  <section id="sections">
-                    {commands}
-                    <div className="row placeholders">
-                      {sectionItems}
-                    </div>
-                  </section>
-                </div>
-              </div>
+            <div className="main-section">
+              {docEngItems}
+            </div>
+            <div style={{fontFamily: 'CSNewAthanasius'}} className="main-section">
+              {docCopItems}
+            </div>
+            <div className="main-section">
+              {docAraItems}
             </div>
           </div>
         </div>
