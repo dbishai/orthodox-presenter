@@ -12,15 +12,14 @@ function load(doc) {
   path = doc.replace(/\.+/g, "_").toLowerCase();
   var file = "docs/" + path + "/" + path + ".json";
   $.getJSON(file)
-   .done(function(data) {
-     Document = data;
-     DocumentStore.emitChange();
-     console.log( "JSON Data: " + JSON.stringify(data) );
-  })
-  .fail(function(jqxhr, textStatus, error) {
-    var err = textStatus + ", " + error;
-    console.log( "Request Failed: " + err );
-  });
+    .done(function(data) {
+       Document = data;
+       DocumentStore.emitChange();
+    })
+    .fail(function(jqxhr, textStatus, error) {
+      var err = textStatus + ", " + error;
+      console.log( "Request Failed: " + err );
+    });
 }
 
 var DocumentStore = assign({}, EventEmitter.prototype, {

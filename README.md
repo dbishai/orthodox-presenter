@@ -7,9 +7,14 @@ Orthodox Presenter makes use of JSON formatted documents for its sources and is 
 
 Orthodox Presenter can run on any device with a modern web browser. It can also be run offline with a local web server.
 
-Technology Stack
-----------------------------
+## Technology Stack
+Bootstrap is used for responsive resizing and [startbootstrap-simple-sidebar](https://github.com/BlackrockDigital/startbootstrap-simple-sidebar) is used for the sidebar.
 
+ReactJS and the Flux pattern are used for the UI and architecture respectively.
+
+Documents are stored in the JSON format.
+
+```
 Bootstrap
    ^
    |
@@ -19,4 +24,4 @@ ReactJS & Flux <- JSON
    |
    |
 node.js
-
+```
