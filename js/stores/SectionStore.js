@@ -5,7 +5,7 @@ var assign = require('object-assign');
 
 var CHANGE_EVENT = 'change';
 
-var _sections = {
+var sections = {
     0: {
         "id": 0,
         "title": "LITURGIES",
@@ -105,14 +105,14 @@ var _sections = {
 
 };
 
-var Sections = _sections;
+var Sections = sections;
 
 function next(id) {
   Sections = Sections[id]["node"];
 }
 
 function prev(ids) {
-  Sections = _sections;
+  Sections = sections;
   for (var i = 0; i < ids.length; i++) {
     Sections = Sections[ids[i]]["node"];
   }

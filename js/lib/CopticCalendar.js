@@ -103,15 +103,15 @@ var getCopticDate = function (year, monthIndex, day) {
       // wrap around
       m_next = CopticMonthObjects[0];
     }
-    var gregDate = new Date(year, monthIndex, day);
+    var gregDate = new Date(year, monthIndex, day, 12, 0, 0);
     var copticMonthStartDate;
     var copticMonthEndDate;
 
     // special cases for new Gregorian year
-    if ((monthIndex + 1) == 1 && m.name == "Kioak") {
+    if (monthIndex == 0 && m.name == "Kioak") {
       copticMonthStartDate = getCopticMonthDate(m, year - 1);
       copticMonthEndDate = getCopticMonthDate(m_next, year);
-    } else if ((monthIndex + 1) == 12 && m_next.name == "Tobi") {
+    } else if (monthIndex == 11 && m_next.name == "Tobi") {
       copticMonthStartDate = getCopticMonthDate(m, year);
       copticMonthEndDate = getCopticMonthDate(m_next, year + 1);
     } else {
