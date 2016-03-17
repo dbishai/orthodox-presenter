@@ -1,67 +1,80 @@
 var CopticMonthObjects = [
   {
     name: "Thout",
-    startDate: "09/11",
+    month: 9,
+    day: 11,
     leap: true
   },
   {
     name :"Paopi",
-    startDate: "10/11",
+    month: 10,
+    day: 11,
     leap: true
   },
   { 
     name:"Hathor",
-    startDate: "11/10",
+    month: 11,
+    day: 10,
     leap: true
   },
   {
     name: "Koiak",
-    startDate: "12/10",
+    month: 12,
+    day: 10,
     leap: true
   },
   {
     name: "Tobi",
-    startDate: "01/09",
+    month: 1,
+    day: 9,
     leap: true
   },
   {
     name: "Meshir",
-    startDate: "02/08",
+    month: 2,
+    day: 8,
     leap: true
   },
   {
     name: "Paremhat",
-    startDate: "03/10",
+    month: 3,
+    day: 10,
     leap: false
   },
   {
     name: "Parmouti",
-    startDate: "04/09",
+    month: 4,
+    day: 9,
     leap: false
   },
   {
     name: "Pashons",
-    startDate: "05/09",
+    month: 5,
+    day: 9,
     leap: false 
   },
   {
     name: "Paoni",
-    startDate: "06/08",
+    month: 6,
+    day: 8,
     leap: false
   },
   {
     name: "Epip",
-    startDate: "07/08",
+    month: 7,
+    day: 8,
     leap: false
   },
   {
     name: "Mesori",
-    startDate: "08/07",
+    month: 8,
+    day: 7,
     leap: false
   },
   {
     name: "Pi Kogi Enavot",
-    startDate: "09/06",
+    month: 9,
+    day: 6,
     leap: false
   }
 ];
@@ -75,9 +88,8 @@ var isLeapYear = function (year) {
 
 var getCopticMonthDate = function (CopticMonthObject, year) {
   var leapYear = isLeapYear(year);
-  var strArray = CopticMonthObject.startDate.split("/");
-  var m = parseInt(strArray[0]);
-  var d = parseInt(strArray[1]);
+  var m = CopticMonthObject.month;
+  var d = CopticMonthObject.day;
   if (CopticMonthObject.leap && leapYear) {
     d++;
   }
@@ -90,7 +102,7 @@ var getCopticDate = function (year, monthIndex, day) {
   var copticYear = year - 284;
   var leapYear = isLeapYear(year);
   // Coptic New Year
-  if ((monthIndex + 1) >= 9 && day >= (leapYear ? 12 : 11)) {
+  if (monthIndex >= 8 && day >= (leapYear ? 12 : 11)) {
     copticYear++;
   }
 
