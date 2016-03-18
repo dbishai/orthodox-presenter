@@ -77,7 +77,7 @@ var sections = {
             "1a": {
                 "id": "1a",
                 "title": "Niethnos Tiro",
-                "load": "niethnos_tiro"
+                "load": "docs/hymns/niethnos_tiro.json"
             }
         }
 
