@@ -55,7 +55,13 @@ var NavMenu = React.createClass({
           <section id="nav_menu">
             <div id="sidebar-wrapper">
               <ul className="sidebar-nav">
-                {navMenuItems}
+                <NavMenuItem key="home" navMenuItem={allNavMenuItems["home"]}/>
+                <NavMenuItem key="date" navMenuItem={allNavMenuItems["date"]}/>
+                <NavMenuItem key="coptic_date" navMenuItem={allNavMenuItems["coptic_date"]}/>
+                <NavMenuItem key="lang" navMenuItem={allNavMenuItems["lang"]}/>
+                <NavMenuItem key="mode" navMenuItem={allNavMenuItems["mode"]}/>
+                <NavMenuItem key="theme" navMenuItem={allNavMenuItems["theme"]}/>
+                <NavMenuItem key="feedback" navMenuItem={allNavMenuItems["feedback"]}/>
                 {navItems}
                 {sectionItems}
               </ul>

@@ -18,51 +18,44 @@ var gregDate = monthNames[monthIndex] + " " + day + ", " + year;
 var copticDate = CopticCalendar.getCopticDateString(year, monthIndex, day);
 
 var NavMenus = {
-    0: {
-        "id": 0,
-        "html_id": "home",
+    "home": {
+        "id": "home",
         "title": "Home",
         "url": "index.html",
         "span_class": "glyphicon glyphicon-home"
     },
-    1: {
-        "id": 1,
-        "html_id": "date",
+    "date": {
+        "id": "date",
         "title": gregDate, 
         "url": "#",
         "span_class": "glyphicon glyphicon-calendar"
     },
-    2: {
-        "id": 2,
-        "html_id": "coptic_date",
+    "coptic_date": {
+        "id": "coptic_date",
         "title": copticDate,
         "url": "#",
         "span_class": "glyphicon glyphicon-calendar"
     },
-    3: {
-        "id": 3,
-        "html_id": "lang",
+    "lang": {
+        "id": "lang",
         "title": "Languages",
         "url": "#",
         "span_class": "glyphicon glyphicon-list"
     },
-    4: {
-        "id": 4,
-        "html_id": "mode",
+    "mode": {
+        "id": "mode",
         "title": "Presentation Mode",
         "url": "#",
         "span_class": "glyphicon glyphicon-blackboard"
     },
-    5: {
-        "id": 5,
-        "html_id": "theme",
+    "theme": {
+        "id": "theme",
         "title": "Theme",
         "url": "#",
         "span_class": "glyphicon glyphicon-text-background"
     },
-    6: {
-        "id": 6,
-        "html_id": "feedback",
+    "feedback": {
+        "id": "feedback",
         "title": "Feedback",
         "url": "mailto:dbishai@outlook.com",
         "span_class": "glyphicon glyphicon-envelope"
