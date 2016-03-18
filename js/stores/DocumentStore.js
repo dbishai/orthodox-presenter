@@ -8,10 +8,7 @@ var CHANGE_EVENT = 'change';
 var Document = [];
 
 function load(doc) {
-  var path = doc.replace(/\s+/g, "");
-  path = doc.replace(/\.+/g, "_").toLowerCase();
-  var file = "docs/" + path + "/" + path + ".json";
-  $.getJSON(file)
+  $.getJSON(doc)
     .done(function(data) {
        Document = data;
        DocumentStore.emitChange();

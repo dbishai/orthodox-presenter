@@ -55,7 +55,6 @@ var OrthodoxPresenterApp = React.createClass({
    */
   _onChange: function() {
     this.setState(getSectionState());
-    console.log("change!");
   }
 
 });
