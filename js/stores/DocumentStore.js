@@ -26,7 +26,6 @@ var DocumentStore = assign({}, EventEmitter.prototype, {
      * @return {object}
      */
     getAll: function() {
-      console.log(JSON.stringify(Document));
         return Document;
     },
 

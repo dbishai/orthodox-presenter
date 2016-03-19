@@ -11,7 +11,6 @@ var DocumentItem = React.createClass({
 
     render: function() {
         var documentItem = this.props.documentItem;
-        console.log(JSON.stringify(documentItem));
 
           return (
             <div>

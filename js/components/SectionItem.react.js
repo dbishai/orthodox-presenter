@@ -40,7 +40,6 @@ var SectionItem = React.createClass({
         if (typeof sectionItem["node"] != 'undefined') {
             NavActions.next(sectionItem.id);
         } else if (this.state.loadDoc && this.state.isLeaf) {
-          console.log("load");
             SectionActions.load(sectionItem.load);
         }
     }

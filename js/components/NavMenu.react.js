@@ -23,7 +23,6 @@ var NavMenu = React.createClass({
             return null;
         }
 
-        var navMenuItems = [];
         var sectionItems = [];
         var navItems = [];
 
@@ -47,10 +46,6 @@ var NavMenu = React.createClass({
             sectionItems.push(<SectionItem key={key} sectionItem={allSectionItems[key]}/>);
         }
 
-        for (var key in allNavMenuItems) {
-            navMenuItems.push(<NavMenuItem key={key} navMenuItem={allNavMenuItems[key]}/>);
-        }
-
         return (
           <section id="nav_menu">
             <div id="sidebar-wrapper">
@@ -59,6 +54,14 @@ var NavMenu = React.createClass({
                 <NavMenuItem key="date" navMenuItem={allNavMenuItems["date"]}/>
                 <NavMenuItem key="coptic_date" navMenuItem={allNavMenuItems["coptic_date"]}/>
                 <NavMenuItem key="lang" navMenuItem={allNavMenuItems["lang"]}/>
+                <li>
+                  <div className="checkbox">
+                   <label><input checked type="checkbox" data-toggle="toggle" data-size="small" aria-label="..."/>English</label>
+                  </div>
+                  <div className="checkbox">
+                   <label><input checked type="checkbox" data-toggle="toggle" data-size="small" aria-label="..."/>Coptic</label>
+                  </div>
+                </li>
                 <NavMenuItem key="mode" navMenuItem={allNavMenuItems["mode"]}/>
                 <NavMenuItem key="theme" navMenuItem={allNavMenuItems["theme"]}/>
                 <NavMenuItem key="feedback" navMenuItem={allNavMenuItems["feedback"]}/>

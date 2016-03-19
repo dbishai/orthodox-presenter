@@ -81,12 +81,12 @@ div.extra-padding {
 }
 li#light_on_dark {
   background-color: #000;
-  color: #fff;
+  color: #ffffff;
   font-family: 'OswaldRegular', sans-serif;
-  text-shadow: 1px 1px 7px #fff;
+  text-shadow: 1px 1px 7px #ffffff;
 }
 li#dark_on_light {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #000;
   font-family: 'OswaldRegular', sans-serif;
 }
@@ -98,7 +98,7 @@ h1.section_title {
   font-family: 'CrimsonTextRoman', sans-serif;
   font-size: 50px;
   cursor: pointer;
-  text-shadow: 1px 1px 1px #fff;
+  text-shadow: 1px 1px 1px #ffffff;
   margin: 10px;
   color: #262626;
 }
@@ -119,8 +119,27 @@ li.nav-menu-item:hover {
   background-color: #1a75ff;
 }
 p.main-section {
-  color: #fff;
+  color: #ffffff;
 }
 h4.main-section {
   color: #ffff66;
+}
+div.nav-sub-menu-item label {
+    padding-left: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'OswaldLight', sans-serif;
+    font-weight: 500;
+    margin: 0px;
+}
+div.checkbox {
+  margin-left: 10px;
+}
+div.checkbox label {
+  color: #ffffff;
+  font-family: 'OswaldLight', sans-serif;
+  font-size: 16px;
+}
+div.toggle-group {
+  text-indent: 0px;
 }
