@@ -124,13 +124,8 @@ p.main-section {
 h4.main-section {
   color: #ffff66;
 }
-div.nav-sub-menu-item label {
-    padding-left: 20px;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: 'OswaldLight', sans-serif;
-    font-weight: 500;
-    margin: 0px;
+div.nav-sub-menu-item {
+  line-height: 40px;
 }
 div.checkbox {
   margin-left: 10px;

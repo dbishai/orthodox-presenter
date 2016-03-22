@@ -40,7 +40,18 @@ var NavMenus = {
         "id": "lang",
         "title": "Languages",
         "url": "#",
-        "span_class": "glyphicon glyphicon-list"
+        "span_class": "glyphicon glyphicon-list",
+        "sub":
+          `
+                  <div id="div_lang">
+                    <div className="checkbox">
+                     <label><input checked type="checkbox" data-toggle="toggle" data-size="mini" aria-label="..."/>English</label>
+                    </div>
+                    <div className="checkbox">
+                     <label><input checked type="checkbox" data-toggle="toggle" data-size="mini" aria-label="..."/>Coptic</label>
+                    </div>
+                  </div>
+          `
     },
     "mode": {
         "id": "mode",

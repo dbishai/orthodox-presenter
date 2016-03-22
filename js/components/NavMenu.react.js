@@ -15,6 +15,13 @@ var NavMenu = React.createClass({
         allNavItems: ReactPropTypes.object.isRequired
     },
 
+    getInitialState: function() {
+      return {
+        englishCheckbox: true,
+        copticCheckbox: true
+      };
+    },
+
     /**
      * @return {object}
      */
@@ -25,6 +32,8 @@ var NavMenu = React.createClass({
 
         var sectionItems = [];
         var navItems = [];
+        var navMenuItems = [];
+        console.log(this.state.englishCheckbox);
 
 
         var allNavMenuItems = this.props.allNavMenuItems;
@@ -42,6 +51,14 @@ var NavMenu = React.createClass({
             navItems.push(<NavItem key={key} navItem={allNavItems[key]}/>);
         }
 
+        for (var key in allNavMenuItems) {
+            navMenuItems.push(<NavMenuItem key={key}
+                englishCheckbox={this.state.englishCheckbox}
+                copticCheckbox={this.state.copticCheckbox}
+                navMenuItem={allNavMenuItems[key]}
+                />);
+        }
+
         for (var key in allSectionItems) {
             sectionItems.push(<SectionItem key={key} sectionItem={allSectionItems[key]}/>);
         }
@@ -50,21 +67,7 @@ var NavMenu = React.createClass({
           <section id="nav_menu">
             <div id="sidebar-wrapper">
               <ul className="sidebar-nav">
-                <NavMenuItem key="home" navMenuItem={allNavMenuItems["home"]}/>
-                <NavMenuItem key="date" navMenuItem={allNavMenuItems["date"]}/>
-                <NavMenuItem key="coptic_date" navMenuItem={allNavMenuItems["coptic_date"]}/>
-                <NavMenuItem key="lang" navMenuItem={allNavMenuItems["lang"]}/>
-                <li>
-                  <div className="checkbox">
-                   <label><input checked type="checkbox" data-toggle="toggle" data-size="small" aria-label="..."/>English</label>
-                  </div>
-                  <div className="checkbox">
-                   <label><input checked type="checkbox" data-toggle="toggle" data-size="small" aria-label="..."/>Coptic</label>
-                  </div>
-                </li>
-                <NavMenuItem key="mode" navMenuItem={allNavMenuItems["mode"]}/>
-                <NavMenuItem key="theme" navMenuItem={allNavMenuItems["theme"]}/>
-                <NavMenuItem key="feedback" navMenuItem={allNavMenuItems["feedback"]}/>
+                {navMenuItems}
                 {navItems}
                 {sectionItems}
               </ul>
