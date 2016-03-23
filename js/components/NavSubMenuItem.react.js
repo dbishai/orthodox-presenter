@@ -1,6 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var ReactPropTypes = React.PropTypes;
+var Toggle = require('react-toggle');
 
 var classNames = require('classnames');
 
@@ -12,15 +13,6 @@ var NavSubMenuItem = React.createClass({
         copticCheckbox: ReactPropTypes.bool.isRequired
     },
 
-    componentDidMount: function() {
-        var toggleSwitch = ReactDOM.findDOMNode(this.refs.toggleSwitch);
-        $(toggleSwitch).bootstrapToggle();
-    },
-
-    bootstrapToggle: function(input) {
-      $(ReactDOM.findDOMNode(input)).bootstrapToggle();
-    },
-
     render: function() {
         var navMenuItemId = this.props.navMenuItemId;
         switch (navMenuItemId) {
@@ -28,12 +20,10 @@ var NavSubMenuItem = React.createClass({
             return (
               <div className="nav-sub-menu-item">
                 <div className="checkbox">
-                 <label><input checked={this.props.englishCheckbox} type="checkbox" data-toggle="toggle" data-size="mini"
-                 onChange={this.handleEnglishCheckbox} aria-label="..."/>English</label>
+                 <Toggle defaultChecked={this.props.englishCheckbox} onChange={this.handleEnglishCheckbox} aria-label="..."/><label>English</label>
                 </div>
                 <div className="checkbox">
-                 <label><input ref={this.bootstrapToggle} checked={this.props.copticCheckbox} type="checkbox" data-toggle="toggle" data-size="mini"
-                 onChange={this.handleCopticCheckbox} aria-label="..."/>Coptic</label>
+                 <Toggle defaultChecked={this.props.copticCheckbox} onChange={this.handleCopticCheckbox} aria-label="..."/><label>Coptic</label>
                 </div>
               </div>
               );
