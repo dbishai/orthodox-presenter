@@ -1,5 +1,6 @@
 var React = require('react');
 var ReactPropTypes = React.PropTypes;
+var NavSubMenuStore = require('../stores/NavSubMenuStore');
 var NavMenuItem = require('./NavMenuItem.react');
 var NavItem = require('./NavItem.react');
 var SectionItem = require('./SectionItem.react');
@@ -16,12 +17,16 @@ var NavMenu = React.createClass({
     },
 
     getInitialState: function() {
-      return {
-        englishCheckbox: true,
-        copticCheckbox: true
-      };
+      return NavSubMenuStore.getAll();
     },
 
+    componentDidMount: function() {
+      NavSubMenuStore.addChangeListener(this._onChange);
+    },
+
+    componentWillUnmount: function() {
+      NavSubMenuStore.removeChangeListener(this._onChange);
+    },
     /**
      * @return {object}
      */
@@ -33,8 +38,6 @@ var NavMenu = React.createClass({
         var sectionItems = [];
         var navItems = [];
         var navMenuItems = [];
-        console.log(this.state.englishCheckbox);
-
 
         var allNavMenuItems = this.props.allNavMenuItems;
 
@@ -74,11 +77,17 @@ var NavMenu = React.createClass({
             </div>
             <MainSection
               allDocumentItems={this.props.allDocumentItems}
+              englishCheckbox={this.state.englishCheckbox}
+              copticCheckbox={this.state.copticCheckbox}
+              arabicCheckbox={this.state.arabicCheckbox}
             />
           </section>
         );
     },
 
+    _onChange: function() {
+      this.setState(NavSubMenuStore.getAll());
+    }
 });
 
 module.exports = NavMenu;

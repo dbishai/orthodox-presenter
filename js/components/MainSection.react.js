@@ -5,7 +5,9 @@ var DocumentItem = require('./DocumentItem.react');
 var MainSection = React.createClass({
 
     propTypes: {
-        allDocumentItems: ReactPropTypes.array.isRequired
+        allDocumentItems: ReactPropTypes.array.isRequired,
+        englishCheckbox: ReactPropTypes.bool.isRequired,
+        copticCheckbox: ReactPropTypes.bool.isRequired
     },
 
     /**
@@ -29,19 +31,26 @@ var MainSection = React.createClass({
       for (var response in allDocumentItems[2].items) {
           docAraItems.push(<DocumentItem key={i} documentItem={allDocumentItems[2].items.response}/>);
       }
+      var divEnglish = [];
+      var divCoptic;
+      if (this.props.englishCheckbox) {
+        divEnglish.push(
+            <div key = "eng" className="main-section">
+              {docEngItems}
+            </div>);
+      }
+      if (this.props.copticCheckbox) {
+        divCoptic =
+            <div style={{fontFamily: 'CSNewAthanasius'}} className="main-section">
+              {docCopItems}
+            </div>
+      }
 
         return (
          <div id="page-content-wrapper">
           <div className="container-fluid">
-            <div className="main-section">
-              {docEngItems}
-            </div>
-            <div style={{fontFamily: 'CSNewAthanasius'}} className="main-section">
-              {docCopItems}
-            </div>
-            <div className="main-section">
-              {docAraItems}
-            </div>
+              {divEnglish}
+              {divCoptic}
           </div>
         </div>
         );

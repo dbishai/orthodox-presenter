@@ -1,6 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var ReactPropTypes = React.PropTypes;
+var NavActions = require('../actions/NavActions');
 var Toggle = require('react-toggle');
 
 var classNames = require('classnames');
@@ -33,21 +34,11 @@ var NavSubMenuItem = React.createClass({
     },
 
     handleEnglishCheckbox: function() {
-      console.log("hi");
-      if (this.props.englishCheckbox) {
-        this.setState({englishCheckbox: false});
-      } else {
-        this.setState({englishCheckbox: true});
-      }
-        console.log(this.props.englishCheckbox);
+      NavActions.setState("englishCheckbox");
     },
 
     handleCopticCheckbox: function() {
-      if (this.props.copticCheckbox) {
-        this.setState({copticCheckbox: false});
-      } else {
-        this.setState({copticCheckbox: true});
-      }
+      NavActions.setState("copticCheckbox");
     }
 
 });

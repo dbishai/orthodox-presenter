@@ -15,6 +15,13 @@ var NavActions = {
       actionType: OPConstants.PREV,
       ids: ids
     });
+  },
+
+  setState: function(state) {
+    AppDispatcher.dispatch({
+      actionType: OPConstants.SET_STATE,
+      state: state
+    });
   }
 
 };
