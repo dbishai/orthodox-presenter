@@ -9,19 +9,20 @@ var DocumentStore = require('../stores/DocumentStore');
 /**
  * Retrieve the current Section data from the SectionStore
  */
-function getSectionState() {
+function getSectionState(menuState) {
   return {
     allSectionItems: SectionStore.getAll(),
     allNavMenuItems: NavMenuStore.getAll(),
     allDocumentItems: DocumentStore.getAll(),
-    allNavItems: NavStore.getAll()
+    allNavItems: NavStore.getAll(),
+    menuToggle: menuState
   };
 }
 
 var OrthodoxPresenterApp = React.createClass({
 
   getInitialState: function() {
-    return getSectionState();
+    return getSectionState(true);
   },
 
   componentDidMount: function() {
@@ -39,7 +40,16 @@ var OrthodoxPresenterApp = React.createClass({
    */
   render: function() {
     return (
-      <div id="wrapper">
+    <div>
+      <nav className="navbar navbar-inverse navbar-fixed-top">
+          <div className="container-fluid">
+                  <h1 className="page-title">ORTHODOX PRESENTER</h1>
+              <div className="navbar-header">
+                  <span id="menu-toggle" className="glyphicon glyphicon-menu-hamburger hamburger" aria-hidden="true" onClick={this._onClick}></span>
+              </div>
+          </div>
+      </nav>
+      <div id="wrapper" className={this.state.menuToggle ? null : "toggled"}>
         <NavMenu
           allNavMenuItems={this.state.allNavMenuItems}
           allSectionItems={this.state.allSectionItems}
@@ -47,14 +57,23 @@ var OrthodoxPresenterApp = React.createClass({
           allDocumentItems={this.state.allDocumentItems}
         />
       </div>
+    </div>
     );
   },
 
+  _onClick: function(e) {
+    e.preventDefault();
+    if (this.state.menuToggle) {
+      this.setState({menuToggle: false});
+    } else {
+      this.setState({menuToggle: true});
+    }
+  },
   /**
    * Event handler for 'change' events coming from stores
    */
   _onChange: function() {
-    this.setState(getSectionState());
+    this.setState(getSectionState(this.state.menuToggle));
   }
 
 });
