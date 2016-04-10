@@ -42,12 +42,15 @@ var OrthodoxPresenterApp = React.createClass({
     return (
     <div>
       <nav className="navbar navbar-inverse navbar-fixed-top">
-          <div className="container-fluid">
-                  <h1 className="page-title">ORTHODOX PRESENTER</h1>
-              <div className="navbar-header">
-                  <span id="menu-toggle" className="glyphicon glyphicon-menu-hamburger hamburger" aria-hidden="true" onClick={this._onClick}></span>
-              </div>
+        <div className="container-fluid">
+          <div className="navbar-header">
+            <span id="menu-toggle" className="glyphicon glyphicon-menu-hamburger hamburger"
+            aria-hidden="true" onClick={this._onClick}></span>
           </div>
+          <div id="navbar" className="collapse navbar-collapse">
+            <h1 className="nav navbar-nav page-title">ORTHODOX PRESENTER</h1>
+          </div>
+        </div>
       </nav>
       <div id="wrapper" className={this.state.menuToggle ? null : "toggled"}>
         <NavMenu

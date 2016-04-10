@@ -21,10 +21,14 @@ var NavSubMenuItem = React.createClass({
             return (
               <div className="nav-sub-menu-item">
                 <div className="checkbox">
-                 <Toggle defaultChecked={this.props.englishCheckbox} onChange={this.handleEnglishCheckbox} aria-label="..."/><label>English</label>
+                 <Toggle defaultChecked={this.props.englishCheckbox}
+                 onChange={this.handleCheckbox.bind(this, "englishCheckbox")} aria-label="..."/>
+                 <label>English</label>
                 </div>
                 <div className="checkbox">
-                 <Toggle defaultChecked={this.props.copticCheckbox} onChange={this.handleCopticCheckbox} aria-label="..."/><label>Coptic</label>
+                 <Toggle defaultChecked={this.props.copticCheckbox}
+                 onChange={this.handleCheckbox.bind(this, "copticCheckbox")} aria-label="..."/>
+                 <label>Coptic</label>
                 </div>
               </div>
               );
@@ -33,12 +37,8 @@ var NavSubMenuItem = React.createClass({
         }
     },
 
-    handleEnglishCheckbox: function() {
-      NavActions.setState("englishCheckbox");
-    },
-
-    handleCopticCheckbox: function() {
-      NavActions.setState("copticCheckbox");
+    handleCheckbox: function(checkbox) {
+      NavActions.setState(checkbox);
     }
 
 });
