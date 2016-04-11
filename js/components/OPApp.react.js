@@ -4,7 +4,6 @@ var NavMenu = require('./NavMenu.react');
 var SectionStore = require('../stores/SectionStore');
 var NavStore = require('../stores/NavStore');
 var NavMenuStore = require('../stores/NavMenuStore');
-var DocumentStore = require('../stores/DocumentStore');
 
 /**
  * Retrieve the current Section data from the SectionStore
@@ -13,7 +12,6 @@ function getSectionState(menuState) {
   return {
     allSectionItems: SectionStore.getAll(),
     allNavMenuItems: NavMenuStore.getAll(),
-    allDocumentItems: DocumentStore.getAll(),
     allNavItems: NavStore.getAll(),
     menuToggle: menuState
   };
@@ -27,12 +25,10 @@ var OrthodoxPresenterApp = React.createClass({
 
   componentDidMount: function() {
     SectionStore.addChangeListener(this._onChange);
-    DocumentStore.addChangeListener(this._onChange);
   },
 
   componentWillUnmount: function() {
     SectionStore.removeChangeListener(this._onChange);
-    DocumentStore.addChangeListener(this._onChange);
   },
 
   /**

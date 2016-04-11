@@ -12,7 +12,6 @@ var NavMenu = React.createClass({
     propTypes: {
         allNavMenuItems: ReactPropTypes.object.isRequired,
         allSectionItems: ReactPropTypes.object.isRequired,
-        allDocumentItems: ReactPropTypes.array.isRequired,
         allNavItems: ReactPropTypes.object.isRequired
     },
 
@@ -58,6 +57,7 @@ var NavMenu = React.createClass({
             navMenuItems.push(<NavMenuItem key={key}
                 englishCheckbox={this.state.englishCheckbox}
                 copticCheckbox={this.state.copticCheckbox}
+                arabicCheckbox={this.state.arabicCheckbox}
                 navMenuItem={allNavMenuItems[key]}
                 />);
         }
@@ -65,6 +65,12 @@ var NavMenu = React.createClass({
         for (var key in allSectionItems) {
             sectionItems.push(<SectionItem key={key} sectionItem={allSectionItems[key]}/>);
         }
+
+        var langStates = {
+          eng: this.state.englishCheckbox,
+          cop: this.state.copticCheckbox,
+          ara: this.state.arabicCheckbox
+        };
 
         return (
           <section id="nav_menu">
@@ -76,10 +82,7 @@ var NavMenu = React.createClass({
               </ul>
             </div>
             <MainSection
-              allDocumentItems={this.props.allDocumentItems}
-              englishCheckbox={this.state.englishCheckbox}
-              copticCheckbox={this.state.copticCheckbox}
-              arabicCheckbox={this.state.arabicCheckbox}
+              langStates={langStates}
             />
           </section>
         );

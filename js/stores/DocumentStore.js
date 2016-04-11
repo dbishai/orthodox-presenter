@@ -5,7 +5,7 @@ var assign = require('object-assign');
 
 var CHANGE_EVENT = 'change';
 
-var Document = [];
+var Document = {};
 
 function load(doc) {
   $.getJSON(doc)

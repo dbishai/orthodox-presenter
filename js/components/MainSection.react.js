@@ -1,59 +1,85 @@
 var React = require('react');
 var ReactPropTypes = React.PropTypes;
 var DocumentItem = require('./DocumentItem.react');
+var DocumentStore = require('../stores/DocumentStore');
+
+function getSectionState() {
+  return {
+    allDocumentItems: DocumentStore.getAll()
+  };
+}
 
 var MainSection = React.createClass({
 
+    getInitialState: function() {
+      return getSectionState();
+    },
+
     propTypes: {
-        allDocumentItems: ReactPropTypes.array.isRequired,
-        englishCheckbox: ReactPropTypes.bool.isRequired,
-        copticCheckbox: ReactPropTypes.bool.isRequired
+        langStates: ReactPropTypes.object.isRequired
+    },
+
+    componentDidMount: function() {
+      DocumentStore.addChangeListener(this._onChange);
+    },
+
+    componentWillUnmount: function() {
+      DocumentStore.addChangeListener(this._onChange);
     },
 
     /**
      * @return {object}
      */
     render: function() {
-      if (this.props.allDocumentItems.length < 1) {
+      var allDocumentItems = this.state.allDocumentItems;
+      if (allDocumentItems.length < 1) {
           return null;
       }
-      var docEngItems = [];
-      var docCopItems = [];
-      var docAraItems = [];
-      var allDocumentItems = this.props.allDocumentItems;
-      var i = 0;
-      for (var response in allDocumentItems[0].items) {
-          docEngItems.push(<DocumentItem key={i} documentItem={allDocumentItems[0].items.response}/>);
+      var langStates = this.props.langStates;
+      var docItems = [];
+      var numLangs = 0;
+
+      for (var l in langStates) {
+        if (langStates[l]) {
+          numLangs++;
+        }
       }
-      for (var response in allDocumentItems[1].items) {
-          docCopItems.push(<DocumentItem key={i} documentItem={allDocumentItems[1].items.response}/>);
-      }
-      for (var response in allDocumentItems[2].items) {
-          docAraItems.push(<DocumentItem key={i} documentItem={allDocumentItems[2].items.response}/>);
-      }
-      var divEnglish = [];
-      var divCoptic;
-      if (this.props.englishCheckbox) {
-        divEnglish.push(
-            <div key = "eng" className="main-section">
-              {docEngItems}
-            </div>);
-      }
-      if (this.props.copticCheckbox) {
-        divCoptic =
-            <div style={{fontFamily: 'CSNewAthanasius'}} className="main-section">
-              {docCopItems}
-            </div>
+
+      for (var lang in allDocumentItems) {
+          if (!langStates[lang]) {
+            continue;
+          }
+          var i = 0
+          var divStyle = {};
+          var tmp = [];
+          if (lang == "cop") {
+            divStyle["fontFamily"] = "CSNewAthanasius";
+          }
+          divStyle["width"] = ((1 / numLangs) * 100) + "%";
+
+          for (var response in allDocumentItems[lang]["items"]) {
+            tmp.push(<DocumentItem key={lang + i} documentItem={allDocumentItems[lang]["items"]["response"]}/>);
+          }
+
+          i++;
+          docItems.push(
+              <div key={lang} style={divStyle} className="main-section">
+                {tmp}
+              </div>
+              );
       }
 
         return (
          <div id="page-content-wrapper">
           <div className="container-fluid">
-              {divEnglish}
-              {divCoptic}
+              {docItems}
           </div>
         </div>
         );
+    },
+
+    _onChange: function() {
+      this.setState(getSectionState());
     }
 
 });
