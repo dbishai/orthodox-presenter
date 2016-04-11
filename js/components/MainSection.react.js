@@ -55,7 +55,7 @@ var MainSection = React.createClass({
           if (lang == "cop") {
             divStyle["fontFamily"] = "CSNewAthanasius";
           }
-          divStyle["width"] = ((1 / numLangs) * 100) + "%";
+          divStyle["width"] = Math.floor((1 / numLangs) * 100) + "%";
 
           for (var response in allDocumentItems[lang]["items"]) {
             tmp.push(<DocumentItem key={lang + i} documentItem={allDocumentItems[lang]["items"]["response"]}/>);
