@@ -1,89 +1,114 @@
 var CopticMonthObjects = [
   {
     name: "Thout",
+    index: 0,
     month: 9,
     day: 11,
     leap: true
   },
   {
     name :"Paopi",
+    index: 1,
     month: 10,
     day: 11,
     leap: true
   },
   { 
     name:"Hathor",
+    index: 2,
     month: 11,
     day: 10,
     leap: true
   },
   {
     name: "Koiak",
+    index: 3,
     month: 12,
     day: 10,
     leap: true
   },
   {
     name: "Tobi",
+    index: 4,
     month: 1,
     day: 9,
     leap: true
   },
   {
     name: "Meshir",
+    index: 5,
     month: 2,
     day: 8,
     leap: true
   },
   {
     name: "Paremhat",
+    index: 6,
     month: 3,
     day: 10,
     leap: false
   },
   {
     name: "Parmouti",
+    index: 7,
     month: 4,
     day: 9,
     leap: false
   },
   {
     name: "Pashons",
+    index: 8,
     month: 5,
     day: 9,
     leap: false 
   },
   {
     name: "Paoni",
+    index: 9,
     month: 6,
     day: 8,
     leap: false
   },
   {
     name: "Epip",
+    index: 10,
     month: 7,
     day: 8,
     leap: false
   },
   {
     name: "Mesori",
+    index: 11,
     month: 8,
     day: 7,
     leap: false
   },
   {
     name: "Pi Kogi Enavot",
+    index: 12,
     month: 9,
     day: 6,
     leap: false
   }
 ];
 
+var monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
+
 var isLeapYear = function (year) {
-  if ((year % 4 == 0 && year % 100 != 0) || year % 400 ==0) {
-    return true;
-  }
-  return false;
+  return ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
 };
 
 var getCopticMonthDate = function (CopticMonthObject, year) {
@@ -100,9 +125,9 @@ var getCopticDate = function (year, monthIndex, day) {
   var copticMonth = "";
   var copticDay = day;
   var copticYear = year - 284;
-  var leapYear = isLeapYear(year);
+  var copticNewYearDay = isLeapYear(year) ? 12 : 11;
   // Coptic New Year
-  if (monthIndex >= 8 && day >= (leapYear ? 12 : 11)) {
+  if (monthIndex >= 8 && day >= copticNewYearDay) {
     copticYear++;
   }
 
@@ -120,10 +145,10 @@ var getCopticDate = function (year, monthIndex, day) {
     var copticMonthEndDate;
 
     // special cases for new Gregorian year
-    if (monthIndex == 0 && m.name == "Kioak") {
+    if (monthIndex == 0 && m.index == 3) {
       copticMonthStartDate = getCopticMonthDate(m, year - 1);
       copticMonthEndDate = getCopticMonthDate(m_next, year);
-    } else if (monthIndex == 11 && m_next.name == "Tobi") {
+    } else if (monthIndex == 11 && m_next.index == 4) {
       copticMonthStartDate = getCopticMonthDate(m, year);
       copticMonthEndDate = getCopticMonthDate(m_next, year + 1);
     } else {
@@ -146,8 +171,8 @@ var getCopticDate = function (year, monthIndex, day) {
 };
 
 var getCopticDateString = function (year, monthIndex, day) {
-  var date = getCopticDate(year, monthIndex, day);
-  return date.month + " " + date.day + ", " + date.year;
+  var copticDate = getCopticDate(year, monthIndex, day);
+  return copticDate.month + " " + copticDate.day + ", " + copticDate.year;
 };
 
 var getEasterDate = function (year) {
@@ -157,11 +182,16 @@ var getEasterDate = function (year) {
   var c = year % 19;
   var d = (19*c + 15) % 30;
   var e = (2*a + 4*b - d + 34) % 7;
-  var month = Math.floor((d + e + 114)/31);
+  var monthIndex = Math.floor((d + e + 114)/31) - 1;
   var day = ((d + e + 114) % 31) + 14;
-  return new Date(year, month - 1, day); 
+  return new Date(year, monthIndex, day); 
+}
+
+var getDateString = function(year, monthIndex, day) {
+  return monthNames[monthIndex] + " " + day + ", " + year;
 }
 
 module.exports.getCopticDate = getCopticDate;
 module.exports.getCopticDateString = getCopticDateString;
 module.exports.getEasterDate = getEasterDate;
+module.exports.getDateString = getDateString;

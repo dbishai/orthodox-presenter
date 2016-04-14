@@ -3,8 +3,8 @@
   src: url(../fonts/CrimsonText-Roman.ttf);
 }
 @font-face {
-  font-family: Noticia;
-  src: url(../fonts/NoticiaText-Regular.ttf);
+  font-family: OpenSansRegular;
+  src: url(../fonts/OpenSans-Regular.ttf);
 }
 @font-face {
   font-family: OswaldLight;
@@ -49,9 +49,11 @@ body {
 }
 div.main-section {
   /*width: 32%;*/
+  font-size: 20px;
+  font-family: 'OpenSansRegular', sans-serif;
   position: relative;
   float: left;
-  padding: 5px;
+  padding: 10px;
 }
 #sections .glyphicon {
   cursor: pointer;
@@ -126,6 +128,11 @@ li.nav-menu-item:hover {
 }
 p.main-section {
   color: #ffffff;
+}
+h3.main-section {
+  text-align: center;
+  color: #bcc64b;
+  margin-bottom: 30px;
 }
 h4.main-section {
   color: #ffff66;

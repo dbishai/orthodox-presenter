@@ -14,7 +14,7 @@ var DocumentItem = React.createClass({
 
           return (
             <div>
-              <h4 className="main-section">{documentItem.user + ":"}</h4>
+              <h4 className="main-section">{documentItem.user}</h4>
               <p className="main-section">{documentItem.text}</p>
             </div>
           );

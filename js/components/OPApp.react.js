@@ -5,10 +5,7 @@ var SectionStore = require('../stores/SectionStore');
 var NavStore = require('../stores/NavStore');
 var NavMenuStore = require('../stores/NavMenuStore');
 
-/**
- * Retrieve the current Section data from the SectionStore
- */
-function getSectionState(menuState) {
+var getState = function(menuState) {
   return {
     allSectionItems: SectionStore.getAll(),
     allNavMenuItems: NavMenuStore.getAll(),
@@ -20,7 +17,7 @@ function getSectionState(menuState) {
 var OrthodoxPresenterApp = React.createClass({
 
   getInitialState: function() {
-    return getSectionState(true);
+    return getState(true);
   },
 
   componentDidMount: function() {
@@ -72,7 +69,7 @@ var OrthodoxPresenterApp = React.createClass({
    * Event handler for 'change' events coming from stores
    */
   _onChange: function() {
-    this.setState(getSectionState(this.state.menuToggle));
+    this.setState(getState(this.state.menuToggle));
   }
 
 });

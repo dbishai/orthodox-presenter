@@ -5,7 +5,7 @@ var assign = require('object-assign');
 
 var CHANGE_EVENT = 'change';
 
-var Document = {};
+var Document = require('../../docs/prayers/nicene_creed.json');
 
 function load(doc) {
   $.getJSON(doc)

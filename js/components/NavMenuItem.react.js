@@ -8,9 +8,7 @@ var NavMenuItem = React.createClass({
 
     propTypes: {
         navMenuItem: ReactPropTypes.object.isRequired,
-        englishCheckbox: ReactPropTypes.bool.isRequired,
-        copticCheckbox: ReactPropTypes.bool.isRequired,
-        arabicCheckbox: ReactPropTypes.bool.isRequired
+        attributes: ReactPropTypes.object.isRequired
     },
 
     getInitialState: function() {
@@ -29,9 +27,7 @@ var NavMenuItem = React.createClass({
                 <span className={navMenuItem.span_class} aria-hidden='true'></span> {navMenuItem.title}
               </a>
               <NavSubMenuItem key={"sub_" + navMenuItem.id}
-                  englishCheckbox={this.props.englishCheckbox}
-                  copticCheckbox={this.props.copticCheckbox}
-                  arabicCheckbox={this.props.arabicCheckbox}
+                  attributes={this.props.attributes}
                   navMenuItemId={navMenuItem.id}
                   />
             </li>

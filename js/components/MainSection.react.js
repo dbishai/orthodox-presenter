@@ -39,6 +39,7 @@ var MainSection = React.createClass({
       var docItems = [];
       var numLangs = 0;
 
+      // get number of languages set to true
       for (var l in langStates) {
         if (langStates[l]) {
           numLangs++;
@@ -58,12 +59,13 @@ var MainSection = React.createClass({
           divStyle["width"] = Math.floor((1 / numLangs) * 100) + "%";
 
           for (var response in allDocumentItems[lang]["items"]) {
-            tmp.push(<DocumentItem key={lang + i} documentItem={allDocumentItems[lang]["items"]["response"]}/>);
+            tmp.push(<DocumentItem key={lang + i} documentItem={allDocumentItems[lang]["items"][response]}/>);
+            i++;
           }
 
-          i++;
           docItems.push(
               <div key={lang} style={divStyle} className="main-section">
+                <h3 className="main-section">{allDocumentItems[lang]["title"]}</h3>
                 {tmp}
               </div>
               );

@@ -1,23 +1,8 @@
 //var AppDispatcher = require('../dispatcher/AppDispatcher');
 var EventEmitter = require('events').EventEmitter;
 var assign = require('object-assign');
-var CopticCalendar = require('../lib/CopticCalendar.js');
 
-var monthNames = [
-    "January", "February", "March",
-    "April", "May", "June", "July",
-    "August", "September", "October",
-    "November", "December"
-];
-
-var date = new Date();
-var day = date.getDate();
-var monthIndex = date.getMonth();
-var year = date.getFullYear();
-var gregDate = monthNames[monthIndex] + " " + day + ", " + year;
-var copticDate = CopticCalendar.getCopticDateString(year, monthIndex, day);
-
-var NavMenus = {
+var NavMenu = {
     "home": {
         "id": "home",
         "title": "Home",
@@ -26,32 +11,21 @@ var NavMenus = {
     },
     "date": {
         "id": "date",
-        "title": gregDate, 
+        "title": "Date", 
         "url": "#",
         "span_class": "glyphicon glyphicon-calendar"
     },
-    "coptic_date": {
+    /*"coptic_date": {
         "id": "coptic_date",
         "title": copticDate,
         "url": "#",
         "span_class": "glyphicon glyphicon-calendar"
-    },
+    },*/
     "lang": {
         "id": "lang",
         "title": "Languages",
         "url": "#",
-        "span_class": "glyphicon glyphicon-list",
-        "sub":
-          `
-                  <div id="div_lang">
-                    <div className="checkbox">
-                     <label><input checked type="checkbox" data-toggle="toggle" data-size="mini" aria-label="..."/>English</label>
-                    </div>
-                    <div className="checkbox">
-                     <label><input checked type="checkbox" data-toggle="toggle" data-size="mini" aria-label="..."/>Coptic</label>
-                    </div>
-                  </div>
-          `
+        "span_class": "glyphicon glyphicon-list"
     },
     "mode": {
         "id": "mode",
@@ -80,7 +54,7 @@ var NavMenuStore = assign({}, EventEmitter.prototype, {
      * @return {object}
      */
     getAll: function() {
-        return NavMenus;
+        return NavMenu;
     }
 });
 

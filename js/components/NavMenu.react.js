@@ -6,6 +6,11 @@ var NavItem = require('./NavItem.react');
 var SectionItem = require('./SectionItem.react');
 var MainSection = require('./MainSection.react');
 
+var getState = function () {
+  return {
+      attributes: NavSubMenuStore.getAll()
+  };
+}
 
 var NavMenu = React.createClass({
 
@@ -16,7 +21,7 @@ var NavMenu = React.createClass({
     },
 
     getInitialState: function() {
-      return NavSubMenuStore.getAll();
+      return getState();
     },
 
     componentDidMount: function() {
@@ -55,9 +60,7 @@ var NavMenu = React.createClass({
 
         for (var key in allNavMenuItems) {
             navMenuItems.push(<NavMenuItem key={key}
-                englishCheckbox={this.state.englishCheckbox}
-                copticCheckbox={this.state.copticCheckbox}
-                arabicCheckbox={this.state.arabicCheckbox}
+                attributes={this.state.attributes}
                 navMenuItem={allNavMenuItems[key]}
                 />);
         }
@@ -67,9 +70,9 @@ var NavMenu = React.createClass({
         }
 
         var langStates = {
-          eng: this.state.englishCheckbox,
-          cop: this.state.copticCheckbox,
-          ara: this.state.arabicCheckbox
+          eng: this.state.attributes.englishCheckbox,
+          cop: this.state.attributes.copticCheckbox,
+          ara: this.state.attributes.arabicCheckbox
         };
 
         return (
@@ -89,7 +92,7 @@ var NavMenu = React.createClass({
     },
 
     _onChange: function() {
-      this.setState(NavSubMenuStore.getAll());
+      this.setState(getState());
     }
 });
 

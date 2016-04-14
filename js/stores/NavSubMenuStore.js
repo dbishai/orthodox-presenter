@@ -5,17 +5,22 @@ var assign = require('object-assign');
 
 var CHANGE_EVENT = 'change';
 
-States = {
+var today = new Date();
+
+Attributes = {
   englishCheckbox: true,
   copticCheckbox: true,
-  arabicCheckbox: false
+  arabicCheckbox: false,
+  day: today.getDate(),
+  monthIndex: today.getMonth(),
+  year: today.getFullYear()
 };
 
 var setState = function(state) {
-  if (States[state]) {
-    States[state] = false;
+  if (Attributes[state]) {
+    Attributes[state] = false;
   } else {
-    States[state] = true;
+    Attributes[state] = true;
   }
 };
 
@@ -25,7 +30,7 @@ var NavSubMenuStore = assign({}, EventEmitter.prototype, {
      * @return {object}
      */
     getAll: function() {
-        return States;
+        return Attributes;
     },
 
     emitChange: function() {
