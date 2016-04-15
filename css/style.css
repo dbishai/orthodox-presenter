@@ -151,6 +151,23 @@ div.checkbox label {
   vertical-align: middle;
   padding-left: 10px;
 }
+div.date {
+  margin-left: 50px;
+  text-indent: 0px;
+}
+div.date input {
+  width: 120px;
+  background-color: #666666;
+  border-style: none;
+  text-align: center;
+  color: #ffffff;
+}
+div.date label {
+  color: #ffffff;
+  font-family: 'OswaldRegular', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
 div.toggle-group {
   text-indent: 0px;
 }

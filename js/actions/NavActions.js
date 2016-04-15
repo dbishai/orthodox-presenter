@@ -22,6 +22,15 @@ var NavActions = {
       actionType: OPConstants.SET_STATE,
       state: state
     });
+  },
+
+  setDate: function(year, monthIndex, day) {
+    AppDispatcher.dispatch({
+      actionType: OPConstants.SET_DATE,
+      year: year,
+      monthIndex: monthIndex,
+      day: day
+    });
   }
 
 };

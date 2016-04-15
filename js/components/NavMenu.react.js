@@ -10,7 +10,7 @@ var getState = function () {
   return {
       attributes: NavSubMenuStore.getAll()
   };
-}
+};
 
 var NavMenu = React.createClass({
 

@@ -185,13 +185,28 @@ var getEasterDate = function (year) {
   var monthIndex = Math.floor((d + e + 114)/31) - 1;
   var day = ((d + e + 114) % 31) + 14;
   return new Date(year, monthIndex, day); 
-}
+};
 
 var getDateString = function(year, monthIndex, day) {
   return monthNames[monthIndex] + " " + day + ", " + year;
-}
+};
+
+var getNumericDateString = function(year, monthIndex, day) {
+  var pad = "0";
+  var strDay = day.toString();
+  var strMonth = (monthIndex + 1).toString();
+  if (strMonth.length < 2) {
+    strMonth = "0" + strMonth;
+  }
+  if (strDay.length < 2) {
+    strDay = "0" + strDay;
+  }
+
+  return strMonth + "/" + strDay + "/" + year;
+};
 
 module.exports.getCopticDate = getCopticDate;
 module.exports.getCopticDateString = getCopticDateString;
 module.exports.getEasterDate = getEasterDate;
 module.exports.getDateString = getDateString;
+module.exports.getNumericDateString = getNumericDateString;

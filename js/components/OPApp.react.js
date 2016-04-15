@@ -12,7 +12,7 @@ var getState = function(menuState) {
     allNavItems: NavStore.getAll(),
     menuToggle: menuState
   };
-}
+};
 
 var OrthodoxPresenterApp = React.createClass({
 

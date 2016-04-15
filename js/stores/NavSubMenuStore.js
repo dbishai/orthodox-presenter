@@ -24,6 +24,12 @@ var setState = function(state) {
   }
 };
 
+var setDate = function(year, monthIndex, day) {
+  Attributes.year = year;
+  Attributes.monthIndex = monthIndex;
+  Attributes.day = day;
+};
+
 var NavSubMenuStore = assign({}, EventEmitter.prototype, {
 
     /**
@@ -57,6 +63,10 @@ AppDispatcher.register(function(action) {
     switch (action.actionType) {
         case OPConstants.SET_STATE:
             setState(action.state);
+            NavSubMenuStore.emitChange();
+            break;
+        case OPConstants.SET_DATE:
+            setDate(action.year, action.monthIndex, action.day);
             NavSubMenuStore.emitChange();
             break;
     }
