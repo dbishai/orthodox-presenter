@@ -97,7 +97,7 @@ div.description {
 div.section-item {
   padding-top: 30px;
 }
-li.nav-menu-item:hover {
+div.nav-menu-item:hover {
   background-color: #1a75ff;
 }
 p.main-section {
@@ -134,6 +134,7 @@ div.date input {
   background-color: #666666;
   border-style: none;
   text-align: center;
+  margin-bottom: 10px;
   color: #ffffff;
 }
 div.date label {

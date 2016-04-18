@@ -22,10 +22,12 @@ var NavMenuItem = React.createClass({
 
         if (this.state.showSubMenu) {
           return (
-            <li key={navMenuItem.id} className="sidebar-brand nav-menu-item">
+            <li key={navMenuItem.id} className="sidebar-brand">
+            <div className="nav-menu-item">
               <a href={navMenuItem.url} onClick={this._onClick}>
                 <span className={navMenuItem.span_class} aria-hidden='true'></span> {navMenuItem.title}
               </a>
+              </div>
               <NavSubMenuItem key={"sub_" + navMenuItem.id}
                   attributes={this.props.attributes}
                   navMenuItemId={navMenuItem.id}
@@ -35,9 +37,11 @@ var NavMenuItem = React.createClass({
         } else {
           return (
             <li key={navMenuItem.id} className="sidebar-brand nav-menu-item">
+            <div className="nav-menu-item">
               <a href={navMenuItem.url} onClick={this._onClick}>
                 <span className={navMenuItem.span_class} aria-hidden='true'></span> {navMenuItem.title}
               </a>
+              </div>
             </li>
           );
         }
