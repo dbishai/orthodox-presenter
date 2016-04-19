@@ -31,6 +31,13 @@ var NavActions = {
       monthIndex: monthIndex,
       day: day
     });
+  },
+
+  setTime: function(time) {
+    AppDispatcher.dispatch({
+      actionType: OPConstants.SET_TIME,
+      time: time
+    });
   }
 
 };

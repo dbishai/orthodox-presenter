@@ -7,7 +7,7 @@ function getSectionState() {
   return {
     allDocumentItems: DocumentStore.getAll()
   };
-}
+};
 
 var MainSection = React.createClass({
 
@@ -16,7 +16,7 @@ var MainSection = React.createClass({
     },
 
     propTypes: {
-        langStates: ReactPropTypes.object.isRequired
+        attributes: ReactPropTypes.object.isRequired
     },
 
     componentDidMount: function() {
@@ -35,7 +35,14 @@ var MainSection = React.createClass({
       if (allDocumentItems.length < 1) {
           return null;
       }
-      var langStates = this.props.langStates;
+      var langStates = {
+        eng: this.props.attributes.englishCheckbox,
+        cop: this.props.attributes.copticCheckbox,
+        ara: this.props.attributes.arabicCheckbox
+      };
+
+      var lightTheme = this.props.attributes.lightThemeCheckbox;
+
       var docItems = [];
       var numLangs = 0;
 
@@ -59,13 +66,13 @@ var MainSection = React.createClass({
           divStyle["width"] = Math.floor((1 / numLangs) * 100) + "%";
 
           for (var response in allDocumentItems[lang]["items"]) {
-            tmp.push(<DocumentItem key={lang + i} documentItem={allDocumentItems[lang]["items"][response]}/>);
+            tmp.push(<DocumentItem key={lang + i} lightTheme={lightTheme} documentItem={allDocumentItems[lang]["items"][response]}/>);
             i++;
           }
 
           docItems.push(
               <div key={lang} style={divStyle} className="main-section">
-                <h3 className="main-section">{allDocumentItems[lang]["title"]}</h3>
+                <h3 className={lightTheme ? "main-section-light" : "main-section"}>{allDocumentItems[lang]["title"]}</h3>
                 {tmp}
               </div>
               );

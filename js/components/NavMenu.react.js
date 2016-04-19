@@ -69,12 +69,6 @@ var NavMenu = React.createClass({
             sectionItems.push(<SectionItem key={key} sectionItem={allSectionItems[key]}/>);
         }
 
-        var langStates = {
-          eng: this.state.attributes.englishCheckbox,
-          cop: this.state.attributes.copticCheckbox,
-          ara: this.state.attributes.arabicCheckbox
-        };
-
         return (
           <section id="nav_menu">
             <div id="sidebar-wrapper">
@@ -85,7 +79,7 @@ var NavMenu = React.createClass({
               </ul>
             </div>
             <MainSection
-              langStates={langStates}
+              attributes={this.state.attributes}
             />
           </section>
         );

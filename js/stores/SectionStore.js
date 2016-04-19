@@ -10,13 +10,11 @@ var sections = {
         "id": "0a",
         "title": "LITURGIES",
         "description": "\"This is My body which is given for you; My blood, which is shed for you.\" (Luke 22:19-20)",
-        //"load": "liturgies",
         "img": "../../images/placeholder.png",
         "node": {
             "1a": {
                 "id": "1a",
                 "title": "ST. BASIL",
-                //"load": "st_basil",
                 "node": {
                   "2a": {
                     "id": "2a",
@@ -29,7 +27,6 @@ var sections = {
             "1b": {
                 "id": "1b",
                 "title": "ST. GREGORY",
-                //"load": "st_gregory"
                 "node": {
                   "2a": {
                     "id": "2a",
@@ -46,12 +43,10 @@ var sections = {
             "1d": {
                 "id": "1d",
                 "title": "MATINS",
-                //"load": "matins"
             },
             "1e": {
                 "id": "1e",
                 "title": "VESPERS",
-                //"load": "vespers"
             }
         }
     },
@@ -59,7 +54,6 @@ var sections = {
         "id": "0b",
         "title": "PSALMODY",
         "description": "Praise the Lord! Praise God in His sanctuary; Praise Him in His mighty firmament! (Psalm 150:1)",
-        //"load": "vespers",
         "img": "../../images/placeholder.png"
     },
     "0c": {
@@ -81,27 +75,7 @@ var sections = {
             }
         }
 
-    }/*,
-    4: {
-        "id": 4,
-        "title": "Liturgies",
-        "img": "../../images/placeholder.png"
-    },
-    5: {
-        "id": 5,
-        "title": "Liturgies",
-        "img": "../../images/placeholder.png"
-    },
-    6: {
-        "id": 6,
-        "title": "Liturgies",
-        "img": "../../images/placeholder.png"
-    },
-    7: {
-        "id": 7,
-        "title": "Vespers",
-        "img": "../../images/placeholder.png"
-    }*/
+    }
 
 };
 

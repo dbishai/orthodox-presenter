@@ -15,12 +15,6 @@ var NavMenu = {
         "url": "#",
         "span_class": "glyphicon glyphicon-calendar"
     },
-    /*"coptic_date": {
-        "id": "coptic_date",
-        "title": copticDate,
-        "url": "#",
-        "span_class": "glyphicon glyphicon-calendar"
-    },*/
     "lang": {
         "id": "lang",
         "title": "Languages",
@@ -44,7 +38,13 @@ var NavMenu = {
         "title": "Feedback",
         "url": "mailto:dbishai@outlook.com",
         "span_class": "glyphicon glyphicon-envelope"
-    }
+    }/*,
+    "github": {
+        "id": "github",
+        "title": "GitHub",
+        "url": "https://github.com/dbishai/orthodox-presenter",
+        "span_class": "github-logo"
+    }*/
 };
 
 

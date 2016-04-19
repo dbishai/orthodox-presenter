@@ -6,5 +6,6 @@ module.exports = keyMirror({
   PREV: null,
   LOAD: null,
   SET_STATE: null,
-  SET_DATE: null
+  SET_DATE: null,
+  SET_TIME: null
 });

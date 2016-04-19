@@ -6,14 +6,22 @@ var assign = require('object-assign');
 var CHANGE_EVENT = 'change';
 
 var today = new Date();
+/*
+var hours = today.getHours();
 
+var getTimeOfDay = function(hours) {
+  return hours < 12 ? "am" : "pm";
+};
+*/
 Attributes = {
   englishCheckbox: true,
   copticCheckbox: true,
   arabicCheckbox: false,
+  lightThemeCheckbox: false,
   day: today.getDate(),
   monthIndex: today.getMonth(),
-  year: today.getFullYear()
+  year: today.getFullYear(),
+  time: today.getHours() 
 };
 
 var setState = function(state) {
@@ -28,6 +36,10 @@ var setDate = function(year, monthIndex, day) {
   Attributes.year = year;
   Attributes.monthIndex = monthIndex;
   Attributes.day = day;
+};
+
+var setTime = function(time) {
+  Attributes.time = time;
 };
 
 var NavSubMenuStore = assign({}, EventEmitter.prototype, {
@@ -67,6 +79,10 @@ AppDispatcher.register(function(action) {
             break;
         case OPConstants.SET_DATE:
             setDate(action.year, action.monthIndex, action.day);
+            NavSubMenuStore.emitChange();
+            break;
+        case OPConstants.SET_TIME:
+            setTime(action.time);
             NavSubMenuStore.emitChange();
             break;
     }

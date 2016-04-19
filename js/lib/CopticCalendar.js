@@ -108,7 +108,8 @@ var monthNames = [
 ];
 
 var isLeapYear = function (year) {
-  return ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
+  var nextYear = year + 1;
+  return ((nextYear % 4 == 0 && nextYear % 100 != 0) || nextYear % 400 == 0);
 };
 
 var getCopticMonthDate = function (CopticMonthObject, year) {
