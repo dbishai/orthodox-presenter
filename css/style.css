@@ -97,7 +97,7 @@ div.description {
 div.section-item {
   padding-top: 30px;
 }
-div.nav-menu-item:hover {
+.nav-menu-item:hover {
   background-color: #1a75ff;
 }
 p.main-section {
