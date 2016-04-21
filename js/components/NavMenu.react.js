@@ -5,6 +5,7 @@ var NavMenuItem = require('./NavMenuItem.react');
 var NavItem = require('./NavItem.react');
 var SectionItem = require('./SectionItem.react');
 var MainSection = require('./MainSection.react');
+var Footer = require('./Footer.react');
 
 var getState = function () {
   return {
@@ -77,6 +78,7 @@ var NavMenu = React.createClass({
                 {navItems}
                 {sectionItems}
               </ul>
+              <Footer/>
             </div>
             <MainSection
               attributes={this.state.attributes}

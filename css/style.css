@@ -177,11 +177,9 @@ div.light-theme-background {
 body.light-theme-background {
   background-color: #f8f8f8;
 }
-/*
-span.github-logo {
-  display: inline-block;
-  vertical-align: middle;
-  height: 32px;
-  width: 32px;
-  background-image: url("../images/GitHub-Mark-Light-32px.png");
-}*/
+div.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 5px;
+}

@@ -38,13 +38,7 @@ var NavMenu = {
         "title": "Feedback",
         "url": "mailto:dbishai@outlook.com",
         "span_class": "glyphicon glyphicon-envelope"
-    }/*,
-    "github": {
-        "id": "github",
-        "title": "GitHub",
-        "url": "https://github.com/dbishai/orthodox-presenter",
-        "span_class": "github-logo"
-    }*/
+    }
 };
 
 
