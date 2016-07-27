@@ -16,11 +16,11 @@ var sections = {
                 "id": "1a",
                 "title": "ST. BASIL",
                 "node": {
-                  "2a": {
-                    "id": "2a",
-                    "title": "test",
-                    "load": "st_basil"
-                  }
+                    "2a": {
+                        "id": "2a",
+                        "title": "test",
+                        "load": "st_basil"
+                    }
                 }
 
             },
@@ -28,11 +28,11 @@ var sections = {
                 "id": "1b",
                 "title": "ST. GREGORY",
                 "node": {
-                  "2a": {
-                    "id": "2a",
-                    "title": "test",
-                    "load": "st_gregory"
-                  }
+                    "2a": {
+                        "id": "2a",
+                        "title": "test",
+                        "load": "st_gregory"
+                    }
                 }
             },
             "1c": {
@@ -72,6 +72,11 @@ var sections = {
                 "id": "1a",
                 "title": "Niethnos Tiro",
                 "load": "docs/hymns/niethnos_tiro.json"
+            },
+            "1b": {
+                "id": "1b",
+                "title": "Verses of the Cymbals",
+                "load": "verses_of_the_cymbals"
             }
         }
 
@@ -82,14 +87,14 @@ var sections = {
 var Sections = sections;
 
 function next(id) {
-  Sections = Sections[id]["node"];
+    Sections = Sections[id]["node"];
 }
 
 function prev(ids) {
-  Sections = sections;
-  for (var i = 0; i < ids.length; i++) {
-    Sections = Sections[ids[i]]["node"];
-  }
+    Sections = sections;
+    for (var i = 0; i < ids.length; i++) {
+        Sections = Sections[ids[i]]["node"];
+    }
 }
 
 var SectionStore = assign({}, EventEmitter.prototype, {
@@ -98,30 +103,30 @@ var SectionStore = assign({}, EventEmitter.prototype, {
      * Get the entire collection of SECTIONs.
      * @return {object}
      */
-    getAll: function() {
+    getAll: function () {
         return Sections;
     },
 
-    emitChange: function() {
+    emitChange: function () {
         this.emit(CHANGE_EVENT);
     },
 
     /**
      * @param {function} callback
      */
-    addChangeListener: function(callback) {
+    addChangeListener: function (callback) {
         this.on(CHANGE_EVENT, callback);
     },
 
     /**
      * @param {function} callback
      */
-    removeChangeListener: function(callback) {
+    removeChangeListener: function (callback) {
         this.removeListener(CHANGE_EVENT, callback);
     }
 });
 
-AppDispatcher.register(function(action) {
+AppDispatcher.register(function (action) {
 
     switch (action.actionType) {
         case OPConstants.NEXT:

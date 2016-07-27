@@ -2,16 +2,17 @@ var React = require('react');
 var ReactPropTypes = React.PropTypes;
 var NavActions = require('../actions/NavActions');
 var SectionActions = require('../actions/SectionActions');
-
+var NavSubMenuStore = require('../stores/NavSubMenuStore');
 var classNames = require('classnames');
 
 var SectionItem = React.createClass({
 
     propTypes: {
-        sectionItem: ReactPropTypes.object.isRequired
+        sectionItem: ReactPropTypes.object.isRequired,
+        attributes: ReactPropTypes.object.isRequired
     },
 
-    getInitialState: function() {
+    getInitialState: function () {
         var states = {
             isLeaf: false,
             loadDoc: false
@@ -25,25 +26,44 @@ var SectionItem = React.createClass({
         return states;
     },
 
-    render: function() {
-        var sectionItem = this.props.sectionItem;
-
-          return (
-            <li key={sectionItem.id} className="sidebar-brand nav-menu-item" onClick={this._onClick}>
-              <a href="#">{sectionItem.title}</a>
-            </li>
-          );
+    componentDidMount: function () {
+        NavSubMenuStore.addChangeListener(this._onChange);
     },
 
-    _onClick: function() {
+    componentWillUnmount: function () {
+        NavSubMenuStore.removeChangeListener(this._onChange);
+    },
+    componentWillUpdate: function () {
         var sectionItem = this.props.sectionItem;
+        var attributes = this.props.attributes;
+        SectionActions.load(sectionItem.load, attributes);
+    },
+
+    render: function () {
+        var sectionItem = this.props.sectionItem;
+
+        return (
+            <li key={sectionItem.id} className="sidebar-brand nav-menu-item" onClick={this._onClick}>
+                <a href="#">{sectionItem.title}</a>
+            </li>
+        );
+    },
+
+    _onClick: function () {
+        var sectionItem = this.props.sectionItem;
+        var attributes = this.props.attributes;
         if (typeof sectionItem["node"] != 'undefined') {
             NavActions.next(sectionItem.id);
         } else if (this.state.loadDoc && this.state.isLeaf) {
-            SectionActions.load(sectionItem.load);
+            SectionActions.load(sectionItem.load, attributes);
         }
-    }
+    },
 
+    _onChange: function () {
+        var sectionItem = this.props.sectionItem;
+        var attributes = this.props.attributes;
+        //SectionActions.load(sectionItem.load, attributes);
+    }
 });
 
 module.exports = SectionItem;

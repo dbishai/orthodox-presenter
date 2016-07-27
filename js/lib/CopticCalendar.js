@@ -13,7 +13,7 @@ var CopticMonthObjects = [
     day: 11,
     leap: true
   },
-  { 
+  {
     name:"Hathor",
     index: 2,
     month: 11,
@@ -60,7 +60,7 @@ var CopticMonthObjects = [
     index: 8,
     month: 5,
     day: 9,
-    leap: false 
+    leap: false
   },
   {
     name: "Paoni",
@@ -133,13 +133,9 @@ var getCopticDate = function (year, monthIndex, day) {
 
   for (var i = 0; i < CopticMonthObjects.length; i++) {
     var m = CopticMonthObjects[i];
-    var m_next;
-    if ((i + 1) < CopticMonthObjects.length) {
-      m_next = CopticMonthObjects[i+1]; 
-    } else {
-      // wrap around
-      m_next = CopticMonthObjects[0];
-    }
+    // wrap around to beginning
+    var m_next = CopticMonthObjects[(i+1) % CopticMonthObjects.length];
+
     var gregDate = new Date(year, monthIndex, day, 12, 0, 0);
     var copticMonthStartDate;
     var copticMonthEndDate;
@@ -184,7 +180,7 @@ var getEasterDate = function (year) {
   var e = (2*a + 4*b - d + 34) % 7;
   var monthIndex = Math.floor((d + e + 114)/31) - 1;
   var day = ((d + e + 114) % 31) + 14;
-  return new Date(year, monthIndex, day); 
+  return new Date(year, monthIndex, day);
 };
 
 var getDateString = function(year, monthIndex, day) {
@@ -205,8 +201,17 @@ var getNumericDateString = function(year, monthIndex, day) {
   return strMonth + "/" + strDay + "/" + year;
 };
 
+var AdamOrWatos = function(year, monthIndex, day) {
+  var date = new Date(year, monthIndex, day)
+  if (date.getDay() < 3) {
+    return "adam";
+  }
+  return "watos";
+}
+
 module.exports.getCopticDate = getCopticDate;
 module.exports.getCopticDateString = getCopticDateString;
 module.exports.getEasterDate = getEasterDate;
 module.exports.getDateString = getDateString;
 module.exports.getNumericDateString = getNumericDateString;
+module.exports.AdamOrWatos = AdamOrWatos;

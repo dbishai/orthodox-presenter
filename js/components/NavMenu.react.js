@@ -18,7 +18,8 @@ var NavMenu = React.createClass({
     propTypes: {
         allNavMenuItems: ReactPropTypes.object.isRequired,
         allSectionItems: ReactPropTypes.object.isRequired,
-        allNavItems: ReactPropTypes.object.isRequired
+        allNavItems: ReactPropTypes.object.isRequired,
+        menuToggleState: ReactPropTypes.bool.isRequired
     },
 
     getInitialState: function() {
@@ -67,7 +68,7 @@ var NavMenu = React.createClass({
         }
 
         for (var key in allSectionItems) {
-            sectionItems.push(<SectionItem key={key} sectionItem={allSectionItems[key]}/>);
+            sectionItems.push(<SectionItem key={key} attributes={this.state.attributes} sectionItem={allSectionItems[key]}/>);
         }
 
         return (
@@ -78,7 +79,9 @@ var NavMenu = React.createClass({
                 {navItems}
                 {sectionItems}
               </ul>
-              <Footer/>
+              <Footer
+                menuToggleState={this.props.menuToggleState}
+              />
             </div>
             <MainSection
               attributes={this.state.attributes}

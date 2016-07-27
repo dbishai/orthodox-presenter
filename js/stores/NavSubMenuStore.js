@@ -21,7 +21,7 @@ Attributes = {
   day: today.getDate(),
   monthIndex: today.getMonth(),
   year: today.getFullYear(),
-  time: today.getHours() 
+  time: today.getHours()
 };
 
 var setState = function(state) {
@@ -36,10 +36,12 @@ var setDate = function(year, monthIndex, day) {
   Attributes.year = year;
   Attributes.monthIndex = monthIndex;
   Attributes.day = day;
+  NavSubMenuStore.emitChange();
 };
 
 var setTime = function(time) {
   Attributes.time = time;
+  NavSubMenuStore.emitChange();
 };
 
 var NavSubMenuStore = assign({}, EventEmitter.prototype, {

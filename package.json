@@ -17,7 +17,7 @@
   "devDependencies": {
     "browserify": ">=6.2.0",
     "envify": ">=3.0.0",
-    "react-toggle": "^2.0.1",
+    "react-toggle": ">=2.0.1",
     "reactify": ">=0.15.2",
     "uglify-js": ">=2.4.15",
     "watchify": ">=2.1.1"

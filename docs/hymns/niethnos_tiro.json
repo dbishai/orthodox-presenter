@@ -1,23 +1,24 @@
-{"eng":
+{
+  "eng":
   {
-    "title": "Vespers",
+    "title": "Niethnos Tiro",
       "language": "English",
       "items": {
         "response": {
           "user": "People",
-          "text": "Glory be to God. O praise the Lord all you nations. Praise Him, all you people. For His merciful kindness is great toward us and the truth of the Lord endures forever, Alleluia."
+          "text": ["Glory be to God. O praise the Lord all you nations. Praise Him, all you people. For His merciful kindness is great toward us and the truth of the Lord endures forever, Alleluia."]
         }
       }
   }
 ,
 "cop":
   {
-    "title": "Niethnos Tiro",
+    "title": "Nie;noc tyrou",
     "language": "Coptic",
     "items": {
       "response": {
         "user": "Pilaoc",
-        "text": "Doxaci `o:eoc `umwn@ Nie;noc tyrou `cmou P=o=c@ marou`cmou `erof `nje nilaoc tyrou@ je `apefnai tajaro `e`hryi `ejwn@ ouoh ]me;myi `nte P=o=c sop sa eneh@ =a=l."
+        "text": ["Doxaci `o:eoc `umwn@ Nie;noc tyrou `cmou P=o=c@ marou`cmou `erof `nje nilaoc tyrou@ je `apefnai tajaro `e`hryi `ejwn@ ouoh ]me;myi `nte P=o=c sop sa eneh@ =a=l."]
       }
     }
   }
@@ -29,7 +30,7 @@
     "items": {
       "response": {
         "user": "People",
-        "text": "المجد لالهنا. ياجميع الامم سبحوا الرب ولتباركه كافة الشعوب لأن رحمته قد قويت علينا وحق الرب يدوم إلى الأبد الليلويا."
+        "text": ["المجد لالهنا. ياجميع الامم سبحوا الرب ولتباركه كافة الشعوب لأن رحمته قد قويت علينا وحق الرب يدوم إلى الأبد الليلويا."]
       }
     }
   }

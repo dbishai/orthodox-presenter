@@ -1,0 +1,36 @@
+{
+  "eng": {
+    "title": "Verses of the Cymbals (Adam)",
+    "language": "English",
+    "tag": "adam",
+    "items": [
+      {
+        "user": "People",
+        "text": [
+          "Lord have mercy.",
+          "O come let us worship, the Holy Trinity, the Father and the Son, and the Holy Spirit.",
+          "We the Christian people, for He is God, in truth.",
+          "We have hope, in Saint Mary, that God will have mercy upon us, through her intercessions.",
+          "All calmness, in the world, is through the prayers, of the Theotokos Virgin Mary."
+        ]
+      }
+    ]
+  },
+  "cop": {
+    "title": "Amwini marenouwst",
+    "language": "Coptic",
+    "tag": "adam",
+    "items": [
+      {
+        "user": "Pilaoc",
+        "text": [
+          "Kurie `ele`ycon.",
+          "Amwini maren`ouwst@ `n]`Triac =e=;=u@ `ete `Viwt nem `pSyri@ nem pi`Pneuma =e=;=u.",
+          "Anon qa nilaoc@ `n`,rictianoc@ vai gar pe penNou]@ `n`aly;inoc.",
+          "Ouon ouhelpic `ntan@ qen ;y`e;ouab Maria@ `ere V] nai nan@ hiten nec`precbia.",
+          "Ouon oumetcemnoc@ `n`hryi qen pikocmoc `ebolhiten pi`slyl@ `nte ]agia Mari`a ]Par;enoc."
+        ]
+      }
+    ]
+  }
+}

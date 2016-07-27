@@ -51,6 +51,7 @@ var OrthodoxPresenterApp = React.createClass({
           allSectionItems={this.state.allSectionItems}
           allNavItems={this.state.allNavItems}
           allDocumentItems={this.state.allDocumentItems}
+          menuToggleState={this.state.menuToggle}
         />
       </div>
     </div>
