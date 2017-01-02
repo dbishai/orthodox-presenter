@@ -2,7 +2,7 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var ReactPropTypes = React.PropTypes;
 var NavActions = require('../actions/NavActions');
-var Toggle = require('react-toggle');
+var Toggle = require('react-toggle').default;
 var CopticCalendar = require('../lib/CopticCalendar.js');
 
 var classNames = require('classnames');
