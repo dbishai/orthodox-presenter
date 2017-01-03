@@ -32,13 +32,7 @@ var NavMenu = {
         "title": "Theme",
         "url": "#",
         "span_class": "glyphicon glyphicon-text-background"
-}/*,
-    "feedback": {
-        "id": "feedback",
-        "title": "Feedback",
-        "url": "mailto:dbishai@outlook.com",
-        "span_class": "glyphicon glyphicon-envelope"
-    }*/
+}
 };
 
 

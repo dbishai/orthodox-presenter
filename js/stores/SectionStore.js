@@ -12,74 +12,18 @@ var sections = {
         "description": "\"This is My body which is given for you; My blood, which is shed for you.\" (Luke 22:19-20)",
         "img": "../../images/placeholder.png",
         "node": {
-            "1a": {
-                "id": "1a",
-                "title": "ST. BASIL",
-                "node": {
-                    "2a": {
-                        "id": "2a",
-                        "title": "test",
-                        "load": "st_basil"
-                    }
-                }
-
-            },
-            "1b": {
-                "id": "1b",
-                "title": "ST. GREGORY",
-                "node": {
-                    "2a": {
-                        "id": "2a",
-                        "title": "test",
-                        "load": "st_gregory"
-                    }
-                }
-            },
-            "1c": {
-                "id": "1c",
-                "title": "ST. CYRIL",
-                "load": "st_cyril"
-            },
             "1d": {
                 "id": "1d",
                 "title": "MATINS",
-            },
-            "1e": {
-                "id": "1e",
-                "title": "VESPERS",
+                "node": {
+                    "1b": {
+                        "id": "1b",
+                        "title": "Verses of the Cymbals",
+                        "load": "verses_of_the_cymbals"
+                    }
+                }
             }
         }
-    },
-    "0b": {
-        "id": "0b",
-        "title": "PSALMODY",
-        "description": "Praise the Lord! Praise God in His sanctuary; Praise Him in His mighty firmament! (Psalm 150:1)",
-        "img": "../../images/placeholder.png"
-    },
-    "0c": {
-        "id": "0c",
-        "title": "READINGS",
-        "description": "How sweet are Your words to my taste! Yes, sweeter than honey to my mouth! (Psalm 119:103)",
-        "img": "../../images/placeholder.png"
-    },
-    "0d": {
-        "id": "0d",
-        "title": "HYMNS",
-        "description": "I will sing unto the LORD as long as I live: I will sing praise to my God while I have my being. (Psalm 104:33)",
-        "img": "../../images/placeholder.png",
-        "node": {
-            "1a": {
-                "id": "1a",
-                "title": "Niethnos Tiro",
-                "load": "docs/hymns/niethnos_tiro.json"
-            },
-            "1b": {
-                "id": "1b",
-                "title": "Verses of the Cymbals",
-                "load": "verses_of_the_cymbals"
-            }
-        }
-
     }
 
 };
