@@ -11,7 +11,7 @@ var NavMenu = {
     },
     "date": {
         "id": "date",
-        "title": "Date", 
+        "title": "Date",
         "url": "#",
         "span_class": "glyphicon glyphicon-calendar"
     },
@@ -32,13 +32,13 @@ var NavMenu = {
         "title": "Theme",
         "url": "#",
         "span_class": "glyphicon glyphicon-text-background"
-    },
+}/*,
     "feedback": {
         "id": "feedback",
         "title": "Feedback",
         "url": "mailto:dbishai@outlook.com",
         "span_class": "glyphicon glyphicon-envelope"
-    }
+    }*/
 };
 
 
