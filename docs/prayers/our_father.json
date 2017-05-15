@@ -1,13 +1,15 @@
 {
   "title": {
     "eng": "Our Father",
-    "cop": "Je Peniwt "
+    "cop": "Je Peniwt ",
+    "ara": "أبانا الذي"
   },
   "items": [
     {
       "user": {
         "eng": "People",
-        "cop": "Pilaoc"
+        "cop": "Pilaoc",
+        "ara": "الشعب "
       },
       "text": {
         "eng": [
@@ -15,6 +17,9 @@
         ],
         "cop": [
           "Je Peniwt et qen nivyoui@ mareftoubo `nje pekran@ Mare`ci `nje tekmetouro@ petehnak marefswpi@ `m`vry] qen `tve nem hijen pikahi@ Penwik `nte rac] myif nan `mvoou@ ouoh ,a nyet`eron nan `ebol@ `m`vry] hwn `nten,w `ebol `nny`ete ouon `ntan `erwou@ ouoh `mperenten `eqoun `epiracmoc alla nahmen `ebol ha pipethwou Qen Pi`,rictoc Iycouc Pen[oic@ je ;wk te ]metouro nem ]jom nem pi`wou sa `eneh@ `amyn"
+        ],
+        "ara": [
+          " أبانا الذي في السموات، ليتقدس إسمك. ليأت ملكوتك. لتكن مشيئتك، كما في السماء كذلك على الأرض. خبزنا كفافنا أعطنا اليوم. وأغفر لنا ذنوبنا، كما نغفر نحن أيضاً للمذنبين إلينا. ولا تدخلنا في تجربة، لكن نجنا من الشرير. بالمسيح يسوع ربنا، لأن لك الملك والقوة والمجد إلى الأبد. آمين "
         ]
       }
     }
