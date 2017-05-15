@@ -1,4 +1,5 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 var MainSection = require('./MainSection.react');
 var NavMenu = require('./NavMenu.react');
 var SectionStore = require('../stores/SectionStore');
@@ -14,7 +15,7 @@ var getState = function(menuState) {
   };
 };
 
-var OrthodoxPresenterApp = React.createClass({
+var OrthodoxPresenterApp = createReactClass({
 
   getInitialState: function() {
     return getState(true);

@@ -48,13 +48,12 @@ body {
   cursor: pointer;
 }
 div.main-section {
-  /*width: 32%;*/
   font-size: 16px;
   font-family: 'OpenSansRegular', sans-serif;
   text-align: justify;
-  position: relative;
-  float: left;
-  padding: 20px;
+  color: #ffffff;
+  padding-bottom: 5px;
+
 }
 #sections .glyphicon {
   cursor: pointer;
@@ -104,11 +103,12 @@ div.section-item {
 }
 p.main-section {
   color: #ffffff;
+  padding-bottom: 5px;
 }
 h3.main-section {
   text-align: center;
   color: #ffff66;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 h3.main-section-light {
   text-align: center;
@@ -186,8 +186,12 @@ div.footer {
   padding: 5px;
 }
 div.doc-title {
-  height: 40px;
+  margin-bottom: 30px;
 }
 div.doc-item {
-  padding-bottom: 1px;
+
+  position: relative;
+    vertical-align: top;
+  display: inline-block;
+  padding: 10px;
 }

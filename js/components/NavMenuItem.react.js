@@ -1,14 +1,15 @@
 var React = require('react');
-var ReactPropTypes = React.PropTypes;
+var createReactClass = require('create-react-class');
+var PropTypes = require('prop-types');
 var NavSubMenuItem = require('./NavSubMenuItem.react');
 
 var classNames = require('classnames');
 
-var NavMenuItem = React.createClass({
+var NavMenuItem = createReactClass({
 
     propTypes: {
-        navMenuItem: ReactPropTypes.object.isRequired,
-        attributes: ReactPropTypes.object.isRequired
+        navMenuItem: PropTypes.object.isRequired,
+        attributes: PropTypes.object.isRequired
     },
 
     getInitialState: function() {

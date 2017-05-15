@@ -1,5 +1,6 @@
 var React = require('react');
-var ReactPropTypes = React.PropTypes;
+var PropTypes = require('prop-types');
+var createReactClass = require('create-react-class');
 var NavSubMenuStore = require('../stores/NavSubMenuStore');
 var NavMenuItem = require('./NavMenuItem.react');
 var NavItem = require('./NavItem.react');
@@ -13,13 +14,13 @@ var getState = function () {
   };
 };
 
-var NavMenu = React.createClass({
+var NavMenu = createReactClass({
 
     propTypes: {
-        allNavMenuItems: ReactPropTypes.object.isRequired,
-        allSectionItems: ReactPropTypes.object.isRequired,
-        allNavItems: ReactPropTypes.object.isRequired,
-        menuToggleState: ReactPropTypes.bool.isRequired
+        allNavMenuItems: PropTypes.object.isRequired,
+        allSectionItems: PropTypes.object.isRequired,
+        allNavItems: PropTypes.object.isRequired,
+        menuToggleState: PropTypes.bool.isRequired
     },
 
     getInitialState: function() {

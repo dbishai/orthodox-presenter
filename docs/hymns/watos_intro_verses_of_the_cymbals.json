@@ -1,32 +1,28 @@
 {
-  "eng": {
-    "title": "Verses of the Cymbals (Watos)",
-    "language": "English",
-    "tag": "watos",
-    "items": [
-      {
-        "user": "People",
-        "text": [
+  "title": {
+    "eng": "Verses of the Cymbals (Watos)",
+    "cop": "Tenouwst `m`Viwt"
+  },
+  "language": "English",
+  "tag": "watos",
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc"
+      },
+      "text": {
+        "eng": [
           "Lord have mercy.",
           "We worship the Father and the Son, and the Holy Spirit, the holy and co-essential, Trinity.",
           "Hail to the Church, the house of the angels, hail to the Virgin, who gave birth to our Savior."
-        ]
-      }
-    ]
-  },
-  "cop": {
-    "title": "Tenouwst `m`Viwt",
-    "language": "Coptic",
-    "tag": "watos",
-    "items": [
-      {
-        "user": "Pilaoc",
-        "text": [
+        ],
+        "cop": [
           "Kurie `ele`ycon.",
           "Tenouwst `m`Viwt nem `pSyri@ nem pi`Pneuma =e=;=u@ ]`Triac =e=;=u@ `nomooucioc.",
           "<ere ]ekklyci`a@ `pyi `nte ni`aggeloc@ ,ere ]Par;enoc@ `etacmec penCwtyr."
         ]
       }
-    ]
-  }
+    }
+  ]
 }
