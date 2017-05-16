@@ -1,13 +1,15 @@
 {
   "title": {
     "eng": "Introduction to the Doxologies",
-    "cop": "Qen Pi`,rictoc Iycouc Pen[oic@"
+    "cop": "Qen Pi`,rictoc Iycouc Pen[oic@",
+    "ara" : " مقدمة الذكصولوجيات "
   },
   "items": [
     {
       "user": {
         "eng": "People",
-        "cop": "Pilaoc"
+        "cop": "Pilaoc",
+        "ara": "الشعب "
       },
       "text": {
         "eng": [
@@ -31,6 +33,17 @@
           "Ari`precbeuin `e`hryi `ejon@ nahren P=,=c  vyetare`jvof@ hopwc `ntefer`hmot nan@ `mpi,w `ebol `nte nennobi.",
           "<ere ne `w ]par;enoc@ ]ourw `mmyi `n`aly;iny@ ,ere `psousou `nte pengenoc@ `are`jvo nan `nEmmanouyl.",
           "Ten]ho `aripenme`ui@ `w ]`proctatyc `etenhot@ nahren Pe=n=o=c  I=y=c  P=,=c@ `ntef,a nennobi nan `ebol."
+        ],
+        "ara":[
+          " بالمسيح يسوع ربناآمين هلليلويا"
+          "السلام لك نسألك أيتها القديسة الممتلئة مجدا العذراء كل حين. والدة الاله أم المسيح.",
+          "اصعدى صلاتنا الى ابنك الحبيب ليغفر لنا خطايانا.",
+          "السلام للتى ولدت لنا النور الحقيقى المسيح الهنا العذراء القديسة.",
+          "اسألى الرب عنا ليصنع رحمة مع نفوسنا ويغفر لنا خطايانا.",
+          "أيتها العذراء مريم والدة الاله القديسة الشفيعة الأمينة لجنس البشر."
+          "اشفعى فينا أمام المسيح الذى ولدته لكى ينعم لنا بمغفرة خطايانا.",
+          "السلام لك أيتها العذراء الملكة الحقيقية الحقانية. السلام لفخر جنسنا. ولدت لنا عمانوئيل.",
+          "نسألك أن تذكرينا أيتها الشفيعة المؤتمنة أمام ربنا يسوع المسيح ليغفر لنا خطايانا."
         ]
       }
     }

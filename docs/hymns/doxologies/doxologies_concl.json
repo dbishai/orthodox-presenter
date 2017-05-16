@@ -1,13 +1,15 @@
 {
   "title": {
     "eng": "Conclusion of the Doxologies",
-    "cop": "Swpi `n;o `erecomc `ejon@"
+    "cop": "Swpi `n;o `erecomc `ejon@",
+    "ara":" ختام الذكصولوجيات "
   },
   "items": [
     {
       "user": {
         "eng": "People",
-        "cop": "Pilaoc"
+        "cop": "Pilaoc",
+        "ara": "الشعب "
       },
       "text": {
         "eng": [
@@ -21,6 +23,12 @@
           "Ma]ho `mvy`etaremacf@ Pencwtyr `n`aga;oc@ `ntef`wli `nnaiqici `ebolharon@ `ntefcemni nan `ntefhiryny",
           "<ere ne `w ]par;enoc@ ]ourw `mmyi `n`aly;iny@ ,ere `psousou `nte pengenoc@ `are`jvo nan `nEmmanouyl.",
           "Ten]ho `aripenme`ui@ `w ]`proctatyc `etenhot@ nahren Pe=n=o=c  I=y=c  P=,=c@ `ntef,a nennobi nan `ebol."
+        ],
+        "ara": [
+          " كونى أنتِ ناظرة علينا فى المواضع العالية التى أنتِ كائنة فيها. يا سيدتنا كلنا والدة الإله العذراء كل حين ",
+          " إسألى الذى ولدته مخلصنا الصالح أن يرفع عنا هذه الأتعاب ويقرر لنا سلامه ",
+          " السلام لك أيتها العذراء الملكة الحقيقية الحقانية. السلام لفخر جنسنا. ولدت لنا عمانوئيل ",
+          " نسألك أن تذكرينا أيتها الشفيعة المؤتمنة أمام ربنا يسوع المسيح ليغفر لنا خطايانا "
         ]
       }
     }
