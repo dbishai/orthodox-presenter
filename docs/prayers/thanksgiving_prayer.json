@@ -13,6 +13,78 @@
       },
       "text": {
         "eng": [
+          "Let us pray."
+        ],
+        "cop": [
+          "`Slyl."
+        ],
+        "ara": [
+          " .صلوا "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Deacon",
+        "cop": "Pidiakwn",
+        "ara": " الشماس "
+      },
+      "text": {
+        "eng": [
+          "Stand up for prayer."
+        ],
+        "cop": [
+          "Epi `proceu,y `cta;yte."
+        ],
+        "ara": [
+          " .للصلاة قفوا "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Peace be with all ."
+        ],
+        "cop": [
+          "Iryny paci."
+        ],
+        "ara": [
+          " .السلام لجميعكم"
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+    },
+    "text": {
+      "eng": [
+        "And with your spirit."
+      ],
+      "cop": [
+        "Ke tw `pneumati cou."
+      ],
+      "ara":[
+        " .ولروحك أيضاً"
+      ]
+    }
+  },
+  {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
           "Let us give thanks to the beneficent and merciful God, the Father of our Lord, God, and Savior Jesus Christ.",
           "For He has covered us, helped us, guarded us, accepted us to Himself, spared us, supported us, and has brought us to this hour.",
           "Let us also ask Him, the Lord our God, the Pantocrator, to guard us in all peace this holy day and all the days of our life, the Pantocrator, the Lord our God."
