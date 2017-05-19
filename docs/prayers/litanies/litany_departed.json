@@ -1,0 +1,145 @@
+{
+  "title": {
+    "eng": "Litany of the Departed",
+    "cop": "Palin on maren]ho `e`Vnou] Pipantokratwr ",
+    "ara": " أوشية الراقدين "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Again, let us ask God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ.",
+          "We ask and entreat Your goodness, O Lover of Mankind, remember, O Lord, the souls of Your servants who have fallen asleep, our fathers and our brethren."
+        ],
+        "cop": [
+          "Palin on maren]ho `e`Vnou] Pipantokratwr@ `Viwt `mPen[oic ouoh Pennou] ouoh Pencwtyr Iycouc Pi`,rictoc.",
+          "Ten]ho ouoh tentwbh `ntekmet`aga;oc Pimairwmi@ `ari`vmeui `P[oic `nni'u,y `nte nek`ebiaik `etauenkot nenio] nem nen`cnyou."
+        ],
+        "ara": [
+          " .وأيضاً فلنسأل الله الضابط الكل، أبا ربنا وإلهنا ومخلصنا يسوع المسيح ",
+          " .نسأل ونطلب من صلاحك يا محب البشر، أُذكر يا رب أنفس عبيدك الذين رقدوا، آبائنا وإخوتنا "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Deacon",
+        "cop": "Pidiakwn",
+        "ara": " الشماس "
+      },
+      "text": {
+        "eng": [
+          "Pray for our fathers and brethren who have fallen asleep and reposed in the faith of Christ since the beginning:",
+          "our hoy fathers the archbishops, our fathers the bishops, our fathers, the hegumens, our fathers the priests, our brethern the deacons, our fathers the monks, and our fathers the laymen, and for the full repose of Christians,",
+          "that Christ our God may repose all their souls in the paradise of joy, and we too, accord mercy unto us and forgive us our sins."
+        ],
+        "cop": [
+          "Twbh `ejen nenio] nem nen`cnyou `etauenkot au`mton `mmwou qen `vnah] `mPi`,rictoc icjen `p`eneh:",
+          "nenio] e;ouab `nar,y`epickopoc ke nenio] `n`epickopoc@ nenio] `nhygoumenoc ke nenio] `m`precbuteroc nem nen`cnyou `ndiakwn@ nenio] `mmona,oc@ ke nenio] `nlaikoc@ nem `e`hryi `ejen ]`anapaucic tyrc `nte ni`,rictianoc.",
+          "hina `nte Pi`,rictoc Pennou] ]`mton `nnou'u,y tyrou qen piparadicoc `nte `pounof@ `anon de hwn `nteferpinai neman@ `ntef,a nennobi nan `ebol."
+        ],
+        "ara": [
+          " :أُطلبوا عن آبائنا وإخوتنا الذين رقدوا، وتنيحوا في الإيمان بالمسيح منذ البدء ",
+          " آبائنا القديسين رؤساء الأساقفة، وآبائنا الأساقفة، وآبائنا القمامصة، وآبائنا القسوس، وإخوتنا الشمامسة، وآبائنا الرهبان، وآبائنا العلمانيين، وعن نياح كل المسيحيين ",
+          " .لكي المسيح إلهنا ينيح نفوسهم أجمعين في فردوس النعيم، ونحن أيضاً يصنع معنا رحمة، ويغفر لنا خطايانا "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+    },
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Kurie `ele`ycon."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+     "user": {
+      "eng": "Priest",
+      "cop": "Piouyb",
+      "ara": " الكاهن "
+    },
+  "text": {
+    "eng": [
+      "Graciously, O Lord, repose all their souls in the bosom of our holy fathers Abraham, Isaac, and Jacob,",
+      "sustain them in a green pasture, beside still waters in the Paradise of joy,",
+      "the place out of which grief, sorrow, and groaning have fled away in the light of Your saints.",
+      "Raise up their bodies also on the day which You have appointed, according to Your true promises which are without lie.",
+      "Grant them the good things of Your promises-that which an eye has not seen nor ear heard, neither have come upon the heart of man-",
+      "the things which You, O God, have prepared for those who love Your holy name",
+      "For their is no death for Your servants, but a departure.",
+      "Even if any negligence or heedlessness has overtaken them as men, since they were clothed in the flesh and dwelt in this world,",
+      "O God, as the Good One and Lover of Mankind, graciously accord, O Lord, to repose and forgive them, Your servants, the orthodox Christians who are in the whole world from the east to the west and from the north to the south, each one according to his name and each one according to her name.",
+      "For no one is pure and without blemish, even though his life on earth be a single day.",
+      "As for those, O Lord, whose souls You have taken, repose them, and may they be worthy of the kingdom of the heavens.",
+      "As for us all, grant us our Christian perfection that would be pleasing to You,",
+      "and give them and us a share and inheritance with all Your saints"
+
+    ],
+    "cop": [
+      "Arikataxioin `P[oic ma`mton `nnou'u,y tyrou qen kenf `nnenio] e;ouab@ Abraam nem `Icaak nem Iakwb,",
+      "Sanousou qen ouma `n`,lo`y@ hijen `vmwou `nte `pemton qen piparadicoc `nte `pounof.",
+      "Pima `etafvwt `ebol `nqytf `nje pi`mkah `nhyt nem ]lupy nem pifiahom@ qen `vouwini `nte nye;ouab `ntak.",
+      "k`etounoc `ntoukecarx qen pi`ehoou `etak;asf@ kata nek`e`paggelia `mmyi ouoh `natme;nouj.",
+      "Ek`eer,arizec;e nwou `nni`aga;on `nte nek`epaggelia@ ny`ete `mpe bal nau `erwou@ oude `mpe masj co;mou@ oude `mpou`i `e`hryi `ejen `phyt `nrwmi.",
+      "Ny`etakcebtwtou `Vnou] `nnye;mei `mpekran e;ouab.",
+      "Je `mmon mou sop `nnek`ebiaik alla ououwteb `ebol pe.",
+      "Icje de ouon oumet`amelyc [i `erwou@ ie oumetat]`h;yf hwc rwmi@ `eauervorin `noucarx ouoh auswpi qen paikocmoc.",
+      "N;ok de hwc `aga;oc ouoh `mmairwmi `Vnou] `arikataxioin nek`ebiaik `n`,rictianoc `nor;odoxoc etqen ]oikomeny tyrc@ icjen nima`nsai `nte `vry sa nefma`nhwtp nem icjen pemhit sa `vryc@ piouai piouai kata pefran nem ]ou`i ]ou`i kata pecran@ Kurie ma`mton nwou ,w nwou `ebol.",
+      "Je `mmon `hli efouab `e;wleb oude kan ou`ehoou `nouwt pe pefwnq hijen pikahi.",
+      "N;wou men ham ny `P[oic `eak[i `nnou'u,y ma`mton nwou@ ouoh marouer`pem`psa `n]metouro `nte nivyou`i.",
+      "Anon de tyren `ari,arizec;e nan `mpenjwk `n`,rictianoc efranak `mpek`m;o.",
+      "Ouoh moi nwou neman `noumeroc nem ou`klyroc@ nem nye;ouab tyrou `ntak."
+    ],
+    "ara":[
+      " .تفضل يا رب نيح نفوسهم جميعاً في حضن آبائنا القديسين، إبراهيم وإسحق ويعقوب ",
+      " .عُلهُم في موضع خضرة على ماء الراحة في فردوس النعيم ",
+      " .الموضع الذي هرب منه الحزن والكآبة والتنهدُ في نور قديسيك ",
+      " .أقم أجسادهم في اليوم الذي رسمته كمواعيدِكَ الحقيقية غير الكاذبة ",
+      " .هب لهم خيرات مواعيدك، ما لم تره عين ولم تسمع به أذن، ولم يخطر على قلب بشر ",
+      " .ما أعددته يا الله لمحبي إسمك القدوس ",
+      " .لأنه لا يكون موت لعبيدك، بل هو إنتقال ",
+      " .وان كان لحقهم توانٍ، أو تفريط كبشر، وقد لبسوا جسداً. وسكنوا في هذا العالم ",
+      " .فأنت كصالح ومحب البشر، اللهُمَّ تفضل عبيدك المسيحيين الأرثوذكسيين الذين في المسكونة كلها، من مشارق الشمس إلى مغارِبها، ومن الشمال إلى الجنوب، كل واحدٍ بإسمِه وكل واحدةٍ بإسمها، يا ربُ نيحهم، وإغفر لهم ",
+      " .فانه ليس أحدٌ طاهراً من دنس، ولو كانت حياتُه يوماً واحداً على الأرض ",
+      " .أما هم يا ربُ الذين أخذت نفوسَهم، نيحهم وليستحقوا ملكوت السموات ",
+      " .وأما نحن كلنا فهب لنا كماَلنا المسيحي الذي يرضيك أمامك ",
+      " .وأعطهم وإيانا نصيباً وميراثاً مع كافة قديسيك "
+    ]
+   }
+  },
+  {
+     "user": {
+       "eng": "People",
+       "cop": "Pilaoc",
+       "ara": "الشعب "
+   },
+   "text": {
+     "eng": [
+       "Lord have mercy."
+     ],
+     "cop": [
+       "Kurie `ele`ycon."
+     ],
+     "ara":[
+       " .يا ربُّ إرحَم"
+      ]
+     }
+    }
+   ]
+}
