@@ -13,6 +13,78 @@
       },
       "text": {
         "eng": [
+          "Let us pray."
+        ],
+        "cop": [
+          "`Slyl."
+        ],
+        "ara": [
+          " .صلوا "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Deacon",
+        "cop": "Pidiakwn",
+        "ara": " الشماس "
+      },
+      "text": {
+        "eng": [
+          "Stand up for prayer."
+        ],
+        "cop": [
+          "Epi `proceu,y `cta;yte."
+        ],
+        "ara": [
+          " .للصلاة قفوا "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Peace be with all ."
+        ],
+        "cop": [
+          "Iryny paci."
+        ],
+        "ara": [
+          " .السلام لجميعكم"
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+    },
+    "text": {
+      "eng": [
+        "And with your spirit."
+      ],
+      "cop": [
+        "Ke tw `pneumati cou."
+      ],
+      "ara":[
+        " .ولروحك أيضاً"
+      ]
+    }
+  },
+  {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
           "Again, let us ask God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ.",
           "We ask and entreat Your goodness, O Lover of Mankind, remember, O Lord, the souls of Your servants who have fallen asleep, our fathers and our brethren."
         ],
