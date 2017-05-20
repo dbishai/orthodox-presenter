@@ -1,0 +1,138 @@
+{
+  "title": {
+    "eng": "Litany of Peace",
+    "cop": "Palin on maren]ho `e`Vnou] Pipantokratwr ",
+    "ara": " وأيضاً فلنسأل الله "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Let us pray."
+        ],
+        "cop": [
+          "`Slyl."
+        ],
+        "ara": [
+          " .صلوا "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Deacon",
+        "cop": "Pidiakwn",
+        "ara": " الشماس "
+      },
+      "text": {
+        "eng": [
+          "Stand up for prayer."
+        ],
+        "cop": [
+          "Epi `proceu,y `cta;yte."
+        ],
+        "ara": [
+          " .للصلاة قفوا "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Peace be with all ."
+        ],
+        "cop": [
+          "Iryny paci."
+        ],
+        "ara": [
+          " .السلام لجميعكم"
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+    },
+    "text": {
+      "eng": [
+        "And with your spirit."
+      ],
+      "cop": [
+        "Ke tw `pneumati cou."
+      ],
+      "ara":[
+        " .ولروحك أيضاً"
+      ]
+    }
+  },
+  {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Again, let us ask God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ.",
+          "We ask and entreat Your goodness, O Lover of Mankind, remember, O Lord, the peace of Your one, only, holy, catholic, and apostolic Church-"
+        ],
+        "cop": [
+          "Palin on maren]ho `e`Vnou] Pipantokratwr@ `Viwt `mPen[oic ouoh Pennou] ouoh Pencwtyr Iycouc Pi`,rictoc.",
+          "Ten]ho ouoh tentwbh `ntekmet`aga;oc Pimairwmi@ `ari`vmeui `P[oic@ `n]hiryny `nte tekou`i `mmauatc e;ouab `nka;oliky `n`apoctoliky `nEkklycia."
+        ],
+        "ara": [
+          " .وأيضاً فلنسأل الله الضابط الكل، أبا ربنا وإلهنا ومخلصنا يسوع المسيح ",
+          " .نسأل ونطلب من صلاحك يا محب البشر، أُذكر يا رب سلام كنيستك الواحدة الوحيدة المقدسة الجامعة الرسولية "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Deacon",
+        "cop": "Pidiakwn",
+        "ara": " الشماس "
+      },
+      "text": {
+        "eng": [
+          "Pray for peace of the one, holy, catholic, and apostolic orthodox Church of God"
+        ],
+        "cop": [
+          "Proceuxac;e `uper tyc `irynyc tyc `agiac monyc ka;olikyc ke `apoctolikyc or;odoxou tou :eou Ek`klyciac."
+        ],
+        "ara": [
+          " صلوا من أجل سلام الواحدة المقدسة الجامعة الرسولية كنيسة الله الأرثوذكسية "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+    },
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Kurie `ele`ycon."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  }
+   ]
+}
