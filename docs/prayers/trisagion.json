@@ -1,0 +1,46 @@
+{
+  "title": {
+    "eng": "Trisagion",
+    "cop": "Agioc",
+    "ara" : " الثلاث تقديسات "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Holy God, Holy Mighty, Holy Immortal, who was born of the Virgin, have mercy upon us.",
+          "Holy God, Holy Mighty, Holy Immortal, who was crucified for us, have mercy upon us.",
+          "Holy God, Holy Mighty, Holy Immortal, who rose from the dead and ascended into the heavens, have mercy upon us.",
+          "Glory to the Father the Son and the Holy Spirit, now and ever and unto the ages of the ages. Amen.",
+          "O Holy Trinity, have mercy upon us. O Holy Trinity, have mercy upon us. O Holy Trinity, have mercy upon us.",
+          "O Lord, forgive our sins. O Lord, forgive us our iniquities. O Lord, forgive us  our trespasses. O Lord, visit the sick of Your people, heal them for the sake of Your holy name. Our fathers and brethren who have fallen asleep, O Lord, repose their souls.",
+          "O You who are without sin, Lord, have mercy on us. O You who are without sin, Lord, help us and receive our supplications. For Yours is the glory, the dominion, and triple holiness. Lord have mercy. Lord have mercy. Lord bless us. Amen."
+        ],
+        "cop": [
+          "Agioc `o :eoc@ `agioc Ic,uroc@ `agioc `A;anatoc@ `o ek par;enou genne;yc `ele`ycon `ymac.",
+          "Agioc `o :eoc@ `agioc Ic,uroc@ `agioc `A;anatoc@ `o `ctaurw;ic di `ymac `ele`ycon `ymac.",
+          "Agioc `o :eoc@ `agioc Ic,uroc@ `agioc `A;anatoc@ `o `anactac ek twn nekrwn ke `anel;wn ic touc ouranouc `ele`ycon `ymac.",
+          "Doxa Patri ke `Uiw ke `Agiw `Pneumati@ ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn. `Amyn.",
+          "Agia `Triac `ele`ycon `ymac@ pan`agia `Triac `ele`ycon `ymac@ }`triac e;ouab nai nan.",
+          "P[oic ,a nennobi nan `ebol. `P[oic ,a nen`anomia nan `ebol. `P[oic ,a nenpara`ptwma nan `ebol. `P[oic jem`psini `nnyetswni `nte peklaoc@ mata[wou e;be pekran e;ouab. Nenio] nem nen`cnyou `etauenkot `P[oic ma`mton `nnou'u,y.",
+          "Pia;nobi `P[oic nai nan@ pia;nobi `P[oic `aribo`y;in `eron@ sep ten]ho `erok. Je vwk pe pi`wou nem pi`amahi@ nem pi`triac `agioc@ Kurie `ele`ycon@ Kurie `ele`ycon@ Kurie eulogycon. `Amyn."
+        ],
+        "ara":[
+          " .قُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الَّذي وُلِدَ مِنَ العَذْراءِ، إرْحَمْنا ",
+          " .قُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الَّذي صُلِبَ عنَّا، إرْحَمْنا ",
+          " .قُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الذي قامَ مِنَ الأمْواتِ وصَعِدَ إلَى السَّمواتِ، إرْحَمْنا ",
+          " .المجْدُ للآبِ والإبنِ والرُّوحِ القُدُسِ، الآنَ وكلُّ أَوان وإلَى دَهْرِ الدُّهورِ. آمين ",
+          " .أيُّها الثَّالوثُ القُدُّوسُ إرْحَمْنا. أيُّها الثَّالوثُ القُدُّوسُ إرْحَمْنا. أيُّها الثَّالوثُ القُدُّوسُ إرْحَمْنا ",
+          " .ا رَبُّ إغْفِرْ لَنا خَطايانا. يا رَبُّ إغْفِرْ لَنا آثامَنا. يا رَبُّ إغْفِرْ لَنا زَلاَّتَنا. يا رَبُّ إفْتَقدْ مَرْضَى شَعْبكَ، إشْفِهمْ مِنْ أجْل إسْمكَ القُدُّوسِ. آباؤُنا وإخْوَتنا الَّذينَ رَقدوا، يا رَبُّ نَيِّحْ نُفوسَهُم ",
+          " .يا مَنْ هُوَ بِلا خَطيَّة، يا ربُّ إرحَمنا. يا مَنْ بِلا خَطيَّةِ، يا رَبُّ أَعِنَّا، وإقْبَلْ طَلباتِنا إلَيْكَ. لأنَّ لَكَ المجْدَ والعِزَّةَ والتَّقْديسَ المثلَّثَ. يا ربُّ إرحَم. يا ربُّ إرحَم. يا رَبُّ بارِكْ. آمين "
+
+        ]
+      }
+    }
+  ]
+}

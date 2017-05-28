@@ -1,0 +1,27 @@
+{
+  "title": {
+    "eng": "Our Father",
+    "cop": "Je Peniwt ",
+    "ara": " أبانا الذي "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Our Father Who art in heaven; hallowed be Thy name. Thy kingdom come. Thy will be done, on earth as it is in heaven. Give us this day our daily bread. And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil, in Christ Jesus our Lord. For Thine is the kingdom, the power and the glory, forever. Amen."
+        ],
+        "cop": [
+          "Je Peniwt et qen nivyoui@ mareftoubo `nje pekran@ Mare`ci `nje tekmetouro@ petehnak marefswpi@ `m`vry] qen `tve nem hijen pikahi@ Penwik `nte rac] myif nan `mvoou@ ouoh ,a nyet`eron nan `ebol@ `m`vry] hwn `nten,w `ebol `nny`ete ouon `ntan `erwou@ ouoh `mperenten `eqoun `epiracmoc alla nahmen `ebol ha pipethwou Qen Pi`,rictoc Iycouc Pen[oic@ je ;wk te ]metouro nem ]jom nem pi`wou sa `eneh@ `amyn"
+        ],
+        "ara": [
+          " أبانا الذي في السموات، ليتقدس إسمك. ليأت ملكوتك. لتكن مشيئتك، كما في السماء كذلك على الأرض. خبزنا كفافنا أعطنا اليوم. وأغفر لنا ذنوبنا، كما نغفر نحن أيضاً للمذنبين إلينا. ولا تدخلنا في تجربة، لكن نجنا من الشرير. بالمسيح يسوع ربنا، لأن لك الملك والقوة والمجد إلى الأبد. آمين "
+        ]
+      }
+    }
+  ]
+}
