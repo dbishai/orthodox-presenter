@@ -1,7 +1,8 @@
 {
   "title": {
     "eng": "Verses of the Cymbals (Adam)",
-    "cop": "Amwini marenouwst"
+    "cop": "Amwini marenouwst",
+    "ara": "مقدمة الأيام الأدام"
   },
   "language": "English",
   "tag": "adam",
@@ -9,7 +10,8 @@
     {
       "user": {
         "eng": "People",
-        "cop": "Pilaoc"
+        "cop": "Pilaoc",
+        "ara": "الشعب "
       },
       "text": {
         "eng": [
@@ -25,6 +27,13 @@
           "Anon qa nilaoc@ `n`,rictianoc@ vai gar pe penNou]@ `n`aly;inoc.",
           "Ouon ouhelpic `ntan@ qen ;y`e;ouab Maria@ `ere V] nai nan@ hiten nec`precbia.",
           "Ouon oumetcemnoc@ `n`hryi qen pikocmoc `ebolhiten pi`slyl@ `nte ]agia Mari`a ]Par;enoc."
+        ],
+        "ara": [
+          " .يا ربُّ إرحَم",
+          "تعالوا فلنسجد، للثالوث القدوس، الذي هو الأب والإبن، والروح القدس.",
+          "نحن الشعوب المسيحيين، لأن هذا هو إلهنا الحقيقي.",
+          "لنا رجاء، في القديسة مريم، الله يرحمنا، بشفاعاتها.",
+          "كل هدوء، في العالم، من قبل صلاة، القديسة مريم العذراء."
         ]
       }
     }

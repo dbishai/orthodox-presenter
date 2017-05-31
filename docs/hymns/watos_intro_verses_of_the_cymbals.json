@@ -1,7 +1,8 @@
 {
   "title": {
     "eng": "Verses of the Cymbals (Watos)",
-    "cop": "Tenouwst `m`Viwt"
+    "cop": "Tenouwst `m`Viwt",
+    "ara": "مقدمة الأيام الواطس"
   },
   "language": "English",
   "tag": "watos",
@@ -9,7 +10,8 @@
     {
       "user": {
         "eng": "People",
-        "cop": "Pilaoc"
+        "cop": "Pilaoc",
+        "ara": "الشعب "
       },
       "text": {
         "eng": [
@@ -21,6 +23,11 @@
           "Kurie `ele`ycon.",
           "Tenouwst `m`Viwt nem `pSyri@ nem pi`Pneuma =e=;=u@ ]`Triac =e=;=u@ `nomooucioc.",
           "<ere ]ekklyci`a@ `pyi `nte ni`aggeloc@ ,ere ]Par;enoc@ `etacmec penCwtyr."
+        ],
+        "ara": [
+          " .يا ربُّ إرحَم",
+          "نسجد للآب والإبن، والروح القدس، الثالوث القدوس، المساوي في الجوهر.",
+          "السلام للكنيسة، بيت الملائكة، السلام للعذراء، التي ولدت مخلصنا."
         ]
       }
     }
