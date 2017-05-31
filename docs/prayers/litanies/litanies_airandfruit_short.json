@@ -1,0 +1,64 @@
+{
+  "tag": "From 11 Tobe to 11 Paone",
+  "title": {
+    "eng": "Litany of the Air of Heaven and the Fruits",
+    "cop": ":ai etsop icjen ",
+    "ara": " هذه الكائنة من "
+  },
+  "items": [
+  {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Graciosuly accord, O Lord, the air of heaven and the fruits of the earth this year, bless them."
+        ],
+        "cop": [
+          "`Arikataxioin `P[oic ni`ayr `nte `tve nem nikarpoc `nte `pkahi qen tairompi ;ai@ `cmou `erwou."
+        ],
+        "ara": [
+          " تفضل يا رب أهوية السماء وثمرات الأرض، في هذه السنة، باركها "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Deacon",
+        "cop": "Pidiakwn",
+        "ara": " الشماس "
+      },
+      "text": {
+        "eng": [
+          "Pray for the air of heaven, the fruits of the earth, the trees, the vines, and for every fruit-bearing tree in all the world, that Christ our God may bless them, bring them to perfection in peace without harm, and forgive us our sins."
+        ],
+        "cop": [
+          "Twbh `ejen ni`ayr `nte `tve@ nem nikarpoc `nte `pkahi@ nem va ni`ssyn nem va nima`n`aloli@ nem `ssyn niben `nref]karpoc et qen ]oikoumeny tyrc@ hina `nte Pi`,rictoc Pennou] `cmou `erwou@ `ntefjokou `ebol qen ouhiryny a[ne `mkah@ `ntef,a nennobi nan `ebol."
+        ],
+        "ara": [
+          " أُطلبوا عن أهوية السماء، وثمرات الأرض والشجر والكروم، وكل شجرة مثمرة في كل المسكونة، لكي يباركها المسيح إلهنا، ويكملها سالمة بغير ألم، ويغفر لنا خطايانا "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+    },
+    "text": {
+      "eng": [
+        "Lord have mercy. (3)"
+      ],
+      "cop": [
+        "Kurie `ele`ycon. (3)"
+      ],
+      "ara":[
+        " (3).يا ربُّ إرحَم"
+      ]
+    }
+  }
+   ]
+}
