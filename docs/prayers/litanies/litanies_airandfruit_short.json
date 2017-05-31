@@ -1,0 +1,64 @@
+{
+  "tag": "From 11 Tobe to 11 Paone",
+  "title": {
+    "eng": "Litany of the Air of Heaven and the Fruits",
+    "cop": ":ai etsop icjen ",
+    "ara": " هذه الكائنة من "
+  },
+  "items": [
+  {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Graciosuly accord, O Lord, the air of heaven and the fruits of the earth this year, bless them."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          " تفضل يا رب أهوية السماء وثمرات الأرض، في هذه السنة، باركها "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Deacon",
+        "cop": "Pidiakwn",
+        "ara": " الشماس "
+      },
+      "text": {
+        "eng": [
+          "Pray for the air of heaven, the fruits of the earth, the trees, the vines, and for every fruit-bearing tree in all the world, that Christ our God may bless them, bring them to perfection in peace without harm, and forgive us our sins."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          " صلوا من أجل رئيس كهنتنا البابا أنبا (...)، بابا وبطريرك ورئيس أساقفة المدينة العظمى الاسكندرية وأخوية الروحيين مار إغناطيوس (...) بطريرك أنطاكية وأبونا (...) بطريرك إريتريا وشريكة في الخدمة الرسولية أبينا الأسقف (المطران) الأنبا (...) وسائر أساقفتنا الأرثوذكسيين  "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+    },
+    "text": {
+      "eng": [
+        "Lord have mercy. (3)"
+      ],
+      "cop": [
+        "Kurie `ele`ycon. (3)"
+      ],
+      "ara":[
+        " (3).يا ربُّ إرحَم"
+      ]
+    }
+  }
+   ]
+}
