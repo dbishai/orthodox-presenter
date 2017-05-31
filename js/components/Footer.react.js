@@ -1,18 +1,19 @@
 var React = require('react');
-var ReactPropTypes = React.PropTypes;
+var PropTypes = require('prop-types');
+var createReactClass = require('create-react-class');
 
-var Footer = React.createClass({
+var Footer = createReactClass({
 
     propTypes: {
-        menuToggleState: ReactPropTypes.bool.isRequired
+        menuToggleState: PropTypes.bool.isRequired
     },
 
-    render: function() {
+    render: function () {
         if (this.props.menuToggleState) {
             return (
                 <div className="footer">
-                <a href="https://github.com/dbishai/orthodox-presenter">
-                <img src="/orthodox-presenter/images/GitHub-Mark-Light-32px.png"/></a>
+                    <a href="https://github.com/dbishai/orthodox-presenter">
+                        <img src="/orthodox-presenter/images/GitHub-Mark-Light-32px.png" /></a>
                 </div>
             );
         } else {

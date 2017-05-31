@@ -1,17 +1,18 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var ReactPropTypes = React.PropTypes;
+var PropTypes = require('prop-types');
+var createReactClass = require('create-react-class');
 var NavActions = require('../actions/NavActions');
 var Toggle = require('react-toggle').default;
 var CopticCalendar = require('../lib/CopticCalendar.js');
 
 var classNames = require('classnames');
 
-var NavSubMenuItem = React.createClass({
+var NavSubMenuItem = createReactClass({
 
   propTypes: {
-    navMenuItemId: ReactPropTypes.string.isRequired,
-    attributes: ReactPropTypes.object.isRequired
+    navMenuItemId: PropTypes.string.isRequired,
+    attributes: PropTypes.object.isRequired
   },
 
   getInitialState: function () {
@@ -100,7 +101,12 @@ var NavSubMenuItem = React.createClass({
                 onChange={this.handleCheckbox.bind(this, "copticCheckbox")} aria-label="..." />
               <label>Coptic</label>
             </div>
-          </div>
+            <div className="checkbox">
+              <Toggle defaultChecked={this.props.attributes.arabicCheckbox}
+                onChange={this.handleCheckbox.bind(this, "arabicCheckbox")} aria-label="..." />
+              <label>Arabic</label>
+            </div>
+          </div >
         );
       default:
         return null;

@@ -27,6 +27,10 @@ body {
   padding-top: 50px;
   background-color: #333333;
 }
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+  margin-right: 0px;
+  margin-left: 0px;
+}
 .sub-header {
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
@@ -48,13 +52,12 @@ body {
   cursor: pointer;
 }
 div.main-section {
-  /*width: 32%;*/
   font-size: 16px;
   font-family: 'OpenSansRegular', sans-serif;
   text-align: justify;
-  position: relative;
-  float: left;
-  padding: 20px;
+  color: #ffffff;
+  padding-bottom: 5px;
+
 }
 #sections .glyphicon {
   cursor: pointer;
@@ -104,11 +107,12 @@ div.section-item {
 }
 p.main-section {
   color: #ffffff;
+  padding-bottom: 5px;
 }
 h3.main-section {
   text-align: center;
   color: #ffff66;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 h3.main-section-light {
   text-align: center;
@@ -186,8 +190,12 @@ div.footer {
   padding: 5px;
 }
 div.doc-title {
-  height: 40px;
+  margin-bottom: 30px;
 }
 div.doc-item {
-  padding-bottom: 1px;
+
+  position: relative;
+    vertical-align: top;
+  display: inline-block;
+  padding: 10px;
 }

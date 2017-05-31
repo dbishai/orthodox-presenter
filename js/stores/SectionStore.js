@@ -14,14 +14,15 @@ var sections = {
         "node": {
             "1d": {
                 "id": "1d",
-                "title": "MATINS",
-                "node": {
+                "title": "VESPERS",
+                "load": "vespers"
+                /*"node": {
                     "1b": {
                         "id": "1b",
                         "title": "Verses of the Cymbals",
                         "load": "verses_of_the_cymbals"
                     }
-                }
+                }*/
             }
         }
     }

@@ -1,11 +1,18 @@
 {
-  "eng": {
-    "title": "",
-    "language": "English",
-    "items": [
-      {
-        "user": "People",
-        "text": [
+  "title": {
+    "eng": "",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
           "Hail to you O Mary, the beautiful dove, who gave birth to, God the Word.",
           "Hail to you O Mary, a holy hail, hail to you O Mary, the Mother of the Holy.",
           "Hail to Michael, the great archangel, hail to Gabriel, the Announcer.",
@@ -19,17 +26,8 @@
           "Hail to our holy father, the patriarch, Abba Athanasius the Apostolic, the beloved of Christ.",
           "Through the intercessions, of the Mother of God Saint Mary, O Lord grant us, the forgiveness of our sins.",
           "That we may praise You, with Your good Father, and the Holy Spirit, for You have (come) and saved us."
-        ]
-      }
-    ]
-  },
-  "cop": {
-    "title": "",
-    "language": "Coptic",
-    "items": [
-      {
-        "user": "Pilaoc",
-        "text": [
+        ],
+        "cop": [
           "<ere ne Maria@ ][rompi e;necwc@ ;y`etacmici nan@ `mV] piLogoc.",
           "<ere ne Maria@ qen ou,ere efouab@ ,ere ne Maria@ `;mau `mvy`E;ouab.",
           "<ere Mi,ayl@ pinis] `n`ar,y`aggeloc@ ,ere Gabriyl@ picotp `mpifaisennoufi",
@@ -43,8 +41,23 @@
           "<ere peniwt =e=;=u@ `mpatriar,yc@ abba A;anacioc pi`apoctolikoc@ pimenrit `nte P=,=c.",
           "Hiten ni`precbi`a@ `nte ];e`otokoc =e=;=u Maria@ P=o=c `ari`hmot nan@ `mpi,w `ebol `nte nennobi.",
           "E;renhwc `erok@ nem Pekiwt `n`aga;oc@ nem pi`Pneuma =e=;=u@ je ak`i akcw] `mmon. Nai nan."
+        ],
+        "ara": [
+          "السلام لك يا مريم، الحمامة الحسنة، التي ولدت لنا، الله الكلمة.",
+          "السلام لك يا مريم، سلاماً مقدساً، السلام لك يا مريم، أم القدوس.",
+          "السلام لميخائيل، رئيس الملائكة العظيم، السلام لغبريال، المبشر.",
+          "السلام للشاروبيم، السلام للسِّرافيم، السلام لجميع الطغمات، السمائية.",
+          "السلام ليوحنا، السابق العظيم، السلام للكاهن، نسيب عمانوئيل.",
+          "السلام لسادتي الآباء، الرسل، السلام لتلاميذ، ربنا يسوع المسيح.",
+          "السلام لك أيها الشهيد، السلام للإنجيلي، السلام للرسول، مرقس ناظر الإله.",
+          "السلام لإستفانوس، الشهيد الأول، السلام لرئيس الشمامسة، المبارك.",
+          "السلام لك أيها الشهيد. السلام للشجاع البطل. السلام للمجاهد. سيدى الملك جرجس.",
+          "السلام لك أيها الشهيد. السلام للشجاع البطل السلام للابس الجهاد، فيلوباتير مرقوريوس.",
+          "*** شيريه بينيوت اثوواب : امبات رييارشيس : ابا اثناسيوس بي ابوس توليكوس بي مينريت انتي بيخريستوس. ***",
+          "بشفاعات والدة الإله، القديسة مريم، يا رب أنعم لنا، بمغفرة خطايانا.",
+          "لكي نُسبِّحك، مع أبيك الصالح، والروح القدس، لأنك (أتيت) وخلَّصتنا. إرحمنا."
         ]
       }
-    ]
-  }
+    }
+  ]
 }
