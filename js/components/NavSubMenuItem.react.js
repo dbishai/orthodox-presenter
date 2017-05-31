@@ -101,7 +101,12 @@ var NavSubMenuItem = createReactClass({
                 onChange={this.handleCheckbox.bind(this, "copticCheckbox")} aria-label="..." />
               <label>Coptic</label>
             </div>
-          </div>
+            <div className="checkbox">
+              <Toggle defaultChecked={this.props.attributes.arabicCheckbox}
+                onChange={this.handleCheckbox.bind(this, "arabicCheckbox")} aria-label="..." />
+              <label>Arabic</label>
+            </div>
+          </div >
         );
       default:
         return null;

@@ -56,10 +56,8 @@ var MainSection = createReactClass({
     }
 
     for (var document in allDocumentItems) {
-
-      docItems.push(<DocumentItem key={document} lightTheme={lightTheme} langStates={langStates} numLangs={numLangs} documentItem={allDocumentItems[document]} />);
+      docItems.push(<DocumentItem key={"document" + i} lightTheme={lightTheme} langStates={langStates} numLangs={numLangs} documentItem={allDocumentItems[document]} />);
       i++;
-
     }
 
     return (

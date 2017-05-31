@@ -18,14 +18,14 @@ var DocumentItem = createReactClass({
       divStyle["fontFamily"] = "CSNewAthanasius";
       divStyle["fontSize"] = "18px";
     } else if (lang == "ara") {
-      divStyle["text-align"] = "right";
+      divStyle["textAlign"] = "right";
       //divStyle["fontSize"] = "18px";
     }
-    divStyle["width"] = Math.floor(100 / this.props.numLangs) - 2 + "%";
+    divStyle["width"] = Math.floor(100 / this.props.numLangs) + "%";
     return divStyle;
   },
 
-  createDocumentElement: function (doc, elementType, theme) {
+  createDocumentElement: function (doc, elementType, theme, idx) {
     var text = [];
     for (var lang in doc) {
       if (!this.props.langStates[lang]) {
@@ -41,7 +41,7 @@ var DocumentItem = createReactClass({
             doc[lang][i]
           );
           text.push(
-            <div key={elementType + lang + i} className="doc-item" style={this.langStyle(lang)}>
+            <div key={elementType + lang + i + idx} className="doc-item" style={this.langStyle(lang)}>
               {element}
             </div>
           );
@@ -53,21 +53,21 @@ var DocumentItem = createReactClass({
           doc[lang]
         );
         text.push(
-          <div key={elementType + lang} className="doc-item" style={this.langStyle(lang)}>
+          <div key={elementType + lang + idx} className="doc-item" style={this.langStyle(lang)}>
             {element}
           </div>
         );
       }
     }
-    return text;
+    return this.swapArray(text);
   },
 
-  splitArray: function (array) {
+  swapArray: function (array) {
     var newArray = []
     var numLangs = this.props.numLangs;
     var offset = array.length / numLangs;
 
-    for (var i = 0; i < array.length; i+=numLangs) {
+    for (var i = 0; i < array.length; i += numLangs) {
       for (var j = 0; j < numLangs; j++) {
         newArray[i + j] = array[offset * j + i / numLangs]
       }
@@ -76,29 +76,16 @@ var DocumentItem = createReactClass({
     return newArray;
   },
 
-  parseDocument: function (keys, elementType, theme) {
-    var text = []
-    var doc = this.props.documentItem;
+  parseDocument: function (doc, elementType, theme, idx) {
+    var text = this.createDocumentElement(doc, elementType, theme);
 
-    doc = doc[keys[0]];
-
-    // TODO: improve this method, too hacky
-    if (Array.isArray(doc)) {
-      for (var i = 0; i < doc.length; i++) {
-        text = text.concat(this.createDocumentElement(doc[i][keys[1]], elementType, theme));
-      }
-
-    } else {
-      text = this.createDocumentElement(doc, elementType, theme);
-    }
-
-    text = this.splitArray(text);
     return (
-      <div key={keys[0] + elementType} className="doc-row">
+      <div key={idx + elementType} className="doc-row">
         {text}
       </div>
     );
   },
+
 
   render: function () {
     var documentItem = this.props.documentItem;
@@ -106,10 +93,13 @@ var DocumentItem = createReactClass({
     var collection = []
 
     collection = [
-      this.parseDocument(["title"], "h3", sectionTheme),
-      this.parseDocument(["items", "user"], "h4", sectionTheme),
-      this.parseDocument(["items", "text"], "p", sectionTheme)
+      this.parseDocument(documentItem.title, "h3", sectionTheme)
     ]
+
+    for (var i = 0; i < documentItem.items.length; i++) {
+      collection.push(this.parseDocument(documentItem.items[i].user, "h4", sectionTheme, i))
+      collection.push(this.parseDocument(documentItem.items[i].text, "p", sectionTheme, i))
+    }
 
     return (
       <div key={"doc-item-" + Object.keys(documentItem).length} className="main-section">

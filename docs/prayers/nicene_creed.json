@@ -1,13 +1,15 @@
 {
   "title": {
     "eng": "Orthodox Creed",
-    "cop": "Tennah] `eOunou] `nouwt"
+    "cop": "Tennah] `eOunou] `nouwt",
+    "ara": "قانون الإيمان الأرثوذكسي"
   },
   "items": [
     {
       "user": {
         "eng": "People",
-        "cop": "Pilaoc"
+        "cop": "Pilaoc",
+        "ara": "الشعب "
       },
       "text": {
         "eng": [
@@ -15,6 +17,9 @@
         ],
         "cop": [
           "Tennah] `eOunou] `nouwt@ `Vnou] `Viwt Pipantokratwr@ vy`etaf;amio `n`tve nem `pkahi@ ny`etounau `erwou nem ny`ete `ncenau `erwou an. Tennah] `eOu[oic `nouwt I=y=c P=,=c `Psyri `m`V]@ pimonogenyc@ pimici `ebol qen `Viwt qajwou `nni`ewn tyrou@ Ououwini `ebol qen Ououwini@ Ounou] `nta`vmyi `ebol qen Ounou] `nta`vmyi. Oumici pe ou;amio an pe@ ou`omooucioc pe nem `Viwt@ vy`eta hwb niben swpi `ebol hitotf. Vai `ete e;byten `anon qa nirwmi nem e;be penoujai@ af`i `epecyt `ebol qen `tve@ af[icarx `ebol qen Pi=p=n=a =e=;=u nem `ebol qen Maria }par;enoc ouoh aferrwmi. Ouoh auer`ctaurwnin `mmof `e`hryi `ejwn nahren Pontioc Pilatoc@ afsepemkah ouoh aukocf. Ouoh aftwnf `ebol qen nye;mwout qen pi`ehoou `mmahsomt kata ni`gravy. Afsenaf `e`pswi `enivyou`i@ afhemci caou`inam `mPefiwt@ ke palin `fnyou qen pef`wou `e]hap `enyetonq nem nye;mwout@ vy`ete tefmetouro oua;mounk te. Ce tennah] `ePi`pneuma E;ouab `P[oic `nRef] `m`pwnq@ vye;nyou `ebol qen `Viwt@ ceouwst `mmof ce]`wou naf nem `Viwt nem `Psyri@ vy`etafcaji qen ni`provytyc. `Eou`i `n`agia `nka;oliky `n`apoctoliky `nEkklycia. Tener`omologin `nouwmc `nouwt `e`p,w `ebol `nte ninobi. Tenjoust `ebol qa `thy `n]`anactacic `nte nirefmwout@ nem piwnq `nte pi`ewn e;nyou. `Amyn."
+        ],
+        "ara" : [
+          "نؤمن بإله واحد، الله الآب، ضابط الكل، خالق السماء والأرض، ما يُرى وما لا يُرى.نؤمن برب واحد يسوع المسيح، إبن الله الوحيد، المولود من الآب قبل كل الدهور، نور من نور، إله حق من إله حق.مولود غير مخلوق، مساوي للآب في الجوهر، الذي به كان كل شئ.هذا الذي من أجلنا نحن البشر، ومن أجل خلاصنا، نزل من السماء، وتجسد من الروح القدس ومن مريم العذراء، وتأنس.وصلب عنا على عهد بيلاطس البنطي، وتألم وقبر. وقام من بين الأموات في اليوم الثالث كما في الكتب.وصعد إلى السموات، وجلس عن يمين أبيه، وأيضاً يأتي في مجده ليدين الأحياء والأموات، الذي ليس لملكه إنقضاء.نعم نؤمن بالروح القدس، الرب المحيي المنبثق من الآب. نسجد له ونمجده مع الآب والإبن، الناطق في الأنبياء.وبكنيسة واحدة مقدسة جامعة رسولية. ونعترف بمعمودية واحدة لمغفرة الخطايا.وننتظر قيامة الأموات وحياة الدهر الآتي. آمين."
         ]
       }
     }

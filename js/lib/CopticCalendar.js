@@ -123,6 +123,7 @@ var getCopticMonthDate = function (CopticMonthObject, year) {
 
 var getCopticDate = function (year, monthIndex, day) {
   var copticMonth = "";
+  var copticMonthIndex = 0;
   var copticDay = day;
   var copticYear = year - 284;
   var copticNewYearDay = isLeapYear(year + 1) ? 12 : 11;
@@ -154,6 +155,7 @@ var getCopticDate = function (year, monthIndex, day) {
 
     if (gregDate >= copticMonthStartDate && gregDate < copticMonthEndDate) {
       copticMonth = m.name;
+      copticMonthIndex = m.index;
       copticDay = Math.floor((gregDate - copticMonthStartDate)/(1000 * 24 * 3600)) + 1;
       break;
     }
@@ -161,6 +163,7 @@ var getCopticDate = function (year, monthIndex, day) {
 
   return {
     month: copticMonth,
+    monthIndex: copticMonthIndex,
     day: copticDay,
     year: copticYear
   };
