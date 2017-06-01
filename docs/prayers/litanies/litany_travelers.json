@@ -1,0 +1,112 @@
+{
+  "title": {
+    "eng": "Litany of the Travelers",
+    "cop": "Ten]ho ouoh tentwbh `ntekmet`aga;oc Pimairwmi",
+    "ara": " أوشية المسافرين "
+  },
+  "items": [
+  {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "We ask and entreat Your goodness, O Lover of Mankind, remember, O Lord, our fathers and our brethren who are traveling."
+        ],
+        "cop": [
+          "Ten]ho ouoh tentwbh `ntekmet`aga;oc Pimairwmi@ `ari`vmeui `P[oic `nnenio] nem nen`cnyou `etause `e`psemmo."
+        ],
+        "ara": [
+          " .نسأل ونطلب من صلاحك يا محب البشر، أُذكر يا رب آباءنا وإخوتنا المسافرين "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Deacon",
+        "cop": "Pidiakwn",
+        "ara": " الشماس "
+      },
+      "text": {
+        "eng": [
+          "Pray for our fathers and brethren who are traveling, and those who intend to travel anywhere. Straighten all their ways, whether by sea, rivers, lakes, roads [air,] or those who are traveling by any other means, that Christ our God may bring them back to their own homes in peace, and forgive us our sins."
+        ],
+        "cop": [
+          "Twbh `ejen nenio] nem nen`cnyou `etause `e`psemmo@ ie nye;meui `ese qen mai niben@ coutwn noumwit tyrou@ `ite `ebol hiten `viom@ ie niiarwou@ ie nilumny ie nimwit `mmosi@ ie pi`ayr ie eu`iri `mpoujinmosi `nry] niben@ hina `nte Pi`,rictoc Pennou] tac;wou `eny`ete nouou `mma `nswni qen ouhiryny@ `ntef,a nennobi nan `ebol."
+        ],
+        "ara": [
+          " .أُطلبوا عن آبائنا وإخوتنا المسافرين، والذين يضمرون السفر في كل موضع، لكي يُسهل طرقهم أجمعين إن كان في البحر أو الأنهار أو البحيرات أو الطرق المسلوكة أو الجو أو المسافرين بكل نوع، لكي المسيح إلهنا يردهم إلى مساكنهم سالمين، ويغفر لنا خطايانا "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+    },
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Kurie `ele`ycon."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+     "user": {
+      "eng": "Priest",
+      "cop": "Piouyb",
+      "ara": " الكاهن "
+    },
+  "text": {
+    "eng": [
+      "And those who intend to travel anywhere, straighten all their ways, whether by sea, rivers, lakes, roads, [air,] or those who are traveling by any others means, everyone anywhere. Lead them into a haven of calm, a haven of safety.",
+      "Graciously accompany them in their departure and be thir companion in their travel.",
+      "Bring them back to their own, rejoicing with joy and safe in security.",
+      "Be a fellow worker with Your servants in every good deed.",
+      "As for us, too, O Lord, keep our sojourn in this life without harm, without storm, and undisturbed to the end."
+
+    ],
+    "cop": [
+      "Ie nye;meui `ese qen mai niben@ coutwn noumwit tyrou@ `ite `ebol hiten `viom@ ie niiarwou@ ie nilumny@ ie nimwit `mmosi@ ie nimwit ie eu`iri `mpoujinmosi `nry] niben@ ouon niben et qen mai niben@ ma`tvwou `eqoun `eoulumyn `njamy@ `eoulumyn `nte pioujai.",
+      "`Arikataxioin `ari`svyr `n`s[yr nem `svyr `mmosi nemwou.",
+      "Myitou `eny`ete nouou qen ourasi eurasi@ qen outoujo eutoujyout.",
+      "Ari`svyr `nerhwb nem nek`ebiaik qen hwb niben `n`aga;on.",
+      "Anon de hwn `P[oic tenmetrem`njwili et qen paibioc vai@ `areh `eroc `nateblaby `nat,imwn `nat`s;orter sa `ebol."
+    ],
+    "ara":[
+      " .والذين يضمرون السفر في كل مكان، سهل طرقهم أجمعين، إن كان في البحر أو الأنهار أو البحيرات أو الطرق المسلوكة أو الجو أو السالكين بكل نوع، كل أحد بكل موضع ردهم إلى ميناء هادئة، ميناء الخلاص ",
+      " .تفضل إصحبهم في الإقلاع، وإصحبهم في المسير ",
+      " .ردهم إلى منازلهم بالفرح فرحين، وبالعافية معافين ",
+      " .إشترك في العمل مع عبيدك في كل عمل صالح ",
+      " .ونحن أيضاً يا رب غربتنا في هذا العمر، إحفظها بغير مضرة ولا عاصف ولا قلق إلى الإنقضاء "
+    ]
+   }
+  },
+  {
+     "user": {
+       "eng": "People",
+       "cop": "Pilaoc",
+       "ara": "الشعب "
+   },
+   "text": {
+     "eng": [
+       "Lord have mercy."
+     ],
+     "cop": [
+       "Kurie `ele`ycon."
+     ],
+     "ara":[
+       " .يا ربُّ إرحَم"
+      ]
+     }
+    }
+   ]
+}
