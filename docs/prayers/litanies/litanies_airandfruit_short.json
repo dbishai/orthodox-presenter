@@ -59,6 +59,52 @@
         " (3).يا ربُّ إرحَم"
       ]
     }
+  },
+  {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Raise them to their measure according to Your grace. Give joy to the face of the earth. May its furrows be abundantly watered and its fruits be plentiful. Prepare it for sowing and harvesting. Manage our life as deemed fit",
+          "Bless the crown of the year with Your goodness for the sake of the poor of Your people, the widow, the orphan, the traveler, the stranger, and for the sake of all of us who entreat You and seek Your holy name.",
+          "For the eyes of everyone wait upon You, for You give them their food in due season",
+          "Deal with us according to Your goodness, O You who give food to all flesh. Fill our hearts with joy and gladness, that we, too, having sufficiemcy in everything always, may abound in every good deed."
+        ],
+        "cop": [
+          "`Anitou `e`pswi kata nousi kata vy`ete vwk `n`hmot@ ma `pounof `m`pho `m`pkahi. Marou;iqi `nje nef`;lwm@ marou`asai `nje nefoutah. Cebtwtf `eou`jroj nem ouwcq. Ouoh `arioikonomin `mpenjinwnq kata peternofri.",
+          "`Cmou `epi`,lom `nte ]rompi hiten tekmet`,ryctoc@ e;be nihyki `nte peklaoc@ e;be ],yra nem piorvanoc nem pisemmo nem pirem`njwili@ nem e;byten tyren qa nyeterhelpic `erok@ ouoh ettwbh `mpekran e;ouab.",
+          "Je nenbal `nouon niben ceerhelpic `erok@ je `n;ok et] `ntou`qre nwou qen oucyou `enanef.",
+          "`Ariou`i neman kata tekmet`aga;oc@ vyet]`qre `ncarx niben@ moh `nnenhyt `nrasi nem ouounof@ hina `anon hwn `ere `vrwsi `ntoten qen hwb niben `ncyou niben@ `ntenerhou`o qen hwb niben `n`aga;on."
+        ],
+        "ara": [
+          " .اصعِدْها كمقدارِها كنعمَتِكَ، فَرِّحْ وجهَ الأرضِ، ليُرْوَ حرثُها ولتكثرَ أثمارُها. أعِدَّها للزرعِ والحصادِ، ودَبِّر حياتَنا كما يليق ",
+          " .بَارِكْ إكليلَ السنةِ بصلاحِكَ، من أجلِ فقراءِ شعبِكَ، من أجلِ الأرملةِ واليتيمِ والغريبِ والضيفِ، ومن أجلِنا كُلِّنا نحنُ الذين نرجوكَ ونطلبُ إسمَكَ القدوس ",
+          " .لأن أعينَ الكلِّ تترجاكَ، لأنَّكَ أنتَ الذي تُعطِيهم طعامَهم في حينٍ حسنٍ ",
+          " .إصنع معنا حَسَبَ صلاحِكَ، يا مُعطِياً طعاماً لكلِّ جسدٍ. املأ قلوبَنا فرحاً ونعيماً، لكي نحنُ أيضاً إذ تكونَ لنا الكفايةُ في كلِّ شيءٍ، كلَّ حينٍ، نزدادَ في كلِّ عملٍ صالحٍ "
+
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+    },
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Kurie `ele`ycon."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
   }
    ]
 }
