@@ -12,25 +12,25 @@ var NavMenu = {
     "date": {
         "id": "date",
         "title": "Date",
-        "url": "#",
+        "url": null,
         "span_class": "glyphicon glyphicon-calendar"
     },
     "lang": {
         "id": "lang",
         "title": "Languages",
-        "url": "#",
+        "url": null,
         "span_class": "glyphicon glyphicon-list"
     },
     "mode": {
         "id": "mode",
         "title": "Presentation Mode",
-        "url": "#",
+        "url": null,
         "span_class": "glyphicon glyphicon-blackboard"
     },
     "theme": {
         "id": "theme",
         "title": "Theme",
-        "url": "#",
+        "url": null,
         "span_class": "glyphicon glyphicon-text-background"
 }
 };
