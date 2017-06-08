@@ -1,0 +1,44 @@
+{
+  "title": {
+    "eng": "Doxology for St. Mark the Evangelist",
+    "cop": "Markoc piapoctoloc",
+    "ara" : " مارمرقس "
+
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "O Mark the Apostle / and the Evangelist / the witness of the Passion / of the only-begotten God.",
+          "You have come and enlightened us / through your Gospel / and taught us about the Father and the Son / and the Holy Spirit.",
+          "You brought us out of darkness / into the true Light / feeding us the Bread of Life / that came down from heaven.",
+          "All the tribes of the earth / were blessed through you /and your saying have reached / the ends of the world",
+          "Hail to you, O martyr / Hail to the Evangelist / Hail to the Apostle / Mark the Beholder of God.",
+          "Pray to the Lord on our behalf / O Beholder of God, the Evangelist / Mark the apostle / that He may forgive us our sins."
+        ],
+        "cop": [
+          "Markoc pi`apoctoloc@ ouoh pi`eu`aggelictyc@ pime;re qa ni`mkauh@ `nte pimonogenyc `nnou].",
+          "Ak`i ak`er`ouwini `eron@ hiten pek`eu`aggelion@ ak`tcabon `m`Viwt nem `pSyri@ nem pi`Pneuma =e=;=u.",
+          "Akenten `ebolqen `p,aki@ eqoun `epiOuwini `mmyi@ aktemmon `mpiwik `nte `pwnq@ etaf`i `epecyt `ebolqen `tve.",
+          "Au[i`cmou `n`qryi `nqytk@ `nje nivuly tyrou `nte `pkahi@ ouoh nekcaji auvoh@ sa auryjc `n]oikoumeny.",
+          "<ere nak `w pimarturoc@ ,ere pi`eu`aggelictyc@ ,ere pi`apoctloc@ abba Markoc pi;ewrimoc.",
+          "Twbh `m`P=o=c `e`hryi `ejwn@ w pi;ewrimoc `n`eu`aggelictyc@ abba Markoc pi`apoctoloc@ `ntef ,a nennobi nan `ebol."
+        ],
+        "ara": [
+          " .يا مرقس الرسول والانجيلى الشاهد لآلام الاله الوحيد ",
+          " .أتيت وأنرت لنا بانجيلك وعلمتنا الآب والابن والروح القدس ",
+          " .وأخرجتنا من الظلمة الى النور الحقيقى. وأطعمتنا خبز الحياة الذى نزل من السماء ",
+          " .تباركت بك كل قبائل الأرض. وأقوالك بلغت الى أقطار المسكونة ",
+          " .السلام لك أيها الشهيد السلام للانجيلى. السلام للرسول مرقس ناظر الاله "
+          " .أُطلب من الرب عنا، يا ناظر الإله الإنجيلي، مرقس الرسول، ليغفر لنا خطايانا ",
+        ]
+
+      }
+    }
+  ]
+}
