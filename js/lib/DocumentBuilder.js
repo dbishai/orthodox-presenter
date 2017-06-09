@@ -1,8 +1,9 @@
-var CopticCalendar = require('CopticCalendar.js');
+var CopticCalendar = require('./CopticCalendar.js');
+var CopticDateComparator = CopticCalendar.CopticDateComparator;
 
 var verses_of_the_cymbals = function (attributes, selector) {
     var day_tune = CopticCalendar.AdamOrWatos(attributes.year, attributes.monthIndex, attributes.day);
-    docs = []
+    var docs = []
     if (day_tune == "adam") {
         docs.push("hymns/adam_intro_verses_of_the_cymbals");
     } else {
@@ -16,7 +17,7 @@ var verses_of_the_cymbals = function (attributes, selector) {
 var doxologies = function (attributes, selector) {
     //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     //var easterDate = CopticCalendar.getEasterDate(attributes.year);
-    docs = []
+    var docs = []
     docs.push("hymns/doxologies/doxologies_intro");
     if (selector == "vespers") {
         docs.push("hymns/doxologies/stmary_vespers");
@@ -33,6 +34,23 @@ var doxologies = function (attributes, selector) {
     return docs;
 };
 
+var concluding_hymn = function (attributes) {
+    var docs = []
+    var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
+    var copticMonthIndex = copticDate.monthIndex;
+    var copticDay = copticDate.day;
+    // start and end dates are inclusive
+    if (CopticDateComparator("Paone", 12, "Paope", 9, copticMonthIndex, copticDay)) {
+        docs.push("hymns/concluding_hymn_waters");
+    } else if (CopticDateComparator("Paope", 10, "Tobe", 10, copticMonthIndex, copticDay)) {
+        docs.push("hymns/concluding_hymn_seeds");
+    } else if (CopticDateComparator("Tobe", 11, "Paone", 11, copticMonthIndex, copticDay)) {
+        docs.push("hymns/concluding_hymn_air");
+    }
+
+    return docs;
+};
+
 var Vespers = function (attributes) {
 
     //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
@@ -40,13 +58,13 @@ var Vespers = function (attributes) {
     docs.push("prayers/intro_offering_of_incense.json");
     docs.push("prayers/our_father");
     docs.push("prayers/thanksgiving_prayer");
-    docs.concat(verses_of_the_cymbals(attributes));
+    docs = docs.concat(verses_of_the_cymbals(attributes));
     docs.push("prayers/litanies/litany_departed");
     //docs.push("prayers/graciously_accord");
     docs.push("prayers/trisagion");
     docs.push("prayers/our_father");
     // doxologies
-    docs.concat(doxologies(attributes, "vespers"));
+    docs = docs.concat(doxologies(attributes, "vespers"));
     docs.push("prayers/intro_creed");
     docs.push("prayers/nicene_creed");
     docs.push("prayers/ogodhave_mercyonus");
@@ -57,6 +75,7 @@ var Vespers = function (attributes) {
     docs.push("prayers/litanies/litanies_fathers_short");
     docs.push("prayers/litanies/litany_place_short");
     docs.push("prayers/our_father");
+    docs = docs.concat(concluding_hymn(attributes));
 
     return docs;
 }
@@ -69,7 +88,7 @@ var Matins = function (attributes) {
     docs.push("prayers/intro_offering_of_incense.json");
     docs.push("prayers/our_father");
     docs.push("prayers/thanksgiving_prayer");
-    docs.concat(verses_of_the_cymbals(attributes));
+    docs = docs.concat(verses_of_the_cymbals(attributes));
 
     // On Saturday morning Litany of Departed is said instead
     if (day < 6) {
@@ -79,17 +98,17 @@ var Matins = function (attributes) {
     }
     // On Saturdays, Sundays, and feasts of the Lord, Litany of Travelers is not said
     if (day != 6 && day != 0) {
-        docs.push("prayers/litanies/litany_oblations");
-    } else {
         docs.push("prayers/litanies/litany_travelers");
+    } else {
+        docs.push("prayers/litanies/litany_oblations");
     }
 
     docs.push("prayers/litanies/the_gloria");
-    //docs.push("prayers/let_us_praise);
     docs.push("prayers/trisagion");
     docs.push("prayers/our_father");
     // doxologies
-    docs.concat(doxologies(attributes, "matins"));
+    docs = docs.concat(doxologies(attributes, "matins"));
+
     docs.push("prayers/intro_creed");
     docs.push("prayers/nicene_creed");
     docs.push("prayers/ogodhave_mercyonus");
@@ -99,6 +118,7 @@ var Matins = function (attributes) {
     docs.push("prayers/litanies/litanies_fathers_short");
     docs.push("prayers/litanies/litany_place_short");
     docs.push("prayers/our_father");
+    docs = docs.concat(concluding_hymn(attributes));
 
     return docs;
 }

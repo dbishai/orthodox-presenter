@@ -23,6 +23,12 @@ var sections = {
                         "load": "verses_of_the_cymbals"
                     }
                 }*/
+            },
+            "2d": {
+                "id": "2d",
+                "title": "MATINS",
+                "load": "matins"
+
             }
         }
     }
