@@ -1,0 +1,38 @@
+{
+  "tag": "standard",
+  "title": {
+    "eng": "Trisagion",
+    "cop": "Agioc `o :eoc...",
+    "ara" : " الثلاث تقديسات "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Holy God, Holy Mighty, Holy Immortal, who was born of the Virgin, have mercy upon us.",
+          "Holy God, Holy Mighty, Holy Immortal, who was crucified for us, have mercy upon us.",
+          "Holy God, Holy Mighty, Holy Immortal, who rose from the dead and ascended into the heavens, have mercy upon us.",
+          "Glory to the Father the Son and the Holy Spirit, now and ever and unto the ages of the ages. Amen. O Holy Trinity, have mercy upon us."
+        ],
+        "cop": [
+          "Agioc `o :eoc@ `agioc Ic,uroc@ `agioc `A;anatoc@ `o ek par;enou genne;yc `ele`ycon `ymac.",
+          "Agioc `o :eoc@ `agioc Ic,uroc@ `agioc `A;anatoc@ `o `ctaurw;ic di `ymac `ele`ycon `ymac.",
+          "Agioc `o :eoc@ `agioc Ic,uroc@ `agioc `A;anatoc@ `o `anactac ek twn nekrwn ke `anel;wn ic touc ouranouc `ele`ycon `ymac.",
+          "Doxa Patri ke `Uiw ke `Agiw `Pneumati@ ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn. `Amyn. Agia `Triac `ele`ycon `ymac."
+        ],
+        "ara":[
+          " .قُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الَّذي وُلِدَ مِنَ العَذْراءِ، إرْحَمْنا ",
+          " .قُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الَّذي صُلِبَ عنَّا، إرْحَمْنا ",
+          " .قُدُّوسٌ الله، قُدُّوسٌ القَويُّ، قُدُّوسٌ الحَيُّ الَّذي لا يَموتُ، الذي قامَ مِنَ الأمْواتِ وصَعِدَ إلَى السَّمواتِ، إرْحَمْنا ",
+          " المجد للآب والإبن والروح القدس، الآن وكل أوان وإلى دهر الدهور. آمين.أيها الثالوث القدوس، إرحمنا "
+
+        ]
+      }
+    }
+  ]
+}

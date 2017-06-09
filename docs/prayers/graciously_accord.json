@@ -1,0 +1,41 @@
+{
+  "tag": "vespers",
+  "title": {
+    "eng": "Graciously Accord, O Lord",
+    "cop": "Arikataxion `P[oic",
+    "ara" : " تفضل يا رب "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Graciously accord, O Lord, to keep us this night without sin. Blessed are You, O Lord, God of our fathers amd exceedingly blessed and glorified be Your Name forever. Amen. Let Your mercy, O Lord, be upon us, according to our hope in You, for the eyes of everyone wait upon You, for You give them their food in due season. ",
+          "Hear us, O God our Savior, the hope of all regions of the earth. And You, O Lord, keep us safe from this generation and forever. Amen. Blessed are You, O Lord; teach me Your statutes. Blessed are You, O Lord; make me to understand Your commandments. Blessed are You, O Lord; enlighten me with Your righteousness.",
+          "Your mercy, O Lord, endures forever. Despise not, O Lord, the works of Your hands. You have been my refuge from generation to generation. I asked the Lord and said, \"Have mercy on me; heal my soul, for I have sinned against You.\",",
+          "Lord, I have fled unto You, save me, and teach me to do Your will, for You are my God, and with You is the fountain of life. In Your light, shall we see light. Let Your mercy come unto those who know You and Your righteousness unto the upright in heart. To You belongs blessing. To You belongs praise. To You belongs Glory.",
+          "O Father, Son and Holy Spirit, existing from the beginning, now, and forever and ever Amen. It is good to give thanks to the Lord, and sing His name, O most high; to show forth Your mercy every morning, and Your righteousness every night."
+        ],
+        "cop": [
+          "Arikataxion `P[oic `ntek`areh `eron qen pai`ehoou `enoi `na;nobi. `K`cmarwout `P[oic `Vnou] `nte nenio]@ `k`erhou`o `cmarwout@ `fmeh `n`wou `nje pekran e;ouab sa `eneh `amyn. Mareswpi `nje pekran `e`hryi `ejwn `P[oic@ kata `vry] `etanerhelpic `erok. Je nenbal `nouon niben ceerhelpic `erok@ je `n;ok e;na] `ntou`qre nwou qen `pcyou `ntyic. ",
+          "Cwtem `eron `Vnou] Pencwtyr@ ]helric `nte auryjf `m`pkahi tyrf. `N;ok de `P[oic ek`e`areh `eron@ ek`enahmen ek`etoujon `ebol hitotf@ `mpaijwou vai nem sa `eneh `amyn. `K`cmarwout `P[oic ma`tcaboi `enekme;myi. `K`cmrawout `P[oic maka] nyi `enekme;myi. `K`cmrawout `P[oic ma `vouwini nyi `enekme;myi.",
+          "P[oic peknai sop sa `eneh@ ni`hbyou`i `nte nekjij `P[oic `mper,au `ncwk. Je akswpi nan `nouma`mvwt icjen jwou sa jwou. `Anok aijoc je `P[oic nai nyi@ matoujo `nta'u,y je aiernobi `erok.",
+          "P[oic aivwt harok@ nahmet ma`tcabon `mpetehnak@ je `n;ok pe Panou]. `C,y qatotk `nje ]moumi `nte `pwnq@ qen pekouwini `P[oic en`enau `epiouwini. Maref`i `nje peknai `nnyetcwoun `mmok@ ouoh tekme;myi `nnyetcoutwn qen pouhyt. `Fersau nak `nje pi`cmou@ `fersau nak `nje pihwc@ `fer`prepi nak `nje piwou.",
+          "	`Viwt nem `Psyri ne Pi`pneuma e;ouab@ vyetsop icjen hy nem ]nou nem sa `eneh `nte pi`eneh `amyn. Nane ouwnh `ebol `m`P[oic `eer'alin `epefran pet[oci@ `e`pjinviri `epeknai `nhan`atoou`i@ nem tefme;myi kata `ejwrh."
+        ],
+        "ara":[
+          " تفضل يا رب أن تحفظنا في هذا اليوم بغير خطية مبارك أنت أيها الرب إله آبائنا ومتزايد بركة، واسمك القدوس مملوء مجدا إلى الأبدأمين فلتكن رحمتك علينا يا رب كمثل اتكالنا عليك، لأن أعين الكل تترجاك، لأنك أنت الذي تعطيهم طعامهم في حينه ",
+          " اسمعنا يا الله مخلصنا يا رجاء أقطار الأرض كلها وأنت يا رب تحفظنا وتنجينا من هذا الجيل وإلى الأبدأمين مبارك أنت يا رب، علمني عدلك، مبارك أنت يا رب، فهمني حقوقك ",
+          " مبارك أنت يا رب، أنر لي برك يا رب رحمتك دائمة إلى الأبد أعمال يديك يا رب لا ترفضها، لأنك صرت لي ملجأ من جيل إلى جيل أنا طلبت الرب وقلت: ارحمني وخلص نفسي، فإني أخطأت إليك ",
+          " يا رب التجأت إليك فخلصني، وعلمني أن أصنع مشيئتك لأنك أنت هو إلهي، وعندك ينبوع الحياة، وبنورك يا رب نعاين النور فلتأت رحمتك للذين يعرفونك، وبرك للمستقيمي القلوب لك تجب البركة لك يحق التسبيح لك ينبغي التمجيد ",
+          " أيها الآب والابن والروح القدس، الكائن منذ البدء والآن وإلى الأبد آمين جيد هو الاعتراف للرب، والترتيل لاسمك أيها العلي أن يخبر برحمتك في الغدوات، وحقك في كل ليلة "
+
+        ]
+      }
+    }
+  ]
+}

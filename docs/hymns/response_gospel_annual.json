@@ -1,0 +1,33 @@
+{
+  "title": {
+    "eng": "The Annual Gospel Response",
+    "cop": "Marenouwst `mPencwtyr",
+    "ara" : " (مرد الإنجيل (سنوي "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Let us worhip our Savior, the Good One and Lover of Mankind, for He had compassion on us and has come and saved us",
+          "Intercede on our behalf, O Lady of us all, the Theotokos, Mary, the mother of our Savior, that He may forgive us our sins.",
+          "Blessed be the Father and the Son / and the Holy Spirit / the perfect Trinity / we worship Him and glorigy Him."
+        ],
+        "cop": [
+          "Marenouwst `mPencwtyr@ Pimairwmi `n`aga;oc@ je `n;of afsenhyt qaron@ af`i ouoh afcw] `mmon.",
+          "`Ari`precbeuin `e`hryi `ejwn@ `w ten[oic `nnyb tyren };e`otokoc@ Maria `:mau `mPencwtyr@ `ntef,a nennobi nan `ebol.",
+          "Je `f`cmarwout `nje `Viwt nem `Psyri@ nem Pi`pneuma E;ouab@ }`triac etjyk `ebol@ tenouwst `mmoc ten]`wou nac."
+        ],
+        "ara":[
+          " .فلنسجد لمخلصنا، محب البشر الصالح، لأنه تراءف علينا، أتى وخلصنا ",
+          " .إشفعي فينا أمام الرب، يا سيدتنا كلنا السيدة والدة الإله، مريم أم مخلصنا، ليغفر لنا خطايانا ",
+          " .لأنه مبارك الآب والإبن، والروح القدس، الثالوث الكامل، نسجد له ونمجده "
+        ]
+      }
+    }
+  ]
+}
