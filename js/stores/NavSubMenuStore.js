@@ -19,6 +19,7 @@ Attributes = {
   arabicCheckbox: false,
   lightThemeCheckbox: false,
   presentationModeCheckbox: false,
+  todayDate: today,
   day: today.getDate(),
   monthIndex: today.getMonth(),
   year: today.getFullYear(),

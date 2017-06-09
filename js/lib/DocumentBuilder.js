@@ -34,6 +34,25 @@ var doxologies = function (attributes, selector) {
     return docs;
 };
 
+var short_litanies = function (attributes) {
+    var docs = []
+    var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
+    var copticMonthIndex = copticDate.monthIndex;
+    var copticDay = copticDate.day;
+
+    docs.push("prayers/litanies/litanies_peace_short");
+    docs.push("prayers/litanies/litanies_fathers_short");
+    docs.push("prayers/litanies/litany_place_short");
+    // start and end dates are inclusive
+
+    if (CopticDateComparator("Tobe", 11, "Paone", 11, copticMonthIndex, copticDay)) {
+        docs.push("prayers/litanies/litanies_airandfruit_short");
+    }
+    docs.push("prayers/litanies/litany_assemblies");
+
+    return docs;
+};
+
 var concluding_hymn = function (attributes) {
     var docs = []
     var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
@@ -55,12 +74,12 @@ var Vespers = function (attributes) {
 
     //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var docs = [];
-    docs.push("prayers/intro_offering_of_incense.json");
+    docs.push("prayers/intro_offering_of_incense");
     docs.push("prayers/our_father");
     docs.push("prayers/thanksgiving_prayer");
     docs = docs.concat(verses_of_the_cymbals(attributes));
     docs.push("prayers/litanies/litany_departed");
-    //docs.push("prayers/graciously_accord");
+    docs.push("prayers/graciously_accord");
     docs.push("prayers/trisagion");
     docs.push("prayers/our_father");
     // doxologies
@@ -69,11 +88,8 @@ var Vespers = function (attributes) {
     docs.push("prayers/nicene_creed");
     docs.push("prayers/ogodhave_mercyonus");
     docs.push("prayers/litanies/litany_gospel");
-    docs.push("hymns/response_gospel_annual.json");
-
-    docs.push("prayers/litanies/litanies_peace_short");
-    docs.push("prayers/litanies/litanies_fathers_short");
-    docs.push("prayers/litanies/litany_place_short");
+    docs.push("hymns/response_gospel_annual");
+    docs = docs.concat(short_litanies(attributes));
     docs.push("prayers/our_father");
     docs = docs.concat(concluding_hymn(attributes));
 
@@ -84,8 +100,8 @@ var Matins = function (attributes) {
 
     //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var docs = [];
-    var day = attributes.day;
-    docs.push("prayers/intro_offering_of_incense.json");
+    var day = attributes.todayDate.getDay();
+    docs.push("prayers/intro_offering_of_incense");
     docs.push("prayers/our_father");
     docs.push("prayers/thanksgiving_prayer");
     docs = docs.concat(verses_of_the_cymbals(attributes));
@@ -103,20 +119,17 @@ var Matins = function (attributes) {
         docs.push("prayers/litanies/litany_oblations");
     }
 
-    docs.push("prayers/litanies/the_gloria");
+    docs.push("prayers/the_gloria");
     docs.push("prayers/trisagion");
     docs.push("prayers/our_father");
     // doxologies
     docs = docs.concat(doxologies(attributes, "matins"));
-
     docs.push("prayers/intro_creed");
     docs.push("prayers/nicene_creed");
     docs.push("prayers/ogodhave_mercyonus");
     docs.push("prayers/litanies/litany_gospel");
-    docs.push("hymns/response_gospel_annual.json");
-    docs.push("prayers/litanies/litanies_peace_short");
-    docs.push("prayers/litanies/litanies_fathers_short");
-    docs.push("prayers/litanies/litany_place_short");
+    docs.push("hymns/response_gospel_annual");
+    docs = docs.concat(short_litanies(attributes));
     docs.push("prayers/our_father");
     docs = docs.concat(concluding_hymn(attributes));
 

@@ -34,12 +34,14 @@ var SectionItem = createReactClass({
     componentWillUnmount: function () {
         NavSubMenuStore.removeChangeListener(this._onChange);
     },
+    /*
     componentWillUpdate: function () {
         var sectionItem = this.props.sectionItem;
         var attributes = this.props.attributes;
+        console.log(sectionItem.load)
         SectionActions.load(sectionItem.load, attributes);
     },
-
+    */
     render: function () {
         var sectionItem = this.props.sectionItem;
 
