@@ -3,12 +3,14 @@ var EventEmitter = require('events').EventEmitter;
 var assign = require('object-assign');
 
 var NavMenu = {
+    /*
     "home": {
         "id": "home",
         "title": "Home",
         "url": "index.html",
         "span_class": "glyphicon glyphicon-home"
     },
+    */
     "date": {
         "id": "date",
         "title": "Date",
