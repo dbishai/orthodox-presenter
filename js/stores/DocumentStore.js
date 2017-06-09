@@ -3,6 +3,7 @@ var EventEmitter = require('events').EventEmitter;
 var OPConstants = require('../constants/OPConstants');
 var assign = require('object-assign');
 var CopticCalendar = require('../lib/CopticCalendar.js');
+var DocumentBuilder = require('../lib/DocumentBuilder.js');
 
 var CHANGE_EVENT = 'change';
 
@@ -23,7 +24,10 @@ function load(doc, attributes) {
 function autoLoad(category, attributes) {
     var docs;
     if (category == "vespers") {
-        docs = section.Vespers(attributes);
+        docs = DocumentBuilder.Vespers(attributes);
+    }
+    else if (category == "matins") {
+        docs = DocumentBuilder.Matins(attributes);
     } else {
         docs = ["prayers/nicene_creed"];
     }
@@ -74,38 +78,7 @@ function downloadAsync(docs) {
         });
 };
 
-var section = {
 
-    Vespers: function (attributes) {
-        var day_tune = CopticCalendar.AdamOrWatos(attributes.year, attributes.monthIndex, attributes.day);
-        var docs = [];
-        docs.push("prayers/our_father");
-        docs.push("prayers/thanksgiving_prayer");
-        if (day_tune == "adam") {
-            docs.push("hymns/adam_intro_verses_of_the_cymbals");
-        } else {
-            docs.push("hymns/watos_intro_verses_of_the_cymbals");
-        }
-        docs.push("hymns/verses_of_the_cymbals");
-        docs.push("prayers/litanies/litany_departed");
-        //docs.push("prayers/graciously_accord");
-        docs.push("prayers/trisagion");
-        docs.push("prayers/our_father");
-        docs.push("hymns/doxologies/doxologies_intro");
-        docs.push("hymns/doxologies/stmary_vespers");
-        docs.push("hymns/doxologies/doxologies_concl");
-        docs.push("prayers/intro_creed");
-        docs.push("prayers/nicene_creed");
-        docs.push("prayers/ogodhave_mercyonus");
-        docs.push("prayers/litanies/litany_gospel");
-        docs.push("prayers/litanies/litanies_peace_short");
-        docs.push("prayers/litanies/litanies_fathers_short");
-        docs.push("prayers/litanies/litany_place_short");
-        docs.push("prayers/our_father");
-
-        return docs;
-    }
-};
 
 var DocumentStore = assign({}, EventEmitter.prototype, {
 

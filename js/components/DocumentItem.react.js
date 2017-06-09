@@ -3,6 +3,11 @@ var PropTypes = require('prop-types');
 var createReactClass = require('create-react-class');
 var classNames = require('classnames');
 
+var Subs = Object.assign(
+  require('../../docs/helpers/users.json'),
+  require('../../docs/helpers/common.json')
+);
+
 var DocumentItem = createReactClass({
 
   propTypes: {
@@ -27,11 +32,17 @@ var DocumentItem = createReactClass({
 
   createDocumentElement: function (doc, elementType, theme, idx) {
     var text = [];
+
+    // substitute helper string for actual content
+    if (typeof doc == "string") {
+      doc = Subs[doc];
+    }
+
     for (var lang in doc) {
+
       if (!this.props.langStates[lang]) {
         continue;
       }
-
 
       if (Array.isArray(doc[lang])) {
         for (var i = 0; i < doc[lang].length; i++) {

@@ -1,0 +1,17 @@
+{
+  "deacon": {
+    "eng": "Deacon",
+    "cop": "Pidiakwn",
+    "ara": "الشماس"
+  },
+  "priest": {
+    "eng": "Priest",
+    "cop": "Piouyb",
+    "ara": "الكاهن"
+  },
+  "people": {
+    "eng": "People",
+    "cop": "Pilaoc",
+    "ara": "الشعب"
+  }
+}

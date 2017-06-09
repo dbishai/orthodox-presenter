@@ -83,8 +83,9 @@ var NavSubMenuItem = createReactClass({
         return (
           <div className="nav-sub-menu-item">
             <div className="checkbox">
-              <Toggle defaultChecked={false} aria-label="..." />
-              <label>useless switch</label>
+              <Toggle defaultChecked={this.props.attributes.presentationModeCheckbox}
+                onChange={this.handlePresentationModeCheckbox} aria-label="..." />
+              <label>{this.props.attributes.presentationModeCheckbox ? "On" : "Off"}</label>
             </div>
           </div>
         );
@@ -137,6 +138,41 @@ var NavSubMenuItem = createReactClass({
     //use jQuery to toggle class on body which is inaccessible by React
     $("body").toggleClass("light-theme-background");
     NavActions.setState("lightThemeCheckbox");
+  },
+
+  handlePresentationModeCheckbox: function () {
+    var checked = this.props.attributes.presentationModeCheckbox;
+    var isInFullScreen = (document.fullScreenElement && document.fullScreenElement !== null) ||
+      (document.mozFullScreen || document.webkitIsFullScreen);
+    var docElm = document.documentElement;
+
+    if (!isInFullScreen && !checked) {
+
+      if (docElm.requestFullscreen) {
+        docElm.requestFullscreen();
+      }
+      else if (docElm.mozRequestFullScreen) {
+        docElm.mozRequestFullScreen();
+      }
+      else if (docElm.webkitRequestFullScreen) {
+        docElm.webkitRequestFullScreen();
+      }
+
+    } else if (isInFullScreen) {
+
+      if (docElm.requestFullscreen) {
+        document.exitFullscreen();
+      }
+      else if (docElm.mozRequestFullScreen) {
+        document.mozCancelFullScreen();
+      }
+      else if (docElm.webkitRequestFullScreen) {
+        document.webkitExitFullscreen();
+      }
+
+    }
+
+    NavActions.setState("presentationModeCheckbox");
   },
 
   handleCheckbox: function (checkbox) {

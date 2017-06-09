@@ -23,6 +23,9 @@
   src: url(../fonts/CS-New-Athanasius.ttf);
 }
 
+html {
+    background-color: #333333;
+}
 body {
   padding-top: 50px;
   background-color: #333333;
