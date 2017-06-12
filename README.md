@@ -1,6 +1,8 @@
 # orthodox-presenter
 Free and open-source web app for use in Coptic Orthodox church services
 
+Live demo: [https://dbishai.github.io/orthodox-presenter/](https://dbishai.github.io/orthodox-presenter/)
+
 ## Setup
 ```
 npm install

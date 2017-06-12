@@ -137,6 +137,7 @@ var NavSubMenuItem = createReactClass({
   handleLightThemeCheckbox: function () {
     //use jQuery to toggle class on body which is inaccessible by React
     $("body").toggleClass("light-theme-background");
+    $("html").toggleClass("light-theme-background");
     NavActions.setState("lightThemeCheckbox");
   },
 
