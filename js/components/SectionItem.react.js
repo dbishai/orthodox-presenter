@@ -47,7 +47,7 @@ var SectionItem = createReactClass({
 
         return (
             <li key={sectionItem.id} className="sidebar-brand nav-menu-item" onClick={this._onClick}>
-                <a href="#">{sectionItem.title}</a>
+                <a href={null}>{sectionItem.title}</a>
             </li>
         );
     },
