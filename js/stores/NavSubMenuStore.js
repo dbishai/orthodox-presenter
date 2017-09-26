@@ -27,11 +27,7 @@ Attributes = {
 };
 
 var setState = function(state) {
-  if (Attributes[state]) {
-    Attributes[state] = false;
-  } else {
-    Attributes[state] = true;
-  }
+  Attributes[state] = !Attributes[state];
 };
 
 var setDate = function(year, monthIndex, day) {

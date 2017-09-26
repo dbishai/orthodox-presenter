@@ -10,7 +10,6 @@ npm start
 ```
 I recommend using the npm package, ["local-web-server"](https://www.npmjs.com/package/local-web-server).
 
-#### Ubuntu instructions
 ```
 sudo -H npm install -g local-web-server
 cd orthodox-presenter
