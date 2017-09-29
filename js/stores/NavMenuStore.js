@@ -34,7 +34,7 @@ var NavMenu = {
         "title": "Theme",
         "url": null,
         "span_class": "glyphicon glyphicon-text-background"
-}
+    }
 };
 
 
@@ -43,7 +43,7 @@ var NavMenuStore = assign({}, EventEmitter.prototype, {
     /**
      * @return {object}
      */
-    getAll: function() {
+    getAll: function () {
         return NavMenu;
     }
 });

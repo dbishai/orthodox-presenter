@@ -6,6 +6,9 @@ var NavActions = require('../actions/NavActions');
 var Toggle = require('react-toggle').default;
 var CopticCalendar = require('../lib/CopticCalendar.js');
 var SingleDatePicker = require('react-dates').SingleDatePicker;
+var NavStore = require('../stores/NavStore');
+var NavActions = require('../actions/NavActions');
+var SectionActions = require('../actions/SectionActions');
 
 var classNames = require('classnames');
 
@@ -21,7 +24,7 @@ var NavSubMenuItem = createReactClass({
     var day = this.props.attributes.day;
     var monthIndex = this.props.attributes.monthIndex;
     return {
-      inputDate: CopticCalendar.getNumericDateString(year, monthIndex, day),
+      inputDate: this.props.attributes.todayDate,
       inputCopticDate: CopticCalendar.getCopticDateString(year, monthIndex, day)
     }
   },
@@ -39,13 +42,25 @@ var NavSubMenuItem = createReactClass({
             <div>
               <label>{this.state.inputCopticDate}</label>
             </div>
-            <SingleDatePicker
-              date={this.state.date} // momentPropTypes.momentObj or null
-              onDateChange={date => this.setState({ date })} // PropTypes.func.isRequired
-              focused={this.state.focused} // PropTypes.bool
-              onFocusChange={({ focused }) => this.setState({ focused })} // PropTypes.func.isRequired
-              enableOutsideDays={true}
-            />
+            <div>
+              <SingleDatePicker
+                date={this.state.inputDate} // momentPropTypes.momentObj or null
+                onDateChange={date => this.handleDateInput(date)} // PropTypes.func.isRequired
+                focused={this.state.focused} // PropTypes.bool
+                onFocusChange={({ focused }) => {
+                  // if side menu is open on mobile, close it
+                  if (!NavStore.getToggleState()) {
+                    NavActions.toggleMenu();
+                  }
+                  this.setState({ focused });
+                }
+                } // PropTypes.func.isRequired
+                enableOutsideDays={true}
+                isOutsideRange={() => false}
+                numberOfMonths={1}
+                withPortal={true}
+              />
+            </div>
           </div>
         );
       case "theme":
@@ -93,19 +108,11 @@ var NavSubMenuItem = createReactClass({
     }
   },
 
-  handleDateInput: function (e) {
-    this.setState({ inputDate: e.target.value });
-    var res = e.target.value.match(/^\d{2}\/\d{2}\/\d{4}$/);
-    if (res != null) {
-      res = res[0].split("/");
-      var monthIndex = parseInt(res[0]) - 1;
-      var day = parseInt(res[1]);
-      var year = parseInt(res[2]);
-      if (monthIndex >= 0 && monthIndex < 12
-        && day <= 31 && day > 0 && year >= 284) {
-        NavActions.setDate(year, monthIndex, day);
-      }
-    }
+  handleDateInput: function (_moment) {
+    this.setState({ inputDate: _moment });
+    NavActions.setDate(_moment.year(), _moment.month(), _moment.date());
+    // since loaded documents are dependent on date, refresh them
+    SectionActions.refresh(this.props.attributes);
   },
 
   handleTimeSelect: function (e) {
