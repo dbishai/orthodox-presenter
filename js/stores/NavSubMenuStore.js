@@ -2,10 +2,10 @@ var AppDispatcher = require('../dispatcher/AppDispatcher');
 var EventEmitter = require('events').EventEmitter;
 var OPConstants = require('../constants/OPConstants');
 var assign = require('object-assign');
-
+var moment = require('moment');
 var CHANGE_EVENT = 'change';
 
-var today = new Date();
+var today = moment();
 /*
 var hours = today.getHours();
 
@@ -20,30 +20,24 @@ Attributes = {
   lightThemeCheckbox: false,
   presentationModeCheckbox: false,
   todayDate: today,
-  day: today.getDate(),
-  monthIndex: today.getMonth(),
-  year: today.getFullYear(),
-  time: today.getHours()
+  day: today.date(),
+  monthIndex: today.month(),
+  year: today.year(),
+  time: today.hours()
 };
 
 var setState = function(state) {
-  if (Attributes[state]) {
-    Attributes[state] = false;
-  } else {
-    Attributes[state] = true;
-  }
+  Attributes[state] = !Attributes[state];
 };
 
 var setDate = function(year, monthIndex, day) {
   Attributes.year = year;
   Attributes.monthIndex = monthIndex;
   Attributes.day = day;
-  NavSubMenuStore.emitChange();
 };
 
 var setTime = function(time) {
   Attributes.time = time;
-  NavSubMenuStore.emitChange();
 };
 
 var NavSubMenuStore = assign({}, EventEmitter.prototype, {

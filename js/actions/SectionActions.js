@@ -9,6 +9,13 @@ var SectionActions = {
       doc: doc,
       attributes: attributes
     });
+  },
+
+  refresh: function(attributes) {
+    AppDispatcher.dispatch({
+      actionType: OPConstants.REFRESH,
+      attributes: attributes
+    });
   }
 
 };

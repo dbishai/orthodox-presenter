@@ -100,7 +100,7 @@ var Matins = function (attributes) {
 
     //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var docs = [];
-    var day = attributes.todayDate.getDay();
+    var day = attributes.todayDate.day();
     docs.push("prayers/intro_offering_of_incense");
     docs.push("prayers/our_father");
     docs.push("prayers/thanksgiving_prayer");
