@@ -48,12 +48,12 @@ var NavSubMenuItem = createReactClass({
                 date={thisState.state.inputDate} // momentPropTypes.momentObj or null
                 onDateChange={function (date) { thisState.handleDateInput(date) }} // PropTypes.func.isRequired
                 focused={thisState.state.focused} // PropTypes.bool
-                onFocusChange={function ({ focused }) {
+                onFocusChange={function (objFocused) {
                   // if side menu is open on mobile, close it
                   if (!NavStore.getToggleState()) {
                     NavActions.toggleMenu();
                   }
-                  thisState.setState({ focused });
+                  thisState.setState({focused: objFocused.focused});
                 }
                 } // PropTypes.func.isRequired
                 enableOutsideDays={true}
