@@ -35,27 +35,27 @@ var NavSubMenuItem = createReactClass({
     var monthIndex = this.props.attributes.monthIndex;
     var navMenuItemId = this.props.navMenuItemId;
     var thisState = this;
-    //var inputCopticDate = CopticCalendar.getCopticDateString(year, monthIndex, day);
+    var inputCopticDate = CopticCalendar.getCopticDateString(year, monthIndex, day);
     switch (navMenuItemId) {
       case "date":
         return (
           <div className="nav-sub-menu-item date">
             <div>
-              <label>{this.state.inputCopticDate}</label>
+              <label>{inputCopticDate}</label>
             </div>
             <div>
               <SingleDatePicker
-                date={thisState.state.inputDate} // momentPropTypes.momentObj or null
-                onDateChange={function (date) { thisState.handleDateInput(date) }} // PropTypes.func.isRequired
-                focused={thisState.state.focused} // PropTypes.bool
+                date={thisState.state.inputDate}
+                onDateChange={function (date) { thisState.handleDateInput(date) }}
+                focused={thisState.state.focused}
                 onFocusChange={function (objFocused) {
                   // if side menu is open on mobile, close it
                   if (!NavStore.getToggleState()) {
                     NavActions.toggleMenu();
                   }
                   thisState.setState({focused: objFocused.focused});
+                  }
                 }
-                } // PropTypes.func.isRequired
                 enableOutsideDays={true}
                 isOutsideRange={function () { false }}
                 numberOfMonths={1}
