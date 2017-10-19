@@ -1,0 +1,56 @@
+{
+  "title": {
+    "eng": "Doxology for All the Heavenly Beings",
+    "cop": "Sasf `nar,y aggeloc",
+    "ara" : "  ذوكصولوجية للسمائيين "
+
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Seven Archangels / praising as they stand / before the Pantocrator / serving the hidden Mystery",
+          "Michael is the first / Gabriel is the second / Rafael is the third / a symbol of the Trinity. ",
+          "Suriel, Sedakiel / Sarathiel, and Ananiel / the great and holy luminaries / entreating Him for the creation.",
+          "The Cherubim and the Seraphim / the thrones, dominions and powers, / the four incorporeal creatures, / carrying the throne of God. ",
+          "The twenty-four presbyters / in the church of the first-born / praising Him without ceasing / proclaming and saying,",
+          "\"Holy God / heal the sick / Holy Mighty / repose those asleep in the Lord\"",
+          "Holy Immortal / bless Your inheritance / may Your mercy and Your peace / be a fortress to Your people.",
+          "Holy, Holy / Holy, O Lord of Hosts / heaven and earth are full of / Your glory and honor",
+          "And when they say \"Alleluia\" / the heavenly respond saying, / \"Holy. Amen Alleluia. / Glory be to our God.\"",
+          "Intercede on our behalf / O angelic armies / and heavenly orders / that He may forgive us our sins."
+        ],
+        "cop": [
+          "Sasf `n`ar,y`aggeloc@ ce`ohi `eratou `eu`erhumnoc@ `mpe`m;o `mpiPantokratwr@ `eusemsi `mmuctyrion `ethyp.",
+          " Mi,ayl pe pihouit@ Gabriyl pe pimah `cnau@ Ravayl pe pimah somt@ kata `ptupoc `n]`Triac.",
+          "Couriyl Cedakiyl@ Cara;iyl nem Ananiyl@ nainis] `nref`erouwini =e=;=u@ ny`etwbh `mmof `e`hryi `ejen picwnt.",
+          "Ni<erobim nem niCeravim@ ni`;ronoc nimet=o=c nijom@ pi`ftoou `nzwon `n`acwmatoc@ etfai qa piharma `n:eoc.",
+          "Pijout `ftoou `m`precbuteroc@ qen ]`ekklycia `nte nisorp `mmici@ `euhwc `erof qen oumet`atmounk@ euws `ebol eujw `mmoc.",
+          "Je `agioc `o :eoc@ ny`etswni matal`[wou@ `agioc Ic,uroc@ ny`etau`enkot P=o=c ma`mton nwou.",
+          "Agioc `A;anatoc@ `cmou `etek`klyronomia@ mare peknai nem tekhiryny@ oi `ncobt `mpeklaoc.",
+          "Je `,ouab ouoh `,ouab@ `,ouab P=o=c cabaw;@ `tve nem `pkahi meh `ebol@ qen pek`wou nem pektaio.",
+          "Ausanjoc `mpi =a=l@ sare nan nivyou`i ouoh `mmwou@ je `agioc `amyn =a=l@ pi`wou va penNou] pe.",
+          "Ari`precbeuin `e`hryi `ejwn@ ni`ctratia `n`aggelikon@ nem nitagma `n`epouranion@ `ntef ,a nennobi nan ebol."
+        ],
+        "ara": [
+          " .سبعة رؤساء ملائكة وقوف يسبحون أمام الضابط الكل يخدمون السر الخفى",
+          " .ميخائيل هو الأول. غبريال هو الثانى. رافائيل هو الثالث. كمثال الثالوث ",
+          " .سوريال سداكيال سراتيال وآنانيال هؤلاء المنيرون العظماء الأطهار يطلبون منه عن الخليقة ",
+          " .الشاروبيم والسارافيم الكراسي والأرباب والقوات الأربعة الحيوانات الغير المتجسدين الحاملون مركبة الله ",
+          " .الأربعة وعشرين قسيساً في كنيسة الأبكار يسبحونه بلا فتور صارخين قائلين ",
+          " .قدوس الله. المرضي إشفهم قدوس القوى. الراقدين يارب نيحهم ",
+          " .قدوس الذى لا يموت بارك ميراثك. ولتكن رحمتك وسلامك حصناً لشعبك ",
+          " .قدوس قدوس قدوس رب الصاباؤوت. السماء والأرض مملوءتان من مجدك وكرامتك ",
+          " .إذا ما قالوا هلليلويا يتبعهم السمائييون قائلين قدوس أمين هلليلويا. المجد هو لإلهنا ",
+          " .إشفعوا فينا أيها العساكر الملائكية والطغمات السمائية ليغفر لنا خطايانا "
+        ]
+
+      }
+    }
+  ]
+}

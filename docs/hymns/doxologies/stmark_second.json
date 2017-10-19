@@ -1,0 +1,44 @@
+{
+  "title": {
+    "eng": "Another Doxology for St. Mark the Evangelist",
+    "cop": "Somt `nran etqen nivyou`i",
+    "ara" : " ثلاثة أسماء فى السموات "
+
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "You wore three names / that are in heaven / O Beholder of God, the Evangelist / Mark the apostle.",
+          "You wore three crowns / the three perfect names / which is the Father, the Son / and the Holy Spirit.",
+          "You are an apostle / you are a martyr / you are also the second / chosen Evangelist.",
+          "Your friends the Apostles / boast about you / and your words have reached / the ends of the world.",
+          "Those whom you planted on earth / throughout the land of Egypt / take pride in you / they blossomed and brought forth fruit",
+          "Pray to the Lord on our behalf / O Beholder of God, the Evangelist / Mark the apostle / that He may forgive us our sins."
+        ],
+        "cop": [
+          "Somt `nran etqen nivyou`i@ `n;ok akervorin emmwou@ pi;ewrimoc `neuaggelictyc@ abba Markos pi`poctoloc.",
+          "Akervorin `mpisomt `n`,lom@ pisomt `nran etjyk `ebol@ `ete vaipe `Viwt nem `pSyri@ nem pi`Pneuma =e=;=u.",
+          "`N;ok ou`apoctoloc@ `n;ok on oumarturoc@ `n;ok on pe pimah `cnau@ `ncwtp `n`eu`aggelictyc.",
+          "Nek ke`svyr `n`apoctoloc@ cesousou `mmwou `e`hryi `ejwk@ ouoh nekcaji auvoh@ sa auryjc `n]oikomeny.",
+          "Cesousou `mmwou `n`qryi `nqytk@ `nje ny`etakto jou hijen pikahi@ qen `t,wra tyrc `n,ymi@ auviri `ebol eu]karpoc.",
+          "Twbh `m`P=o=c `e`hryi `ejwn@ w pi;ewrimoc `n`eu`aggelictyc@ abba Markoc pi`apoctoloc@ `ntef ,a nennobi nan `ebol."
+        ],
+        "ara": [
+          " .ثلاثة أسماء فى السموات، أنت توشحت بها، يا ناظر الإله الإنجيلي، مرقس الرسول ",
+          " .توشحت بثلاثة أكاليل، هي الثلاثه أسماء الكاملة، أي الآب والإبن، والروح القدس ",
+          " .أنت رسول، أنت شهيد، وأنت المختار الثاني، في الإنجليين ",
+          " .وأصدقاؤك الرسل، الأخرون يفخرون بك، وأقوالك بلغت، إلى أقطار المسكونة ",
+          " .ويفخرون بك، الذين غرستهم على الأرض، في كل إقليم مصر، مُثمرين "
+          " .أُطلب من الرب عنا، يا ناظر الإله الإنجيلي، مرقس الرسول، ليغفر لنا خطايانا ",
+        ]
+
+      }
+    }
+  ]
+}

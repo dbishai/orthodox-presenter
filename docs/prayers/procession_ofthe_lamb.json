@@ -1,0 +1,52 @@
+{
+  "title": {
+    "eng": "Procession of the Lamb",
+    "cop": "Ou`wou nem outai`o",
+    "ara": " دورة الحمل "
+  },
+  "items": [
+  {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Glory and honor, honor and glory, to the All-Holy trinity, the Father and the Son, and the Holy Spirit.",
+          "Peace and edification to the one, only, holy, catholic, and apostolic Church of God. Amen.",
+          "Remember, O Lord, those who have brought unto these gifts, those on whose behlaf they have been brought, and those by whom they have been brought. Give them all the heavenly reward."
+        ],
+        "cop": [
+          "Ou`wou nem outai`o@ outai`o nem ou`wou@ `n]pan`agi`a `triac Viwt nem `pSyri nem pi`Pneuma `e;ouab.",
+          "Ouhiryny nem oukw] `ejen ]ou`i `mmauatc `=e=;=u `nka;oliky `n`apoctoliky `nek`klycia `nte V]@ `amyn.",
+          "Ari`vmeu`i P=o=c `nny`etau`ini nak `eqoun `nnai dwron@ nem ny`etau`enou `ejwou@nem ny`etau`enou `ebolhitotou@ moi nwou tyrou `mpibe,e pi`ebolqen nivyou`i."
+
+        ],
+        "ara": [
+          " مجدا وإكراما إكراما ومجدا للثالوث القدوس الآب والإبن والروح القدس ",
+          " سلاما وبنياناً لكنيسة الله الواحدة الوحيدة المقدسة الجامعة الرسولية. آمين ",
+          " أذكر يا رب الذين قدموا لك هذه القرابين والذين قدمت عنهم، والذين قدمت بواسطتهم أعطهم كلهم الأجر السمائي "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Deacon",
+        "cop": "Pidiakwn",
+        "ara": " الشماس "
+      },
+      "text": {
+        "eng": [
+          "Pray for these holy and precious gifts, our sacrifices, and those who have brought them. Lord have mercy."
+        ],
+        "cop": [
+          "Proceuxac;e `uper twn `agiwn timiwn dwron toutwn ke ;uciwn `ymwn ke procverontwn@ Kurie `ele`ycon."
+        ],
+        "ara": [
+          " صلوا من أجل هذه القرابين المقدسة الكريمة وضحايانا والذين قدموها. يا رب ارحم "
+        ]
+      }
+    }
+   ]
+}

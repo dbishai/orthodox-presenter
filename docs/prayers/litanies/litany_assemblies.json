@@ -1,0 +1,161 @@
+{
+  "title": {
+    "eng": "Litany of the Assemblies",
+    "cop": "Palin on maren]ho `e`Vnou] Pipantokratwr",
+    "ara": " أوشية الإجتماعات "
+  },
+  "items": [
+  {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Again, let us ask God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ.",
+          "We ask and entreat Your goodness, O Lover or Mankind, remember, O Lordm our assemblies.",
+          "Bless them."
+        ],
+        "cop": [
+          "Palin on maren]ho `e`Vnou] Pipantokratwr@ `Viwt `mPen[oic ouoh Pennou] ouoh Pencwtyr Iycouc Pi`,rictoc.",
+          "Ten]ho ouoh tentwbh `ntekmet`aga;oc Pimairwmi@ `ari`vmeui `P[oic@ `nnenjin;wou].",
+          "`Cmou `erwou."
+        ],
+        "ara": [
+          " وأيضاً فلنسأل الله الضابط الكل، أبا ربنا وإلهنا ومخلصنا يسوع المسيح ",
+          " .نسأل ونطلب من صلاحك يا محب البشر، أُذكر يا رب إجتماعاتنا ",
+          " .باركها "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "Deacon",
+        "cop": "Pidiakwn",
+        "ara": " الشماس "
+      },
+      "text": {
+        "eng": [
+          "Pray for this holy church and for our assemblies."
+        ],
+        "cop": [
+          "`Proceuexac;e `uper tyc `agiac ekklyciac tautyc ke twn cun`eleucewn `ymwn."
+        ],
+        "ara": [
+          " صلوا من أجل هذه الكنيسة المقدسة وإجتماعاتنا "
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+    },
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Kurie `ele`ycon."
+      ],
+      "ara":[
+        ".يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Grant that they may be to us without obstacle or hindrance, that we may hold them according to Your holy and blessed will:",
+          "houses of prayer, houses of purity, houses of blessing. Grant them to us, O Lord, and to Your servants who will come after us, forever",
+          "The worship of idols, utterly uproot from the world.",
+          "Satan and all his evils powers, trample and humilate under our feet speedily.",
+          "The offenses and their instigators, abolish. Let the dissensions of corrupt heresies cease.",
+          "The enemies of Your holy Church, O Lord, as at all times, now also also humialte",
+          "Strip their vanity, show them their weakness speedily.",
+          "Bring to naught their envies, their intrigues, their madness, their wickedness, and their slander, which they commit against us.",
+          "O Lord, bring them all to no avail. Disperse their counsel, O God, who dispersed the counsel of Ahithophel."
+        ],
+        "cop": [
+          "Myic e;rouswpi nan `naterkwlin `nattahno@ e;renaitou kata pekouws e;ouab ouoh `mmakarion.",
+          "Hanyi `neu,y@ hanyi `ntoubo@ hanyi `n`cmou@ `ari,arizec;e `mmwou nan `P[oic@ nem nek`ebiaik e;nyou menencwn sa `eneh.",
+          "}metsamse `idwlon qen oujwk fojc `ebol qen pikocmoc.",
+          "`Pcatanac nem jom niben ethwou `ntaf qemqwmou ouoh ma;ebiwou capecyt `nnen[alauj `n,wlem.",
+          "Ni`ckandalon nem nyet`iri `mmwou korfou@ maroukyn `nje nivwrj `m`ptako `nte niherecic.",
+          "Nijaji `nte Tekekklycia e;ouab `P[oic@ `m`vry] `ncyou niben nem ]nou ma;ebiwou.",
+          "wl `ntoumet[acihyt `ebol@ matamwou `etoumetjwb `n,wlem.",
+          "Kwrf `nnou`v;onoc `nou`epiboly `noumankania `noukakourgia `noukatalalia `etou`iri `mmwou qaron.",
+          "`P[oic `aritou tyrou `naprakton@ ouoh jwr `ebol `mpouco[ni@ `Vnou] vy`etafjwr `ebol `m`pco[ni `n`A,itovel."
+        ],
+        "ara": [
+          " .أعط أن تكون لنا بغير مانع ولا عائق، لنصنعها كمشيئتك المقدسة الطوباوية ",
+          " .بيوت صلاة، بيوت طهارة، بيوت بركة، أنعم بها لنا يا رب، ولعبيدك الآتين بعدنا إلى الأبد",
+          " .عبادة الأوثان بتمامها، إقلعها من العالم ",
+          " .الشيطان وكل قواته الشريرة، إسحقهم وأذلهم تحت أقدامنا سريعاً ",
+          " .الشكوك وفاعليها إبطلهم. ولينقض إفتراقات فساد البدع ",
+          " .أعداء كنيستك المقدسة يا رب، مثل كل زمان، الآن أيضاً أذلهم ",
+          " .حل تعاظمهم، عرفهم ضعفهم سريعاً ",
+          " .أبطل حسدهم، وسعايتهم، وجنونهم، وشرهم، ونميمتهم التي يصنعونها فينا ",
+          " .يا رب إجعلهم كلهم كلا شئ، وبدد مشورتهم يا الله الذي بدد مشورة أخيتوفل "
+
+        ]
+      }
+    },
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+    },
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Kurie `ele`ycon."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+      "user": {
+        "eng": "Priest",
+        "cop": "Piouyb",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "eng": [
+          "Arise, O Lord God, let all Your enemies be scattered, and let all who hate Your holy name flee before Your face",
+          "But let Your people be in blessing, thousands of thousands and ten thousand times ten thousand, doing Your will.",
+          "Through the grace, compassion, and love-of-mankind of Your only-begotten Son, our Lord, God, and Savior Jesus Christ.",
+          "Through whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of Life, who is of one essence with You,",
+          "now and at all times and unto the age of all ages. Amen."
+        ],
+        "cop": [
+          "Twnk `P[oic `Vnou]@ maroujwr `ebol `nje nekjaji tyrou@ marouvwt `ebol qa`thy `mpekho `nje ouon niben e;moc] `mpekran e;ouab.",
+          "Peklaoc de marefswpi qen pi`cmou `ehananso `nso@ nem han`;ba `n`;ba@ eu`iri `mpekouws.",
+          "Qen pi`hmot nem nimetsenhyt nem ]metmairwmi `nte pekmonogenyc `nSyri@ Pen[oic ouoh Pennou] ouoh Pencwtyr Iycouc Pi`,rictoc.",
+          "Vai `ete `ebol hitotf `ere pi`wou nem pitaio nem pi`amahi nem ]`prockunycic@ er`prepi nak nemaf nem Pi`pneuma E;ouab `nreftanqo ouoh `n`omooucioc nemak",
+          "}nou nem `ncyou niben nem sa `eneh `nte ni`eneh tyrou@ `amyn."
+        ],
+        "ara": [
+          " .قم أيها الرب الإله. وليتفرق جميع أعدائك. وليهرب من قدام وجهك كل مبغضي إسمك القدوس ",
+          " .وأما شعبك فليكن بالبركة، ألوف ألوف وربوات ربوات، يصنعون إرادَتك ",
+          " .بالنعمة والرأفات ومحبة البشر اللواتي لإبنك الوحيد ربنا وإلهنا ومخلصنا يسوع المسيح ",
+          " هذا الذي من قبله المجد والإكرام والعزة والسجود تليق بك معه، مع الروح القدس المحيي المساوي لك ",
+          " .الآن وكل أوان وإلى دهر الدهور. آمين "
+
+        ]
+      }
+    }
+   ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": {
+    "eng": "Another Doxology for the Apostles",
+    "cop": "Kurioc Iycouc Pi,rictoc",
+    "ara" : " الرب يسوع المسيح "
+
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Our Lord Jesus Christ / has chosen His apostles / Peter and Andrew / John and James.",
+          "And the rest, Philip and Matthew / Bartholomew and Thomas / James the son of Alphaeus / and Simon the Canaanite.",
+          "Thaddeus and Matthias / Paul, Mark, and Luke / and the rest of the disciples / who followed our Savior",
+          "Matthias, who was chosen / in place of Judas / all of them and the rest / followed the Master",
+          "Their voices went forth / throughout the face of the whole earth / and their words have reached / the ends of the world",
+          "Pray to the Lord on our behalf / O my lords and fathers the apostles / and the seventy-two disciples / that He may forgive us our sins."
+        ],
+        "cop": [
+          "Kurioc Iycouc Pi`,rictoc@ afcwtp `nnef`apoctloc@ `ete Petroc nem Andreac@ Iwannyc nem Iakwboc.",
+          "Loipon Villippoc nem Ma;eoc@ Bar;olomeoc nem :wmac@ Iakwboc `nte Alveoc@ nem Cimwn pikananeoc.",
+          ":addeoc nem Mat;iac@ Pauloc nem Markoc nem Loukac@ nem `pcepi `nte nyma;ytyc@ ny`etaumosi `nca penCwtyr.",
+          "Mat;iac vy`etafswpi@ `n`tsebiw `nIoudac@ nem `pjwk `ebol nem `pcepi@ ny`etaumosi `nca Decpota.",
+          "Apou`qrwou senaf `ebol@ hijen `pho `m`pkahi tyrf@ ouoh noucaji auvoh@ sa auryjc `n]oikoumeny.",
+          "Twbh `m`P=o=c `e`hryi `ejwn@ na=o=c `nio] `n`apoctoloc@ nem `pcepi `nte nima;ytyc@ `ntef,a nennobi nan `ebol."
+        ],
+        "ara": [
+          " .الرب يسوع المسيح، اختار رسله، وهم بطرس واندراوس، ويوحنا ويعقوب ",
+          " .وفيلبس ومتي، وبرثلماوس وتوما، ويعقوب بن حلفي، وسمعان القانوي ",
+          " .وتداوس ومتياس، وبولس ومرقس ولوقا، وبقية التلاميذ، الذين تبعوا مخلصنا ",
+          " .متياس الذي صار، عِوضاً عن يهوذا، وكامل وبقية التلاميذ، الذين تبعوا السيد ",
+          " .خرجت أصواتهم، إلي وجه الأرض كلها، وبلغ كلامهم، إلي أقطار المسكونة "
+          " .اطلبوا من الرب عنا، يا سادتي الآباء الرسل، وبقية التلاميذ، ليغفر لنا خطايانا ",
+        ]
+
+      }
+    }
+  ]
+}
