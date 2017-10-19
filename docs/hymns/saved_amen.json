@@ -1,0 +1,29 @@
+{
+  "tag": "standard",
+  "title": {
+    "eng": "Saved. Amen.",
+    "cop": "Cw;ic `amyn",
+    "ara" : " خلصت حقا "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Saved. Amen. And with your spirit."
+        ],
+        "cop": [
+          "Cw;ic `amyn@ ke tw `pneumati cou."
+        ],
+        "ara":[
+          ".خلصت حقا ولروحك"
+
+        ]
+      }
+    }
+  ]
+}

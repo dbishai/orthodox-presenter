@@ -1,0 +1,29 @@
+{
+  "title": {
+    "eng": "Glory to the Father ",
+    "cop": "Doxa Patri",
+    "ara" : " المجد للآب "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Glory to the Father and to the Son and to the Holy Spirit, now and ever and unto the ages of the ages. Amen. Alleluia."
+
+        ],
+        "cop": [
+          "Doxa Patri ke Uiw ke `agiw `Pneumati@ ke nun ke `a`i ke ic touc `e`wnac twn `e`wnwn@ `amyn allylouia."
+        ],
+        "ara":[
+          ".المجد للآب والابن والروح القدس، الآن وكل اوان وإلي دهر الدهور. آمين. هلليلويا"
+
+        ]
+      }
+    }
+  ]
+}

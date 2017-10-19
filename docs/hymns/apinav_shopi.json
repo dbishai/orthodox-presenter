@@ -1,0 +1,39 @@
+{
+  "tag": "fasting",
+  "title": {
+    "eng": "The time came",
+    "cop": "A pinau swpi",
+    "ara" : " قد حان الوقت "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "The time came to send the multitude away. Let the scribes write, let the wise men assemble, and reveal what is in the holy Scriptures.",
+          "The blessing of the holy Trinity, the Father and the Son and the Holy Spirit.",
+          "The blessing of the Mother of God, Mary the Mother of Jesus Christ.",
+          "Be upon all the people, being safe in the Lord. Amen, so it shall be."
+
+        ],
+        "cop": [
+          "``A pinau swpi ,a nimys `ebol. Mare nicaq viri `ebol@ mare nicovoc ;w`ou] saron@ eu`ermyneuin qen ni`gravy =e=;=u.",
+          "`Ere pi`cmou `n]`Triac =e=;=u@ `Viwt nem `pSyri nem pi`Pneuma =e=;=u.",
+          "`Ere pi`cmou `n]:e`otokoc@ Maria `:mau `nI=y=c P=,=c.",
+          "Ef`e`i `e`hryi `ejen pailaoc tyrf eu`oujai qen `P=o=c. Je `amyn ec`eswpi."
+        ],
+        "ara":[
+          " قد حان الوقت أطلق الجميع. فليفسر المعلمون، فليجتمع الحكماء إلينا، مفسرين في الكتب المقدسة ",
+          " وبركة الثالوث الأقدس، الآب والابن والروح القدس ",
+          " وبركة والدة الإله مريم أم يسوع المسيح ",
+          " تحل علي هذا لشعب كله معافين من الرب أمين يكون "
+
+        ]
+      }
+    }
+  ]
+}
