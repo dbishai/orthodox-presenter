@@ -3,12 +3,14 @@ var EventEmitter = require('events').EventEmitter;
 var assign = require('object-assign');
 
 var NavMenu = {
+    /*
     "home": {
         "id": "home",
         "title": "Home",
         "url": "index.html",
         "span_class": "glyphicon glyphicon-home"
     },
+    */
     "date": {
         "id": "date",
         "title": "Date",
@@ -32,7 +34,7 @@ var NavMenu = {
         "title": "Theme",
         "url": null,
         "span_class": "glyphicon glyphicon-text-background"
-}
+    }
 };
 
 
@@ -41,7 +43,7 @@ var NavMenuStore = assign({}, EventEmitter.prototype, {
     /**
      * @return {object}
      */
-    getAll: function() {
+    getAll: function () {
         return NavMenu;
     }
 });

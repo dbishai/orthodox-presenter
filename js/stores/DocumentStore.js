@@ -8,6 +8,7 @@ var DocumentBuilder = require('../lib/DocumentBuilder.js');
 var CHANGE_EVENT = 'change';
 
 var Document = { 1: require('../../docs/prayers/nicene_creed.json') };
+var lastCategory;
 
 function load(doc, attributes) {
     $.getJSON(doc)
@@ -22,6 +23,7 @@ function load(doc, attributes) {
 }
 
 function autoLoad(category, attributes) {
+    lastCategory = category;
     var docs;
     if (category == "vespers") {
         docs = DocumentBuilder.Vespers(attributes);
@@ -32,6 +34,10 @@ function autoLoad(category, attributes) {
         docs = ["prayers/nicene_creed"];
     }
     downloadAsync(docs);
+}
+
+function refresh(attributes) {
+    autoLoad(lastCategory, attributes);
 }
 
 function downloadAsync(docs) {
@@ -86,6 +92,9 @@ var DocumentStore = assign({}, EventEmitter.prototype, {
         return Document;
     },
 
+    getDocuments: function (category, attributes) {
+        autoLoad(category, attributes);
+    },
     emitChange: function () {
         this.emit(CHANGE_EVENT);
     },
@@ -104,6 +113,9 @@ AppDispatcher.register(function (action) {
     switch (action.actionType) {
         case OPConstants.LOAD:
             autoLoad(action.doc, action.attributes);
+            break;
+        case OPConstants.REFRESH:
+            refresh(action.attributes);
             break;
     }
 });

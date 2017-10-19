@@ -1,14 +1,15 @@
 # orthodox-presenter
 Free and open-source web app for use in Coptic Orthodox church services
 
+Live demo: [https://dbishai.github.io/orthodox-presenter/](https://dbishai.github.io/orthodox-presenter/)
+
 ## Setup
 ```
 npm install
 npm start
 ```
-I recommend using the npm package, ["local-web-server"](https://www.npmjs.com/package/local-web-server).
 
-#### Ubuntu instructions
+You can use ["local-web-server"](https://www.npmjs.com/package/local-web-server) to test changes.
 ```
 sudo -H npm install -g local-web-server
 cd orthodox-presenter

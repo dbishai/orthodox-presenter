@@ -24,7 +24,7 @@
 }
 
 html {
-    background-color: #333333;
+  background-color: #333333;
 }
 body {
   padding-top: 50px;
@@ -110,7 +110,6 @@ div.section-item {
 }
 p.main-section {
   color: #ffffff;
-  padding-bottom: 5px;
 }
 h3.main-section {
   text-align: center;
@@ -120,7 +119,7 @@ h3.main-section {
 h3.main-section-light {
   text-align: center;
   color: #ff0000;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 h4.main-section {
   color: #ffff66;
@@ -130,6 +129,7 @@ h4.main-section-light{
 }
 p.main-section-light {
   color: #000000;
+  padding-bottom: 5px;
 }
 div.nav-sub-menu-item {
   line-height: 40px;
@@ -183,7 +183,7 @@ div.toggle-group {
 div.light-theme-background {
   background-color: #ffffe6;
 }
-body.light-theme-background {
+body.light-theme-background, html.light-theme-background {
   background-color: #f8f8f8;
 }
 div.footer {
@@ -196,9 +196,8 @@ div.doc-title {
   margin-bottom: 30px;
 }
 div.doc-item {
-
   position: relative;
-    vertical-align: top;
+  vertical-align: top;
   display: inline-block;
   padding: 10px;
 }

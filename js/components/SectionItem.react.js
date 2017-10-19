@@ -34,18 +34,20 @@ var SectionItem = createReactClass({
     componentWillUnmount: function () {
         NavSubMenuStore.removeChangeListener(this._onChange);
     },
+    /*
     componentWillUpdate: function () {
         var sectionItem = this.props.sectionItem;
         var attributes = this.props.attributes;
+        console.log(sectionItem.load)
         SectionActions.load(sectionItem.load, attributes);
     },
-
+    */
     render: function () {
         var sectionItem = this.props.sectionItem;
 
         return (
             <li key={sectionItem.id} className="sidebar-brand nav-menu-item" onClick={this._onClick}>
-                <a href="#">{sectionItem.title}</a>
+                <a href={null}>{sectionItem.title}</a>
             </li>
         );
     },

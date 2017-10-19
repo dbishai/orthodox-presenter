@@ -38,6 +38,19 @@ var NavActions = {
       actionType: OPConstants.SET_TIME,
       time: time
     });
+  },
+
+  setCategory: function(category) {
+    AppDispatcher.dispatch({
+      actionType: OPConstants.SET_CATEGORY,
+      category: category
+    });
+  },
+
+  toggleMenu: function() {
+    AppDispatcher.dispatch({
+      actionType: OPConstants.TOGGLE_MENU
+    });
   }
 
 };
