@@ -1,0 +1,29 @@
+{
+  "tag": "standard",
+  "title": {
+    "eng": "Alleluia",
+    "cop": " Allylouia ",
+    "ara" : " هلليلويا "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Alleluia"
+        ],
+        "cop": [
+          "Allylouia"
+        ],
+        "ara":[
+          " هلليلويا "
+
+        ]
+      }
+    }
+  ]
+}

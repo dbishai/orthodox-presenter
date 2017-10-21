@@ -1,0 +1,29 @@
+{
+  "tag": "standard",
+  "title": {
+    "eng": "Hymn of Blessing",
+    "cop": "Ten`ouwst `m`Viwt",
+    "ara" : " تين اوؤشت "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "We worship the Father of Light, and His only-begotten Son, and the Spirit, the Paraclete; the Trinity, one in essence."
+        ],
+        "cop": [
+          "Ten`ouwst `m`Viwt `nte piouwini@ nem PefSyri `mmonogenyc@ nem pi`Pneuma `mParaklyton@ ]`Triac `nomooucioc."
+        ],
+        "ara":[
+          " نسجد لآب النور، وإبنه الوحيد، والروح المعزي، الثالوث المساوي "
+
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "tag": "fasting",
+  "title": {
+    "eng": "The golden censer",
+    "cop": "}soury",
+    "ara" : " المجمرة "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "The golden censer is the Virgin, her aroma is our Savior. She gave birth to Him; He saved us, and forgave us our sins."
+
+        ],
+        "cop": [
+          "}soury `nnoub te }par;enoc@ pec`arwmata pe Pencwtyr. Acmici `mmof@ afcw] `mmon@ ouoh af,a nennobi nan `ebol."
+        ],
+        "ara":[
+          ".المجمرة الذهب هي العذراء، وعنبرها هو مخلصنا. قد ولدته وخلصنا وغفر لنا خطايانا"
+
+        ]
+      }
+    }
+  ]
+}
