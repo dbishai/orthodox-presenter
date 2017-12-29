@@ -73,18 +73,9 @@ var concluding_hymn = function (attributes) {
 
 var offering_hymn = function (attributes) {
     var docs = [];
-    var easterMoment = moment(CopticCalendar.getEasterDate(attributes.year));
-    // moment objects are mutable so clone by wrapping with "moment"
-    // subtract 55 days of Lent from Easter date
-    var todayMoment = attributes.todayDate;
-    var lentMoment = moment(easterMoment).subtract(55, 'days');
-    var pentecostMoment = moment(easterMoment).add(50, 'days');
-    // check if day is during Lent, or not during holy 50 and on Wed or Fri
-    if (todayMoment.isBetween(lentMoment, easterMoment) || (!todayMoment.isBetween(easterMoment, pentecostMoment)
-        && (attributes.todayDate.day() == 3 || attributes.todayDate.day() == 5))) {
+    if (CopticCalendar.isInFast(attributes)) {
             docs.push("hymns/alleluia_the_thought_of_man");
-        }
-    else {
+    } else {
         docs.push("hymns/alleluia_this_is_the_day");
     }
 

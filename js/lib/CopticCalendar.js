@@ -126,7 +126,7 @@ var monthNames = [
   "December"
 ];
 
-var getCopticFeasts = function (attributes) {
+var getCopticFastsFeasts = function (attributes) {
   // TODO: handle cases for leap year or use Coptic dates
   // major feasts
   // fixed to Jan 7 until the year 2100
@@ -135,14 +135,14 @@ var getCopticFeasts = function (attributes) {
   var annunciation = moment([attributes.year, 3, 7]);
   var easter = moment(getEasterDate(attributes.year));
   var palmSunday = moment(easter).subtract(7, 'days');
-  var ascension = moment(easter).add(40, 'days');
-  var pentecost = moment(easter).add(50, 'days');
+  var ascension = moment(easter).add(39, 'days');
+  var pentecost = moment(easter).add(49, 'days');
 
   // minor feasts
   var circumcision = moment([attributes.year, 0, 14]);
   var entranceTemple = moment([attributes.year, 1, 15]);
   var escapeEgypt = moment([attributes.year, 5, 1]);
-  var canaMiracle = moment([attributes.year, 0, 12]);
+  var canaMiracle = moment([attributes.year, 0, 21]);
   var transfiguration = moment([attributes.year, 7, 19]);
   var covenantThursday = moment(palmSunday).add(4, 'days');
   var ThomasSunday = moment(easter).add(7, 'days');
@@ -158,15 +158,254 @@ var getCopticFeasts = function (attributes) {
   var MaryAssumption = moment([attributes.year, 7, 22]);
   var apostlesFeast = moment([attributes.year, 6, 12]);
   var newYear = moment([attributes.year, 8, 11]);
-  //var lent = moment(easter).subtract(55, 'days');
+  var feastCross1 = moment([attributes.year, 2, 19]);
+  var feastCross2Start = moment([attributes.year, 8, 27]);
+  var feastCross2End = moment([attributes.year, 8, 29]);
+
+  // fasts
+  var lent = moment(easter).subtract(55, 'days');
+  var apostlesFast = moment(pentecost).add(1, 'days');
+  var MaryFast = moment([attributes.year, 7, 7]);
+  var nativityFast = moment([attributes.year, 10, 25]);
+  var JonahFast = moment(lent).subtract(14, 'days');
+  var JonahFeast = moment(JonahFast).add(4, 'days');
+
+  // days of Holy Week
+  var goodFriday = moment(palmSunday).add(5, 'days');
+  var LazarusSaturday = moment(palmSunday).subtract(1, 'days');
 
   if (isLeapYear(attributes.year)) {
-    nativity = moment([attributes.year, 0, 8]);
+    nativity.add(1, 'days');
+    circumcision.add(1, 'days');
+    epiphany.add(1, 'days');
+    canaMiracle.add(1, 'days');
   }
   if (isLeapYear(attributes.year + 1)) {
-    newYear = moment([attributes.year, 8, 12]);
+    newYear.add(1, 'days');
+    feastCross2Start.add(1, 'days');
+    feastCross2End.add(1, 'days');
+    nativityFast.add(1, 'days');
   }
+
+  return {
+    "Nativity": {
+      type: "feast",
+      start: nativity,
+      end: null,
+      major: true
+    },
+
+    "Epiphany": {
+      type: "feast",
+      start: epiphany,
+      end: null,
+      major: true
+    },
+
+    "Annunciation": {
+      type: "feast",
+      start: annunciation,
+      end: null,
+      major: true
+    },
+
+    "Resurrection": {
+      type: "feast",
+      start: easter,
+      end: null,
+      major: true
+    },
+
+    "Palm Sunday": {
+      type: "feast",
+      start: palmSunday,
+      end: null,
+      major: true
+    },
+
+    "Ascension": {
+      type: "feast",
+      start: ascension,
+      end: null,
+      major: true
+    },
+
+    "Pentecost": {
+      type: "feast",
+      start: pentecost,
+      end: null,
+      major: true
+    },
+
+    "Feast of the Circumcision": {
+      type: "feast",
+      start: circumcision,
+      end: null,
+      major: false
+    },
+
+    "Entrance of the Lord Christ into the Land of Egypt": {
+      type: "feast",
+      start: escapeEgypt,
+      end: null,
+      major: false
+    },
+
+    "Wedding at Cana of Galilee": {
+      type: "feast",
+      start: canaMiracle,
+      end: null,
+      major: false
+    },
+
+    "Presentation of the Lord Christ in the Temple": {
+      type: "feast",
+      start: entranceTemple,
+      end: null,
+      major: false
+    },
+
+    "Transfiguration": {
+      type: "feast",
+      start: transfiguration,
+      end: null,
+      major: false
+    },
+
+    "Convenant Thursday": {
+      type: "feast",
+      start: covenantThursday,
+      end: null,
+      major: false
+    },
+
+    "Thomas Sunday": {
+      type: "feast",
+      start: ThomasSunday,
+      end: null,
+      major: false
+    },
+
+    "Assumption of St. Mary": {
+      type: "feast",
+      start: MaryAssumption,
+      end: null,
+      major: false
+    },
+
+    "Feast of the Apostles": {
+      type: "feast",
+      start: apostlesFeast,
+      end: null,
+      major: false
+    },
+
+    "Coptic New Year": {
+      type: "feast",
+      start: newYear,
+      end: null,
+      major: false
+    },
+
+    "Feast of the Cross": {
+      type: "feast",
+      start: feastCross1,
+      end: null,
+      major: false
+    },
+
+    "Feast of the Cross (3 days)": {
+      type: "feast",
+      start: feastCross2Start,
+      end: feastCross2End,
+      major: false
+    },
+
+    "Great Lent": {
+      type: "fast",
+      start: lent,
+      end: easter,
+      major: true
+    },
+
+    "Fast of the Apostles": {
+      type: "fast",
+      start: apostlesFast,
+      end: apostlesFeast,
+      major: true
+    },
+
+    "Fast of St. Mary": {
+      type: "fast",
+      start: MaryFast,
+      end: MaryAssumption,
+      major: false
+    },
+
+    "The Holy Nativity Fast": {
+      type: "fast",
+      start: nativityFast,
+      end: nativity,
+      major: true
+    },
+
+    "Good Friday": {
+      type: "fast",
+      start: goodFriday,
+      end: null,
+      major: false
+    },
+
+    "Lazarus Saturday": {
+      type: "fast",
+      start: LazarusSaturday,
+      end: null,
+      major: false
+    },
+
+    "Jonah's Feast": {
+      type: "feast",
+      start: JonahFeast,
+      end: null,
+      major: false
+    },
+
+    "Jonah's Fast": {
+      type: "fast",
+      start: JonahFast,
+      end: JonahFeast,
+      major: false
+    },
+
+    "Holy 50 days (Pentecost)": {
+      type: "feast",
+      start: easter,
+      end: apostlesFast,
+      major: true
+    }
+
+  };
 };
+
+var isInFast = function (attributes) {
+  var fastsfeasts = getCopticFastsFeasts(attributes);
+  for (var x in fastsfeasts) {
+    // beginning of date range is inclusive
+    if (fastsfeasts[x].type == "fast" && fastsfeasts.end !== null && attributes.todayDate.isBetween(fastsfeasts[x].start, fastsfeasts[x].end, null, '(]')) {
+      return true;
+    }
+  }
+
+  // if day is in Holy 50 and is not Wed or Fri return true
+  var holy50 = fastsfeasts["Holy 50 days (Pentecost)"];
+  if (!attributes.todayDate.isBetween(holy50.start, holy50.end, null, '(]')
+    && (attributes.todayDate.day() == 3 || attributes.todayDate.day() == 5)) {
+      return true;
+  }
+  return false;
+
+};
+
 
 var isLeapYear = function (year) {
   return ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
@@ -309,3 +548,5 @@ module.exports.getDateString = getDateString;
 module.exports.getNumericDateString = getNumericDateString;
 module.exports.AdamOrWatos = AdamOrWatos;
 module.exports.CopticDateComparator = CopticDateComparator;
+module.exports.getCopticFastsFeasts = getCopticFastsFeasts;
+module.exports.isInFast = isInFast;

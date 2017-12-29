@@ -111,7 +111,7 @@ var NavSubMenuItem = createReactClass({
 
   handleDateInput: function (_moment) {
     this.setState({ inputDate: _moment });
-    NavActions.setDate(_moment.year(), _moment.month(), _moment.date());
+    NavActions.setDate(_moment);
     // since loaded documents are dependent on date, refresh them
     SectionActions.refresh(this.props.attributes);
   },
