@@ -129,7 +129,6 @@ h4.main-section-light{
 }
 p.main-section-light {
   color: #000000;
-  padding-bottom: 5px;
 }
 div.nav-sub-menu-item {
   line-height: 40px;
@@ -200,4 +199,8 @@ div.doc-item {
   vertical-align: top;
   display: inline-block;
   padding: 10px;
+}
+div.nav-slider {
+  margin-left: 50px;
+  margin-right: 50px;
 }

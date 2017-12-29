@@ -1,5 +1,6 @@
 var CopticCalendar = require('./CopticCalendar.js');
 var CopticDateComparator = CopticCalendar.CopticDateComparator;
+var moment = require('moment');
 
 var verses_of_the_cymbals = function (attributes, selector) {
     var day_tune = CopticCalendar.AdamOrWatos(attributes.year, attributes.monthIndex, attributes.day);
@@ -35,7 +36,7 @@ var doxologies = function (attributes, selector) {
 };
 
 var short_litanies = function (attributes) {
-    var docs = []
+    var docs = [];
     var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var copticMonthIndex = copticDate.monthIndex;
     var copticDay = copticDate.day;
@@ -70,6 +71,26 @@ var concluding_hymn = function (attributes) {
     return docs;
 };
 
+var offering_hymn = function (attributes) {
+    var docs = [];
+    var easterMoment = moment(CopticCalendar.getEasterDate(attributes.year));
+    // moment objects are mutable so clone by wrapping with "moment"
+    // subtract 55 days of Lent from Easter date
+    var todayMoment = attributes.todayDate;
+    var lentMoment = moment(easterMoment).subtract(55, 'days');
+    var pentecostMoment = moment(easterMoment).add(50, 'days');
+    // check if day is during Lent, or not during holy 50 and on Wed or Fri
+    if (todayMoment.isBetween(lentMoment, easterMoment) || (!todayMoment.isBetween(easterMoment, pentecostMoment)
+        && (attributes.todayDate.day() == 3 || attributes.todayDate.day() == 5))) {
+            docs.push("hymns/alleluia_the_thought_of_man");
+        }
+    else {
+        docs.push("hymns/alleluia_this_is_the_day");
+    }
+
+    return docs;
+};
+
 var Vespers = function (attributes) {
 
     //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
@@ -94,13 +115,13 @@ var Vespers = function (attributes) {
     docs = docs.concat(concluding_hymn(attributes));
 
     return docs;
-}
+};
 
 var Matins = function (attributes) {
 
     //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var docs = [];
-    var day = attributes.todayDate.day();
+    var day = attributes.day;
     docs.push("prayers/intro_offering_of_incense");
     docs.push("prayers/our_father");
     docs.push("prayers/thanksgiving_prayer");
@@ -134,7 +155,21 @@ var Matins = function (attributes) {
     docs = docs.concat(concluding_hymn(attributes));
 
     return docs;
-}
+};
+
+var daysToMilliseconds = function (numOfDays) {
+    return numOfDays * 60 * 60 * 24 * 1000
+};
+
+var StBasilOffering = function (attributes) {
+    var docs = [];
+    docs.push("prayers/procession_of_the_lamb");
+    docs = docs.concat(offering_hymn(attributes));
+    docs.push("prayers/khen_efran_offertory");
+
+    return docs;
+};
 
 module.exports.Vespers = Vespers;
 module.exports.Matins = Matins;
+module.exports.StBasilOffering = StBasilOffering;

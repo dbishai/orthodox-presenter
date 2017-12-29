@@ -24,12 +24,10 @@ var NavActions = {
     });
   },
 
-  setDate: function(year, monthIndex, day) {
+  setDate: function(moment) {
     AppDispatcher.dispatch({
       actionType: OPConstants.SET_DATE,
-      year: year,
-      monthIndex: monthIndex,
-      day: day
+      moment: moment
     });
   },
 

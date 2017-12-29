@@ -6,29 +6,32 @@ var assign = require('object-assign');
 var CHANGE_EVENT = 'change';
 
 var sections = {
-    "0a": {
-        "id": "0a",
+    "1a": {
+        "id": "1a",
         "title": "LITURGIES",
         "description": "\"This is My body which is given for you; My blood, which is shed for you.\" (Luke 22:19-20)",
         "img": "../../images/placeholder.png",
         "node": {
-            "1d": {
-                "id": "1d",
+            "1b": {
+                "id": "1b",
+                "title": "ST. BASIL",
+                "node": {
+                    "1c": {
+                        "id": "1c",
+                        "title": "OFFERING OF THE LAMB",
+                        "load": "stbasil_offering"
+                    }
+                }
+            },
+            "2b": {
+                "id": "2b",
                 "title": "VESPERS",
                 "load": "vespers"
-                /*"node": {
-                    "1b": {
-                        "id": "1b",
-                        "title": "Verses of the Cymbals",
-                        "load": "verses_of_the_cymbals"
-                    }
-                }*/
             },
-            "2d": {
-                "id": "2d",
+            "3b": {
+                "id": "3b",
                 "title": "MATINS",
                 "load": "matins"
-
             }
         }
     }

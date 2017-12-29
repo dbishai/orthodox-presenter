@@ -25,13 +25,18 @@ function load(doc, attributes) {
 function autoLoad(category, attributes) {
     lastCategory = category;
     var docs;
-    if (category == "vespers") {
-        docs = DocumentBuilder.Vespers(attributes);
-    }
-    else if (category == "matins") {
-        docs = DocumentBuilder.Matins(attributes);
-    } else {
-        docs = ["prayers/nicene_creed"];
+    switch (category) {
+        case "vespers":
+            docs = DocumentBuilder.Vespers(attributes);
+            break;
+        case "matins":
+            docs = DocumentBuilder.Matins(attributes);
+            break;
+        case "stbasil_offering":
+            docs = DocumentBuilder.StBasilOffering(attributes);
+            break;
+        default:
+            docs = ["prayers/nicene_creed"];
     }
     downloadAsync(docs);
 }

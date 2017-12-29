@@ -1,3 +1,5 @@
+var moment = require('moment');
+
 var CopticMonthObjects = [
   {
     name: "Thoout",
@@ -124,6 +126,48 @@ var monthNames = [
   "December"
 ];
 
+var getCopticFeasts = function (attributes) {
+  // TODO: handle cases for leap year or use Coptic dates
+  // major feasts
+  // fixed to Jan 7 until the year 2100
+  var nativity = moment([attributes.year, 0, 7]);
+  var epiphany = moment([attributes.year, 0, 19]);
+  var annunciation = moment([attributes.year, 3, 7]);
+  var easter = moment(getEasterDate(attributes.year));
+  var palmSunday = moment(easter).subtract(7, 'days');
+  var ascension = moment(easter).add(40, 'days');
+  var pentecost = moment(easter).add(50, 'days');
+
+  // minor feasts
+  var circumcision = moment([attributes.year, 0, 14]);
+  var entranceTemple = moment([attributes.year, 1, 15]);
+  var escapeEgypt = moment([attributes.year, 5, 1]);
+  var canaMiracle = moment([attributes.year, 0, 12]);
+  var transfiguration = moment([attributes.year, 7, 19]);
+  var covenantThursday = moment(palmSunday).add(4, 'days');
+  var ThomasSunday = moment(easter).add(7, 'days');
+
+  // feasts of the saints
+  // St. Mary
+  /*
+  var MaryAnnunciation = moment([attributes.year, 7, 13]);
+  var MaryNativity = moment([attributes.year, 4, 9]);
+  var MaryPresentation = moment([attributes.year, 11, 12]);
+  var MaryDormant = moment([attributes.year, 0, 29]);
+  */
+  var MaryAssumption = moment([attributes.year, 7, 22]);
+  var apostlesFeast = moment([attributes.year, 6, 12]);
+  var newYear = moment([attributes.year, 8, 11]);
+  //var lent = moment(easter).subtract(55, 'days');
+
+  if (isLeapYear(attributes.year)) {
+    nativity = moment([attributes.year, 0, 8]);
+  }
+  if (isLeapYear(attributes.year + 1)) {
+    newYear = moment([attributes.year, 8, 12]);
+  }
+};
+
 var isLeapYear = function (year) {
   return ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
 };
@@ -139,7 +183,7 @@ var getCopticMonthDate = function (CopticMonthObject, year) {
 };
 
 var getCopticDate = function (year, monthIndex, day) {
-  var copticMonth = "";
+  var copticMonth;
   var copticMonthIndex = 0;
   var copticDay = day;
   var copticYear = year - 284;
@@ -249,9 +293,9 @@ var CopticDateComparator = function (month1, day1, month2, day2, monthIndex0, da
     if (monthIndex0 == i % 13) {
       // edge cases
       if ((monthIndex0 == monthIndex1 && day0 >= day1)
-          || (monthIndex0 == monthIndex2 && day0 <= day2)
-          || (monthIndex0 != monthIndex1 && monthIndex0 != monthIndex2)) {
-            return true
+        || (monthIndex0 == monthIndex2 && day0 <= day2)
+        || (monthIndex0 != monthIndex1 && monthIndex0 != monthIndex2)) {
+        return true
       }
     }
   }
