@@ -114,12 +114,16 @@ p.main-section {
 h3.main-section {
   text-align: center;
   color: #ffff66;
-  /*margin-bottom: 30px;*/
+  cursor: pointer;
 }
 h3.main-section-light {
-  text-align: center;
   color: #ff0000;
-  /*margin-bottom: 30px;*/
+}
+h3.main-section-hidden {
+  color: rgba(255, 255, 102, 0.5);
+}
+h3.main-section-light-hidden {
+  color: rgba(255, 0, 0, 0.5);
 }
 h4.main-section {
   color: #ffff66;
@@ -203,4 +207,8 @@ div.doc-item {
 div.nav-slider {
   margin-left: 50px;
   margin-right: 50px;
+}
+span.main-section-title {
+  vertical-align: 40%;
+  font-size: 12px;
 }

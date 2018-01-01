@@ -391,7 +391,8 @@ var isInFast = function (attributes) {
   var fastsfeasts = getCopticFastsFeasts(attributes);
   for (var x in fastsfeasts) {
     // beginning of date range is inclusive
-    if (fastsfeasts[x].type == "fast" && fastsfeasts.end !== null && attributes.todayDate.isBetween(fastsfeasts[x].start, fastsfeasts[x].end, null, '(]')) {
+    if (fastsfeasts[x].type == "fast" && fastsfeasts.end !== null
+      && attributes.todayDate.isBetween(fastsfeasts[x].start, fastsfeasts[x].end, null, '(]')) {
       return true;
     }
   }
@@ -400,7 +401,7 @@ var isInFast = function (attributes) {
   var holy50 = fastsfeasts["Holy 50 days (Pentecost)"];
   if (!attributes.todayDate.isBetween(holy50.start, holy50.end, null, '(]')
     && (attributes.todayDate.day() == 3 || attributes.todayDate.day() == 5)) {
-      return true;
+    return true;
   }
   return false;
 

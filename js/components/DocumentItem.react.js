@@ -17,6 +17,12 @@ var DocumentItem = createReactClass({
     numLangs: PropTypes.number.isRequired
   },
 
+  getInitialState: function () {
+    return {
+      showDocument: true
+    }
+  },
+
   langStyle: function (lang) {
     var divStyle = {};
     if (lang == "cop") {
@@ -58,11 +64,22 @@ var DocumentItem = createReactClass({
           );
         }
       } else {
-        var element = React.createElement(
-          elementType,
-          { className: theme },
-          doc[lang]
-        );
+        // allow titles of documents to be collapsible
+        if (elementType == "h3" && !this.state.showDocument) {
+          var element = <h3 className={theme}>
+            <span className="glyphicon glyphicon-triangle-right main-section-title" aria-hidden="true"></span> {doc[lang]}
+          </h3>
+        } else if (elementType == "h3" && this.state.showDocument) {
+          var element = <h3 className={theme}>
+            <span className="glyphicon glyphicon-triangle-bottom main-section-title" aria-hidden="true"></span> {doc[lang]}
+          </h3>
+        } else {
+          var element = React.createElement(
+            elementType,
+            { className: theme },
+            doc[lang]
+          );
+        }
         text.push(
           <div key={elementType + lang + idx} className="doc-item" style={this.langStyle(lang)}>
             {element}
@@ -91,7 +108,7 @@ var DocumentItem = createReactClass({
     var text = this.createDocumentElement(doc, elementType, theme);
 
     return (
-      <div key={idx + elementType} className="doc-row">
+      <div key={idx + elementType} className="doc-row" onClick={elementType == "h3" ? this._onClick : null}>
         {text}
       </div>
     );
@@ -100,16 +117,27 @@ var DocumentItem = createReactClass({
 
   render: function () {
     var documentItem = this.props.documentItem;
-    var sectionTheme = this.props.lightTheme ? "main-section-light" : "main-section";
+
+    var sectionTheme = "main-section";
+    if (!this.state.showDocument && this.props.lightTheme) {
+      sectionTheme += " main-section-light-hidden";
+    } else if (!this.state.showDocument && !this.props.lightTheme) {
+      sectionTheme += " main-section-hidden";
+    } else if (this.props.lightTheme) {
+      sectionTheme += " main-section-light";
+    }
+
     var collection = []
 
     collection = [
       this.parseDocument(documentItem.title, "h3", sectionTheme)
     ]
 
-    for (var i = 0; i < documentItem.items.length; i++) {
-      collection.push(this.parseDocument(documentItem.items[i].user, "h4", sectionTheme, i))
-      collection.push(this.parseDocument(documentItem.items[i].text, "p", sectionTheme, i))
+    if (this.state.showDocument) {
+      for (var i = 0; i < documentItem.items.length; i++) {
+        collection.push(this.parseDocument(documentItem.items[i].user, "h4", sectionTheme, i))
+        collection.push(this.parseDocument(documentItem.items[i].text, "p", sectionTheme, i))
+      }
     }
 
     return (
@@ -117,6 +145,10 @@ var DocumentItem = createReactClass({
         {collection}
       </div>
     );
+  },
+
+  _onClick: function () {
+    this.setState({ showDocument: !this.state.showDocument });
   }
 
 });
