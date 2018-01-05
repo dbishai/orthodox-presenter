@@ -114,16 +114,24 @@ var DocumentItem = createReactClass({
     );
   },
 
+  componentWillMount: function () {
+    // collapse any documents that have the 'visible' tag set to false
+    if (this.props.documentItem.visible === "false") {
+      this.setState({ showDocument: false });
+    }
+  },
 
   render: function () {
     var documentItem = this.props.documentItem;
+    var lightTheme = this.props.lightTheme;
+    var showDocument = this.state.showDocument;
 
     var sectionTheme = "main-section";
-    if (!this.state.showDocument && this.props.lightTheme) {
+    if (!showDocument && lightTheme) {
       sectionTheme += " main-section-light-hidden";
-    } else if (!this.state.showDocument && !this.props.lightTheme) {
+    } else if (!showDocument && !lightTheme) {
       sectionTheme += " main-section-hidden";
-    } else if (this.props.lightTheme) {
+    } else if (lightTheme) {
       sectionTheme += " main-section-light";
     }
 
@@ -133,7 +141,7 @@ var DocumentItem = createReactClass({
       this.parseDocument(documentItem.title, "h3", sectionTheme)
     ]
 
-    if (this.state.showDocument) {
+    if (showDocument) {
       for (var i = 0; i < documentItem.items.length; i++) {
         collection.push(this.parseDocument(documentItem.items[i].user, "h4", sectionTheme, i))
         collection.push(this.parseDocument(documentItem.items[i].text, "p", sectionTheme, i))

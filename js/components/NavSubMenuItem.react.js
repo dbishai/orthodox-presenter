@@ -9,6 +9,7 @@ var SingleDatePicker = require('react-dates').SingleDatePicker;
 var NavStore = require('../stores/NavStore');
 var NavActions = require('../actions/NavActions');
 var SectionActions = require('../actions/SectionActions');
+//var Slider = require('rc-slider').default;
 
 var classNames = require('classnames');
 
@@ -38,6 +39,10 @@ var NavSubMenuItem = createReactClass({
     var inputCopticDate = CopticCalendar.getCopticDateString(year, monthIndex, day);
     switch (navMenuItemId) {
       case "date":
+        var seasonArray = CopticCalendar.getCurrentFastFeasts(this.props.attributes);
+        var seasonDisplayItems = seasonArray.map(function (item, idx) {
+          return <li key={idx}>{item}</li>;
+        });
         return (
           <div className="nav-sub-menu-item date">
             <div>
@@ -53,8 +58,8 @@ var NavSubMenuItem = createReactClass({
                   if (!NavStore.getToggleState()) {
                     NavActions.toggleMenu();
                   }
-                  thisState.setState({focused: objFocused.focused});
-                  }
+                  thisState.setState({ focused: objFocused.focused });
+                }
                 }
                 enableOutsideDays={true}
                 isOutsideRange={function () { false }}
@@ -62,9 +67,24 @@ var NavSubMenuItem = createReactClass({
                 withPortal={true}
               />
             </div>
+            <div className="season-display">
+              <ul>
+                {seasonDisplayItems}
+              </ul>
+            </div>
           </div>
         );
       case "theme":
+        /*
+        <div className="nav-slider">
+          <Slider
+            min={8}
+            max={24}
+            step={2}
+            defaultValue={this.props.attributes.fontSize} />
+        </div>
+        <input type="text" />
+        */
         return (
           <div className="nav-sub-menu-item">
             <div className="checkbox">

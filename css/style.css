@@ -94,6 +94,9 @@ h1.section_title {
 h1:hover {
   text-shadow: 5px 5px 10px #ffffe6;
 }
+h3.main-section:hover {
+  text-decoration: underline;
+}
 div.description {
   font-family: 'Noticia', sans-serif;
   color: #262626;
@@ -193,7 +196,7 @@ div.footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  padding: 5px;
+  padding: 5px
 }
 div.doc-title {
   margin-bottom: 30px;
@@ -212,3 +215,18 @@ span.main-section-title {
   vertical-align: 40%;
   font-size: 12px;
 }
+div.season-display {
+  color: #ffffb3;
+  margin-top: 5px;
+  font-family: 'OswaldLight', sans-serif;
+}
+div.season-display ul{
+  list-style-type: square;
+  padding: 20px;
+}
+div.season-display li{
+  font-size: 16px;
+  text-indent: 0px;
+  line-height: normal;
+}
+

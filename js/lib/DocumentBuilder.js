@@ -98,7 +98,7 @@ var Vespers = function (attributes) {
     docs = docs.concat(doxologies(attributes, "vespers"));
     docs.push("prayers/intro_creed");
     docs.push("prayers/nicene_creed");
-    docs.push("prayers/ogodhave_mercyonus");
+    docs.push("prayers/o_god_have_mercy_on_us");
     docs.push("prayers/litanies/litany_gospel");
     docs.push("hymns/response_gospel_annual");
     docs = docs.concat(short_litanies(attributes));
@@ -138,7 +138,7 @@ var Matins = function (attributes) {
     docs = docs.concat(doxologies(attributes, "matins"));
     docs.push("prayers/intro_creed");
     docs.push("prayers/nicene_creed");
-    docs.push("prayers/ogodhave_mercyonus");
+    docs.push("prayers/o_god_have_mercy_on_us");
     docs.push("prayers/litanies/litany_gospel");
     docs.push("hymns/response_gospel_annual");
     docs = docs.concat(short_litanies(attributes));
@@ -154,9 +154,21 @@ var daysToMilliseconds = function (numOfDays) {
 
 var StBasilOffering = function (attributes) {
     var docs = [];
+    docs.push("hymns/hymn_blessing");
+    docs.push("prayers/trisagion");
+    docs.push("prayers/our_father");
+    docs.push("prayers/intro_creed");
+    docs.push("prayers/nicene_creed");
+
+    if (CopticCalendar.isInFast(attributes)) {
+        docs.push("hymns/apinav_shopi")
+    }
     docs.push("prayers/procession_of_the_lamb");
     docs = docs.concat(offering_hymn(attributes));
     docs.push("prayers/khen_efran_offertory");
+    docs.push("prayers/thanksgiving_prayer");
+    docs.push("prayers/prayer_absolution_son");
+    docs.push("hymns/saved_amen");
 
     return docs;
 };
