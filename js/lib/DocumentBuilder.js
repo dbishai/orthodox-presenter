@@ -155,6 +155,7 @@ var daysToMilliseconds = function (numOfDays) {
 var StBasilOffering = function (attributes) {
     var docs = [];
     docs.push("hymns/hymn_blessing");
+    docs.push("hymns/hail_to_mary_offering");
     docs.push("prayers/trisagion");
     docs.push("prayers/our_father");
     docs.push("prayers/intro_creed");

@@ -114,6 +114,13 @@ var DocumentItem = createReactClass({
     );
   },
 
+  componentWillReceiveProps: function (newProps) {
+    // default components back to true when receiving new props
+    if (newProps.documentItem != this.props.documentItem) {
+      this.setState({ showDocument: true});
+    }
+  },
+
   componentWillMount: function () {
     // collapse any documents that have the 'visible' tag set to false
     if (this.props.documentItem.visible === "false") {
@@ -135,11 +142,9 @@ var DocumentItem = createReactClass({
       sectionTheme += " main-section-light";
     }
 
-    var collection = []
-
-    collection = [
+    var collection = [
       this.parseDocument(documentItem.title, "h3", sectionTheme)
-    ]
+    ];
 
     if (showDocument) {
       for (var i = 0; i < documentItem.items.length; i++) {
@@ -149,7 +154,7 @@ var DocumentItem = createReactClass({
     }
 
     return (
-      <div key={"doc-item-" + Object.keys(documentItem).length} className="main-section">
+      <div key={"doc-item-" + documentItem.title.eng} className="main-section">
         {collection}
       </div>
     );

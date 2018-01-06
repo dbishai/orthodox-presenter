@@ -1,10 +1,11 @@
 {
   "tag": "standard",
   "title": {
-    "eng": "Hail to Mary the queen",
+    "eng": "Hail to Mary the Queen",
     "cop": "<ere Maria ]ourw",
     "ara" : " السلامُ لمريم الملكة "
   },
+  "visible": "false",
   "items": [
     {
       "user": {

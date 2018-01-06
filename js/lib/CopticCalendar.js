@@ -493,12 +493,8 @@ var isInFast = function (attributes) {
 
   // if day is in Holy 50 and is not Wed or Fri return true
   var holy50 = fastsfeasts[FastFeastNames.HOLY_50];
-  if (!todayDate.isBetween(holy50.start, holy50.end, null, '(]')
-    && (todayDate.day() == 3 || todayDate.day() == 5)) {
-    return true;
-  }
-
-  return false;
+  return (!todayDate.isBetween(holy50.start, holy50.end, null, '(]')
+    && (todayDate.day() == 3 || todayDate.day() == 5))
 };
 
 /**
