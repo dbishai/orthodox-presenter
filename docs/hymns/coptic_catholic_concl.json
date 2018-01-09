@@ -1,0 +1,30 @@
+{
+  "title": {
+    "eng": "Conclusion to the Coptic Catholic Epistle",
+    "cop": "Na`cnyou `mpermenre...",
+    "ara" : "لا تحبوا العالم"
+  },
+  "visible": "false",
+  "items": [
+    {
+      "user": {
+        "eng": "Reader",
+        "cop": "Pi`anagnwctyc",
+        "ara": "القارئ"
+      },
+      "text": {
+        "eng": [
+          "Do not love the world or the things in the world. The world is passing away, and its lust; but he who does the will of God abides for ever. Amen."
+
+        ],
+        "cop": [
+          "Na`cnyou `mpermenre pikocmoc `oude ny`etsop qen pikocmoc@ pikocmoc nacini nem tef`epi;umia@ vy de et`iri `m`vouws `m`Vnou] `fnaswpi sa `eneh@ `amyn."
+        ],
+        "ara":[
+          ".لا تحبوا العالم ولا الأشياء التي في العالم، العالم يمضى وشهواته، وأما الذي يصنع إرادة الله يدوم إلى الأبد. آمين"
+
+        ]
+      }
+    }
+  ]
+}
