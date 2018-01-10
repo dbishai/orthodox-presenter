@@ -1,0 +1,30 @@
+{
+  "title": {
+    "eng": "Response to the Coptic Catholic Epistle",
+    "cop": "Ka;olikon...",
+    "ara" : "الكاثوليكون"
+  },
+  "visible": "false",
+  "items": [
+    {
+      "user": {
+        "eng": "Reader",
+        "cop": "Pi`anagnwctyc",
+        "ara": "القارئ"
+      },
+      "text": {
+        "eng": [
+          "The Catholic Epistle of our father (...), my beloved."
+
+        ],
+        "cop": [
+          "Ka;olikon (`ebolqen ]`epictoly `nte peniwt (...)@ namenra]."
+        ],
+        "ara":[
+          ""
+
+        ]
+      }
+    }
+  ]
+}
