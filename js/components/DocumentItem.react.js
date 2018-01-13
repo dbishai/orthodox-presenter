@@ -14,7 +14,8 @@ var DocumentItem = createReactClass({
     documentItem: PropTypes.object.isRequired,
     lightTheme: PropTypes.bool.isRequired,
     langStates: PropTypes.object.isRequired,
-    numLangs: PropTypes.number.isRequired
+    numLangs: PropTypes.number.isRequired,
+    fontScale: PropTypes.number.isRequired
   },
 
   getInitialState: function () {
@@ -23,14 +24,27 @@ var DocumentItem = createReactClass({
     }
   },
 
-  langStyle: function (lang) {
-    var divStyle = {};
+  langStyle: function (elementType, lang) {
+    var fontScale = this.props["fontScale"];
+    var fontSize;
+    switch (elementType) {
+      case "h3":
+        fontSize = 24;
+        break;
+      case "h4":
+        fontSize = 18;
+        break;
+      default:
+        fontSize = 16;
+    }
+    var divStyle = {
+      fontSize: Math.floor(fontSize * fontScale) + "px"
+    };
     if (lang == "cop") {
       divStyle["fontFamily"] = "CSNewAthanasius";
-      divStyle["fontSize"] = "18px";
     } else if (lang == "ara") {
       divStyle["textAlign"] = "right";
-      //divStyle["fontSize"] = "18px";
+      //divStyle["fontScale"] = "18px";
     }
     divStyle["width"] = Math.floor(100 / this.props.numLangs) + "%";
     return divStyle;
@@ -58,7 +72,7 @@ var DocumentItem = createReactClass({
             doc[lang][i]
           );
           text.push(
-            <div key={elementType + lang + i + idx} className="doc-item" style={this.langStyle(lang)}>
+            <div key={elementType + lang + i + idx} className="doc-item" style={this.langStyle(elementType, lang)}>
               {element}
             </div>
           );
@@ -81,7 +95,7 @@ var DocumentItem = createReactClass({
           );
         }
         text.push(
-          <div key={elementType + lang + idx} className="doc-item" style={this.langStyle(lang)}>
+          <div key={elementType + lang + idx} className="doc-item" style={this.langStyle(elementType, lang)}>
             {element}
           </div>
         );
@@ -105,7 +119,7 @@ var DocumentItem = createReactClass({
   },
 
   parseDocument: function (doc, elementType, theme, idx) {
-    var text = this.createDocumentElement(doc, elementType, theme);
+    var text = this.createDocumentElement(doc, elementType, theme, idx);
 
     return (
       <div key={idx + elementType} className="doc-row" onClick={elementType == "h3" ? this._onClick : null}>
@@ -117,7 +131,7 @@ var DocumentItem = createReactClass({
   componentWillReceiveProps: function (newProps) {
     // default components back to true when receiving new props
     if (newProps.documentItem != this.props.documentItem) {
-      this.setState({ showDocument: true});
+      this.setState({ showDocument: true });
     }
   },
 
@@ -143,7 +157,7 @@ var DocumentItem = createReactClass({
     }
 
     var collection = [
-      this.parseDocument(documentItem.title, "h3", sectionTheme)
+      this.parseDocument(documentItem.title, "h3", sectionTheme, 0)
     ];
 
     if (showDocument) {

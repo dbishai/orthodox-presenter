@@ -196,7 +196,7 @@ div.footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  padding: 5px
+  padding: 5px;
 }
 div.doc-title {
   margin-bottom: 30px;
@@ -208,8 +208,10 @@ div.doc-item {
   padding: 10px;
 }
 div.nav-slider {
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 90px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
 }
 span.main-section-title {
   vertical-align: 40%;
@@ -230,3 +232,19 @@ div.season-display li{
   line-height: normal;
 }
 
+div.font-scaler {
+  margin-left: 25px;
+}
+
+div.font-scaler label {
+  color: #ffffff;
+  font-family: 'OswaldLight', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+label.font-scaler {
+  text-indent: 0px;
+  padding-left: 5px;
+}

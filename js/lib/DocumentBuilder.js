@@ -95,7 +95,6 @@ var censer_hymn = function (attributes) {
 
 var Vespers = function (attributes) {
 
-    //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var docs = [];
     docs.push("prayers/intro_offering_of_incense");
     docs.push("prayers/our_father");
@@ -186,7 +185,6 @@ var StBasilOffering = function (attributes) {
     docs.push("hymns/nisavev_tero");
     docs.push("hymns/saved_amen");
     docs.push("prayers/prayer_absolution_son");
-
 
     return docs;
 };
