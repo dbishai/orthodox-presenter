@@ -82,6 +82,17 @@ var offering_hymn = function (attributes) {
     return docs;
 };
 
+var censer_hymn = function (attributes) {
+    var docs = [];
+    if (CopticCalendar.isInFast(attributes)) {
+            docs.push("hymns/tishori");
+    } else {
+        docs.push("hymns/taishori");
+    }
+
+    return docs;
+};
+
 var Vespers = function (attributes) {
 
     var docs = [];
@@ -159,6 +170,10 @@ var StBasilOffering = function (attributes) {
     docs.push("prayers/our_father");
     docs.push("prayers/intro_creed");
     docs.push("prayers/nicene_creed");
+    docs.push("hymns/lord_have_mercy_offering_of_the_lamb");
+    docs.push("prayers/holy_holy_holy");
+    docs.push("prayers/our_father");
+
 
     if (CopticCalendar.isInFast(attributes)) {
         docs.push("hymns/apinav_shopi")
@@ -167,12 +182,37 @@ var StBasilOffering = function (attributes) {
     docs = docs.concat(offering_hymn(attributes));
     docs.push("prayers/khen_efran_offertory");
     docs.push("prayers/thanksgiving_prayer");
+    docs.push("hymns/nisavev_tero");
     docs.push("hymns/saved_amen");
     docs.push("prayers/prayer_absolution_son");
 
     return docs;
 };
 
+var StBasilWord = function (attributes) {
+    var docs = [];
+    var day = attributes.day;
+    // On Saturdays, Sundays, and feasts of the Lord, Alleluia This is the Day is prayed
+    docs = docs.concat(censer_hymn(attributes));
+//    docs.push("hymns/response_pauline");
+//    docs.push("hymns/coptic_pauline_intro");
+//    docs.push("hymns/coptic_pauline_concl");
+//    docs.push("hymns/coptic_catholic_intro");
+//    docs.push("hymns/coptic_catholic_concl");
+    docs.push("hymns/praxis_response_standard");
+//    docs.push("hymns/coptic_praxis_intro");
+//    docs.push("hymns/coptic_praxis_concl");
+      docs.push("hymns/trisagion_hymn");
+      docs.push("prayers/litanies/litany_gospel");
+
+
+    return docs;
+
+};
+
+
+
 module.exports.Vespers = Vespers;
 module.exports.Matins = Matins;
 module.exports.StBasilOffering = StBasilOffering;
+module.exports.StBasilWord = StBasilWord;

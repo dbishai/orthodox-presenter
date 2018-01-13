@@ -35,6 +35,10 @@ function autoLoad(category, attributes) {
         case "stbasil_offering":
             docs = DocumentBuilder.StBasilOffering(attributes);
             break;
+        case "stbasil_word":
+              docs = DocumentBuilder.StBasilWord(attributes);
+              break;
+          break;
         default:
             docs = ["prayers/nicene_creed"];
     }
