@@ -24,3 +24,8 @@ Orthodox Presenter can run on any device with a modern web browser. It can also 
 ## Technology Stack
 
 Orthodox Presenter is built upon React using Flux to handle state. Bootstrap is used for responsive resizing and [startbootstrap-simple-sidebar](https://github.com/BlackrockDigital/startbootstrap-simple-sidebar) is used for the sidebar. Documents are stored in the JSON format.
+
+
+## Contributors
+
+[**@AbanoubG**](https://github.com/AbanoubG)

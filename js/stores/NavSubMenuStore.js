@@ -24,7 +24,7 @@ Attributes = {
     monthIndex: today.month(),
     year: today.year(),
     time: today.hours(),
-    fontSize: 16
+    fontScale: 1
 };
 
 var setState = function (state) {
@@ -40,6 +40,10 @@ var setDate = function (_moment) {
 
 var setTime = function (time) {
     Attributes.time = time;
+};
+
+var setAttribute = function (key, value) {
+    Attributes[key] = value;
 };
 
 var NavSubMenuStore = assign({}, EventEmitter.prototype, {
@@ -83,6 +87,10 @@ AppDispatcher.register(function (action) {
             break;
         case OPConstants.SET_TIME:
             setTime(action.time);
+            NavSubMenuStore.emitChange();
+            break;
+        case OPConstants.SET_ATTRIBUTE:
+            setAttribute(action.key, action.value);
             NavSubMenuStore.emitChange();
             break;
     }

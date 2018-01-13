@@ -43,6 +43,7 @@ var MainSection = createReactClass({
     };
 
     var lightTheme = this.props.attributes.lightThemeCheckbox;
+    var fontScale = this.props.attributes.fontScale;
 
     var docItems = [];
     var numLangs = 0;
@@ -56,7 +57,7 @@ var MainSection = createReactClass({
     }
 
     for (var document in allDocumentItems) {
-      docItems.push(<DocumentItem key={"document" + i} lightTheme={lightTheme} langStates={langStates} numLangs={numLangs} documentItem={allDocumentItems[document]} />);
+      docItems.push(<DocumentItem key={"document" + i} lightTheme={lightTheme} langStates={langStates} numLangs={numLangs} documentItem={allDocumentItems[document]} fontScale={fontScale}/>);
       i++;
     }
 

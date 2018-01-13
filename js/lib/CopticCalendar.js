@@ -156,7 +156,8 @@ var FastFeastNames = {
   JONAH_FAST: "Jonah's Fast",
   HOLY_50: "Holy 50 days (Pentecost)",
   NATIVITY_PARAMOUN: "Nativity Paramoun",
-  EPIPHANY_PARAMOUN: "Epiphany Paramoun"
+  EPIPHANY_PARAMOUN: "Epiphany Paramoun",
+  NATIVITY_PERIOD: "Nativity Period"
 };
 
 /**
@@ -169,7 +170,7 @@ var getCopticFastsFeasts = function (attributes) {
   var nativity = moment([attributes.year, 0, 7]);
   var epiphany = moment([attributes.year, 0, 19]);
   var annunciation = moment([attributes.year, 3, 7]);
-  var resurrection = moment(getresurrectionDate(attributes.year));
+  var resurrection = moment(getResurrectionDate(attributes.year));
   var palmSunday = moment(resurrection).subtract(7, 'days');
   var ascension = moment(resurrection).add(39, 'days');
   var pentecost = moment(resurrection).add(49, 'days');
@@ -244,6 +245,7 @@ var getCopticFastsFeasts = function (attributes) {
     end: null,
     major: true
   };
+
   fastFeasts[FastFeastNames.EPIPHANY] = {
     type: "feast",
     start: epiphany,
@@ -456,6 +458,13 @@ var getCopticFastsFeasts = function (attributes) {
     major: false
   };
 
+  fastFeasts[FastFeastNames.NATIVITY_PERIOD] = {
+    type: "feast",
+    start: nativity,
+    end: circumcision,
+    major: true
+  };
+
   return fastFeasts;
 };
 
@@ -481,20 +490,26 @@ var getParamounDate = function (feastDate) {
  */
 var isInFast = function (attributes) {
   var fastsfeasts = getCopticFastsFeasts(attributes);
-  // ignore time
+  // ignore time and use date only
   var todayDate = moment([attributes.year, attributes.monthIndex, attributes.day]);
   for (var x in fastsfeasts) {
     // beginning of date range is inclusive
+    /*
+    check if date falls in fast, in major feast period, or on major feast day
+    */
     if (fastsfeasts[x].type == "fast" && fastsfeasts[x].end !== null
       && todayDate.isBetween(fastsfeasts[x].start, fastsfeasts[x].end, null, '[)')) {
       return true;
+    } else if (fastsfeasts[x].type == "feast" && fastsfeasts[x].major && fastsfeasts[x].start.isSame(todayDate)) {
+      return false;
+    } else if (fastsfeasts[x].type == "feast" && fastsfeasts[x].major && fastsfeasts[x].end !== null
+      && todayDate.isBetween(fastsfeasts[x].start, fastsfeasts[x].end, null, '[)')) {
+      return false;
     }
   }
 
-  // if day is in Holy 50 and is not Wed or Fri return true
-  var holy50 = fastsfeasts[FastFeastNames.HOLY_50];
-  return (!todayDate.isBetween(holy50.start, holy50.end, null, '(]')
-    && (todayDate.day() == 3 || todayDate.day() == 5))
+  // finally if day is Wed or Fri return true
+  return todayDate.day() == 3 || todayDate.day() == 5;
 };
 
 /**
@@ -584,7 +599,7 @@ var getCopticDateString = function (year, monthIndex, day) {
   return copticDate.month + " " + copticDate.day + ", " + copticDate.year;
 };
 
-var getresurrectionDate = function (year) {
+var getResurrectionDate = function (year) {
   // Meeus Julian algorithm
   var a = year % 4;
   var b = year % 7;
@@ -653,7 +668,7 @@ var CopticDateComparator = function (month1, day1, month2, day2, monthIndex0, da
 
 module.exports.getCopticDate = getCopticDate;
 module.exports.getCopticDateString = getCopticDateString;
-module.exports.getresurrectionDate = getresurrectionDate;
+module.exports.getResurrectionDate = getResurrectionDate;
 module.exports.getDateString = getDateString;
 module.exports.getNumericDateString = getNumericDateString;
 module.exports.AdamOrWatos = AdamOrWatos;

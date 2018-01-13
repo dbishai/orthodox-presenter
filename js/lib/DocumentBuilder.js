@@ -84,7 +84,6 @@ var offering_hymn = function (attributes) {
 
 var Vespers = function (attributes) {
 
-    //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var docs = [];
     docs.push("prayers/intro_offering_of_incense");
     docs.push("prayers/our_father");
@@ -100,7 +99,7 @@ var Vespers = function (attributes) {
     docs.push("prayers/nicene_creed");
     docs.push("prayers/o_god_have_mercy_on_us");
     docs.push("prayers/litanies/litany_gospel");
-    docs.push("hymns/response_gospel_annual");
+    docs.push("hymns/response_gospel_annual_raising_incense");
     docs = docs.concat(short_litanies(attributes));
     docs.push("prayers/our_father");
     docs = docs.concat(concluding_hymn(attributes));
@@ -140,7 +139,7 @@ var Matins = function (attributes) {
     docs.push("prayers/nicene_creed");
     docs.push("prayers/o_god_have_mercy_on_us");
     docs.push("prayers/litanies/litany_gospel");
-    docs.push("hymns/response_gospel_annual");
+    docs.push("hymns/response_gospel_annual_raising_incense");
     docs = docs.concat(short_litanies(attributes));
     docs.push("prayers/our_father");
     docs = docs.concat(concluding_hymn(attributes));
@@ -168,8 +167,8 @@ var StBasilOffering = function (attributes) {
     docs = docs.concat(offering_hymn(attributes));
     docs.push("prayers/khen_efran_offertory");
     docs.push("prayers/thanksgiving_prayer");
-    docs.push("prayers/prayer_absolution_son");
     docs.push("hymns/saved_amen");
+    docs.push("prayers/prayer_absolution_son");
 
     return docs;
 };
