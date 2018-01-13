@@ -130,7 +130,7 @@ var DocumentItem = createReactClass({
 
   componentWillReceiveProps: function (newProps) {
     // default components back to true when receiving new props
-    if (newProps.documentItem != this.props.documentItem) {
+    if (newProps.documentItem != this.props.documentItem && newProps.documentItem.visible === "true") {
       this.setState({ showDocument: true });
     }
   },
