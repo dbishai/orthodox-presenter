@@ -192,7 +192,7 @@ var StBasilOffering = function (attributes) {
 var StBasilWord = function (attributes) {
     var docs = [];
     var day = attributes.day;
-    // On Saturdays, Sundays, and feasts of the Lord, Alleluia This is the Day is prayed
+    // On Saturdays, Sundays, and feasts of the Lord, Taishori is prayed
     docs = docs.concat(censer_hymn(attributes));
 //    docs.push("hymns/response_pauline");
 //    docs.push("hymns/coptic_pauline_intro");
