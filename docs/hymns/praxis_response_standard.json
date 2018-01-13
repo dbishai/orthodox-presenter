@@ -1,0 +1,27 @@
+{
+  "title": {
+    "eng": "Praxis Response",
+    "cop": "<ere ne Maria",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Hail to you O Mary, the beautiful dove, who gave birth to, God the Logos."
+        ],
+        "cop": [
+          "<ere ne Maria@ ][rompi e;necwc@ ;y`etacmici nan@ `mV] piLogoc."
+        ],
+        "ara": [
+          "السلام لك يا مريم، الحمامة الحسنة، التي ولدت لنا، الله الكلمة."
+        ]
+      }
+    }
+  ]
+}

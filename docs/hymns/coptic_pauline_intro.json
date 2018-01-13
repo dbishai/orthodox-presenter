@@ -1,0 +1,30 @@
+{
+  "title": {
+    "eng": "Introduction to the Coptic Pauline Epistle",
+    "cop": "Pauloc `vbwk...",
+    "ara" : "بولس عبد ربنا"
+  },
+  "visible": "false",
+  "items": [
+    {
+      "user": {
+        "eng": "Reader",
+        "cop": "Pi`anagnwctyc",
+        "ara": "القارئ"
+      },
+      "text": {
+        "eng": [
+          "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God."
+
+        ],
+        "cop": [
+          "Pauloc `vbwk `mPen[oic Iycouc Pi`,rictoc pi`apoctoloc et;ahem vy`etau;asf `epihisennofi `nte V]."
+        ],
+        "ara":[
+          ".بولس عبد ربنا يسوع المسيح. الرسول المدعو المفرز لكرازة الله"
+
+        ]
+      }
+    }
+  ]
+}

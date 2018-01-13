@@ -9,7 +9,7 @@ var SingleDatePicker = require('react-dates').SingleDatePicker;
 var NavStore = require('../stores/NavStore');
 var NavActions = require('../actions/NavActions');
 var SectionActions = require('../actions/SectionActions');
-//var Slider = require('rc-slider').default;
+var Slider = require('rc-slider').default;
 
 var classNames = require('classnames');
 
@@ -75,22 +75,26 @@ var NavSubMenuItem = createReactClass({
           </div>
         );
       case "theme":
-        /*
-        <div className="nav-slider">
-          <Slider
-            min={8}
-            max={24}
-            step={2}
-            defaultValue={this.props.attributes.fontSize} />
-        </div>
-        <input type="text" />
-        */
         return (
           <div className="nav-sub-menu-item">
             <div className="checkbox">
               <Toggle defaultChecked={this.props.attributes.lightThemeCheckbox}
                 onChange={this.handleLightThemeCheckbox} aria-label="..." />
               <label>Light Theme</label>
+            </div>
+            <div className="font-scaler">
+              <label className="font-scaler">Text Scale</label>
+              <div className="nav-slider">
+                <Slider
+                  min={0.5}
+                  max={2.5}
+                  step={0.25}
+                  defaultValue={this.props.attributes.fontScale}
+                  onChange={function (value) {
+                    thisState.setAttribute("fontScale", value)
+                  }} />
+              </div>
+              <label className="font-scaler">{this.props.attributes.fontScale * 100 + "%"}</label>
             </div>
           </div>
         );
@@ -185,6 +189,10 @@ var NavSubMenuItem = createReactClass({
 
   handleCheckbox: function (checkbox) {
     NavActions.setState(checkbox);
+  },
+
+  setAttribute: function (key, value) {
+    NavActions.setAttribute(key, value);
   }
 
 });

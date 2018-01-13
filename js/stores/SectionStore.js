@@ -20,8 +20,14 @@ var sections = {
                         "id": "1c",
                         "title": "OFFERING OF THE LAMB",
                         "load": "stbasil_offering"
-                    }
-                }
+                    },
+                    "1d": {
+                      "id": "1d",
+                      "title": "LITURGY OF THE WORD",
+                      "load" : "stbasil_word"
+                    },
+                },
+
             },
             "2b": {
                 "id": "2b",

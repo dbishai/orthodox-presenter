@@ -1,0 +1,30 @@
+{
+  "title": {
+    "eng": "Conclusion to the Coptic Praxis",
+    "cop": "Picaji...",
+    "ara" : "لم تزل كلمة"
+  },
+  "visible": "false",
+  "items": [
+    {
+      "user": {
+        "eng": "Reader",
+        "cop": "Pi`anagnwctyc",
+        "ara": "القارئ"
+      },
+      "text": {
+        "eng": [
+          "The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen."
+
+        ],
+        "cop": [
+          "Picaji de `nte `P[oic ef`eaiai ouoh ef`e`asai (ouoh) ef`e`amahi ouoh efe`tajro qen ]`agia `nekklycia `nte V]@ `amyn."
+        ],
+        "ara":[
+          ".لم تزل كلمة الرب تنو وتعتز وتثبت في كنيسة الله المقدسة. آمين"
+
+        ]
+      }
+    }
+  ]
+}
