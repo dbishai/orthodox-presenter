@@ -1,0 +1,33 @@
+{
+
+  "title": {
+    "eng": "Greet one Another",
+    "cop": "",
+    "ara" : ""
+  },
+  "items": [
+    {
+      "user": "deacon",
+      "text": {
+        "eng": [
+          "Greet one another with a holy kiss.",
+          "Lord have mercy. Lord have mercy. Lord have mercy.",
+          "Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us.",
+          "Offer, [offer, offer] in order. Stand with trembling. Look towards the East. Let us attend."
+        ],
+        "cop": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "ara": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    }
+  ]
+}

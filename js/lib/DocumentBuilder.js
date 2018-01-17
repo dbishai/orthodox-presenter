@@ -193,17 +193,19 @@ var StBasilWord = function (attributes) {
     var docs = [];
     var day = attributes.day;
     // On Saturdays, Sundays, and feasts of the Lord, Taishori is prayed
-    docs = docs.concat(censer_hymn(attributes));
-//    docs.push("hymns/response_pauline");
-//    docs.push("hymns/coptic_pauline_intro");
-//    docs.push("hymns/coptic_pauline_concl");
-//    docs.push("hymns/coptic_catholic_intro");
-//    docs.push("hymns/coptic_catholic_concl");
-    docs.push("hymns/praxis_response_standard");
+      docs = docs.concat(censer_hymn(attributes));
+      docs.push("hymns/hymn_intercessions_liturgy_of_the_word");
+/*    docs.push("hymns/response_pauline");
+      docs.push("hymns/coptic_pauline_intro");
+      docs.push("hymns/coptic_pauline_concl");
+      docs.push("hymns/coptic_catholic_intro");
+      docs.push("hymns/coptic_catholic_concl");
+*/    docs.push("hymns/praxis_response_standard");
 //    docs.push("hymns/coptic_praxis_intro");
 //    docs.push("hymns/coptic_praxis_concl");
       docs.push("hymns/trisagion_hymn");
       docs.push("prayers/litanies/litany_gospel");
+
 
 
     return docs;
@@ -211,8 +213,31 @@ var StBasilWord = function (attributes) {
 };
 
 
+var StBasilFaithful = function (attributes) {
+    var docs = [];
+    docs.push("hymns/response_gospel_annual_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
+//    docs.push("prayers/litanies/three_great_litanies");
+//    docs.push("prayers/responses/in_the_wisdom");
+    docs.push("prayers/nicene_creed");
+    docs.push("prayers/prayer_reconciliation");
+    docs.push("prayers/responses/greet_one_another_standard");
+    docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful");
+    docs.push("prayers/anaphora_stbasil");
+
+    return docs;
+
+
+}
+
+
+
+
+
+
+
 
 module.exports.Vespers = Vespers;
 module.exports.Matins = Matins;
 module.exports.StBasilOffering = StBasilOffering;
 module.exports.StBasilWord = StBasilWord;
+module.exports.StBasilFaithful = StBasilFaithful;

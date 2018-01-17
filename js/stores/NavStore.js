@@ -2,7 +2,6 @@ var AppDispatcher = require('../dispatcher/AppDispatcher');
 var EventEmitter = require('events').EventEmitter;
 var OPConstants = require('../constants/OPConstants');
 var assign = require('object-assign');
-
 var CHANGE_EVENT = 'change';
 var MenuToggle = true;
 
