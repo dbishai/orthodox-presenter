@@ -50,39 +50,35 @@ var sections = {
   "2a": {
     "id": "2a",
     "title": "BOOK OF HOURS",
-    "description": "\"This is My body which is given for you; My blood, which is shed for you.\" (Luke 22:19-20)",
-    "img": "../../images/placeholder.png",
     "node": {
       "prime": {
         "id": "prime",
         "title": "1ST HOUR",
-        //"load": "first_hour"
-
+        "load": "first_hour"
       },
       "terce": {
         "id": "terce",
-        "title": "3rd HOUR",
+        "title": "3RD HOUR",
         //"load": "third_hour"
       },
       "sext": {
         "id": "sext",
-        "title": "6th HOUR",
+        "title": "6TH HOUR",
         //"load": "sixth_hour"
       },
       "none": {
         "id":"none",
-        "title": "9th HOUR",
+        "title": "9TH HOUR",
         //"load": "ninth_hour"
       },
       "vespers": {
         "id":"vespers",
-        "title": "11th HOUR",
+        "title": "11TH HOUR",
         //"load": "eleventh_hour"
-
       },
       "midnight":{
         "id":"midnight",
-        "title": "12th HOUR",
+        "title": "12TH HOUR",
         //"load": "twelfth_hour"
       },
       "veil":{
@@ -92,7 +88,7 @@ var sections = {
       },
       "midnightwatch":{
         "id":"midnightwatch",
-        "title": "MIGHTNIGHT HOUR",
+        "title": "MIDNIGHT HOUR",
         //"load": "midnight_watch"
       },
       "selectedprayers":{
