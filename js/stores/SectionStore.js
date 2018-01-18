@@ -54,7 +54,8 @@ var sections = {
       "prime": {
         "id": "prime",
         "title": "1ST HOUR",
-        "load": "first_hour"
+        //"load": "first_hour"
+
       },
       "terce": {
         "id": "terce",
@@ -75,6 +76,7 @@ var sections = {
         "id":"vespers",
         "title": "11TH HOUR",
         //"load": "eleventh_hour"
+
       },
       "midnight":{
         "id":"midnight",
@@ -88,7 +90,7 @@ var sections = {
       },
       "midnightwatch":{
         "id":"midnightwatch",
-        "title": "MIDNIGHT HOUR",
+        "title": "MIGNIGHT HOUR",
         //"load": "midnight_watch"
       },
       "selectedprayers":{
@@ -145,50 +147,6 @@ function prev(ids) {
     Sections = Sections[ids[i]]["node"];
   }
 }
-},
-"2a": {
-"id": "2a",
-"title": "BOOK OF HOURS",
-"node": {
-  "prime": {
-    "id": "prime",
-    "title": "1ST HOUR",
-    "load": "first_hour"
-  },
-  "terce": {
-    "id": "terce",
-    "title": "3RD HOUR",
-    //"load": "third_hour"
-  },
-  "sext": {
-    "id": "sext",
-    "title": "6TH HOUR",
-    //"load": "sixth_hour"
-  },
-  "none": {
-    "id":"none",
-    "title": "9TH HOUR",
-    //"load": "ninth_hour"
-  },
-  "vespers": {
-    "id":"vespers",
-    "title": "11TH HOUR",
-    //"load": "eleventh_hour"
-  },
-  "midnight":{
-    "id":"midnight",
-    "title": "12TH HOUR",
-    //"load": "twelfth_hour"
-  },
-  "veil":{
-    "id": "veil",
-    "title": "VEIL",
-    //"load":"veil_hour"
-  },
-  "midnightwatch":{
-    "id":"midnightwatch",
-    "title": "MIDNIGHT HOUR",
-    //"load": "midnight_watch"
 
 var SectionStore = assign({}, EventEmitter.prototype, {
 
