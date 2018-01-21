@@ -26,6 +26,12 @@ var sections = {
                       "title": "LITURGY OF THE WORD",
                       "load" : "stbasil_word"
                     },
+                    "1e": {
+                      "id": "1e",
+                      "title": "LITURGY OF THE FAITHFUL",
+                      "load" : "stbasil_faithful"
+                    },
+
                 },
 
             },
@@ -40,9 +46,97 @@ var sections = {
                 "load": "matins"
             }
         }
-    }
+    },
 
-};
+    "2a": {
+      "id": "2a",
+      "title": "BOOK OF HOURS",
+      "node": {
+        "prime": {
+          "id": "prime",
+          "title": "1ST HOUR",
+          "load": "first_hour"
+  
+        },
+        "terce": {
+          "id": "terce",
+          "title": "3RD HOUR",
+          //"load": "third_hour"
+        },
+        "sext": {
+          "id": "sext",
+          "title": "6TH HOUR",
+          //"load": "sixth_hour"
+        },
+        "none": {
+          "id":"none",
+          "title": "9TH HOUR",
+          //"load": "ninth_hour"
+        },
+        "vespers": {
+          "id":"vespers",
+          "title": "11TH HOUR",
+          //"load": "eleventh_hour"
+  
+        },
+        "midnight":{
+          "id":"midnight",
+          "title": "12TH HOUR",
+          //"load": "twelfth_hour"
+        },
+        "veil":{
+          "id": "veil",
+          "title": "VEIL",
+          //"load":"veil_hour"
+        },
+        "midnightwatch":{
+          "id":"midnightwatch",
+          "title": "MIGNIGHT HOUR",
+          //"load": "midnight_watch"
+        },
+        "selectedprayers":{
+          "id":"selectedprayers",
+          "title":"SELECTED PRAYERS",
+          "node": {
+            "confession": {
+              "id": "confession",
+              "title": "CONFESSION",
+              //"load": "sp_confession"
+            },
+            "communion": {
+              "id": "communion",
+              "title": "COMMUNION",
+              //"load" : "sp_communion"
+            },
+            "guidance": {
+              "id" : "guidance",
+              "title": "GUIDANCE",
+              //"load": "sp_guidance"
+            },
+            "meals": {
+              "id" : "meals",
+              "title": "MEALS",
+              //"load": "sp_meals"
+            },
+            "priests": {
+              "id" : "priests",
+              "title": "PRIESTS",
+              //"load": "sp_priests"
+            },
+            "deacons": {
+              "id" : "deacons",
+              "title": "DEACONS",
+              //"load": "sp_deacons"
+            },
+  
+          }
+        }
+      }
+    }
+  
+  };
+
+
 
 var Sections = sections;
 
