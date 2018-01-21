@@ -492,6 +492,14 @@ var isInFast = function (attributes) {
   var fastsfeasts = getCopticFastsFeasts(attributes);
   // ignore time and use date only
   var todayDate = moment([attributes.year, attributes.monthIndex, attributes.day]);
+
+  // if day is Saturday or Sunday and not in Great Lent return false
+  var GreatLent = fastsfeasts[FastFeastNames.GREAT_LENT];
+  if ((todayDate.day() == 6 || todayDate.day() == 0)
+    && !todayDate.isBetween(GreatLent.start, GreatLent.end, null, '[)')) {
+    return false;
+  }
+
   for (var x in fastsfeasts) {
     // beginning of date range is inclusive
     /*
@@ -521,6 +529,7 @@ var getCurrentFastFeasts = function (attributes) {
   var collection = [];
   // ignore time
   var todayDate = moment([attributes.year, attributes.monthIndex, attributes.day]);
+
   for (var x in fastsfeasts) {
     // beginning of date range is inclusive
     if ((fastsfeasts[x].end === null && fastsfeasts[x].start.isSame(todayDate)) || (fastsfeasts[x].end !== null
