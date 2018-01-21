@@ -74,7 +74,7 @@ var concluding_hymn = function (attributes) {
 var offering_hymn = function (attributes) {
     var docs = [];
     if (CopticCalendar.isInFast(attributes)) {
-            docs.push("hymns/alleluia_the_thought_of_man");
+        docs.push("hymns/alleluia_the_thought_of_man");
     } else {
         docs.push("hymns/alleluia_this_is_the_day");
     }
@@ -85,7 +85,7 @@ var offering_hymn = function (attributes) {
 var censer_hymn = function (attributes) {
     var docs = [];
     if (CopticCalendar.isInFast(attributes)) {
-            docs.push("hymns/tishori");
+        docs.push("hymns/tishori");
     } else {
         docs.push("hymns/taishori");
     }
@@ -192,27 +192,74 @@ var StBasilOffering = function (attributes) {
 var StBasilWord = function (attributes) {
     var docs = [];
     var day = attributes.day;
-    // On Saturdays, Sundays, and feasts of the Lord, Alleluia This is the Day is prayed
+    // On Saturdays, Sundays, and feasts of the Lord, Taishori is prayed
     docs = docs.concat(censer_hymn(attributes));
-//    docs.push("hymns/response_pauline");
-//    docs.push("hymns/coptic_pauline_intro");
-//    docs.push("hymns/coptic_pauline_concl");
-//    docs.push("hymns/coptic_catholic_intro");
-//    docs.push("hymns/coptic_catholic_concl");
-    docs.push("hymns/praxis_response_standard");
-//    docs.push("hymns/coptic_praxis_intro");
-//    docs.push("hymns/coptic_praxis_concl");
-      docs.push("hymns/trisagion_hymn");
-      docs.push("prayers/litanies/litany_gospel");
-
+    docs.push("hymns/hymn_intercessions_liturgy_of_the_word");
+    /*    docs.push("hymns/response_pauline");
+          docs.push("hymns/coptic_pauline_intro");
+          docs.push("hymns/coptic_pauline_concl");
+          docs.push("hymns/coptic_catholic_intro");
+          docs.push("hymns/coptic_catholic_concl");
+    */    docs.push("hymns/praxis_response_standard");
+    //    docs.push("hymns/coptic_praxis_intro");
+    //    docs.push("hymns/coptic_praxis_concl");
+    docs.push("hymns/trisagion_hymn");
+    docs.push("prayers/litanies/litany_gospel");
 
     return docs;
 
 };
+var StBasilFaithful = function (attributes) {
+    var docs = [];
+    docs.push("hymns/response_gospel_annual_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
+    //    docs.push("prayers/litanies/three_great_litanies");
+    //    docs.push("prayers/responses/in_the_wisdom");
+    docs.push("prayers/nicene_creed");
+    docs.push("prayers/prayer_reconciliation");
+    docs.push("prayers/responses/greet_one_another_standard");
+    docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful");
+    docs.push("prayers/anaphora_stbasil");
 
+    return docs;
 
+};
+var FirstHour = function (attributes) { //content for the prime hour of the book of hours
+    var docs = [];
+    docs.push("prayers/bookofhours/first_hour");
+    docs.push("prayers/our_father");
+    docs.push("prayers/bookofhours/thanksgiving_prayer");
+    docs.push("prayers/bookofhours/psalm_50");
+    docs.push("prayers/bookofhours/come_let_us_kneel_down");
+    docs.push("prayers/bookofhours/pauline_epistle");
+    docs.push("prayers/bookofhours/faith_of_the_church");
+    docs.push("prayers/bookofhours/first_hour_intro");
+    docs.push("prayers/bookofhours/psalms/psalm_1");
+    docs.push("prayers/bookofhours/psalms/psalm_2");
+    docs.push("prayers/bookofhours/psalms/psalm_3");
+    docs.push("prayers/bookofhours/psalms/psalm_4");
+    docs.push("prayers/bookofhours/psalms/psalm_5");
+    docs.push("prayers/bookofhours/psalms/psalm_6");
+    docs.push("prayers/bookofhours/psalms/psalm_8");
+    docs.push("prayers/bookofhours/psalms/psalm_11");
+    docs.push("prayers/bookofhours/psalms/psalm_12");
+    docs.push("prayers/bookofhours/psalms/psalm_14");
+    docs.push("prayers/bookofhours/psalms/psalm_15");
+    docs.push("prayers/bookofhours/psalms/psalm_18");
+    docs.push("prayers/bookofhours/psalms/psalm_24");
+    docs.push("prayers/bookofhours/psalms/psalm_26");
+    docs.push("prayers/bookofhours/psalms/psalm_62");
+    docs.push("prayers/bookofhours/psalms/psalm_66");
+    docs.push("prayers/bookofhours/psalms/psalm_69");
+    docs.push("prayers/bookofhours/psalms/psalm_112");
+    docs.push("prayers/bookofhours/psalms/psalm_142");
+    docs.push("prayers/bookofhours/gospel_first_hour");
 
+    return docs;
+
+}
 module.exports.Vespers = Vespers;
 module.exports.Matins = Matins;
 module.exports.StBasilOffering = StBasilOffering;
 module.exports.StBasilWord = StBasilWord;
+module.exports.StBasilFaithful = StBasilFaithful;
+module.exports.FirstHour = FirstHour;
