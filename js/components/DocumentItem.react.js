@@ -24,7 +24,7 @@ var DocumentItem = createReactClass({
     }
   },
 
-  langStyle: function (elementType, lang) {
+  langStyle: function (elementType, lang, numLangs) {
     var fontScale = this.props["fontScale"];
     var fontSize;
     switch (elementType) {
@@ -46,7 +46,7 @@ var DocumentItem = createReactClass({
       divStyle["textAlign"] = "right";
       //divStyle["fontScale"] = "18px";
     }
-    divStyle["width"] = Math.floor(100 / this.props.numLangs) + "%";
+    divStyle["width"] = Math.floor(100 / numLangs) + "%";
     return divStyle;
   },
 
@@ -58,11 +58,34 @@ var DocumentItem = createReactClass({
       doc = Subs[doc];
     }
 
-    for (var lang in doc) {
+    var numLangs = 0;
+    var blackList = [];
 
-      if (!this.props.langStates[lang]) {
+    // get number of languages that will actually be displayed in order to properly size divs
+    for (var lang in doc) {
+      /*
+      check for the following:
+      - language is not checked in interface
+      - value of language key is collection of empty strings
+      - value of language key is empty string
+      - key is not defined
+      */
+      if (!this.props.langStates[lang] || (Array.isArray(doc[lang]) && doc[lang].every(function (val) { return val === "" }))
+        || (doc[lang] === "" || typeof doc[lang] == "undefined")) {
+        blackList.push(lang);
         continue;
       }
+      numLangs += 1;
+    }
+
+    for (var lang in doc) {
+
+      // check if language is in blacklist
+      if (blackList.indexOf(lang) != -1) {
+        continue;
+      }
+
+      var langStyle = this.langStyle(elementType, lang, numLangs);
 
       if (Array.isArray(doc[lang])) {
         for (var i = 0; i < doc[lang].length; i++) {
@@ -72,7 +95,7 @@ var DocumentItem = createReactClass({
             doc[lang][i]
           );
           text.push(
-            <div key={elementType + lang + i + idx} className="doc-item" style={this.langStyle(elementType, lang)}>
+            <div key={elementType + lang + i + idx} className="doc-item" style={langStyle}>
               {element}
             </div>
           );
@@ -95,18 +118,17 @@ var DocumentItem = createReactClass({
           );
         }
         text.push(
-          <div key={elementType + lang + idx} className="doc-item" style={this.langStyle(elementType, lang)}>
+          <div key={elementType + lang + idx} className="doc-item" style={langStyle}>
             {element}
           </div>
         );
       }
     }
-    return this.swapArray(text);
+    return this.swapArray(text, numLangs);
   },
 
-  swapArray: function (array) {
+  swapArray: function (array, numLangs) {
     var newArray = []
-    var numLangs = this.props.numLangs;
     var offset = array.length / numLangs;
 
     for (var i = 0; i < array.length; i += numLangs) {
@@ -162,7 +184,9 @@ var DocumentItem = createReactClass({
 
     if (showDocument) {
       for (var i = 0; i < documentItem.items.length; i++) {
-        collection.push(this.parseDocument(documentItem.items[i].user, "h4", sectionTheme, i))
+        if (typeof documentItem.items[i].user !== "undefined") {
+          collection.push(this.parseDocument(documentItem.items[i].user, "h4", sectionTheme, i))
+        }
         collection.push(this.parseDocument(documentItem.items[i].text, "p", sectionTheme, i))
       }
     }
