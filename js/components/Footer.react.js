@@ -13,7 +13,7 @@ var Footer = createReactClass({
             return (
                 <div className="footer">
                     <a href="https://github.com/dbishai/orthodox-presenter">
-                        <img src="/orthodox-presenter/images/GitHub-Mark-Light-32px.png" /></a>
+                        <img src="/images/GitHub-Mark-Light-32px.png" /></a>
                 </div>
             );
         } else {

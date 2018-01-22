@@ -61,17 +61,17 @@ var sections = {
         "terce": {
           "id": "terce",
           "title": "3RD HOUR",
-          //"load": "third_hour"
+          "load": "third_hour"
         },
         "sext": {
           "id": "sext",
           "title": "6TH HOUR",
-          //"load": "sixth_hour"
+          "load": "sixth_hour"
         },
         "none": {
           "id":"none",
           "title": "9TH HOUR",
-          //"load": "ninth_hour"
+          "load": "ninth_hour"
         },
         "vespers": {
           "id":"vespers",
