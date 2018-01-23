@@ -56,7 +56,7 @@ var sections = {
           "id": "prime",
           "title": "1ST HOUR",
           "load": "first_hour"
-  
+
         },
         "terce": {
           "id": "terce",
@@ -77,7 +77,7 @@ var sections = {
           "id":"vespers",
           "title": "11TH HOUR",
           //"load": "eleventh_hour"
-  
+
         },
         "midnight":{
           "id":"midnight",
@@ -91,7 +91,7 @@ var sections = {
         },
         "midnightwatch":{
           "id":"midnightwatch",
-          "title": "MIGNIGHT HOUR",
+          "title": "MIDNIGHT HOUR",
           //"load": "midnight_watch"
         },
         "selectedprayers":{
@@ -128,12 +128,12 @@ var sections = {
               "title": "DEACONS",
               //"load": "sp_deacons"
             },
-  
+
           }
         }
       }
     }
-  
+
   };
 
 
