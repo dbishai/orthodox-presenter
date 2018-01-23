@@ -373,7 +373,70 @@ var NinthHour = function (attributes) {
     docs.push("prayers/bookofhours/conclusion_every_hour");
 
     return docs;
+};
+var EleventhHour = function (attributes) { 
+    var docs = [];
+    docs.push("prayers/bookofhours/eleventh_hour");
+    docs.push("prayers/our_father");
+    docs.push("prayers/bookofhours/thanksgiving_prayer");
+    docs.push("prayers/bookofhours/psalm_50");
+    docs.push("prayers/bookofhours/eleventh_hour_intro");
+    docs.push("prayers/bookofhours/psalms/psalm_116");
+    docs.push("prayers/bookofhours/psalms/psalm_117");
+    docs.push("prayers/bookofhours/psalms/psalm_119");
+    docs.push("prayers/bookofhours/psalms/psalm_120");
+    docs.push("prayers/bookofhours/psalms/psalm_121");
+    docs.push("prayers/bookofhours/psalms/psalm_122");
+    docs.push("prayers/bookofhours/psalms/psalm_123");
+    docs.push("prayers/bookofhours/psalms/psalm_124");
+    docs.push("prayers/bookofhours/psalms/psalm_125");
+    docs.push("prayers/bookofhours/psalms/psalm_126");
+    docs.push("prayers/bookofhours/psalms/psalm_127");
+    docs.push("prayers/bookofhours/psalms/psalm_128");
+    docs.push("prayers/bookofhours/gospel_eleventh_hour");
+    docs.push("prayers/bookofhours/eleventh_hour_litanies");
+    docs.push("prayers/trisagion");
+    docs.push("prayers/our_father");
+    docs.push("prayers/bookofhours/hail_to_you");
+    docs.push("prayers/bookofhours/lord_have_mercy_41");
+    docs.push("prayers/holy_holy_holy");
+    docs.push("prayers/our_father");
+    docs.push("prayers/bookofhours/eleventh_hour_absolution");
+    docs.push("prayers/bookofhours/conclusion_every_hour");
+
+    return docs;
+};
+var Meals = function (attributes) { 
+    var docs = [];
+    docs.push("prayers/bookofhours/prayer_before_meals");
+    docs.push("prayers/bookofhours/prayer_after_meals");
+    
+    return docs;
+};
+var Deacons = function (attributes) { 
+    var docs = [];
+    docs.push("prayers/bookofhours/psalms/psalm_121");
+    docs.push("prayers/bookofhours/psalms/psalm_26_deacon");
+    docs.push("prayers/bookofhours/psalms/psalm_64_deacon");
+    docs.push("prayers/bookofhours/psalms/psalm_83");
+    docs.push("prayers/bookofhours/psalms/psalm_5_deacon");
+    docs.push("prayers/bookofhours/psalms/psalm_122");
+    docs.push("prayers/bookofhours/psalms/psalm_29");
+    docs.push("prayers/bookofhours/psalms/psalm_92");
+
+    return docs;
+};
+var Priests = function (attributes) { 
+    var docs = [];
+    docs.push("prayers/bookofhours/psalms/psalm_26");
+    docs.push("prayers/bookofhours/psalms/psalm_46");
+    docs.push("prayers/bookofhours/psalms/psalm_121");
+    docs.push("prayers/bookofhours/psalms/psalm_29");
+    docs.push("prayers/bookofhours/psalms/psalm_92");
+
+    return docs;
 }
+
 
 module.exports.Vespers = Vespers;
 module.exports.Matins = Matins;
@@ -384,3 +447,11 @@ module.exports.FirstHour = FirstHour;
 module.exports.ThirdHour = ThirdHour;
 module.exports.SixthHour = SixthHour;
 module.exports.NinthHour = NinthHour;
+module.exports.EleventhHour = EleventhHour;
+/*module.exports.TwelfthHour = TwelfthHour;
+module.exports.Veil = Veil;
+module.exports.Midnight = Midnight;
+*/
+module.exports.Meals = Meals;
+module.exports.Deacons = Deacons;
+module.exports.Priests = Priests;

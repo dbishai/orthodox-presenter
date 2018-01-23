@@ -76,7 +76,7 @@ var sections = {
         "vespers": {
           "id":"vespers",
           "title": "11TH HOUR",
-          //"load": "eleventh_hour"
+          "load": "eleventh_hour"
   
         },
         "midnight":{
@@ -116,17 +116,17 @@ var sections = {
             "meals": {
               "id" : "meals",
               "title": "MEALS",
-              //"load": "sp_meals"
+              "load": "sp_meals"
             },
             "priests": {
               "id" : "priests",
               "title": "PRIESTS",
-              //"load": "sp_priests"
+              "load": "sp_priests"
             },
             "deacons": {
               "id" : "deacons",
               "title": "DEACONS",
-              //"load": "sp_deacons"
+              "load": "sp_deacons"
             },
   
           }
