@@ -36,14 +36,14 @@ function autoLoad(category, attributes) {
             docs = DocumentBuilder.StBasilOffering(attributes);
             break;
         case "stbasil_word":
-              docs = DocumentBuilder.StBasilWord(attributes);
-              break;
+            docs = DocumentBuilder.StBasilWord(attributes);
+            break;
         case "stbasil_faithful":
-              docs = DocumentBuilder.StBasilFaithful(attributes);
-              break;
+            docs = DocumentBuilder.StBasilFaithful(attributes);
+            break;
         case "first_hour": //prime hour of the Book of Hours (Agpeya)
-              docs = DocumentBuilder.FirstHour(attributes);
-              break;
+            docs = DocumentBuilder.FirstHour(attributes);
+            break;
         default:
             docs = ["prayers/nicene_creed"];
     }
