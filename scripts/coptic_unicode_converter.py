@@ -37,9 +37,36 @@ def main():
 
     ROOT_DIR = "../docs/"
     for filename in iglob(ROOT_DIR + '**/*.json', recursive=True):
-        with open(filename, 'w+') as src:
-            print(src.read())
-            #text = "".join(replace(mapping, list(src)))
+        if filename in ["../docs/helpers/common.json", "../docs/helpers/users.json"]:
+            continue
+        with open(ROOT_DIR + filename, 'r') as src:
+            try:
+                text = json.load(src)
+            except json.decoder.JSONDecodeError as identifier:
+                print("ERROR decoding file: " + filename)
+                continue
+
+            if "title" not in text:
+                print(filename)
+            if "cop" in text["title"]:
+                text["title"]["cop"] = "".join(replace(mapping, list(text["title"]["cop"])))
+
+            for item in text["items"]:
+                if "user" in item:
+                    str_replace = item["user"]
+                    if "cop" in str_replace:
+                        str_replace["cop"] = "".join(replace(mapping, list(str_replace["cop"])))
+
+                if "text" not in item:
+                    print(filename)
+
+                str_replace = item["text"]
+                if "cop" in str_replace:
+                    for i in range(len(str_replace["cop"])):
+                        str_replace["cop"][i] = "".join(replace(mapping, list(str_replace["cop"][i])))
+
+        with open(ROOT_DIR + filename, 'w') as src:
+            print(json.dumps(text), file=src)
 
 if __name__ == "__main__":
     main()
