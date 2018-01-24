@@ -3,7 +3,7 @@
   "title": {
     "eng": "The Short Blessing",
     "cop": "Vnou] ef`esenhyt",
-    "ara" : " البركة القصيرةر "
+    "ara": " البركة القصيرةر "
   },
   "items": [
     {
@@ -25,7 +25,6 @@
           "and the blessing of the holy Theotokos, St. Mary, first and last.",
           "May their holy blessing, their grace, their power, their gift, their love, and their help be with us all all for ever. Amen.",
           "O Christ our God-"
-
         ],
         "cop": [
           "`Vnou] ef`esenhyt qaron ef`e`cmou `eron@ ef`eouwnh `mpefho `e`hryi `ejwn ouoh ef`enai nan.",
@@ -75,7 +74,6 @@
         "ara": [
           ".آمين يكون "
         ]
-
       }
     },
     {
@@ -90,7 +88,6 @@
         "ara": [
           ".يا ملك السلام، أعطينا سلامك. قرر لنا سلامك وإغفر لنا خطايانا. لأن لك القوة والمجد والبركة والعزة إلى الأبد. آمين"
         ]
-
       }
     },
     {
@@ -118,22 +115,21 @@
           " .محبة الله الآب، ونعمة الإبن الوحيد، ربنا وإلهنا وملكنا ومخلصنا يسوع المسيح، وشركة وموهبة الروح القدس تكون مع جميعكم",
           ".إمضوا بسلام، سلام الرب مع جميعكم"
         ]
-
       }
     },
     {
       "user": "people",
-      "eng": [
-        "And with your spirit."
-      ],
-      "cop": [
-        "Ke tw `pneumati cou."
-      ],
-      "ara": [
-        ".مع روحك أيضاً"
-      ]
-
+      "text": {
+        "eng": [
+          "And with your spirit."
+        ],
+        "cop": [
+          "Ke tw `pneumati cou."
+        ],
+        "ara": [
+          ".مع روحك أيضاً"
+        ]
+      }
     }
-
   ]
 }
