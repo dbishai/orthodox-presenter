@@ -91,7 +91,7 @@ var sections = {
         },
         "midnightwatch":{
           "id":"midnightwatch",
-          "title": "MIGNIGHT HOUR",
+          "title": "MIDNIGHT HOUR",
           //"load": "midnight_watch"
         },
         "selectedprayers":{
