@@ -4,6 +4,7 @@ Python script to convert Coptic in documents from standard ASCII to Unicode
 
 from glob import iglob
 import json
+import argparse
 
 # standard defined by Coptic Fonts Standard
 ascii_coptic = list("AaBbGgDdEe^^ZzYy:;IiKkLlMmNnXxOoPpRrCcTtUuVv<,\"'WwSsFfQqHhJj{[}]`@=")
@@ -27,6 +28,11 @@ def replace(mapping, text):
     return text
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("-string", required=False)
+    args = vars(ap.parse_args())
+    print(args)
+
     # make sure character mappings are equal in length
     assert(len(ascii_coptic) == len(unicode_coptic))
 
@@ -34,6 +40,12 @@ def main():
     mapping = {}
     for (a,b) in zip(ascii_coptic, unicode_coptic):
         mapping[a] = chr(b)
+
+
+    if len(args) > 0:
+        text = args["string"]
+        print("".join(replace(mapping, list(text))))
+        return
 
     ROOT_DIR = "../docs/"
     for filename in iglob(ROOT_DIR + '**/*.json', recursive=True):
