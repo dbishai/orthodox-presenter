@@ -61,8 +61,12 @@ var DocumentItem = createReactClass({
     var numLangs = 0;
     var blackList = [];
 
+    // order of languages to be displayed
+    var langs = ["eng", "cop", "ara"];
+
     // get number of languages that will actually be displayed in order to properly size divs
-    for (var lang in doc) {
+    for (var i = 0; i < langs.length; i++) {
+      var lang = langs[i];
       /*
       check for the following:
       - language is not checked in interface
@@ -78,8 +82,6 @@ var DocumentItem = createReactClass({
       }
     }
 
-    // order of languages to be displayed
-    var langs = ["eng", "cop", "ara"];
 
     for (var i = 0; i < langs.length; i++) {
 
