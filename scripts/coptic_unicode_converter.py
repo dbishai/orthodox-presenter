@@ -66,7 +66,7 @@ def main():
                         str_replace["cop"][i] = "".join(replace(mapping, list(str_replace["cop"][i])))
 
         with open(ROOT_DIR + filename, 'w') as src:
-            print(json.dumps(text), file=src)
+            print(json.dumps(text, ensure_ascii=False), file=src)
 
 if __name__ == "__main__":
     main()
