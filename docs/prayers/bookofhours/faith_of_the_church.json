@@ -1,18 +1,1 @@
-{
-  "title": {
-    "eng": "The Faith of the Church",
-    "ara": ""
-  },
-  "items": [
-    {
-      "text": {
-        "eng": [
-          "One is God the Father of everyone. One is His Son, Jesus Christ the Word, who came and was incarnate and died and rose from the dead on the third day, ad raised us with Him. One is the Holy Spirit, the comforter, one in hypostasis, proceeding from the Father, purifying the whole creation, and teaching us to worship the Holy Trinity, one in divinity and one in essence. We praise Him and bless Him forever. Amen."
-        ],
-        "ara" : [
-          ""
-        ]
-      }
-    }
-  ]
-}
+{"title": {"eng": "The Faith of the Church", "ara": ""}, "items": [{"text": {"eng": ["One is God the Father of everyone. One is His Son, Jesus Christ the Word, who came and was incarnate and died and rose from the dead on the third day, ad raised us with Him. One is the Holy Spirit, the comforter, one in hypostasis, proceeding from the Father, purifying the whole creation, and teaching us to worship the Holy Trinity, one in divinity and one in essence. We praise Him and bless Him forever. Amen."], "ara": [""]}}]}
