@@ -1,0 +1,43 @@
+{
+  "title": {
+    "eng": "Hail to You",
+    "cop": "<ere ne ten]ho `ero",
+    "ara" : ""
+  },
+  "items": [
+    {
+      "text": {
+        "eng": [
+          "Hail to you. We ask you, O saint, full of glory, the ever-virgin. the Theotokos (Mother of God), the Mother of Christ,",
+          "Lift up our prayers unto your beloved Son, that He may forgive us our sins.",
+          "Hail to the holy Virgin, who has brought forth unto us the true Light, Christ our God.",
+          "Ask the Lord on our behalf, that He may have mercy on our souls, and forgive us our sins.",
+          "O Virgin Mary, the holy Theotokos (Mother of God), the faithful advocate for all mankind,",
+          "Intercede on our behalf before Christ whom you bore, that He may forgive us our sins.",
+          "Hail to you, O Virgin, the right and true Queen. Hail to the pride of our race who bore to us Immanuel",
+          "We ask you to remember us, O our faithful advocate, before our Lord Jesus Christ that He may forgive us our sins "
+        ],
+        "cop": [
+          "<ere ne ten]ho `ero@ `w ;y=e=;=u e;meh `n`wou@ `etoi `mpar;enoc `ncyou niben@ ]macnou] `;mau `mP=,=c.",
+          "Anio`ui `nten`proceu,y@ `e`pswi ha pesyri `mmenrit@ `ntef,a nennobi nan `ebol.",
+          "<ere ;y`etacmici nan@ `mpiouwini `nta`vmyi@ P=,=c Pennou] @ ]par;enoc =e=;=u.",
+          "Ma]ho `mP=o=c  `e`hryi `ejon@ `nteferounai nem nen'u,y@ `ntef,a nennobi nan `ebol.",
+          "}par;enoc Maria@ ];e`otokoc e=;=u@ ]`proctatyc `etenhot@ `nte `pgenoc `nte ]metrwmi.",
+          "Ari`precbeuin `e`hryi `ejon@ nahren P=,=c  vyetare`jvof@ hopwc `ntefer`hmot nan@ `mpi,w `ebol `nte nennobi.",
+          "<ere ne `w ]par;enoc@ ]ourw `mmyi `n`aly;iny@ ,ere `psousou `nte pengenoc@ `are`jvo nan `nEmmanouyl.",
+          "Ten]ho `aripenme`ui@ `w ]`proctatyc `etenhot@ nahren Pe=n=o=c  I=y=c  P=,=c@ `ntef,a nennobi nan `ebol."
+        ],
+        "ara":[
+          "السلام لك نسألك أيتها القديسة الممتلئة مجدا العذراء كل حين. والدة الاله أم المسيح ",
+          "اصعدى صلاتنا الى ابنك الحبيب ليغفر لنا خطايانا ",
+          "السلام للتى ولدت لنا النور الحقيقى المسيح الهنا العذراء القديسة ",
+          "اسألى الرب عنا ليصنع رحمة مع نفوسنا ويغفر لنا خطايانا ",
+          "أيتها العذراء مريم والدة الاله القديسة الشفيعة الأمينة لجنس البشر.",
+          "اشفعى فينا أمام المسيح الذى ولدته لكى ينعم لنا بمغفرة خطايانا ",
+          "السلام لك أيتها العذراء الملكة الحقيقية الحقانية. السلام لفخر جنسنا. ولدت لنا عمانوئيل ",
+          "نسألك أن تذكرينا أيتها الشفيعة المؤتمنة أمام ربنا يسوع المسيح ليغفر لنا خطايانا "
+        ]
+      }
+    }
+  ]
+}
