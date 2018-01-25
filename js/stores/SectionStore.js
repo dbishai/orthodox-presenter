@@ -61,22 +61,22 @@ var sections = {
         "terce": {
           "id": "terce",
           "title": "3RD HOUR",
-          //"load": "third_hour"
+          "load": "third_hour"
         },
         "sext": {
           "id": "sext",
           "title": "6TH HOUR",
-          //"load": "sixth_hour"
+          "load": "sixth_hour"
         },
         "none": {
           "id":"none",
           "title": "9TH HOUR",
-          //"load": "ninth_hour"
+          "load": "ninth_hour"
         },
         "vespers": {
           "id":"vespers",
           "title": "11TH HOUR",
-          //"load": "eleventh_hour"
+          "load": "eleventh_hour"
   
         },
         "midnight":{
@@ -116,17 +116,17 @@ var sections = {
             "meals": {
               "id" : "meals",
               "title": "MEALS",
-              //"load": "sp_meals"
+              "load": "sp_meals"
             },
             "priests": {
               "id" : "priests",
               "title": "PRIESTS",
-              //"load": "sp_priests"
+              "load": "sp_priests"
             },
             "deacons": {
               "id" : "deacons",
               "title": "DEACONS",
-              //"load": "sp_deacons"
+              "load": "sp_deacons"
             },
   
           }
