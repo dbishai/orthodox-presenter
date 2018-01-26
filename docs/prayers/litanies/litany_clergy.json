@@ -1,0 +1,54 @@
+{
+  "title": {
+    "eng": "Litany of the Clergy",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "And those who rightly divide the word of truth with him, grant them unto Your holy Church to shepherd Your flock in peace. ",
+          "Remember, O Lord, the orthodox hegumens, priests, and deacons."
+        ],
+        "cop": [
+          "",
+          ""
+        ],
+        "ara": [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "user": "deacon",
+      "text": {
+        "eng": [
+          "Pray for the hegumens, priests, deacons, subdeacons, and the seven orders of the Church of God."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Kurie `ele`ycon."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  }
+   ]
+}

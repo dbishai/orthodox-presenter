@@ -226,6 +226,13 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/prayer_agios_stbasil");
     docs.push("prayers/institution_stbasil");
     docs.push("hymns/amen_amen_amen_your_death");
+    docs.push("prayers/prayer_before_epiclesis");
+    docs.push("prayers/yea_we_ask_you");
+    docs.push("prayers/intro_seven_short_litanies");
+    docs.push("prayers/litanies/litany_peace_liturgy");
+    docs.push("prayers/litanies/litany_fathers_liturgy");
+    docs.push("prayers/litanies/litany_mercy");
+    docs.push("prayers/litanies/litany_place_liturgy");
 
     return docs;
 

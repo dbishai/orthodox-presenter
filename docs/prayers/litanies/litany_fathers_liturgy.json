@@ -1,0 +1,57 @@
+{
+  "title": {
+    "eng": "Litany of the Fathers",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "this, which You have acquired to Yourself with the precious Blood of Your Christ, keep her in peace, with all the orthodox bishops who are in her.",
+          "Foremost remember, O Lord, our blessed and honored father, the archbishop, our patriarch, Abba (…), and his spiritual brothers, the Patriarch of Antioch Mar Ignatius (…), and the Patriarch of Eritrea Abouna (…).",
+          "and his partner in the liturgy, our father the bishop (metropolitan), Abba (...)."
+        ],
+        "cop": [
+          "",
+          "",
+          ""
+        ],
+        "ara": [
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "user": "deacon",
+      "text": {
+        "eng": [
+          "Pray for our high priest, Pope Abba (…), pope and patriarch and archbishop of the great city of Alexandria, and his spiritual brothers, the Patriarch of Antioch Mar Ignatius (…), and the Patriarch of Eritrea Abouna (…) and his partner in the liturgy, our father the bishop (metropolitan), Abba (...) and for our orthodox bishops. "
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Kurie `ele`ycon."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  }
+   ]
+}

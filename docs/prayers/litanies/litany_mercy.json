@@ -1,0 +1,38 @@
+{
+  "title": {
+    "eng": "Litany of Mercy",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "And all the servants, and all who are in virginity, and the purity of all Your faithful people.",
+          "Remember, O Lord, to have mercy upon us all."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+    "text": {
+      "eng": [
+        "Have mercy upon us, O God, the Father, the Pantocrator."
+      ],
+      "cop": [
+        "Kurie `ele`ycon."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  }
+   ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": {
+    "eng": "Litany of Peace",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "Remember, O Lord, the peace of Your one, only, holy, catholic, and apostolic Church-"
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "deacon",
+      "text": {
+        "eng": [
+          "Pray for peace of the one, holy, catholic, and apostolic orthodox Church of God"
+        ],
+        "cop": [
+          "Proceuxac;e `uper tyc `irynyc tyc `agiac monyc ka;olikyc ke `apoctolikyc or;odoxou tou :eou Ek`klyciac."
+        ],
+        "ara": [
+          " صلوا من أجل سلام الواحدة المقدسة الجامعة الرسولية كنيسة الله الأرثوذكسية "
+        ]
+      }
+    },
+    {
+      "user": "people",
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Kurie `ele`ycon."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  }
+   ]
+}
