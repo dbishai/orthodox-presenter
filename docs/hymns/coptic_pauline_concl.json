@@ -1,0 +1,30 @@
+{
+  "title": {
+    "eng": "Conclusion to the Coptic Pauline Epistle",
+    "cop": "Pi`hmot gar...",
+    "ara" : "نعمة الله الآب"
+  },
+  "visible": "false",
+  "items": [
+    {
+      "user": {
+        "eng": "Reader",
+        "cop": "Pi`anagnwctyc",
+        "ara": "القارئ"
+      },
+      "text": {
+        "eng": [
+          "Grace and peace be with you all. Amen. So be it."
+
+        ],
+        "cop": [
+          "Pi`hmot gar nemwten nem `thiriny eucop je `amyn ec`eswpi."
+        ],
+        "ara":[
+          ".نعمة الله الآب تكون مع جميعكم آمين"
+
+        ]
+      }
+    }
+  ]
+}

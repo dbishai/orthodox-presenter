@@ -5,6 +5,7 @@
     "cop": "A pinau swpi",
     "ara" : " قد حان الوقت "
   },
+  "visible": "false",
   "items": [
     {
       "user": {

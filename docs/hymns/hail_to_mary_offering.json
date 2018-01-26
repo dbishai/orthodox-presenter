@@ -1,0 +1,57 @@
+{
+  "tag": "standard",
+  "title": {
+    "eng": "Hail to Mary the Queen",
+    "cop": "<ere Maria ]ourw",
+    "ara" : " السلامُ لمريم الملكة "
+  },
+  "visible": "false",
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "Hail to Mary the queen, the unbarren vine that no farmer toiled. In her is found the Cluster of Life.",
+          "The Son of God is truly incarnate from the Virgin. She bore Him; He saved us and forgave us our sins.",
+          "You found grace, O Bride. Many spoke of your honor, for the Logos of the Father came and was incarnate of you.",
+          "What woman of earth, became Mother of God but you? For while you are a woman of the earth, you became Mother of the Creator.",
+          "Many women received honor, and gained the kingdom, but they did not reach your honor, O you the fair among women.",
+          "You are the high tower, in which the treasure was found, which is Immanuel, who came and dwelt in your womb.",
+          "Let us honor the virginity of the bride who is without malice, pure and all-holy, the Theotokos Mary.",
+          "You are exalted more than heaven; you are honored more than earth and all creation therein, for you became the Mother of the Creator.",
+          "Truly you are, the pure bridal chamber, which belongs to Christ the Bridegroom, according to the prophetic sayings.",
+          "Intercede on our behalf, O the Lady of us all the Theotokos Mary, the Mother of Jesus Christ, that He may forgive us our sins."
+        ],
+        "cop": [
+          "<ere Maria ]ourw ]bw@ `n`aloli `naterqellw@ ;y`ete `mpeouwi `erouwi `eroc@ aujem Pi`cmah `nte `pwnq `nqytc.",
+          "`Psyri `m`Vnou] qen oume;myi@ af[icarx qen }par;enoc@ acmici `mmof afcw] `mmon@ af,a nennobi nan `ebol.",
+          "`Arejem ou`hmot `w taiselet@ hanmys aucaji `epetaio@ je `a Pilogoc `nte `Viwt@ `i af[icarx `ebol `nqy].",
+          "Nim `n`chimi et hijen pikahi@ acermau `m`Vnou] `ebyl `ero@ je `n;o ou`chimi `nrem`nkahi@ `areermau `mPirefcwnt.",
+          "`A oumys `n`chimi [itaio@ ausasni `e]metouro@ alla `mpou`svoh `epetaio@ ;ye;necwc qen nihiomi.",
+          "`N;o gar pe pipurgoc et[oci@ `etaujem pi`anamyi `nqytf@ `ete vai pe Emmanouyl@ `etaf`i afswpi qen teneji.",
+          "Marentaio `n`tpar;enia@ `n]selet `natkakia@ ]ka;aroc `mpan`agia@ };e`otokoc Maria.",
+          "`Are[ici `ehote `tve@ tetaiyout `ehote `pkahi@ nem cwnt niben `ete `nqytf@ je `areermau `mPirefcwnt.",
+          "`N;o gar `aly;oc@ pima `nselet `nka;aroc@ `nte Pi`,rictoc Pinumvioc@ kata ni`cmy `m`provytikon.",
+          "`Ari`precbeuin `e`hryi `ejwn@ `w ten[oic `nnyb tyren };e`otokoc Maria@ `:mau I=y=c P=,=c@ `ntef,a nennobi nan `ebol."
+        ],
+        "ara":[
+          " السلامُ لمريم الملكة، الكرمة غير الشائخة، التي لم يُفَلِّحها فلاح، ووُجِدَ فيها عنقود الحياة ",
+          " إبن الله بالحقيقة، تجسد من العذراء، ولَدَتْهُ وخلَّصنا، وغفر لنا خطايانا ",
+          " وَجَدْتِ نعمة يا أيتها العروس، كثيرون نطقوا بكرامتِكِ، لأن كلمة الآب، أتى وتجسد منكِ ",
+          " أية إمرأة على الأرض، صارت أُمَّاً لله سواكِ، لأنكِ إمرأة أرضية، صرتِ أُمَّاً للباري ",
+          " نساء كثيرات نلنَ كرامات، وفُزنَ بالملكوت، لكن لم يبلغنَ كرامتِكِ، أيتها الحسنة في النساء ",
+          "أنتِ هي البرج العالي، الذي وجدوا فيه الجوهر، أي عمانوئيل، الذي أتى وحلَّ في بطنِكِ",
+          " فلنُكَرِّم بتولية، العروس التي بغير شرٍ، النقية الكلية القداسة، والدة الإله مريم ",
+          " إرتفعتِ أكثر من السماء، وأنتِ أكرم من الأرض، وكلِّ المخلوقات التي فيها، لأنكِ صرتِ أُمَّاً للخالق ",
+          " أنتِ بالحقيقة، الخِدر النقي، الذي للمسيح الختن، كالأصوات النبوية ",
+          " إشفعي فينا، يا سيدتنا كلنا السيدة مريم والدة الإله، أم يسوع المسيح، ليغفر لنا خطايانا "
+
+        ]
+      }
+    }
+  ]
+}

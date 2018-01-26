@@ -1,0 +1,31 @@
+{
+
+  "title": {
+    "eng": "Offering of Incense (Vespers)",
+    "cop": "Ptalo Mpi`c;oinou",
+    "ara" : " رفع بخور "
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "Have mercy on us O God, the Father, the Pantocrator. All-Holy Trinity, have mercy on us.",
+          "O Lord, God of Hosts, be with us, for we have no helper in our tribulations and afflictions but You.",
+          "Make us worthy to pray thankfully:"
+        ],
+        "cop": [
+          "`Ele`ycon `ymac `o :eoc `o Patyr `o Pantokratwr. Pan`agia `Triac `ele`ycon `ymac.",
+          "`P[oic `Vnou] `nte nijom swpi neman@ je `mmon `ntan `noubo`y;oc qen nen`;li'ic nem nenhojhej `ebyl `erok.",
+          "Ariten `nem`psa `njoc qen ousep`hmot@"
+        ],
+        "ara": [
+          " .إرحمنا يا الله الآب ضابط الكل. أيها الثالوث القدوس إرحمنا ",
+          " .أيها الرب إله القوات كن معنا، لأنه ليس لنا معين في شدائدنا وضيقاتنا سواك ",
+          " :وإجعلنا مستحقين أن نقول بشكر "
+        ]
+
+      }
+    }
+  ]
+}

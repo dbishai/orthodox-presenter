@@ -13,5 +13,10 @@
     "eng": "People",
     "cop": "Pilaoc",
     "ara": "الشعب"
+  },
+  "reader": {
+    "eng": "Reader",
+    "cop": "Pi`anagnwctyc",
+    "ara": "القارئ"
   }
 }

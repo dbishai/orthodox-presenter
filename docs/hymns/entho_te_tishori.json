@@ -1,0 +1,31 @@
+{
+  "tag": "great lent weekdays",
+    "tag": "jonah's fast",
+  "title": {
+    "eng": "You are the censer",
+    "cop": "N;o te ]soury@",
+    "ara" : " أنت هي المجمرة "
+  },
+  "items": [
+    {
+      "user": {
+        "eng": "People",
+        "cop": "Pilaoc",
+        "ara": "الشعب "
+      },
+      "text": {
+        "eng": [
+          "You are the censer of pure gold, bearing the blessed ember."
+
+        ],
+        "cop": [
+          "N;o te ]soury@ `nnoub `nka;aroc@ etfai qa pijebc@ `n`,rwm et`cmarw`out."
+        ],
+        "ara":[
+          ".أنت هي المجمرة الذهب النقي الحاملة جمر النار المبارك"
+
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": {
+    "eng": "Gospel (Luke 4:38-41)",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "reader",
+      "text": {
+        "eng": [
+          "And He arose out of the synagogue, and entered into Simon's house. And Simon's wife's mother was taken with a great fever; and they requested Him concerning her. And He stood over her, and rebuked the fever; and it left her: and immediately she arose and served them.",
+          "When the sun was setting, all those who had any sicknesses with diverse diseases brought them unto Him; and He laid His hands on every one of them, and healed them. And devils also came out of many, crying out, and saying, \"You are Christ, the Son of God!\" And He, rebuking them, did not allow them to speak: for they knew that He was Christ."
+        ],
+        "ara" : [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "Glory be to God forever Amen. May the sayings of God be fulfilled in peace. We worship You, O Christ, with Your good Father, and the Holy Spirit, for You have (come/risen) and saved us. Have mercy upon us."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    }
+  ]
+}

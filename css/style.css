@@ -94,6 +94,9 @@ h1.section_title {
 h1:hover {
   text-shadow: 5px 5px 10px #ffffe6;
 }
+h3.main-section:hover {
+  text-decoration: underline;
+}
 div.description {
   font-family: 'Noticia', sans-serif;
   color: #262626;
@@ -114,12 +117,16 @@ p.main-section {
 h3.main-section {
   text-align: center;
   color: #ffff66;
-  /*margin-bottom: 30px;*/
+  cursor: pointer;
 }
 h3.main-section-light {
-  text-align: center;
   color: #ff0000;
-  /*margin-bottom: 30px;*/
+}
+h3.main-section-hidden {
+  color: rgba(255, 255, 102, 0.5);
+}
+h3.main-section-light-hidden {
+  color: rgba(255, 0, 0, 0.5);
 }
 h4.main-section {
   color: #ffff66;
@@ -129,7 +136,6 @@ h4.main-section-light{
 }
 p.main-section-light {
   color: #000000;
-  padding-bottom: 5px;
 }
 div.nav-sub-menu-item {
   line-height: 40px;
@@ -200,4 +206,45 @@ div.doc-item {
   vertical-align: top;
   display: inline-block;
   padding: 10px;
+}
+div.nav-slider {
+  width: 90px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: middle;
+}
+span.main-section-title {
+  vertical-align: 40%;
+  font-size: 12px;
+}
+div.season-display {
+  color: #ffffb3;
+  margin-top: 5px;
+  font-family: 'OswaldLight', sans-serif;
+}
+div.season-display ul{
+  list-style-type: square;
+  padding: 20px;
+}
+div.season-display li{
+  font-size: 16px;
+  text-indent: 0px;
+  line-height: normal;
+}
+
+div.font-scaler {
+  margin-left: 25px;
+}
+
+div.font-scaler label {
+  color: #ffffff;
+  font-family: 'OswaldLight', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+label.font-scaler {
+  text-indent: 0px;
+  padding-left: 5px;
 }

@@ -25,13 +25,62 @@ function load(doc, attributes) {
 function autoLoad(category, attributes) {
     lastCategory = category;
     var docs;
-    if (category == "vespers") {
-        docs = DocumentBuilder.Vespers(attributes);
-    }
-    else if (category == "matins") {
-        docs = DocumentBuilder.Matins(attributes);
-    } else {
-        docs = ["prayers/nicene_creed"];
+    switch (category) {
+        case "vespers":
+            docs = DocumentBuilder.Vespers(attributes);
+            break;
+        case "matins":
+            docs = DocumentBuilder.Matins(attributes);
+            break;
+        case "stbasil_offering":
+            docs = DocumentBuilder.StBasilOffering(attributes);
+            break;
+        case "stbasil_word":
+              docs = DocumentBuilder.StBasilWord(attributes);
+              break;
+        case "stbasil_faithful":
+              docs = DocumentBuilder.StBasilFaithful(attributes);
+              break;
+        case "first_hour": //first hour of the Book of Hours (Agpeya)
+              docs = DocumentBuilder.FirstHour(attributes);
+              break;
+        case "third_hour": 
+              docs = DocumentBuilder.ThirdHour(attributes);
+              break;     
+        case "sixth_hour": 
+              docs = DocumentBuilder.SixthHour(attributes);
+              break;
+        case "ninth_hour":
+              docs = DocumentBuilder.NinthHour(attributes);
+              break;     
+        case "eleventh_hour":
+              docs = DocumentBuilder.EleventhHour(attributes);
+              break;
+/*      case "twelfth_hour": 
+              docs = DocumentBuilder.TwelfthHour(attributes);
+              break;     
+        case "veil_hour": 
+              docs = DocumentBuilder.Veil(attributes);
+              break;
+        case "midnight_watch":
+              docs = DocumentBuilder.Midnight(attributes);
+              break;     
+*/      case "selectedprayers":
+              docs = DocumentBuilder.SelectedPrayers(attributes);
+              break;
+        case "sp_meals":
+              docs = DocumentBuilder.Meals(attributes);
+              break;   
+        case "sp_deacons":
+              docs = DocumentBuilder.Deacons(attributes);
+              break;
+        case "sp_priests":
+              docs = DocumentBuilder.Priests(attributes);
+              break;                 
+
+
+        default:
+            docs = ["prayers/nicene_creed"];
     }
     downloadAsync(docs);
 }

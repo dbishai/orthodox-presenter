@@ -9,6 +9,7 @@ var SingleDatePicker = require('react-dates').SingleDatePicker;
 var NavStore = require('../stores/NavStore');
 var NavActions = require('../actions/NavActions');
 var SectionActions = require('../actions/SectionActions');
+var Slider = require('rc-slider').default;
 
 var classNames = require('classnames');
 
@@ -38,6 +39,10 @@ var NavSubMenuItem = createReactClass({
     var inputCopticDate = CopticCalendar.getCopticDateString(year, monthIndex, day);
     switch (navMenuItemId) {
       case "date":
+        var seasonArray = CopticCalendar.getCurrentFastFeasts(this.props.attributes);
+        var seasonDisplayItems = seasonArray.map(function (item, idx) {
+          return <li key={idx}>{item}</li>;
+        });
         return (
           <div className="nav-sub-menu-item date">
             <div>
@@ -53,14 +58,19 @@ var NavSubMenuItem = createReactClass({
                   if (!NavStore.getToggleState()) {
                     NavActions.toggleMenu();
                   }
-                  thisState.setState({focused: objFocused.focused});
-                  }
+                  thisState.setState({ focused: objFocused.focused });
+                }
                 }
                 enableOutsideDays={true}
                 isOutsideRange={function () { false }}
                 numberOfMonths={1}
                 withPortal={true}
               />
+            </div>
+            <div className="season-display">
+              <ul>
+                {seasonDisplayItems}
+              </ul>
             </div>
           </div>
         );
@@ -71,6 +81,20 @@ var NavSubMenuItem = createReactClass({
               <Toggle defaultChecked={this.props.attributes.lightThemeCheckbox}
                 onChange={this.handleLightThemeCheckbox} aria-label="..." />
               <label>Light Theme</label>
+            </div>
+            <div className="font-scaler">
+              <label className="font-scaler">Text Scale</label>
+              <div className="nav-slider">
+                <Slider
+                  min={0.5}
+                  max={2.5}
+                  step={0.25}
+                  defaultValue={this.props.attributes.fontScale}
+                  onChange={function (value) {
+                    thisState.setAttribute("fontScale", value)
+                  }} />
+              </div>
+              <label className="font-scaler">{this.props.attributes.fontScale * 100 + "%"}</label>
             </div>
           </div>
         );
@@ -111,7 +135,7 @@ var NavSubMenuItem = createReactClass({
 
   handleDateInput: function (_moment) {
     this.setState({ inputDate: _moment });
-    NavActions.setDate(_moment.year(), _moment.month(), _moment.date());
+    NavActions.setDate(_moment);
     // since loaded documents are dependent on date, refresh them
     SectionActions.refresh(this.props.attributes);
   },
@@ -165,6 +189,10 @@ var NavSubMenuItem = createReactClass({
 
   handleCheckbox: function (checkbox) {
     NavActions.setState(checkbox);
+  },
+
+  setAttribute: function (key, value) {
+    NavActions.setAttribute(key, value);
   }
 
 });
