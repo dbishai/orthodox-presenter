@@ -61,8 +61,12 @@ var DocumentItem = createReactClass({
     var numLangs = 0;
     var blackList = [];
 
+    // order of languages to be displayed
+    var langs = ["eng", "cop", "ara"];
+
     // get number of languages that will actually be displayed in order to properly size divs
-    for (var lang in doc) {
+    for (var i = 0; i < langs.length; i++) {
+      var lang = langs[i];
       /*
       check for the following:
       - language is not checked in interface
@@ -73,12 +77,15 @@ var DocumentItem = createReactClass({
       if (!this.props.langStates[lang] || (Array.isArray(doc[lang]) && doc[lang].every(function (val) { return val === "" }))
         || (doc[lang] === "" || typeof doc[lang] == "undefined")) {
         blackList.push(lang);
-        continue;
+      } else {
+        numLangs += 1;
       }
-      numLangs += 1;
     }
 
-    for (var lang in doc) {
+
+    for (var i = 0; i < langs.length; i++) {
+
+      var lang = langs[i];
 
       // check if language is in blacklist
       if (blackList.indexOf(lang) != -1) {
@@ -88,14 +95,14 @@ var DocumentItem = createReactClass({
       var langStyle = this.langStyle(elementType, lang, numLangs);
 
       if (Array.isArray(doc[lang])) {
-        for (var i = 0; i < doc[lang].length; i++) {
+        for (var j = 0; j < doc[lang].length; j++) {
           var element = React.createElement(
             elementType,
             { className: theme },
-            doc[lang][i]
+            doc[lang][j]
           );
           text.push(
-            <div key={elementType + lang + i + idx} className="doc-item" style={langStyle}>
+            <div key={elementType + lang + j + idx} className="doc-item" style={langStyle}>
               {element}
             </div>
           );
@@ -151,9 +158,12 @@ var DocumentItem = createReactClass({
   },
 
   componentWillReceiveProps: function (newProps) {
-    // default components back to true when receiving new props
-    if (newProps.documentItem != this.props.documentItem && newProps.documentItem.visible === "true") {
-      this.setState({ showDocument: true });
+    // default components back to true when receiving new props unless "visible" tag
+    // is set to "false"
+    if (newProps.documentItem != this.props.documentItem) {
+      var bool;
+      newProps.documentItem.visible === "false" ? bool = false : bool = true;
+      this.setState({ showDocument: bool });
     }
   },
 
