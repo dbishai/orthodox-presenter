@@ -131,8 +131,32 @@ h3.main-section-light-hidden {
 h4.main-section {
   color: #ffff66;
 }
-h4.main-section-light{
+h4.main-section-priest {
+  color: #efef5b;
+}
+h4.main-section-deacon {
+  color: #ffd866;
+}
+h4.main-section-people {
+  color: #d1ff66
+}
+h4.main-section-reader {
+  color: #ffa566;
+}
+h4.main-section-light {
   color: #ff0000;
+}
+h4.main-section-light-priest {
+  color: #dd0000;
+}
+h4.main-section-light-deacon {
+  color: #a50000;
+}
+h4.main-section-light-people {
+  color: #000282;
+}
+h4.main-section-light-reader {
+  color: #420d00;
 }
 p.main-section-light {
   color: #000000;

@@ -58,6 +58,12 @@ var DocumentItem = createReactClass({
       doc = Subs[doc];
     }
 
+    // user specific colors
+    if (elementType == "h4" && typeof doc.eng !== "undefined") {
+      var user = doc.eng.toLowerCase();
+      theme += "-" + user;
+    }
+
     var numLangs = 0;
     var blackList = [];
 
