@@ -101,7 +101,7 @@ var sections = {
             "confession": {
               "id": "confession",
               "title": "CONFESSION",
-              //"load": "sp_confession"
+              "load": "sp_confession"
             },
             "communion": {
               "id": "communion",
@@ -111,7 +111,7 @@ var sections = {
             "guidance": {
               "id" : "guidance",
               "title": "GUIDANCE",
-              //"load": "sp_guidance"
+              "load": "sp_guidance"
             },
             "meals": {
               "id" : "meals",

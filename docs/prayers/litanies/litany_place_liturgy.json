@@ -1,0 +1,65 @@
+{
+  "title": {
+    "cop": "Ⲁⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲧ̀ⲥⲱⲧⲏⲣⲓⲁ ",
+    "eng": "Litany of the Place",
+    "ara": " أُذكر يا رب خلاص هذا "
+  },
+  "items": [
+    {
+      "user": {
+        "cop": "Ⲡⲓⲟⲩⲏⲃ",
+        "eng": "Priest",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "cop": [
+          "Ⲁⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲧ̀ⲥⲱⲧⲏⲣⲓⲁ ⲙ̀ⲡⲁⲓⲧⲟⲡⲟⲥ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲫⲁⲓ ⲛⲉⲙ ⲧⲟⲡⲟⲥ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ ⲛ̀ⲟⲣⲑⲟⲇⲟⲝⲟⲥ."
+        ],
+        "eng": [
+          "Remember, O Lord, the salvation of this Your holy place, and every place and every monastery of our orthodox fathers. "
+        ],
+        "ara": [
+          "أُذكر يا رب خلاص هذا الموضع المقدس الذي لك، وكل المواضع وكل أديرة آبائنا الأرثوذكسيين "
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲇⲓⲁⲕⲱⲛ",
+        "eng": "Deacon",
+        "ara": " الشماس "
+      },
+      "text": {
+        "cop": [
+          "̀Ⲡⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲥⲱⲧⲏⲣⲓⲁⲛ ⲧⲟⲩ ⲕⲟⲥⲙⲟⲩ ⲕⲉ ⲧⲏⲥ ⲡⲟⲗⲉⲱⲥ+ ⲏ̀ⲙⲱⲛ ⲧⲁⲩⲧⲏⲥ ⲕⲉ ⲡⲁⲥⲱⲛ ⲡⲟⲗⲉⲱⲛ ⲕⲉ ⲧⲱⲛ ⲭⲱⲣⲱⲛ ⲕⲉ ⲛⲏⲥⲱⲛ ⲕⲉ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ. ",
+          "+Ⲕⲉ ⲧⲟⲩ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ ⲏ̀ⲙⲱⲛ ⲦⲟⲩⲦⲟⲩ "
+        ],
+        "eng": [
+          "Pray for the salvation of the this world and of this city+ of ours and of all cities, districts, islands, and monasteries. ",
+          "\"This monastery of ours\" is said in the monasteries instead of the cities."
+        ],
+        "ara": [
+          " صلوا من أجل خلاص هذا العالم ومدينتنا هذة، وسائر المدن والأقاليم والجزائر والأديرة  "
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲗⲁⲟⲥ",
+        "eng": "People",
+        "ara": "الشعب "
+      },
+      "text": {
+        "cop": [
+          "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+        ],
+        "eng": [
+          "Lord have mercy."
+        ],
+        "ara": [
+          " .يا ربُّ إرحَم"
+        ]
+      }
+    }
+  ]
+}

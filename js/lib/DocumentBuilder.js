@@ -226,6 +226,18 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/prayer_agios_stbasil");
     docs.push("prayers/institution_stbasil");
     docs.push("hymns/amen_amen_amen_your_death");
+    docs.push("prayers/prayer_epiclesis");
+    docs.push("prayers/yea_we_ask_you");
+    docs.push("prayers/intro_seven_short_litanies");
+    docs.push("prayers/litanies/litany_peace_liturgy");
+    docs.push("prayers/litanies/litany_fathers_liturgy");
+    docs.push("prayers/litanies/litany_clergy");
+    docs.push("prayers/litanies/litany_mercy");
+    docs.push("prayers/litanies/litany_place_liturgy");
+
+
+
+
 
     return docs;
 
@@ -406,6 +418,26 @@ var EleventhHour = function (attributes) {
 
     return docs;
 };
+
+var Confession = function (attributes){
+    var docs = [];
+    docs.push("prayers/bookofhours/prayer_repentance");
+    docs.push("prayers/bookofhours/prayer_before_confession");
+    docs.push("prayers/bookofhours/prayer_after_confession");
+
+    return docs;
+
+};
+
+var Guidance = function (attributes){
+    var docs = [];
+    docs.push("prayers/bookofhours/prayer_guidance");
+    docs.push("prayers/bookofhours/prayer_accompaniment");
+
+    return docs;
+
+};
+
 var Meals = function (attributes) { 
     var docs = [];
     docs.push("prayers/bookofhours/prayer_before_meals");
@@ -453,5 +485,7 @@ module.exports.Veil = Veil;
 module.exports.Midnight = Midnight;
 */
 module.exports.Meals = Meals;
+module.exports.Confession = Confession;
+module.exports.Guidance = Guidance;
 module.exports.Deacons = Deacons;
 module.exports.Priests = Priests;

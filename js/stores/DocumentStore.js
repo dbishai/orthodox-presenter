@@ -71,6 +71,12 @@ function autoLoad(category, attributes) {
         case "sp_meals":
               docs = DocumentBuilder.Meals(attributes);
               break;   
+        case "sp_confession":
+              docs = DocumentBuilder.Confession(attributes);
+              break;      
+        case "sp_guidance":
+              docs = DocumentBuilder.Guidance(attributes);
+              break;      
         case "sp_deacons":
               docs = DocumentBuilder.Deacons(attributes);
               break;
