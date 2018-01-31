@@ -209,6 +209,7 @@ var StBasilWord = function (attributes) {
     //    docs.push("hymns/coptic_praxis_concl");
     docs.push("hymns/trisagion_hymn");
     docs.push("prayers/litanies/litany_gospel");
+    docs.push("prayers/litanies/litany_gospel2");
 
     return docs;
 
@@ -418,7 +419,94 @@ var EleventhHour = function (attributes) {
 
     return docs;
 };
+var TwelfthHour = function (attributes) { 
+    var docs = [];
+    docs.push("prayers/bookofhours/twelfth_hour");
+    docs.push("prayers/our_father");
+    docs.push("prayers/bookofhours/thanksgiving_prayer");
+    docs.push("prayers/bookofhours/psalm_50");
+    docs.push("prayers/bookofhours/twelfth_hour_intro");
+    docs.push("prayers/bookofhours/psalms/psalm_129");
+    docs.push("prayers/bookofhours/psalms/psalm_130");
+    docs.push("prayers/bookofhours/psalms/psalm_131");
+    docs.push("prayers/bookofhours/psalms/psalm_132");
+    docs.push("prayers/bookofhours/psalms/psalm_133");
+    docs.push("prayers/bookofhours/psalms/psalm_136");
+    docs.push("prayers/bookofhours/psalms/psalm_137");
+    docs.push("prayers/bookofhours/psalms/psalm_140");
+    docs.push("prayers/bookofhours/psalms/psalm_141");
+    docs.push("prayers/bookofhours/psalms/psalm_145");
+    docs.push("prayers/bookofhours/psalms/psalm_146");
+    docs.push("prayers/bookofhours/psalms/psalm_147");
+    docs.push("prayers/bookofhours/gospel_twelfth_hour");
+    docs.push("prayers/bookofhours/twelfth_hour_litanies");
+    docs.push("prayers/graciously_accord");
+    docs.push("prayers/trisagion");
+    docs.push("prayers/our_father");
+    docs.push("prayers/bookofhours/hail_to_you");
+    docs.push("prayers/intro_creed");
+    docs.push("prayers/nicene_creed");
+    docs.push("prayers/bookofhours/lord_have_mercy_41");
+    docs.push("prayers/holy_holy_holy");
+    docs.push("prayers/our_father");
+    docs.push("prayers/bookofhours/twelfth_hour_absolution");
+    docs.push("prayers/bookofhours/conclusion_every_hour");
 
+    return docs;
+};
+var Veil = function (attributes) { 
+    var docs = [];
+    docs.push("prayers/bookofhours/veil");
+    docs.push("prayers/our_father");
+    docs.push("prayers/bookofhours/thanksgiving_prayer");
+    docs.push("prayers/bookofhours/psalm_50");
+    docs.push("prayers/bookofhours/veil_intro");
+    docs.push("prayers/bookofhours/psalms/psalm_4");
+    docs.push("prayers/bookofhours/psalms/psalm_6");
+    docs.push("prayers/bookofhours/psalms/psalm_12");
+    docs.push("prayers/bookofhours/psalms/psalm_15");
+    docs.push("prayers/bookofhours/psalms/psalm_24");
+    docs.push("prayers/bookofhours/psalms/psalm_26");
+    docs.push("prayers/bookofhours/psalms/psalm_66");
+    docs.push("prayers/bookofhours/psalms/psalm_69");
+    docs.push("prayers/bookofhours/psalms/psalm_22");
+    docs.push("prayers/bookofhours/psalms/psalm_29");
+    docs.push("prayers/bookofhours/psalms/psalm_42");
+    docs.push("prayers/bookofhours/psalms/psalm_56");
+    docs.push("prayers/bookofhours/psalms/psalm_85");
+    docs.push("prayers/bookofhours/psalms/psalm_90");
+    docs.push("prayers/bookofhours/psalms/psalm_96");
+    docs.push("prayers/bookofhours/psalms/psalm_109");
+    docs.push("prayers/bookofhours/psalms/psalm_114");
+    docs.push("prayers/bookofhours/psalms/psalm_115");
+    docs.push("prayers/bookofhours/psalms/psalm_120");
+    docs.push("prayers/bookofhours/psalms/psalm_128");
+    docs.push("prayers/bookofhours/psalms/psalm_129");
+    docs.push("prayers/bookofhours/psalms/psalm_130");
+    docs.push("prayers/bookofhours/psalms/psalm_131");
+    docs.push("prayers/bookofhours/psalms/psalm_132");
+    docs.push("prayers/bookofhours/psalms/psalm_133");
+    docs.push("prayers/bookofhours/psalms/psalm_136");
+    docs.push("prayers/bookofhours/psalms/psalm_140");
+    docs.push("prayers/bookofhours/psalms/psalm_145");
+    docs.push("prayers/bookofhours/psalms/psalm_118_20");
+    docs.push("prayers/bookofhours/psalms/psalm_118_21");
+    docs.push("prayers/bookofhours/psalms/psalm_118_22");
+    docs.push("prayers/bookofhours/gospel_veil");
+    docs.push("prayers/bookofhours/veil_litanies");
+    docs.push("prayers/trisagion");
+    docs.push("prayers/our_father");
+    docs.push("prayers/bookofhours/hail_to_you");
+    docs.push("prayers/intro_creed");
+    docs.push("prayers/nicene_creed");
+    docs.push("prayers/bookofhours/lord_have_mercy_41");
+    docs.push("prayers/holy_holy_holy");
+    docs.push("prayers/our_father");
+    docs.push("prayers/bookofhours/veil_absolution");
+    docs.push("prayers/bookofhours/conclusion_every_hour");
+
+    return docs;
+};
 var Confession = function (attributes){
     var docs = [];
     docs.push("prayers/bookofhours/prayer_repentance");
@@ -428,7 +516,6 @@ var Confession = function (attributes){
     return docs;
 
 };
-
 var Guidance = function (attributes){
     var docs = [];
     docs.push("prayers/bookofhours/prayer_guidance");
@@ -437,7 +524,6 @@ var Guidance = function (attributes){
     return docs;
 
 };
-
 var Meals = function (attributes) { 
     var docs = [];
     docs.push("prayers/bookofhours/prayer_before_meals");
@@ -480,10 +566,9 @@ module.exports.ThirdHour = ThirdHour;
 module.exports.SixthHour = SixthHour;
 module.exports.NinthHour = NinthHour;
 module.exports.EleventhHour = EleventhHour;
-/*module.exports.TwelfthHour = TwelfthHour;
+module.exports.TwelfthHour = TwelfthHour;
 module.exports.Veil = Veil;
-module.exports.Midnight = Midnight;
-*/
+// module.exports.Midnight = Midnight;
 module.exports.Meals = Meals;
 module.exports.Confession = Confession;
 module.exports.Guidance = Guidance;

@@ -82,12 +82,12 @@ var sections = {
         "midnight":{
           "id":"midnight",
           "title": "12TH HOUR",
-          //"load": "twelfth_hour"
+          "load": "twelfth_hour"
         },
         "veil":{
           "id": "veil",
           "title": "VEIL",
-          //"load":"veil_hour"
+          "load":"veil_hour"
         },
         "midnightwatch":{
           "id":"midnightwatch",
