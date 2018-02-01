@@ -164,12 +164,12 @@ var DocumentItem = createReactClass({
   },
 
   componentWillReceiveProps: function (newProps) {
-    // default components back to true when receiving new props unless "visible" tag
-    // is set to "false"
+    /*
+      default components back to true when receiving new props unless "visible" tag
+      is set to "false"
+    */
     if (newProps.documentItem != this.props.documentItem) {
-      var bool;
-      newProps.documentItem.visible === "false" ? bool = false : bool = true;
-      this.setState({ showDocument: bool });
+      this.setState({ showDocument: !(newProps.documentItem.visible === "false")});
     }
   },
 
