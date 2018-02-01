@@ -216,6 +216,9 @@ var StBasilWord = function (attributes) {
 };
 var StBasilFaithful = function (attributes) {
     var docs = [];
+    var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
+    var copticMonthIndex = copticDate.monthIndex;
+    var copticDay = copticDate.day;
     docs.push("hymns/response_gospel_annual_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
     //    docs.push("prayers/litanies/three_great_litanies");
     //    docs.push("prayers/responses/in_the_wisdom");
@@ -235,6 +238,12 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/litanies/litany_clergy");
     docs.push("prayers/litanies/litany_mercy");
     docs.push("prayers/litanies/litany_place_liturgy");
+    docs.push("prayers/for_your_people");
+    if (CopticDateComparator("Tobe", 11, "Paone", 11, copticMonthIndex, copticDay)) {
+        docs.push("prayers/litanies/litanies_airandfruit_short");
+    }
+    docs.push("prayers/healing_to_the_sick");
+    
 
 
 
