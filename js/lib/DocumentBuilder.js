@@ -48,8 +48,28 @@ var short_litanies = function (attributes) {
 
     if (CopticDateComparator("Tobe", 11, "Paone", 11, copticMonthIndex, copticDay)) {
         docs.push("prayers/litanies/litanies_airandfruit_short");
+    } else if (CopticDateComparator("Paope", 10, "Tobe", 10, copticMonthIndex, copticDay)){
+        docs.push("prayers/litanies/litany_seeds_and_herbs");
+    } else if (CopticDateComparator("Paone", 12, "Paope", 9, copticMonthIndex, copticDay)){
+        docs.push("prayers/litanies/litany_water");
     }
     docs.push("prayers/litanies/litany_assemblies");
+
+    return docs;
+};
+var season_litanies = function (attributes) {
+    var docs = [];
+    var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
+    var copticMonthIndex = copticDate.monthIndex;
+    var copticDay = copticDate.day;
+    // start and end dates are inclusive
+    if (CopticDateComparator("Tobe", 11, "Paone", 11, copticMonthIndex, copticDay)) {
+        docs.push("prayers/litanies/litanies_airandfruit_short");
+    } else if (CopticDateComparator("Paope", 10, "Tobe", 10, copticMonthIndex, copticDay)){
+        docs.push("prayers/litanies/litany_seeds_and_herbs");
+    } else if (CopticDateComparator("Paone", 12, "Paope", 9, copticMonthIndex, copticDay)){
+        docs.push("prayers/litanies/litany_water");
+    }
 
     return docs;
 };
@@ -237,9 +257,7 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/litanies/litany_clergy");
     docs.push("prayers/litanies/litany_mercy");
     docs.push("prayers/litanies/litany_place_liturgy");
-    if (CopticDateComparator("Tobe", 11, "Paone", 11, copticMonthIndex, copticDay)) {
-        docs.push("prayers/litanies/litanies_airandfruit_short");
-    }
+    docs = docs.concat(season_litanies(attributes));
     docs.push("prayers/litanies/litany_oblations_liturgy");
     docs.push("prayers/commemoration_stbasil");
     docs.push("prayers/those_o_lord");
@@ -253,16 +271,16 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/responses/peace_be_with_all");
     docs.push("prayers/prayer_before_confession_cont");
     docs.push("prayers/the_confession");
+    return docs;
 
-
-
-
-
-
+};
+var StBasilDistribution = function (attributes){
+    var docs = [];
+    docs.push("prayers/distribution");
+    docs.push("hymns/psalm150_standard") // This will need to be changed to the attributes.day to accommodate for other occasions
 
 
     return docs;
-
 };
 var FirstHour = function (attributes) { //content for the first hour of the book of hours
     var docs = [];
@@ -582,6 +600,7 @@ module.exports.Matins = Matins;
 module.exports.StBasilOffering = StBasilOffering;
 module.exports.StBasilWord = StBasilWord;
 module.exports.StBasilFaithful = StBasilFaithful;
+module.exports.StBasilDistribution = StBasilDistribution;
 module.exports.FirstHour = FirstHour;
 module.exports.ThirdHour = ThirdHour;
 module.exports.SixthHour = SixthHour;
