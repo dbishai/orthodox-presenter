@@ -56,21 +56,27 @@ function autoLoad(category, attributes) {
         case "eleventh_hour":
               docs = DocumentBuilder.EleventhHour(attributes);
               break;
-/*      case "twelfth_hour": 
+        case "twelfth_hour": 
               docs = DocumentBuilder.TwelfthHour(attributes);
               break;     
         case "veil_hour": 
               docs = DocumentBuilder.Veil(attributes);
               break;
-        case "midnight_watch":
+//        case "midnight_watch":
               docs = DocumentBuilder.Midnight(attributes);
               break;     
-*/      case "selectedprayers":
+        case "selectedprayers":
               docs = DocumentBuilder.SelectedPrayers(attributes);
               break;
         case "sp_meals":
               docs = DocumentBuilder.Meals(attributes);
               break;   
+        case "sp_confession":
+              docs = DocumentBuilder.Confession(attributes);
+              break;      
+        case "sp_guidance":
+              docs = DocumentBuilder.Guidance(attributes);
+              break;      
         case "sp_deacons":
               docs = DocumentBuilder.Deacons(attributes);
               break;
