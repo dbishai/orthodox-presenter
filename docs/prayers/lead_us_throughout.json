@@ -1,0 +1,48 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": {
+        "cop": "Ⲡⲓⲟⲩⲏⲃ",
+        "eng": "Priest",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "cop": [
+          "",
+          ""
+        ],
+        "eng": [
+          "Lead us throughout the way into Your kingdom, that as in this, so also in all things, Your great and holy name be glorified, blessed, and exalted in everything, honored and blessed with Jesus Christ, Your beloved Son, and the Holy Spirit.",
+          "Peace be with all."
+        ],
+        "ara": [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲗⲁⲟⲥ",
+        "eng": "People",
+        "ara": "الشعب "
+      },
+      "text": {
+        "cop": [
+          ""
+        ],
+        "eng": [
+          "And with your spirit."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+    "title": {
+      "cop": "",
+      "eng": "The Confession",
+      "ara": ""
+    },
+    "items": [
+        {
+          "user": "priest",
+          "text": {
+            "cop": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "eng": [
+              "Amen. Amen. Amen. I believe, I believe, I believe and confess to the last breath that this is the life-giving Flesh that Your only-begotten Son, our Lord, God, and Savior Jesus Christ, took from our Lady, the Lady of us all, the holy Theotokos, Saint Mary. ",
+              "He made It one with His divinity without mingling, without confusion, and without alteration. He confessed the good confession before Pontius Pilate. He gave It up for us upon the holy wood of the Cross, of His own will, for us all.",
+              "Truly I believe that His divinity parted not from His humanity for a single moment, nor a twinkling of an eye; given for us for salvation, remission of sins, and eternal life to those who partake of Him.",
+              "I believe, I believe, I believe that this is true. Amen."
+            ],
+            "ara": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        },
+        {
+          "user": "deacon",
+          "text": {
+            "cop": [
+              "",
+              ""
+            ],
+            "eng": [
+              "Amen. Amen. Amen. I believe, I believe, I believe that this is true. Amen. Pray for us and for all Christians who said to us concerning them, \"Remember us in the house of the Lord.\" The peace and love of Jesus Christ be with you. Sing, \"Alleluia.\" Pray for the worthy partaking of the immaculate, heavenly, and holy Mysteries.",
+              "Lord have mercy."
+            ],
+            "ara": [
+              "",
+              ""
+            ]
+          }
+        },
+        {
+          "user":"people",
+          "text": {
+            "cop": [
+              "",
+              ""
+            ],
+            "eng": [
+              "Glory to You, O Lord, glory to You.",
+              "A hundred years."
+            ],
+            "ara": [
+              "",
+              ""
+            ]
+          }
+
+        }   
+    ]
+  }
+  

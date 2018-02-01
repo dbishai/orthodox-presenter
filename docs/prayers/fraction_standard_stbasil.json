@@ -1,0 +1,39 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "Standard Basilian Fraction",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": {
+        "cop": "Ⲡⲓⲟⲩⲏⲃ",
+        "eng": "Priest",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "cop": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "eng": [
+          "O Master, Lord our God, the Great, the Eternal, wondrous in glory; keeping His covenant and His mercy to those who love Him with all their heart; who has given to us redemption from sins through His only-begotten Son, Jesus Christ our Lord, the life of everyone,",
+          "the help of those who flee to Him, the hope of those who cry out to Him; before whom stand thousands of thousands and ten thousand times ten thousand holy angels and archangels,the Cherubim and the Seraphim, and all the innumerable host of the heavenly powers.",
+          "O God, who have sanctified these gifts which are set forth through the coming down upon them of Your Holy Spirit, You have purified them. Purify us also, our Master, from our sins, the hidden and manifest, and every thought which is not pleasing to Your goodness; O God, the Lover of Mankind, may it be far from us.",
+          "Purify our souls, our bodies, our spirits, our hearts, our eyes, our understanding, our thoughts, and our consciences, so that, with a pure heart, an enlightened soul, an unashamed face, a faith unfeigned, a perfect love, and a firm hope, we may dare with boldness, without fear, to pray to You, O God, the holy Father who are in the heavens, and say:",
+          "\"Our Father...\""
+        ],
+        "ara": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    }
+  ]
+}

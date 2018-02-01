@@ -237,15 +237,25 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/litanies/litany_clergy");
     docs.push("prayers/litanies/litany_mercy");
     docs.push("prayers/litanies/litany_place_liturgy");
-<<<<<<< HEAD
-    docs.push("prayers/for_your_people");
     if (CopticDateComparator("Tobe", 11, "Paone", 11, copticMonthIndex, copticDay)) {
         docs.push("prayers/litanies/litanies_airandfruit_short");
     }
-    docs.push("prayers/healing_to_the_sick");
-    
-=======
->>>>>>> fb84212c2fd1e9044d0b0d1b8abbd4168871e927
+    docs.push("prayers/litanies/litany_oblations_liturgy");
+    docs.push("prayers/commemoration_stbasil");
+    docs.push("prayers/those_o_lord");
+    docs.push("prayers/lead_us_throughout");
+    docs.push("prayers/fraction_intro_stbasil");
+    docs.push("prayers/fraction_standard_stbasil");
+    docs.push("prayers/our_father");
+    docs.push("prayers/responses/in_christ_jesus_our_lord")
+    docs.push("prayers/prayer_before_confession");
+    docs.push("prayers/responses/one_is_the_holy_father_alt");
+    docs.push("prayers/responses/peace_be_with_all");
+    docs.push("prayers/prayer_before_confession_cont");
+    docs.push("prayers/the_confession");
+
+
+
 
 
 
@@ -430,11 +440,7 @@ var EleventhHour = function (attributes) {
 
     return docs;
 };
-<<<<<<< HEAD
-var TwelfthHour = function (attributes) { 
-=======
 var TwelfthHour = function (attributes) {
->>>>>>> fb84212c2fd1e9044d0b0d1b8abbd4168871e927
     var docs = [];
     docs.push("prayers/bookofhours/twelfth_hour");
     docs.push("prayers/our_father");
@@ -469,11 +475,7 @@ var TwelfthHour = function (attributes) {
 
     return docs;
 };
-<<<<<<< HEAD
-var Veil = function (attributes) { 
-=======
 var Veil = function (attributes) {
->>>>>>> fb84212c2fd1e9044d0b0d1b8abbd4168871e927
     var docs = [];
     docs.push("prayers/bookofhours/veil");
     docs.push("prayers/our_father");
@@ -543,11 +545,7 @@ var Guidance = function (attributes){
     return docs;
 
 };
-<<<<<<< HEAD
-var Meals = function (attributes) { 
-=======
 var Meals = function (attributes) {
->>>>>>> fb84212c2fd1e9044d0b0d1b8abbd4168871e927
     var docs = [];
     docs.push("prayers/bookofhours/prayer_before_meals");
     docs.push("prayers/bookofhours/prayer_after_meals");
