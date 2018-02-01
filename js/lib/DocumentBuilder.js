@@ -124,14 +124,14 @@ var Matins = function (attributes) {
 
     //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var docs = [];
-    var day = attributes.day;
+    var day = attributes.todayDate.day();
     docs.push("prayers/intro_offering_of_incense_matins");
     docs.push("prayers/our_father");
     docs.push("prayers/thanksgiving_prayer");
     docs = docs.concat(verses_of_the_cymbals(attributes));
 
     // On Saturday morning Litany of Departed is said instead
-    if (day < 6) {
+    if (day != 6) {
         docs.push("prayers/litanies/litany_sick");
     } else {
         docs.push("prayers/litanies/litany_departed");
@@ -195,7 +195,6 @@ var StBasilOffering = function (attributes) {
 
 var StBasilWord = function (attributes) {
     var docs = [];
-    var day = attributes.day;
     // On Saturdays, Sundays, and feasts of the Lord, Taishori is prayed
     docs = docs.concat(censer_hymn(attributes));
     docs.push("hymns/hymn_intercessions_liturgy_of_the_word");
@@ -289,7 +288,7 @@ var FirstHour = function (attributes) { //content for the first hour of the book
 
     return docs;
 };
-var ThirdHour = function (attributes) { 
+var ThirdHour = function (attributes) {
     var docs = [];
     docs.push("prayers/bookofhours/third_hour");
     docs.push("prayers/our_father");
@@ -322,7 +321,7 @@ var ThirdHour = function (attributes) {
 
     return docs;
 };
-var SixthHour = function (attributes) { 
+var SixthHour = function (attributes) {
     var docs = [];
     docs.push("prayers/bookofhours/sixth_hour");
     docs.push("prayers/our_father");
@@ -356,7 +355,7 @@ var SixthHour = function (attributes) {
 
     return docs;
 };
-var NinthHour = function (attributes) { 
+var NinthHour = function (attributes) {
     var docs = [];
     docs.push("prayers/bookofhours/ninth_hour");
     docs.push("prayers/our_father");
@@ -387,7 +386,7 @@ var NinthHour = function (attributes) {
 
     return docs;
 };
-var EleventhHour = function (attributes) { 
+var EleventhHour = function (attributes) {
     var docs = [];
     docs.push("prayers/bookofhours/eleventh_hour");
     docs.push("prayers/our_father");
@@ -419,7 +418,7 @@ var EleventhHour = function (attributes) {
 
     return docs;
 };
-var TwelfthHour = function (attributes) { 
+var TwelfthHour = function (attributes) {
     var docs = [];
     docs.push("prayers/bookofhours/twelfth_hour");
     docs.push("prayers/our_father");
@@ -454,7 +453,7 @@ var TwelfthHour = function (attributes) {
 
     return docs;
 };
-var Veil = function (attributes) { 
+var Veil = function (attributes) {
     var docs = [];
     docs.push("prayers/bookofhours/veil");
     docs.push("prayers/our_father");
@@ -524,14 +523,14 @@ var Guidance = function (attributes){
     return docs;
 
 };
-var Meals = function (attributes) { 
+var Meals = function (attributes) {
     var docs = [];
     docs.push("prayers/bookofhours/prayer_before_meals");
     docs.push("prayers/bookofhours/prayer_after_meals");
-    
+
     return docs;
 };
-var Deacons = function (attributes) { 
+var Deacons = function (attributes) {
     var docs = [];
     docs.push("prayers/bookofhours/psalms/psalm_121");
     docs.push("prayers/bookofhours/psalms/psalm_26_deacon");
@@ -544,7 +543,7 @@ var Deacons = function (attributes) {
 
     return docs;
 };
-var Priests = function (attributes) { 
+var Priests = function (attributes) {
     var docs = [];
     docs.push("prayers/bookofhours/psalms/psalm_26");
     docs.push("prayers/bookofhours/psalms/psalm_46");
