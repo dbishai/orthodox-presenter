@@ -51,7 +51,7 @@ var short_litanies = function (attributes) {
     } else if (CopticDateComparator("Paope", 10, "Tobe", 10, copticMonthIndex, copticDay)){
         docs.push("prayers/litanies/litany_seeds_and_herbs");
     } else if (CopticDateComparator("Paone", 12, "Paope", 9, copticMonthIndex, copticDay)){
-        docs.push("prayers/litanies/litany_water");
+        docs.push("prayers/litanies/litany_waters");
     }
     docs.push("prayers/litanies/litany_assemblies");
 
@@ -68,7 +68,7 @@ var season_litanies = function (attributes) {
     } else if (CopticDateComparator("Paope", 10, "Tobe", 10, copticMonthIndex, copticDay)){
         docs.push("prayers/litanies/litany_seeds_and_herbs");
     } else if (CopticDateComparator("Paone", 12, "Paope", 9, copticMonthIndex, copticDay)){
-        docs.push("prayers/litanies/litany_water");
+        docs.push("prayers/litanies/litany_waters");
     }
 
     return docs;
@@ -244,7 +244,7 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/nicene_creed");
     docs.push("prayers/prayer_reconciliation");
     docs.push("prayers/responses/greet_one_another_standard");
-    docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful");
+    docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful_come");
     docs.push("prayers/anaphora_stbasil");
     docs.push("prayers/prayer_agios_stbasil");
     docs.push("prayers/institution_stbasil");
