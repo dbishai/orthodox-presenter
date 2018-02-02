@@ -47,7 +47,7 @@ ws
 
 * [React](https://reactjs.org/) - The Javascript library used
 * [Flux](https://facebook.github.io/flux/) - Application Architecture
-* [Bootstrap](https://getbootstrap.com/) - Used for responsive resizing and [startbootstrap-simple-sidebar]  (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar)  for the sidebar
+* [Bootstrap](https://getbootstrap.com/) - Used for responsive resizing and [startbootstrap-simple-sidebar](https://github.com/BlackrockDigital/startbootstrap-simple-sidebar)  for the sidebar
 
 ## Contributing
 
