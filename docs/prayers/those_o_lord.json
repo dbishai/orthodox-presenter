@@ -1,0 +1,48 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": {
+        "cop": "Ⲡⲓⲟⲩⲏⲃ",
+        "eng": "Priest",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "cop": [
+          "",
+          ""
+        ],
+        "eng": [
+          "Those, O Lord, whose souls You have taken, repose them in the Paradise of joy, in the region of the living forever, in the heavenly Jerusalem—in that place.",
+          "And we too, who are sojourners in this place, keep us in Your faith, and grant us Your peace unto the end."
+        ],
+        "ara": [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲗⲁⲟⲥ",
+        "eng": "People",
+        "ara": "الشعب "
+      },
+      "text": {
+        "cop": [
+          ""
+        ],
+        "eng": [
+          "As it was and shall be, it is from generation to generation, and unto all the ages of the ages. Amen."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "Litany of the Oblations",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": {
+        "cop": "Ⲡⲓⲟⲩⲏⲃ",
+        "eng": "Priest",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "cop": [
+          ""
+        ],
+        "eng": [
+          "Remember, O Lord, those who have brought to You these gifts, those on whose behalf they have been brought, and those by whom they have been brought. Give them all the heavenly reward."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲇⲓⲁⲕⲱⲛ",
+        "eng": "Deacon",
+        "ara": " الشماس "
+      },
+      "text": {
+        "cop": [
+          ""
+        ],
+        "eng": [
+          "Pray for these holy and precious gifts, our sacrifices, and those who bring them."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲗⲁⲟⲥ",
+        "eng": "People",
+        "ara": "الشعب "
+      },
+      "text": {
+        "cop": [
+          "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+        ],
+        "eng": [
+          "Lord have mercy."
+        ],
+        "ara": [
+          " .يا ربُّ إرحَم"
+        ]
+      }
+    }
+  ]
+}

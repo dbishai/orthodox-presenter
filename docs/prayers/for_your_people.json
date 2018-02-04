@@ -1,0 +1,60 @@
+{
+  "visible": "false",
+  "title": {
+    "eng": "For Your People",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "For Your people and Your church ask You, and through You the Father with You, saying",
+          "Have mercy upon us, O God the Father, the Pantocrator.",
+          "Have mercy upon us, O God the Father, the Pantocrator.",
+          "Have mercy upon us, O God, the Father, the Pantocrator.",
+          "Lord have mercy."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Have mercy upon us, O God the Father, the Pantocrator.",
+        "Have mercy upon us, O God the Father, the Pantocrator.",
+        "Have mercy upon us, O God, the Father, the Pantocrator.",
+        "Lord have mercy."
+      ],
+      "cop": [
+        ""
+      ],
+      "ara":[
+        ""
+      ]
+    }
+  },
+  {
+    "user": "priest",
+    "text": {
+     "eng": [
+        "Grant Your people oneness of heart. Give dignity to the world, good temper to the air."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    }
+
+   ]
+}

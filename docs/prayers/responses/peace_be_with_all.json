@@ -1,0 +1,38 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "",
+    "ara": ""
+  },
+  "items": [
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "Peace be with all."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "And with your spirit."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      }
+      
+  ]
+}

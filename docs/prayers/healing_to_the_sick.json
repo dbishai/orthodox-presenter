@@ -1,0 +1,207 @@
+{
+  "visible": "false",
+  "title": {
+    "eng": "Healing to the sick",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "Healing to the sick, rest to the needy."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+    "text": {
+     "eng": [
+        "release to those in captivity, acceptance to the orphans."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Help to the widows; satisfy the distressed with good things."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Raise the fallen, confirm the upright."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Remember those who have fallen asleep, accept to Yourself the prayers of the confessors."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "The sinners who have repented, count them with Your faithful; Your faithful, count with Your martyrs."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Those who are in this place, conform them to Your angels. And we also, who have been called by Your grace into Your service while unworthy, accept us to Yourself."
+        ],
+        "cop": [
+          ""
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy. Lord have mercy. Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        "  .يا ربُّ إرحَم. يا ربُّ إرحَم.  يا ربُّ إرحَم"
+      ]
+    }
+  }
+
+   ]
+}

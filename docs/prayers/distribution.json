@@ -1,0 +1,51 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "Distribution of the Holy Mysteries",
+    "ara": ""
+  },
+  "items": [
+    {
+        "user": "priest",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "The Holies for the holy. Blessed be the Lord Jesus Christ, the Son of God; sanctification is by the Holy Spirit. Amen."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+    {
+      "user": "people",
+      "text": {
+        "cop": [
+          ""
+        ],
+        "eng": [
+          "Blessed is He who comes in the name of the Lord."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "priest",
+      "text": {
+        "cop": [
+          ""
+        ],
+        "eng": [
+          "The Holy Body and the Precious, True Blood of Jesus Christ, the Son of God. Amen."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    }
+  ]
+}

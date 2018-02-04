@@ -1,0 +1,93 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "Commemoration of the Saints",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": {
+        "cop": "Ⲡⲓⲟⲩⲏⲃ",
+        "eng": "Priest",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "cop": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "eng": [
+          "As this, O Lord, is the command of Your only-begotten Son, that we share in the commemoration of Your saints, graciously accord, O Lord, to remember all the saints who have pleased You since the beginning:",
+          "our holy fathers the patriarchs, the prophets, the Apostles, the preachers, the evangelists, the martyrs, the confessors, and all the spirits of the righteous perfected in the faith.",
+          "Most of all, the pure, full-of-glory, ever-virgin, holy Theotokos, Saint Mary, who truly gave birth to God the Logos.",
+          "And Saint John the forerunner, baptist, and martyr; Saint Stephen the archdeacon and protomartyr; the beholder-of-God, Saint Mark the Evangelist, the apostle and martyr;",
+          "the patriarch Saint Severus; our teacher Dioscorus; Saint Athanasius the Apostolic; Saint Peter, the holy martyr and high priest;",
+          "Saint John Chrysostom; Saint Theodosius; Saint Theophilus; Saint Demetrius; Saint Cyril; Saint Basil; Saint Gregory the Theologian; Saint Gregory the Wonderworker; Saint Gregory the Armenian;",
+          "the three hundred and eighteen assembled at Nicea; the one hundred and fifty at Constantinople; and the two hundred at Ephesus;",
+          "our righteous father, the great Abba Anthony; the righteous Abba Paul; the three saints Abba Macarii and all their children, the cross-bearers;",
+          "our father Abba John the hegumen; our righteous father Abba Pishoy, the perfect man, the beloved of our good Savior.",
+          "Our father Abba Paul of Tammoh and Ezekiel his disciple; my lords, the Roman fathers Saints Maximus and Dometius; the Forty-nine Martyrs; the elders of Shiheet; the strong saint Abba Moses; John Kame the priest; our father Abba Daniel the hegumen; our father Abba Isidore the priest; our father Abba Pachom of the Koinonia, and Theodore his disciple; our father Abba Shenoute the archmandrite, and Abba Wesa his disciple;,",
+          "and all the choir of Your saints, through whose prayers and supplications have mercy on us all and save us, for the sake of Your holy name, which is called upon us."
+        ],
+        "ara": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲇⲓⲁⲕⲱⲛ",
+        "eng": "Deacon",
+        "ara": " الشماس "
+      },
+      "text": {
+        "cop": [
+          ""
+        ],
+        "eng": [
+          "Let those who read, recite the names of our holy fathers, the patriarchs who have fallen asleep. O Lord repose their souls, and forgive us our sins."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲗⲁⲟⲥ",
+        "eng": "People",
+        "ara": "الشعب "
+      },
+      "text": {
+        "cop": [
+          ""
+        ],
+        "eng": [
+          "May their holy blessings be with us. Amen. Glory to You, O Lord. Lord have mercy. Lord have mercy. Lord, bless us. Lord, repose them. Amen."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    }
+  ]
+}
