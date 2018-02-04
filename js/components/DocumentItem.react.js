@@ -8,6 +8,11 @@ var Subs = Object.assign(
   require('../../docs/helpers/common.json')
 );
 
+var idFormatter = function (title) {
+  return title.toLowerCase().replace(/\s/g, "-");
+};
+
+
 var DocumentItem = createReactClass({
 
   propTypes: {
@@ -24,8 +29,12 @@ var DocumentItem = createReactClass({
     }
   },
 
+  defaultLangOrderList: ["eng", "cop", "ara"],
+
+  BlackList: [],
+
   langStyle: function (elementType, lang, numLangs) {
-    var fontScale = this.props["fontScale"];
+    var fontScale = this.props.fontScale;
     var fontSize;
     switch (elementType) {
       case "h3":
@@ -44,10 +53,27 @@ var DocumentItem = createReactClass({
       divStyle["fontFamily"] = "CSNewAthanasius";
     } else if (lang == "ara") {
       divStyle["textAlign"] = "right";
-      //divStyle["fontScale"] = "18px";
     }
     divStyle["width"] = Math.floor(100 / numLangs) + "%";
     return divStyle;
+  },
+
+  buildBlackList: function (doc) {
+    this.BlackList = []
+    for (var i = 0; i < this.defaultLangOrderList.length; i++) {
+      var lang = this.defaultLangOrderList[i];
+      /*
+      check for the following:
+      - language is not checked in interface
+      - value of language key is collection of empty strings
+      - value of language key is empty string
+      - key is not defined
+      */
+      if (!this.props.langStates[lang] || (Array.isArray(doc[lang]) && doc[lang].every(function (val) { return val === "" }))
+        || (doc[lang] === "" || typeof doc[lang] == "undefined")) {
+        this.BlackList.push(lang);
+      }
+    }
   },
 
   createDocumentElement: function (doc, elementType, theme, idx) {
@@ -64,37 +90,17 @@ var DocumentItem = createReactClass({
       theme += "-" + user;
     }
 
-    var numLangs = 0;
-    var blackList = [];
-
     // order of languages to be displayed
-    var langs = ["eng", "cop", "ara"];
-
+    var langs = this.defaultLangOrderList;
     // get number of languages that will actually be displayed in order to properly size divs
-    for (var i = 0; i < langs.length; i++) {
-      var lang = langs[i];
-      /*
-      check for the following:
-      - language is not checked in interface
-      - value of language key is collection of empty strings
-      - value of language key is empty string
-      - key is not defined
-      */
-      if (!this.props.langStates[lang] || (Array.isArray(doc[lang]) && doc[lang].every(function (val) { return val === "" }))
-        || (doc[lang] === "" || typeof doc[lang] == "undefined")) {
-        blackList.push(lang);
-      } else {
-        numLangs += 1;
-      }
-    }
-
+    var numLangs = langs.length - this.BlackList.length;
 
     for (var i = 0; i < langs.length; i++) {
 
       var lang = langs[i];
 
       // check if language is in blacklist
-      if (blackList.indexOf(lang) != -1) {
+      if (this.BlackList.indexOf(lang) != -1) {
         continue;
       }
 
@@ -169,7 +175,7 @@ var DocumentItem = createReactClass({
       is set to "false"
     */
     if (newProps.documentItem != this.props.documentItem) {
-      this.setState({ showDocument: !(newProps.documentItem.visible === "false")});
+      this.setState({ showDocument: newProps.documentItem.visible !== "false" });
     }
   },
 
@@ -194,12 +200,22 @@ var DocumentItem = createReactClass({
       sectionTheme += " main-section-light";
     }
 
+    /*
+    blacklist is created for title and text seperately due to certain documents not
+    having all languages filled in for all parts
+    */
+    this.buildBlackList(documentItem.title);
     var collection = [
       this.parseDocument(documentItem.title, "h3", sectionTheme, 0)
     ];
 
     if (showDocument) {
       for (var i = 0; i < documentItem.items.length; i++) {
+        /*
+        text item is source of truth for blacklist due to user being defined by helper macro
+        which contains several languages
+        */
+        this.buildBlackList(documentItem.items[i].text)
         if (typeof documentItem.items[i].user !== "undefined") {
           collection.push(this.parseDocument(documentItem.items[i].user, "h4", sectionTheme, i))
         }
@@ -208,7 +224,7 @@ var DocumentItem = createReactClass({
     }
 
     return (
-      <div key={"doc-item-" + documentItem.title.eng} className="main-section">
+      <div key={"doc-item-" + documentItem.title.eng} id={idFormatter(documentItem.title.eng)} className="main-section">
         {collection}
       </div>
     );
@@ -221,3 +237,4 @@ var DocumentItem = createReactClass({
 });
 
 module.exports = DocumentItem;
+module.exports.idFormatter = idFormatter;
