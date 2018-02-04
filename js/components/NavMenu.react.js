@@ -6,6 +6,7 @@ var NavMenuItem = require('./NavMenuItem.react');
 var NavItem = require('./NavItem.react');
 var SectionItem = require('./SectionItem.react');
 var MainSection = require('./MainSection.react');
+var TableOfContents = require('./TableOfContents.react');
 var Footer = require('./Footer.react');
 
 var getState = function () {
@@ -58,7 +59,6 @@ var NavMenu = createReactClass({
 
 
     // menu navigation commands
-
     for (var key in allNavItems) {
       navItems.push(<NavItem key={key} navItem={allNavItems[key]} />);
     }
@@ -79,6 +79,8 @@ var NavMenu = createReactClass({
         <div id="sidebar-wrapper">
           <ul className="sidebar-nav">
             {navMenuItems}
+            <hr />
+            <TableOfContents />
             <hr />
             {navItems}
             {sectionItems}

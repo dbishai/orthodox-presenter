@@ -272,3 +272,18 @@ label.font-scaler {
   text-indent: 0px;
   padding-left: 5px;
 }
+
+div.table-of-contents {
+  line-height: 40px;
+  color: #ffffff;
+  max-height: 350px;
+  overflow-y: auto;
+}
+.table-of-contents-item {
+  font-size: 14px !important;
+
+}
+.table-of-contents-item:hover {
+  background-color: #1a75ff;
+  cursor: pointer;
+}
