@@ -41,6 +41,9 @@ function autoLoad(category, attributes) {
         case "stbasil_faithful":
               docs = DocumentBuilder.StBasilFaithful(attributes);
               break;
+        case "stbasil_distribution":
+              docs = DocumentBuilder.StBasilDistribution(attributes);
+              break;      
         case "first_hour": //first hour of the Book of Hours (Agpeya)
               docs = DocumentBuilder.FirstHour(attributes);
               break;

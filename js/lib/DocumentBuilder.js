@@ -48,8 +48,28 @@ var short_litanies = function (attributes) {
 
     if (CopticDateComparator("Tobe", 11, "Paone", 11, copticMonthIndex, copticDay)) {
         docs.push("prayers/litanies/litanies_airandfruit_short");
+    } else if (CopticDateComparator("Paope", 10, "Tobe", 10, copticMonthIndex, copticDay)){
+        docs.push("prayers/litanies/litany_seeds_and_herbs");
+    } else if (CopticDateComparator("Paone", 12, "Paope", 9, copticMonthIndex, copticDay)){
+        docs.push("prayers/litanies/litany_waters");
     }
     docs.push("prayers/litanies/litany_assemblies");
+
+    return docs;
+};
+var season_litanies = function (attributes) {
+    var docs = [];
+    var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
+    var copticMonthIndex = copticDate.monthIndex;
+    var copticDay = copticDate.day;
+    // start and end dates are inclusive
+    if (CopticDateComparator("Tobe", 11, "Paone", 11, copticMonthIndex, copticDay)) {
+        docs.push("prayers/litanies/litanies_airandfruit_short");
+    } else if (CopticDateComparator("Paope", 10, "Tobe", 10, copticMonthIndex, copticDay)){
+        docs.push("prayers/litanies/litany_seeds_and_herbs");
+    } else if (CopticDateComparator("Paone", 12, "Paope", 9, copticMonthIndex, copticDay)){
+        docs.push("prayers/litanies/litany_waters");
+    }
 
     return docs;
 };
@@ -215,13 +235,16 @@ var StBasilWord = function (attributes) {
 };
 var StBasilFaithful = function (attributes) {
     var docs = [];
+    var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
+    var copticMonthIndex = copticDate.monthIndex;
+    var copticDay = copticDate.day;
     docs.push("hymns/response_gospel_annual_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
     //    docs.push("prayers/litanies/three_great_litanies");
     //    docs.push("prayers/responses/in_the_wisdom");
     docs.push("prayers/nicene_creed");
     docs.push("prayers/prayer_reconciliation");
     docs.push("prayers/responses/greet_one_another_standard");
-    docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful");
+    docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful_come");
     docs.push("prayers/anaphora_stbasil");
     docs.push("prayers/prayer_agios_stbasil");
     docs.push("prayers/institution_stbasil");
@@ -234,13 +257,30 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/litanies/litany_clergy");
     docs.push("prayers/litanies/litany_mercy");
     docs.push("prayers/litanies/litany_place_liturgy");
+    docs = docs.concat(season_litanies(attributes));
+    docs.push("prayers/litanies/litany_oblations_liturgy");
+    docs.push("prayers/commemoration_stbasil");
+    docs.push("prayers/those_o_lord");
+    docs.push("prayers/lead_us_throughout");
+    docs.push("prayers/fraction_intro_stbasil");
+    docs.push("prayers/fraction_standard_stbasil");
+    docs.push("prayers/our_father");
+    docs.push("prayers/responses/in_christ_jesus_our_lord")
+    docs.push("prayers/prayer_before_confession");
+    docs.push("prayers/responses/one_is_the_holy_father_alt");
+    docs.push("prayers/responses/peace_be_with_all");
+    docs.push("prayers/prayer_before_confession_cont");
+    docs.push("prayers/the_confession");
+    return docs;
 
-
-
+};
+var StBasilDistribution = function (attributes){
+    var docs = [];
+    docs.push("prayers/distribution");
+    docs.push("hymns/psalm150_standard") // This will need to be changed to the attributes.day to accommodate for other occasions
 
 
     return docs;
-
 };
 var FirstHour = function (attributes) { //content for the first hour of the book of hours
     var docs = [];
@@ -560,6 +600,7 @@ module.exports.Matins = Matins;
 module.exports.StBasilOffering = StBasilOffering;
 module.exports.StBasilWord = StBasilWord;
 module.exports.StBasilFaithful = StBasilFaithful;
+module.exports.StBasilDistribution = StBasilDistribution;
 module.exports.FirstHour = FirstHour;
 module.exports.ThirdHour = ThirdHour;
 module.exports.SixthHour = SixthHour;

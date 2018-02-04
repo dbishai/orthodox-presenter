@@ -31,6 +31,11 @@ var sections = {
                       "title": "LITURGY OF THE FAITHFUL",
                       "load" : "stbasil_faithful"
                     },
+                    "1f":{
+                      "id": "1f",
+                      "title": "DISTRIBUTION",
+                      "load": "stbasil_distribution"
+                    },
 
                 },
 
