@@ -1,6 +1,6 @@
 # Orthodox Presenter
 
-Orthodox Presenter is an open source web application designed for use in Coptic Orthodox church services. It's responsive in that it can be scaled to fit any screen size. Orthodox Presenter has been designed to run on any device with a modern web browser. It can also be run offline via a local web server. In addition to this, it also loads the appropriate documents for the specific day in terms of readings, saint commemorations, hymns, and other relatable content.
+Orthodox Presenter is an open source web application designed for use in Coptic Orthodox church services. It's responsive in that it can be scaled to fit any screen size. Orthodox Presenter has been designed to run on any device with a modern web browser. It can also be run offline by just opening 'index.html' in a web browser. In addition to this, it also aims to load the appropriate documents for the specific day in terms of prayers, readings, saint commemorations, and hymns.
 
 ## Getting Started
 
@@ -16,9 +16,9 @@ These instructions will get you a copy of the project up and running on your loc
 - [local-web-server package](https://www.npmjs.com/package/local-web-server)
 
 
-### Installing 
+### Installing
 
-Install npm
+Install packages
 
 ```
 npm install
@@ -30,13 +30,13 @@ Install local-web-server
 npm install -g local-web-server
 ```
 
-Start the package
+Start the build process
 
 ```
 npm start
 ```
 
-Launch the server
+Launch local-web-server in another terminal
 
 ```
 ws
@@ -45,20 +45,20 @@ ws
 
 ## Built With
 
-* [React](https://reactjs.org/) - The Javascript library used
-* [Flux](https://facebook.github.io/flux/) - Application Architecture
-* [Bootstrap](https://getbootstrap.com/) - Used for responsive resizing and [startbootstrap-simple-sidebar](https://github.com/BlackrockDigital/startbootstrap-simple-sidebar)  for the sidebar
+* [React](https://reactjs.org/)
+* [Flux](https://facebook.github.io/flux/)
+* [Bootstrap](https://getbootstrap.com/)
 
 ## Contributing
 
-Please read [CONTRIBUTING](https://github.com/dbishai/orthodox-presenter/wiki/Contributing) for details on the process for submitting pull requests to us.
- 
+Please read [CONTRIBUTING](https://github.com/dbishai/orthodox-presenter/wiki/Contributing) before submitting pull requests.
+
 
 ## Authors
 
-* **dBishai** - *Initial work* - [@dbishai](https://github.com/dbishai)
+* [@dbishai](https://github.com/dbishai)
 
-* **abanoubg** - *Contributor* - [@abanoubg](https://github.com/AbanoubG)
+* [@abanoubg](https://github.com/AbanoubG)
 
 ## License
 
@@ -66,6 +66,8 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Acknowledgments
 
-* [Creationism.org](http://www.creationism.org/BibleUKJV/00Preface2UKJV.htm) use of the UKJV Bible
-
-* [react-dates](https://github.com/airbnb/react-dates) Calendar Date Picker
+* [Creationism.org](http://www.creationism.org/BibleUKJV/00Preface2UKJV.htm) I love Jesus (UKJV).
+* [react-dates](https://github.com/airbnb/react-dates)
+* [startbootstrap-simple-sidebar](https://github.com/BlackrockDigital/startbootstrap-simple-sidebar)
+* [rc-slider](https://github.com/react-component/slider)
+* [react-toggle](https://github.com/aaronshaf/react-toggle)
