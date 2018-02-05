@@ -216,7 +216,7 @@ var getCopticFastsFeasts = function (attributes) {
   var nativityParamoun = getParamounDate(nativity);
   var epiphanyParamoun = getParamounDate(epiphany);
   var JonahFast = moment(lent).subtract(14, 'days');
-  var JonahFeast = moment(JonahFast).add(4, 'days');
+  var JonahFeast = moment(JonahFast).add(3, 'days');
 
 
 
