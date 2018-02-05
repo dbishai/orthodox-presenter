@@ -212,7 +212,7 @@ var StBasilOffering = function (attributes) {
     docs = docs.concat(offering_hymn(attributes));
     docs.push("prayers/khen_efran_offertory");
     docs.push("prayers/thanksgiving_prayer");
-    docs.push("hymns/nisavev_tero");
+    docs.push("hymns/papal/nisavev_tero");
     docs.push("hymns/saved_amen");
     docs.push("prayers/prayer_absolution_son");
 
@@ -229,7 +229,7 @@ var StBasilWord = function (attributes) {
           docs.push("hymns/coptic_pauline_concl");
           docs.push("hymns/coptic_catholic_intro");
           docs.push("hymns/coptic_catholic_concl");
-    */    docs.push("hymns/praxis_response_standard");
+    */    docs.push("hymns/standard/praxis_response_standard");
     //    docs.push("hymns/coptic_praxis_intro");
     //    docs.push("hymns/coptic_praxis_concl");
     docs.push("hymns/trisagion_hymn");
@@ -283,7 +283,7 @@ var StBasilFaithful = function (attributes) {
 var StBasilDistribution = function (attributes){
     var docs = [];
     docs.push("prayers/distribution");
-    docs.push("hymns/psalm150_standard") // This will need to be changed to the attributes.day to accommodate for other occasions
+    docs.push("hymns/standard/psalm150_standard") // This will need to be changed to the attributes.day to accommodate for other occasions
 
 
     return docs;
