@@ -131,7 +131,7 @@ var Vespers = function (attributes) {
     docs.push("prayers/o_god_have_mercy_on_us");
     docs.push("prayers/litanies/gospel");
     docs.push("prayers/litanies/gospel_alt");
-    docs.push("hymns/response_gospel_annual_raising_incense");
+    docs.push("hymns/response_gospel_standard_raising_incense");
     docs = docs.concat(short_litanies(attributes));
     docs.push("prayers/our_father");
     docs.push("prayers/responses/in_christ_jesus_our_lord");
@@ -176,7 +176,7 @@ var Matins = function (attributes) {
     docs.push("prayers/o_god_have_mercy_on_us");
     docs.push("prayers/litanies/gospel");
     docs.push("prayers/litanies/gospel_alt");
-    docs.push("hymns/response_gospel_annual_raising_incense");
+    docs.push("hymns/standard/response_gospel_standard_raising_incense");
     docs = docs.concat(short_litanies(attributes));
     docs.push("prayers/our_father");
     docs.push("prayers/responses/in_christ_jesus_our_lord");
@@ -224,15 +224,15 @@ var StBasilWord = function (attributes) {
     // On Saturdays, Sundays, and feasts of the Lord, Taishori is prayed
     docs = docs.concat(censer_hymn(attributes));
     docs.push("hymns/hymn_intercessions_liturgy_of_the_word");
-    /*    docs.push("hymns/response_pauline");
-          docs.push("hymns/coptic_pauline_intro");
-          docs.push("hymns/coptic_pauline_concl");
-          docs.push("hymns/coptic_catholic_intro");
-          docs.push("hymns/coptic_catholic_concl");
+    /*    docs.push("hymns/papal/response_pauline");
+          docs.push("hymns/coptic_readings/coptic_pauline_intro");
+          docs.push("hymns/coptic_readings/coptic_pauline_concl");
+          docs.push("hymns/coptic_readings/coptic_catholic_intro");
+          docs.push("hymns/coptic_readings/coptic_catholic_concl");
     */    docs.push("hymns/standard/praxis_response_standard");
-    //    docs.push("hymns/coptic_praxis_intro");
-    //    docs.push("hymns/coptic_praxis_concl");
-    docs.push("hymns/trisagion_hymn");
+    //    docs.push("hymns/coptic_readings/coptic_praxis_intro");
+    //    docs.push("hymns/coptic_readings/coptic_praxis_concl");
+    docs.push("hymns/standard/trisagion_hymn");
     docs.push("prayers/litanies/gospel");
     docs.push("prayers/litanies/gospel_alt");
 
@@ -244,7 +244,7 @@ var StBasilFaithful = function (attributes) {
     var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var copticMonthIndex = copticDate.monthIndex;
     var copticDay = copticDate.day;
-    docs.push("hymns/response_gospel_annual_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
+    docs.push("hymns/standard/response_gospel_standard_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
     //    docs.push("prayers/litanies/three_great_litanies");
     //    docs.push("prayers/responses/in_the_wisdom");
     docs.push("prayers/nicene_creed");
