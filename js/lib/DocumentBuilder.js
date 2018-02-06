@@ -6,11 +6,11 @@ var verses_of_the_cymbals = function (attributes, selector) {
     var day_tune = CopticCalendar.AdamOrWatos(attributes.year, attributes.monthIndex, attributes.day);
     var docs = []
     if (day_tune == "adam") {
-        docs.push("hymns/adam_intro_verses_of_the_cymbals");
+        docs.push("hymns/verses_of_cymbals/adam_intro_verses_of_the_cymbals");
     } else {
-        docs.push("hymns/watos_intro_verses_of_the_cymbals");
+        docs.push("hymns/verses_of_cymbals/watos_intro_verses_of_the_cymbals");
     }
-    docs.push("hymns/verses_of_the_cymbals");
+    docs.push("hymns/verses_of_cymbals/verses_of_the_cymbals");
 
     return docs;
 };
@@ -81,11 +81,11 @@ var concluding_hymn = function (attributes) {
     var copticDay = copticDate.day;
     // start and end dates are inclusive
     if (CopticDateComparator("Paone", 12, "Paope", 9, copticMonthIndex, copticDay)) {
-        docs.push("hymns/concluding_hymn_waters");
+        docs.push("hymns/concluding_hymn/waters");
     } else if (CopticDateComparator("Paope", 10, "Tobe", 10, copticMonthIndex, copticDay)) {
-        docs.push("hymns/concluding_hymn_seeds");
+        docs.push("hymns/concluding_hymn/seeds");
     } else if (CopticDateComparator("Tobe", 11, "Paone", 11, copticMonthIndex, copticDay)) {
-        docs.push("hymns/concluding_hymn_air");
+        docs.push("hymns/concluding_hymn/air");
     }
 
     return docs;
@@ -194,8 +194,8 @@ var daysToMilliseconds = function (numOfDays) {
 
 var StBasilOffering = function (attributes) {
     var docs = [];
-    docs.push("hymns/hymn_blessing");
-    docs.push("hymns/hail_to_mary_offering");
+    docs.push("hymns/standard/hymn_blessing");
+    docs.push("hymns/standard/hail_to_mary_offering");
     docs.push("prayers/trisagion");
     docs.push("prayers/our_father");
     docs.push("prayers/intro_creed");
@@ -254,7 +254,7 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/anaphora_stbasil");
     docs.push("prayers/prayer_agios_stbasil");
     docs.push("prayers/institution_stbasil");
-    docs.push("hymns/amen_amen_amen_your_death");
+    docs.push("hymns/standard/amen_amen_amen_your_death");
     docs.push("prayers/prayer_epiclesis");
     docs.push("prayers/yea_we_ask_you");
     docs.push("prayers/litanies/intro_seven_short");
