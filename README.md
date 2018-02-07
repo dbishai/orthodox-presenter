@@ -2,12 +2,13 @@
 
 Orthodox Presenter is an open source web application designed for use in Coptic Orthodox church services. It's responsive in that it can be scaled to fit any screen size. Orthodox Presenter has been designed to run on any device with a modern web browser. It can also be run offline by just opening 'index.html' in a web browser. In addition to this, it also aims to load the appropriate documents for the specific day in terms of prayers, readings, saint commemorations, and hymns.
 
+### Demo
+[Live demo](https://dbishai.github.io/orthodox-presenter/)
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-
 
 - [git](https://git-scm.com/)
 
