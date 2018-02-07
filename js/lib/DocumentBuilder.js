@@ -131,7 +131,7 @@ var Vespers = function (attributes) {
     docs.push("prayers/o_god_have_mercy_on_us");
     docs.push("prayers/litanies/gospel");
     docs.push("prayers/litanies/gospel_alt");
-    docs.push("hymns/response_gospel_standard_raising_incense");
+    docs.push("hymns/standard/response_gospel_standard_raising_incense");
     docs = docs.concat(short_litanies(attributes));
     docs.push("prayers/our_father");
     docs.push("prayers/responses/in_christ_jesus_our_lord");
