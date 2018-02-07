@@ -5,51 +5,6 @@
     "ara": ""
   },
   "items": [
-  {
-      "user": "priest",
-      "text": {
-        "eng": [
-          "Therefore as we also commemorate His holy Passion, His Resurrection from the dead, His Ascension into the heavens, His sitting at Your right hand, O Father, ",
-          "and His Second Coming from the heavens, awesome and full of glory, we offer unto You Your gifts from what is Yours, for everything, concerning everything, and in everything."
-        ],
-        "cop": [
-          "",
-          ""
-        ],
-        "ara": [
-          " ",
-          ""
-        ]
-      }
-    },
-    {
-      "user": "deacon",
-      "text": {
-        "eng": [
-          "Worship God in fear and trembling."
-        ],
-        "cop": [
-          ""
-        ],
-        "ara": [
-          ""
-        ]
-      }
-    },
-    {
-      "user": "people",
-      "text": {
-        "eng": [
-          "We praise You, we bless You, we serve You, we worship You."
-        ],
-        "cop": [
-          ""
-        ],
-        "ara": [
-          ""
-        ]
-      }
-    },
     {
       "user": "deacon",
       "text": {
@@ -57,7 +12,7 @@
           "Let us attend. Amen."
         ],
         "cop": [
-          ""
+          "Ⲡⲣⲟⲥⲭⲱⲙⲉⲛ: ⲁ̀ⲙⲏⲛ."
         ],
         "ara": [
           ""
@@ -71,7 +26,7 @@
           "And this bread He makes into His holy Body."
         ],
         "cop": [
-          ""
+          "Ⲟⲩⲟϩ ⲡⲁⲓⲱⲓⲕ ⲙⲉⲛ ⲛ̀ⲧⲉϥⲁⲓϥ ⲛ̀ⲥⲱⲙⲁ ⲉϥⲟⲩⲁⲃ ⲛ̀ⲧⲁϥ."
         ],
         "ara": [
           ""
@@ -85,7 +40,7 @@
           "I believe. Amen."
         ],
         "cop": [
-          ""
+          "Ϯⲛⲁϩϯ: ⲁ̀ⲙⲏⲛ."
         ],
         "ara": [
           ""
@@ -99,7 +54,7 @@
           "And this cup also, the precious Blood of His New Covenant."
         ],
         "cop": [
-          ""
+          "Ⲟⲩⲟϩ ⲡⲁⲓⲁ̀ⲫⲟⲧ ⲇⲉ ⲟⲛ ⲛ̀ⲥ̀ⲛⲟϥ ⲉⲫⲧⲁⲓⲏⲟⲩⲧ: ⲛ̀ⲧⲉ ϯⲇⲓⲁⲑⲏⲕⲏ ⲙ̀ⲃⲉⲣⲓ ⲛ̀ⲧⲁϥ."
         ],
         "ara": [
           ""
@@ -113,7 +68,7 @@
           "Again I believe. Amen."
         ],
         "cop": [
-          ""
+          "Ⲕⲉ ⲡⲁⲗⲓⲛ ϯⲛⲁϩϯ: ⲁ̀ⲙⲏⲛ."
         ],
         "ara": [
           ""
@@ -124,10 +79,10 @@
       "user": "priest",
       "text": {
         "eng": [
-          "given for the remission of sins and eternal life to those who partake of Him."
+          "...and eternal life to those who partake of Him."
         ],
         "cop": [
-          ""
+          "...ⲛⲉⲙ ⲟⲩⲱⲛϩ ⲛ̀ⲉ̀ⲛⲉϩ ⲛ̀ⲛⲏⲉⲑⲛⲁϭⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ."
         ],
         "ara": [
           ""
@@ -138,10 +93,10 @@
       "user": "people",
       "text": {
         "eng": [
-          "Lord have mercy. Lord have mercy. Lord have mercy."
+          "Amen. Lord have mercy. Lord have mercy. Lord have mercy."
         ],
         "cop": [
-          "Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ."
+          "Ⲁⲙⲏⲛ. Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ."
         ],
         "ara": [
           ""
