@@ -1,0 +1,309 @@
+{
+    "title": {
+      "cop": "",
+      "eng": "The Institution Narrative",
+      "ara": ""
+    },
+    "items": [
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲁϥⲭⲱ ⲇⲉ ⲛⲁⲛ ⲉ̀ϧ̀ⲣⲏⲓ ⲙ̀ⲡⲁⲓⲛⲓϣϯ ⲙ̀ⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛ̀ⲧⲉ ϯⲙⲉⲧⲉⲩⲥⲉⲃⲏⲥ. Ⲉϥⲑⲏϣ ⲅⲁⲣ ⲉ̀ⲧⲏⲓϥ ⲉ̀ⲫ̀ⲙⲟⲩ ϧⲁ ⲡ̀ⲱⲛϧ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ."
+          ],
+          "eng": [
+            "He instituted for us this great Mystery of godliness. For being determined to give Himself up to death for the life of the world."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲡⲓⲥⲧⲉⲩⲟ̀ⲙⲉⲛ."
+          ],
+          "eng": [
+            "We believe."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲁϥϭⲓ ⲛ̀ⲟⲩⲱⲓⲕ ⲉ̀ϫⲉⲛ ⲛⲉϥϫⲓϫ ⲉⲑⲟⲩⲁⲃ:  ⲛ̀ⲁⲧⲁϭⲛⲓ ⲟⲩⲟϩ ⲛ̀ⲁⲧⲑⲱⲗⲉⲃ: ⲟⲩⲟϩ ⲙ̀ⲙⲁⲕⲁⲣⲓⲟⲛ: ⲟⲩⲟϩ ⲛ̀ⲣⲉϥⲧⲁⲛϧⲟ."
+          ],
+          "eng": [
+            "He took bread into His holy hands, which are without spot or blemish, blessed, and life-giving."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲧⲉⲛⲛⲁϩϯ ϫⲉ ⲫⲁⲓ ⲡⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ. ⲁ̀ⲙⲏⲛ."
+          ],
+          "eng": [
+            "We believe that this is true. Amen"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲁϥϫⲟⲩϣⲧ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲧ̀ⲫⲉ ϩⲁⲣⲟⲕ: ⲫⲏⲉ̀ⲧⲉ ⲫⲱϥ ⲛ̀ⲓⲱⲧ Ⲫⲛⲟⲩϯ ⲟⲩⲟϩ ⲫ̀ⲛⲏⲃ ⲛ̀ⲧⲉ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ",
+            "Ⲉⲧⲁϥϣⲉⲡϩ̀ⲙⲟⲧ"
+          ],
+          "eng": [
+            "He looked up toward heaven to You, O God, who are His father and Master of everyone",
+            "And when He had given thanks-"
+          ],
+          "ara": [
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲁⲙⲏⲛ."
+          ],
+          "eng": [
+            "Amen."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲁϥⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ."
+          ],
+          "eng": [
+            "He blessed it-"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲁⲙⲏⲛ."
+          ],
+          "eng": [
+            "Amen."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲁϥⲉⲣⲁ̀ⲅⲓⲁⲍⲓⲛ ⲙ̀ⲙⲟϥ."
+          ],
+          "eng": [
+            "and He sanctified it."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲁⲙⲏⲛ. Ⲡⲓⲥⲧⲉⲩⲟ̀ⲙⲉⲛ ⲕⲉ ⲟ̀ⲙⲟⲗⲟⲅⲟⲩⲙⲉⲛ ⲕⲉ ⲇⲟⲝⲁⲍⲟⲙⲉⲛ."
+          ],
+          "eng": [
+            "Amen. We believe, we confess, and we glorify."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲁϥⲫⲁϣϥ ⲁϥⲧⲏⲓϥ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩϥ ⲛ̀ⲁ̀ⲅⲓⲟⲥ ⲙ̀ⲙⲁⲑⲏⲧⲏⲥ: ⲟⲩⲟϩ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ ⲉϥϫⲟ ⲙ̀ⲙⲟⲥ: ϫⲉ ϭⲓ ⲟⲩⲱⲙ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ ⲧⲏⲣⲟⲩ: ⲫⲁⲓ ⲅⲁⲣ ⲡⲉ ⲡⲁⲥⲱⲙⲁ ⲉ̀ⲧⲟⲩⲛⲁⲫⲁϣϥ ⲉ̀ϫⲉⲛ ⲑⲏⲛⲟⲩ ⲛⲉⲙ ϩⲁⲛⲕⲉⲙⲏϣ: ⲛ̀ⲥⲉⲧⲏⲓϥ ⲉ̀ⲡ̀ⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲓⲛⲟⲃⲓ: ⲫⲁⲓ ⲁ̀ⲣⲓⲧϥ ⲉ̀ⲡⲁⲉⲣⲫ̀ⲙⲉⲩ̀ⲓ."
+          ],
+          "eng": [
+            "He broke it, and gave it to His own saintly disciples and holy apostles saying \"Take, eat of it, all of you. For this is My Body, which is broken for you and for many, to be given for the remission of sins. This do in remembrance of Me.\"."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲫⲁⲓ ⲡⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲁ̀ⲙⲏⲛ."
+          ],
+          "eng": [
+            "This is true. Amen."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "",
+            ""
+          ],
+          "eng": [
+            "Likewise also, the cup, after supper, He mixed it of wine and water,",
+            "And when He had given thanks-"
+          ],
+          "ara": [
+            "Ⲡⲁⲓⲣⲏϯ ⲟⲛ ⲡⲓⲕⲉⲁ̀ⲫⲟⲧ ⲙⲉⲛⲉⲥⲁ ⲡⲓⲇⲓⲡⲛⲟⲛ: ⲁϥⲑⲟⲧϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲟⲩⲏⲣⲡ ⲛⲉⲙ ⲟⲩⲙⲱⲟⲩ.",
+            "Ⲉⲧⲁϥϣⲉⲡϩ̀ⲙⲟⲧ"
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲁⲙⲏⲙ. "
+          ],
+          "eng": [
+            "Amen."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲁϥⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ."
+          ],
+          "eng": [
+            "He blessed it-"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲁⲙⲏⲙ. "
+          ],
+          "eng": [
+            "Amen."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "and He sanctified it."
+          ],
+          "ara": [
+            "Ⲁϥⲉⲣⲁ̀ⲅⲓⲁⲍⲓⲛ ⲙ̀ⲙⲟϥ."
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲁⲙⲏⲙ. Ⲕⲉ  ⲡⲁⲗⲓⲛ ⲡⲓⲥⲧⲉⲩⲟ̀ⲙⲉⲛ ⲕⲉ ⲟ̀ⲙⲟⲗⲟⲅⲟⲩⲙⲉⲛ ⲕⲉ ⲇⲟⲝⲁⲍⲟⲙⲉⲛ."
+          ],
+          "eng": [
+            "Amen. Again, we believe, we confess, and we glorify."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲁϥϫⲉⲙϯⲡⲓ ⲁϥⲧⲏⲓϥ ⲟⲛ ⲛ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩϥ ⲛ̀ⲁ̀ⲅⲓⲟⲥ ⲙ̀ⲙⲁⲑⲏⲧⲏⲥ: ⲟⲩⲟϩ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ ⲉⲑⲟⲩⲁⲃ ⲉϥϫⲟ ⲙ̀ⲙⲟⲥ: ϫⲉ ϭⲓ ⲥⲱ ⲉ̀ⲃⲟⲗⲛ̀ϧⲏⲧϥ ⲧⲏⲣⲟⲩ. Ⲫⲁⲓ ⲅⲁⲣ ⲡⲉ ⲡⲁⲥ̀ⲛⲟϥ ⲛ̀ⲧⲉ ϯⲇⲓⲁⲑⲏⲕⲏ ⲙ̀ⲃⲉⲣⲓ: ⲉ̀ⲧⲟⲩⲛⲁⲫⲟⲛϥ ⲉ̀ⲃⲟⲗ ⲉ̀ϫⲉⲛ ⲑⲏⲛⲟⲩ ⲛⲉⲙ ϩⲁⲛⲕⲉⲙⲏϣ: ⲛ̀ⲥⲉⲧⲏⲓϥ ⲉ̀ⲡ̀ⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲓⲛⲟⲃⲓ: ⲫⲁⲓ ⲁ̀ⲣⲓⲧϥ ⲉ̀ⲡⲁⲉⲣⲫ̀ⲙⲉⲩⲓ̀."
+          ],
+          "eng": [
+            "He tasted, and gave it to His own saintly disciples and holy apostles saying \"Take, drink of it, all of you. For this is My Blood of the New Covenant, which is shed for you and for many, to be given for the remission of sins. This do in remembrance of Me.\"."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲫⲁⲓ ⲟⲛ ⲡⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲁ̀ⲙⲏⲛ."
+          ],
+          "eng": [
+            "This is also true. Amen."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲥⲟⲡ ⲅⲁⲣ ⲛⲓⲃⲉⲛ ⲉ̀ⲧⲉⲧⲉⲛⲛⲁⲟⲩⲱⲙ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁⲓⲱⲓⲕ ⲫⲁⲓ ⲟⲩⲟϩ ⲛ̀ⲧⲉⲧⲉⲛⲥⲱ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁⲓⲁ̀ⲫⲟⲧ ⲫⲁⲓ ⲉ̀ⲣⲉⲧⲉⲛϩⲓⲱⲓϣ ⲙ̀ⲡⲁⲙⲟⲩ: ⲉ̀ⲣⲉⲧⲉⲛⲉⲣⲟ̀ⲙⲟⲗⲟⲅⲓⲛ ⲛ̀ⲧⲁⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ: ⲉ̀ⲣⲉⲧⲉⲛⲓ̀ⲣⲓ ⲙ̀ⲡⲁⲙⲉⲩ̀ⲓ ϣⲁϯⲓ̀."
+          ],
+          "eng": [
+            "\"For everytime you eat of this bread and drink of this cup, you proclaim My death, confess My resurrection, and remember Me till I come.\""
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      }
+    ]
+  }

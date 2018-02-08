@@ -10,5 +10,6 @@ module.exports = keyMirror({
   SET_TIME: null,
   TOGGLE_MENU: null,
   REFRESH: null,
-  CATEGORY: null
+  CATEGORY: null,
+  SET_ATTRIBUTE: null
 });

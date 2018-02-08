@@ -1,0 +1,319 @@
+{
+  "visible": "false",
+  "title": {
+    "eng": "Yea We ask You",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "Yea, we ask You, O Christ our God, confirm the foundation of the Church."
+        ],
+        "cop": [
+          "Ⲥⲉ ⲧⲉⲛϯϩⲟ ⲉ̀ⲣⲟⲕ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ: ⲙⲁⲧⲁϫⲣⲉ ϯⲕ̀ⲣⲓⲡⲓⲥ ⲛ̀ⲧⲉ ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+    "text": {
+     "eng": [
+        "The oneness of heart that is of love, may it take root in us."
+        ],
+        "cop": [
+          "Ϯⲙⲉⲧϩⲏⲧ ⲛ̀ⲟⲩⲱⲧ ⲛ̀ⲧⲉ ϯⲁ̀ⲅⲁⲡⲏ: ⲙⲁⲣⲉⲥϭⲉⲛⲟⲩⲛⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧⲉⲛ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "May the righteousness of faith grow; straighten for us the way of godliness."
+        ],
+        "cop": [
+          "Ⲙⲁⲣⲉⲥⲁⲓⲁⲓ ⲛ̀ϫⲉ ϯⲙⲉⲑⲙⲏⲓ ⲛ̀ⲧⲉ ⲡⲓⲛⲁϩϯ: ⲥⲱⲟⲩⲧⲉⲛ ⲛⲁⲛ ⲙ̀ⲫ̀ⲙⲱⲓⲧ ⲛ̀ⲧⲉ ϯⲙⲉⲧⲉⲩⲥⲉⲃⲏⲥ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Control the shepherds, and those whom they shepherd, confirm."
+        ],
+        "cop": [
+          "Ⲛⲓⲙⲁⲛⲉ̀ⲥⲱⲟⲩ ⲙⲟⲣⲟⲩ: ⲛⲏⲉ̀ⲧⲟⲩⲁ̀ⲙⲟⲛⲓ ⲙ̀ⲙⲱⲟⲩ ⲙⲁⲧⲁϫⲣⲱⲟⲩ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Give splendor to the clergy, asceticism to the monks."
+        ],
+        "cop": [
+          "Ⲙⲟⲓ ⲛ̀ⲟⲩⲙⲉⲧⲥⲁⲓⲉ̀ ⲙ̀ⲡⲓⲕ̀ⲗⲏⲣⲟⲥ: ⲟⲩⲉⲅⲕ̀ⲣⲁⲧⲩⲁ ⲛ̀ⲛⲓⲙⲟⲛⲁⲭⲟⲥ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Purity to those in virginity; a life of goodness to those in wedlock."
+        ],
+        "cop": [
+          "Ⲟⲩⲧⲟⲩⲃⲟ ⲛ̀ⲛⲏⲉⲧϧⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲓⲁ: ⲟⲩⲱⲛϧ ⲉ̀ⲛⲁⲛⲉϥ ⲛ̀ⲛⲏⲉⲧϧⲉⲛ ⲡⲓⲅⲁⲙⲟⲥ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Mercy to those in repentance; goodness to the rich."
+        ],
+        "cop": [
+          "Ⲟⲩⲛⲁⲓ ⲛ̀ⲛⲏⲉⲧϧⲉⲛ ϯⲙⲉⲧⲁⲛⲟⲓⲁ: ⲟⲩⲙⲉⲧⲁ̀ⲅⲁⲑⲟⲥ ⲛ̀ⲛⲏⲉⲧⲟⲓ ⲛ̀ⲣⲁⲙⲁⲟ̀."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Meekness to the honorable; help to the poor."
+        ],
+        "cop": [
+          "Ⲟⲩⲙⲉⲧⲉ̀ⲡⲓⲕⲏⲥ ⲛ̀ⲛⲏⲉⲧⲧⲁⲓⲏⲟⲩⲧ: ⲟⲩⲃⲟⲏ̀ⲑⲓⲁ ⲛ̀ⲛⲓϩⲏⲕⲓ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Strengthen the elders; chasten the young."
+        ],
+        "cop": [
+          "Ⲛⲓϧⲉⲗⲗⲟⲓ ⲙⲁⲧⲁϫⲣⲱⲟⲩ: ⲛⲏⲉⲧϧⲉⲛ ϯⲙⲉⲧⲃⲉⲣⲓ ⲙⲁⲥ̀ⲃⲱ ⲛⲱⲟⲩ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Restore the unbelievers; may the schisms of the Church cease."
+        ],
+        "cop": [
+          "Ⲛⲓⲁⲑⲛⲁϩϯ ⲙⲁⲧⲁⲥⲑⲱⲟⲩ: ⲙⲁⲣⲟⲩⲕⲏⲛ ⲛ̀ϫⲉ ⲛⲓⲫⲱⲣϫ ⲛ̀ⲧⲉ ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Strip the vanity of the heretics, and count us all in the unity of godliness."
+        ],
+        "cop": [
+          "Ⲃⲱⲗ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓⲙⲉⲧϭⲁⲥⲓϩⲏⲧ ⲛ̀ⲧⲉ ⲛⲓϩⲉⲣⲥⲓⲥ: ⲁ̀ⲛⲟⲛ ⲇⲉ ⲧⲏⲣⲉⲛ ⲟⲡⲧⲉⲛ ⲉ̀ϧⲟⲩⲛ ⲉ̀ϯⲙⲉⲧⲟⲩⲁⲓ ⲛ̀ⲧⲉ ϯⲙⲉⲧⲉⲩⲥⲉⲃⲏⲥ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Lord have mercy. Lord have mercy. Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      ],
+      "ara":[
+        "  .يا ربُّ إرحَم. يا ربُّ إرحَم.  يا ربُّ إرحَم"
+      ]
+    }
+  }
+
+   ]
+}

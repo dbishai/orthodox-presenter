@@ -1,0 +1,177 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "Introduction to the Fraction",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": {
+        "cop": "Ⲡⲓⲟⲩⲏⲃ",
+        "eng": "Priest",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "cop": [
+          ""
+        ],
+        "eng": [
+          "Again, let us give thanks to God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ, for He also has made us worthy now to stand in this holy place, to lift up our hands, and to serve His holy name. Let us also ask Him to make us worthy of the communion and partaking of His divine and immortal Mysteries."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲗⲁⲟⲥ",
+        "eng": "People",
+        "ara": "الشعب "
+      },
+      "text": {
+        "cop": [
+          ""
+        ],
+        "eng": [
+          "Amen."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+        "user": {
+          "cop": "Ⲡⲓⲟⲩⲏⲃ",
+          "eng": "Priest",
+          "ara": " الكاهن "
+        },
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "The Holy Body..."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "We worship Your Holy Body..."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "...and the Precious Blood"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "...and Your Precious Blood"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "of His Christ, the Pantocrator, the Lord our God."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "deacon",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "Amen. Amen. Let us pray."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "Lord have mercy"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "Peace be with all."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "And with your spirit."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      }
+      
+
+  ]
+}

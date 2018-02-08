@@ -1,26 +1,74 @@
-# orthodox-presenter
-Free and open-source web app for use in Coptic Orthodox church services
+# Orthodox Presenter
 
-Live demo: [https://dbishai.github.io/orthodox-presenter/](https://dbishai.github.io/orthodox-presenter/)
+Orthodox Presenter is an open source web application designed for use in Coptic Orthodox church services. It's responsive in that it can be scaled to fit any screen size. Orthodox Presenter has been designed to run on any device with a modern web browser. It can also be run offline by just opening 'index.html' in a web browser. In addition to this, it also aims to load the appropriate documents for the specific day in terms of prayers, readings, saint commemorations, and hymns.
 
-## Setup
+### Demo
+[Live demo](https://dbishai.github.io/orthodox-presenter/)
+
+## Getting Started
+
+
+### Prerequisites
+
+- [git](https://git-scm.com/)
+
+- [Node JS](https://nodejs.org/en/)
+
+- [local-web-server package](https://www.npmjs.com/package/local-web-server)
+
+
+### Installing
+
+Install packages
+
 ```
 npm install
+```
+
+Install local-web-server
+
+```
+npm install -g local-web-server
+```
+
+Start the build process
+
+```
 npm start
 ```
 
-You can use ["local-web-server"](https://www.npmjs.com/package/local-web-server) to test changes.
+Launch local-web-server in another terminal
+
 ```
-sudo -H npm install -g local-web-server
-cd orthodox-presenter
 ws
 ```
 
-## Background
-Orthodox Presenter is being designed from the ground up for speed, scalability, and ease of use. It features a responsive interface that can scale to fit any size screen.
 
-Orthodox Presenter can run on any device with a modern web browser. It can also be run offline with a local web server.
+## Built With
 
-## Technology Stack
+* [React](https://reactjs.org/)
+* [Flux](https://facebook.github.io/flux/)
+* [Bootstrap](https://getbootstrap.com/)
 
-Orthodox Presenter is built upon React using Flux to handle state. Bootstrap is used for responsive resizing and [startbootstrap-simple-sidebar](https://github.com/BlackrockDigital/startbootstrap-simple-sidebar) is used for the sidebar. Documents are stored in the JSON format.
+## Contributing
+
+Please read [CONTRIBUTING](https://github.com/dbishai/orthodox-presenter/wiki/Contributing) before submitting pull requests.
+
+
+## Authors
+
+* [@dbishai](https://github.com/dbishai)
+
+* [@abanoubg](https://github.com/AbanoubG)
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
+
+## Acknowledgments
+
+* [Creationism.org](http://www.creationism.org/BibleUKJV/00Preface2UKJV.htm) I love Jesus (UKJV).
+* [react-dates](https://github.com/airbnb/react-dates)
+* [startbootstrap-simple-sidebar](https://github.com/BlackrockDigital/startbootstrap-simple-sidebar)
+* [rc-slider](https://github.com/react-component/slider)
+* [react-toggle](https://github.com/aaronshaf/react-toggle)
