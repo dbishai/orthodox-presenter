@@ -31,7 +31,6 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("-string", required=False)
     args = vars(ap.parse_args())
-    print(args)
 
     # make sure character mappings are equal in length
     assert(len(ascii_coptic) == len(unicode_coptic))
@@ -42,7 +41,7 @@ def main():
         mapping[a] = chr(b)
 
 
-    if len(args) > 0:
+    if args["string"]:
         text = args["string"]
         print("".join(replace(mapping, list(text))))
         return
