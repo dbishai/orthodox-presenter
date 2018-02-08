@@ -255,7 +255,9 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/prayer_agios_stbasil");
     docs.push("prayers/institution_stbasil");
     docs.push("hymns/standard/amen_amen_amen_your_death");
-    docs.push("prayers/prayer_epiclesis");
+    docs.push("prayers/therefore_as_we_also_1");
+    docs.push("prayers/inaudible/epiclesis");
+    docs.push("prayers/therefore_as_we_also_2");
     docs.push("prayers/yea_we_ask_you");
     docs.push("prayers/litanies/intro_seven_short");
     docs.push("prayers/litanies/peace_liturgy");

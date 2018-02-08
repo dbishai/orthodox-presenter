@@ -1,1 +1,27 @@
-{"title": {"cop": "", "eng": "Amen, Amen, Amen", "ara": ""}, "items": [{"user": "people", "text": {"cop": ["", ""], "eng": ["Amen. Amen. Amen. Your Death, O Lord, we proclaim; Your holy Resurrection and Ascension into the heavens, we confess.", "We praise You, we bless You, we thank You, O Lord, and we entreat You, O Our God."], "ara": ["", ""]}}]}
+{
+    "title": {
+      "cop": "",
+      "eng": "Amen, Amen, Amen",
+      "ara": ""
+    },
+    "items": [
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲁⲙⲏⲛ ⲁ̀ⲙⲏⲛ ⲁ̀ⲙⲏⲛ: ⲧⲟⲛ ⲑⲁⲛⲁⲧⲟⲛ ⲥⲟ Ⲕⲩⲣⲓⲉ ⲕⲁⲧⲁⲅⲅⲉⲗⲟⲙⲉⲛ: ⲕⲉ ⲧⲏⲛ ⲁ̀ⲅⲓⲁⲛ ⲥⲟⲩ ⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲛ ⲕⲉ ⲧⲏⲛ ⲁ̀ⲛⲁⲗⲩⲯⲓⲛ ⲥⲟⲩ ⲉⲛ ⲧⲏⲥ ⲟⲩⲣⲁⲛⲓⲥ ⲥⲉ ⲟ̀ⲙⲟⲗⲟⲅⲟⲩⲙⲉⲛ.",
+            "Ⲥⲉ ⲉ̀ⲛⲟⲩⲙⲉⲛ ⲥⲉ ⲉⲩⲗⲟⲅⲟⲩⲙⲉⲛ ⲥⲉ ⲉⲩⲭⲁⲣⲓⲥⲧⲟⲩⲙⲉⲛ Ⲕⲩⲣⲓⲉ: ⲕⲉ ⲇⲉⲟ̀ⲙⲉⲑⲁ ⲥⲟⲩ ⲟ̀ Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ."
+          ],
+          "eng": [
+            "Amen. Amen. Amen. Your Death, O Lord, we proclaim; Your holy Resurrection and Ascension into the heavens, we confess.",
+            "We praise You, we bless You, we thank You, O Lord, and we entreat You, O Our God."
+          ],
+          "ara": [
+            "",
+            ""
+          ]
+        }
+      }
+    ]
+  }
+  
