@@ -55,7 +55,7 @@ var NavActions = {
     AppDispatcher.dispatch({
       actionType: OPConstants.SET_ATTRIBUTE,
       key: key,
-      value, value
+      value: value
     });
   }
 
