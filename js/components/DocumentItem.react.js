@@ -79,17 +79,6 @@ var DocumentItem = createReactClass({
   createDocumentElement: function (doc, elementType, theme, idx) {
     var text = [];
 
-    // substitute helper string for actual content
-    if (typeof doc == "string") {
-      doc = Subs[doc];
-    }
-
-    // user specific colors
-    if (elementType == "h4" && typeof doc.eng !== "undefined") {
-      var user = doc.eng.toLowerCase();
-      theme += "-" + user;
-    }
-
     // order of languages to be displayed
     var langs = this.defaultLangOrderList;
     // get number of languages that will actually be displayed in order to properly size divs
@@ -169,6 +158,14 @@ var DocumentItem = createReactClass({
     );
   },
 
+  macroReplace: function (doc) {
+    // substitute helper string for actual content
+    if (typeof doc == "string") {
+      return Subs[doc];
+    }
+    return doc;
+  },
+
   componentWillReceiveProps: function (newProps) {
     /*
       default components back to true when receiving new props unless "visible" tag
@@ -215,11 +212,21 @@ var DocumentItem = createReactClass({
         text item is source of truth for blacklist due to user being defined by helper macro
         which contains several languages
         */
-        this.buildBlackList(documentItem.items[i].text)
-        if (typeof documentItem.items[i].user !== "undefined") {
-          collection.push(this.parseDocument(documentItem.items[i].user, "h4", sectionTheme, i))
+        var user = this.macroReplace(documentItem.items[i].user);
+        var text = this.macroReplace(documentItem.items[i].text);
+
+        this.buildBlackList(text);
+
+        if (typeof user !== "undefined") {
+          var userTheme = sectionTheme;
+          // user specific colors
+          if (typeof user.eng !== "undefined") {
+            userTheme += "-" + user.eng.toLowerCase();
+          }
+          collection.push(this.parseDocument(user, "h4", userTheme, i))
         }
-        collection.push(this.parseDocument(documentItem.items[i].text, "p", sectionTheme, i))
+
+        collection.push(this.parseDocument(text, "p", sectionTheme, i))
       }
     }
 
