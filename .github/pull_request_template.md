@@ -8,8 +8,8 @@ What types of changes does your code introduce to Orthodox Presenter?
 _Put an `x` in the boxes that apply_
 
 - [ ] Bugfix (non-breaking change which fixes an issue)
-- [ ] New content (non-breaking change which adds additonal content)
-- [ ] New feature (non-breaking change which adds additonal functionality)
+- [ ] New content (non-breaking change which adds additional content)
+- [ ] New feature (non-breaking change which adds additional functionality)
 
 ## Checklist
 
