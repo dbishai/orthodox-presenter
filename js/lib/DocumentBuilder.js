@@ -270,7 +270,9 @@ var StBasilFaithful = function (attributes) {
     docs = docs.concat(season_litanies(attributes));
     docs.push("prayers/litanies/oblations_liturgy");
     docs.push("prayers/commemoration_stbasil");
+    docs.push("prayers/responses/may_their_holy_blessing");
     docs.push("prayers/those_o_lord");
+    docs.push("prayers/responses/as_it_was_alt");
     docs.push("prayers/lead_us_throughout");
     docs.push("prayers/intro_fraction_stbasil");
     docs.push("prayers/fractions/standard_stbasil");
