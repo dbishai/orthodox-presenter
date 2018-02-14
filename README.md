@@ -1,9 +1,6 @@
 # Orthodox Presenter
 
-Orthodox Presenter is an open source web application designed for use in Coptic Orthodox church services. It's responsive in that it can be scaled to fit any screen size. Orthodox Presenter has been designed to run on any device with a modern web browser. It can also be run offline by just opening 'index.html' in a web browser. In addition to this, it also aims to load the appropriate documents for the specific day in terms of prayers, readings, saint commemorations, and hymns.
-
-### Demo
-[Live demo](http://www.orthodox-presenter.com)
+Orthodox Presenter is an open source web application designed for use in Coptic Orthodox church services. It's responsive in that it can be scaled to fit any screen size. Orthodox Presenter has been designed to run on any device with a modern web browser. It can also be run offline by just opening `index.html` in a web browser. In addition to this, it also aims to load the appropriate documents for the specific day in terms of prayers, readings, saint commemorations, and hymns.
 
 ## Getting Started
 
@@ -17,7 +14,7 @@ Orthodox Presenter is an open source web application designed for use in Coptic 
 - [local-web-server package](https://www.npmjs.com/package/local-web-server)
 
 
-### Installing
+### Installation
 
 Install packages
 
@@ -58,7 +55,6 @@ Please read [CONTRIBUTING](https://github.com/dbishai/orthodox-presenter/wiki/Co
 ## Authors
 
 * [@dbishai](https://github.com/dbishai)
-
 * [@abanoubg](https://github.com/AbanoubG)
 
 ## License
@@ -67,7 +63,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Acknowledgments
 
-* [Creationism.org](http://www.creationism.org/BibleUKJV/00Preface2UKJV.htm) I love Jesus (UKJV).
+* [Creationism.org](http://www.creationism.org/BibleUKJV/00Preface2UKJV.htm) *I love Jesus (UKJV)*
 * [react-dates](https://github.com/airbnb/react-dates)
 * [startbootstrap-simple-sidebar](https://github.com/BlackrockDigital/startbootstrap-simple-sidebar)
 * [rc-slider](https://github.com/react-component/slider)
