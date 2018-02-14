@@ -248,8 +248,9 @@ var StBasilFaithful = function (attributes) {
     var copticDay = copticDate.day;
     docs.push("hymns/standard/response_gospel_standard_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
     //    docs.push("prayers/litanies/three_great_litanies");
-    //    docs.push("prayers/responses/in_the_wisdom");
+    docs.push("prayers/responses/in_the_wisdom");
     docs.push("prayers/nicene_creed");
+    docs.push("prayers/responses/service_intro");
     docs.push("prayers/prayer_reconciliation");
     docs.push("prayers/responses/greet_one_another_standard");
     docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful_come");

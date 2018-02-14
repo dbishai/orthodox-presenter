@@ -1,1 +1,87 @@
-{"title":{"cop":"","eng":"","ara":""},"items":[{"user":{"cop":"Ⲡⲓⲟⲩⲏⲃ","eng":"Priest","ara":" الكاهن "},"text":{"cop":["",""],"eng":["Remember, O Lord, our assemblies; bless them."],"ara":[""]}},{"user":"deacon","text":{"cop":[""],"eng":["Saved Amen. And with your spirit. In the fear of God, let us attend."],"ara":[""]}},{"user":{"cop":"Ⲡⲓⲗⲁⲟⲥ","eng":"People","ara":"الشعب "},"text":{"cop":[""],"eng":["Amen. Lord have mercy. Lord have mercy. Lord have mercy."],"ara":[""]}},{"user":"priest","text":{"cop":[""],"eng":["The Holies for the holy. Blessed be the Lord Jesus Christ, the Son of God; the sanctification is by the Holy Spirit. Amen."],"ara":[""]}},{"user":"people","text":{"cop":[""],"eng":["One is the All-Holy Father, one is the All-Holy Son, one is the All-Holy Spirit. Amen."],"ara":[""]}}]}
+{
+    "title": {
+      "cop": "",
+      "eng": "",
+      "ara": ""
+    },
+    "items": [
+      {
+        "user": {
+          "cop": "Ⲡⲓⲟⲩⲏⲃ",
+          "eng": "Priest",
+          "ara": " الكاهن "
+        },
+        "text": {
+          "cop": [
+            "Ⲁ̀ⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡϭⲟⲓⲥ ⲛ̀ⲛⲉⲛϫⲓⲛⲑⲱⲟⲩϯ ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲱⲟⲩ."
+          ],
+          "eng": [
+            "Remember, O Lord, our assemblies; bless them."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "deacon",
+        "text": {
+          "cop": [
+            "Ⲥⲱⲑⲓⲥ ⲁ̀ⲙⲏⲛ. ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ: ⲙⲉⲧⲁ ⲫⲟⲃⲟⲩ Ⲑⲉⲟⲩ ⲡ̀ⲣⲟⲥⲭⲱⲙⲉⲛ."
+          ],
+          "eng": [
+            "Saved Amen. And with your spirit. In the fear of God, let us attend."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": {
+          "cop": "Ⲡⲓⲗⲁⲟⲥ",
+          "eng": "People",
+          "ara": "الشعب "
+        },
+        "text": {
+          "cop": [
+            "Ⲁⲙⲏⲛ. Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ. Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+          ],
+          "eng": [
+            "Amen. Lord have mercy. Lord have mercy. Lord have mercy."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲧⲁ ⲁ̀ⲅⲓⲁ ⲧⲓⲥ ⲁ̀ⲅⲓⲥ. Ⲉⲩⲗⲟⲅⲏⲧⲟⲥ Ⲕⲩⲣⲓⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲭⲣⲓⲥⲧⲟⲥ Ⲩⲓⲟⲥ Ⲑⲉⲟⲩ ⲁ̀ⲅⲓⲁⲥⲙⲟⲥ Ⲡⲛⲉⲩⲙⲁ ⲁ̀ⲅⲓⲟⲛ: ⲁ̀ⲙⲏⲛ."
+          ],
+          "eng": [
+            "The Holies for the holy. Blessed be the Lord Jesus Christ, the Son of God; the sanctification is by the Holy Spirit. Amen."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲓⲥ ⲟ̀ ⲡⲁⲛⲁ̀ⲅⲓⲟⲥ Ⲡⲁⲧⲏⲣ: ⲓⲥ ⲟ̀ ⲡⲁⲛⲁ̀ⲅⲓⲟⲥ Ⲩⲓⲟⲥ: ⲉⲛ ⲧⲟ ⲡⲁⲛⲁ̀ⲅⲓⲟⲛ Ⲡⲛⲉⲩⲙⲁ: ⲁ̀ⲙⲏⲛ."
+          ],
+          "eng": [
+            "One is the All-Holy Father, one is the All-Holy Son, one is the All-Holy Spirit. Amen."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      }
+    ]
+  }
