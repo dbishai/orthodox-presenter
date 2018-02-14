@@ -118,6 +118,7 @@ var Vespers = function (attributes) {
     var docs = [];
     docs.push("prayers/intro_offering_of_incense_vespers");
     docs.push("prayers/our_father");
+    docs.push("prayers/responses/in_christ_intro");
     docs.push("prayers/thanksgiving_prayer");
     docs = docs.concat(verses_of_the_cymbals(attributes));
     docs.push("prayers/litanies/departed");
@@ -150,6 +151,7 @@ var Matins = function (attributes) {
     var day = attributes.todayDate.day();
     docs.push("prayers/intro_offering_of_incense_matins");
     docs.push("prayers/our_father");
+    docs.push("prayers/responses/in_christ_intro");
     docs.push("prayers/thanksgiving_prayer");
     docs = docs.concat(verses_of_the_cymbals(attributes));
 
