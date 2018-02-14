@@ -6,6 +6,7 @@ var SectionStore = require('../stores/SectionStore');
 var NavStore = require('../stores/NavStore');
 var NavMenuStore = require('../stores/NavMenuStore');
 var NavActions = require('../actions/NavActions');
+var Cookies = require('js-cookie');
 
 var getState = function (menuState) {
   return {
@@ -37,6 +38,13 @@ var OrthodoxPresenterApp = createReactClass({
    * @return {object}
    */
   render: function () {
+    var betaWindowCookie = Cookies.get('beta-window');
+    if (betaWindowCookie !== 'true') {
+      alert("Welcome to Orthodox Presenter! It's currently in BETA and things "
+        + "are still missing but we'd love for you to check it out! God bless");
+      Cookies.set('beta-window', 'true')
+    }
+
     return (
       <div>
         <nav className="navbar navbar-inverse navbar-fixed-top">
