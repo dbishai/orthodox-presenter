@@ -268,7 +268,9 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/litanies/clergy");
     docs.push("prayers/litanies/mercy");
     docs.push("prayers/litanies/place_liturgy");
+    docs.push("prayers/for_your_people");
     docs = docs.concat(season_litanies(attributes));
+    docs.push("prayers/healing_to_the_sick");
     docs.push("prayers/litanies/oblations_liturgy");
     docs.push("prayers/commemoration_stbasil");
     docs.push("prayers/responses/may_their_holy_blessing");
