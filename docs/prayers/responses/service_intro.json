@@ -6,41 +6,13 @@
   },
   "items": [
     {
-      "user": "people",
-      "text": {
-        "cop": [
-          "Ϧⲉⲛ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲓⲏⲥⲟⲩⲥ Ⲡⲉⲛϭⲟⲓⲥ"
-        ],
-        "eng": [
-          "In Christ Jesus our Lord."
-        ],
-        "ara": [
-          ""
-        ]
-      }
-    },
-    {
-      "user": "deacon",
-      "text": {
-        "cop": [
-          "Ⲧⲁⲥ ⲕⲉⲫⲁⲗⲁⲥ ⲩ̀ⲙⲱⲛ ⲧⲱ Ⲕⲩⲣⲓⲱ ⲕ̀ⲗⲓⲛⲁⲧⲉ."
-        ],
-        "eng": [
-          "Bow your heads to the Lord."
-        ],
-        "ara": [
-          ""
-        ]
-      }
-    },
-    {
-        "user": "people",
+        "user": "priest",
         "text": {
           "cop": [
-            "Ⲉⲛⲓⲱⲡⲓⲟⲛ ⲥⲟⲩ Ⲕⲩⲣⲓⲉ."
+            "Ϣⲗⲏⲗ"
           ],
           "eng": [
-            "Before You, O Lord."
+            "Let us pray."
           ],
           "ara": [
             ""
@@ -51,10 +23,10 @@
         "user": "deacon",
         "text": {
           "cop": [
-            "Ⲡⲣⲟⲥⲭⲱⲙⲉⲛ Ⲑⲉⲟⲩ ⲙⲉⲧⲁⲫⲟⲃⲟⲩ: ⲁ̀ⲙⲏⲛ."
+            "Ⲉⲡⲓ ⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲥ̀ⲧⲁⲑⲏⲧⲉ."
           ],
           "eng": [
-            "Let us attend in the fear of God. Amen"
+            "Stand up for prayer."
           ],
           "ara": [
             ""
@@ -89,6 +61,5 @@
           ]
         }
       }
-      
   ]
 }
