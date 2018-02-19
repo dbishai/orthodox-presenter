@@ -1,0 +1,106 @@
+{
+    "title": {
+      "eng": "The Short Blessing",
+      "ara": ""
+    },
+    "tag": "pascha",
+    "items": [
+      {
+        "user": "priest",
+        "text": {
+          "eng": [
+            "May Jesus Christ, our true God, who through His own good will accepted sufferings, and was crucified on the cross for our sakes, bless us with all blessings, and support us, and complete for us the holy Pascha, and bring forth upon us the joy of His holy Resurrection for many years and peaceful times.",
+            "Through the never-ending intercessions of the holy Theotokos Saint Mary, and of all the choir of the angels and archangels.",
+            "And through the prayers of the patriarchs, prophets, apostles, martyrs, righteous, holy ones, cross-bearers, ascetics, confessors, and anchorites. And through the blessing of this holy Pascha of our good Savior.",
+            "May their holy blessings, their benediction, their power, their gift, their love, and their help be with us all forever. Amen."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ."
+          ],
+          "eng": [
+            "O Christ our God-"
+          ],
+          "ara": [
+            ".أيها المسيح إلهنا "
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲁⲙⲏⲛ ⲉⲥⲉ̀ϣⲱⲡⲓ."
+          ],
+          "eng": [
+            "Amen. So be it."
+          ],
+          "ara": [
+            ".آمين يكون "
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲡⲟⲩⲣⲟ ⲛ̀ⲧⲉ ϯϩⲓⲣⲏⲛⲏ: ⲙⲟⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲥⲉⲙⲛⲓ ⲛⲁⲛ ⲛ̀ⲧⲉⲕϩⲓⲣⲏⲛⲏ: ⲭⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ. ϫⲉ ⲑⲱⲕ ⲧⲉ ϯϫⲟⲙ ⲛⲉⲙ ⲡⲓⲱ̀ⲟⲩ ⲛⲉⲙ ⲡⲓⲥ̀ⲙⲟⲩ ⲛⲉⲙ ⲡⲓⲁ̀ⲙⲁϩⲓ ϣⲁ ⲉ̀ⲛⲉϩ. Ⲁ̀ⲙⲏⲛ."
+          ],
+          "eng": [
+            "O King of peace, grant us Your peace, establish for us Your peace, and forgive us our sins For Yours is the power, the glory, the blessing, and the might, for ever. Amen."
+          ],
+          "ara": [
+            ".يا ملك السلام، أعطينا سلامك. قرر لنا سلامك وإغفر لنا خطايانا. لأن لك القوة والمجد والبركة والعزة إلى الأبد. آمين"
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "our_father"
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲏ ⲭⲁⲣⲓⲥ ⲧⲟⲩ Ⲕⲩⲣⲓⲟⲩ ⲇⲉ ⲕⲉ Ⲑⲉⲟⲩ ⲕⲉ Ⲥⲱⲧⲏⲣⲟⲥ ⲏ̀ⲙⲱⲛ Ⲓⲏⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲟⲩ ⲙⲉⲧⲁ ⲡⲁⲛⲧⲱⲛ ⲩ̀ⲙⲱⲛ.",
+            "Ⲙⲁϣⲉⲛⲱⲧⲉⲛ ϧⲉⲛ ⲟⲩϩⲓⲣⲏⲛⲏ: Ⲡ̀ϭⲟⲓⲥ ⲛⲉⲙⲱⲧⲉⲛ.",
+            "̀Ⲏ ⲁ̀ⲅⲁⲡⲏ ⲧⲟⲩ Ⲑⲉⲟⲩ ⲕⲉ Ⲡⲁⲧⲣⲟⲥ: ⲕⲉ ⲏ̀ ⲭⲁⲣⲓⲥⲧⲟⲩ ⲙⲟⲛⲟⲅⲉⲛⲟⲩⲥ Ⲩⲓⲟⲩ Ⲕⲩⲣⲓⲟⲩ ⲇⲉ ⲕⲉ Ⲑⲉⲟⲩ ⲕⲉ Ⲥⲱⲧⲏⲣⲟⲥ ⲏ̀ⲙⲱⲛ: Ⲓⲏⲥⲟⲩ Ⲭ̀ⲣⲓⲥⲧⲟⲩ: ⲕⲉ ⲏ̀ ⲕⲟⲓⲛⲱⲛⲓⲁ ⲕⲉ ⲏ̀ ⲇⲱⲣⲉⲁ̀ ⲧⲟⲩ Ⲁ̀ⲅⲓⲟⲩ Ⲡ̀ⲛⲉⲩⲙⲁⲧⲟⲥ: ⲓ̀ⲏ̀ ⲙⲉⲧⲁ ⲡⲁⲛⲧⲱⲛ ⲩ̀ⲙⲱⲛ.",
+            "Ⲙⲁϣⲉⲛⲱⲧⲉⲛ ϧⲉⲛ ⲟⲩϩⲓⲣⲏⲛⲏ: ⲧ̀ϩⲓⲣⲏⲛⲏ ⲙ̀Ⲡ̀ϭⲟⲓⲥ ⲛⲉⲙⲱⲧⲉⲛ ⲧⲏⲣⲟⲩ."
+          ],
+          "eng": [
+            "The grace of our Lord, God and Savior Jesus Christ be with you all.",
+            "Go in peace. The Lord be with you.",
+            "The love of God the Father; the grace of the only-begotten Son, our Lord, God, and Savior Jesus Christ; and the communion and gift of the Holy Spirit be with you all.",
+            "Go in peace. The peace of the Lord be with you all. Amen."
+          ],
+          "ara": [
+            "ونعمة ربنا وإلهنا ومخلصنا يسوع المسيح مع جميعكم ",
+            ".إمضوا بسلام. الرب مع جميعكم",
+            " .محبة الله الآب، ونعمة الإبن الوحيد، ربنا وإلهنا وملكنا ومخلصنا يسوع المسيح، وشركة وموهبة الروح القدس تكون مع جميعكم",
+            ".إمضوا بسلام، سلام الرب مع جميعكم"
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ."
+          ],
+          "eng": [
+            "And with your spirit."
+          ],
+          "ara": [
+            ".مع روحك أيضاً"
+          ]
+        }
+      }
+    ]
+  }

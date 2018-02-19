@@ -136,7 +136,7 @@ var sections = {
         }
       }
     },
-/*    "3a": {
+    "3a": {
       "id": "3a",
       "title": "SPECIAL",
       "node": {
@@ -151,7 +151,7 @@ var sections = {
                 "funeral": {
                   "id": "funeral",
                   "title": "GENERAL FUNERAL PRAYER",
-                  "load": "funeral"
+                  "load": "funeral_pascha"
                 },
                 "sunday_day": {
                   "id": "sunday_day",
@@ -160,7 +160,7 @@ var sections = {
                     "ninth": {
                       "id": "ninth",
                       "title": "9TH HOUR",
-                      "load": "sunday_ninth"
+                      "load": "pascha_sunday_ninth"
                     },
                     "eleventh": {
                       "id": "eleventh",
@@ -532,7 +532,7 @@ var sections = {
     
 
   
-  */ };
+ };
 
 
 
