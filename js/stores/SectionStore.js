@@ -165,7 +165,7 @@ var sections = {
                     "eleventh": {
                       "id": "eleventh",
                       "title": "11TH HOUR",
-                      "load": "sunday_eleventh"
+                      "load": "pascha_sunday_eleventh"
                     },
                   }
                 },
