@@ -1,0 +1,28 @@
+{
+    "title": {
+      "eng": "Introduction to the Paschal Praise",
+      "ara": ""
+    },
+    "items": [
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "eng": [
+            "Lord have mercy upon us. Amen.",
+            "Alleluia. In the name of the Father, the Son and the Holy Spirit, one God. Amen.",
+            "Glory to the Father and the Son, and the Holy Spirit, now and ever and unto, the ages of the ages. Amen.",
+            "The doxology of the Ninth Hour of Hosanna Sunday of Holy Pascha. May its holy blessings be with us. Amen."
+          ],
+          "ara": [
+              ""
+          ]
+        }
+      }
+    ]
+  }
