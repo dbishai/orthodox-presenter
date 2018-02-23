@@ -1,0 +1,340 @@
+{
+  "title": {
+    "eng": "Daytime Litanies",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "Let us pray that God may have mercy and compassion on us, hear us, help us, and accept the supplications and prayers of His saints for that which is good on our behalf at all times, and forgive us our sins."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": "lord_have_mercy"
+  },
+  {
+    "user": "priest",
+    "text": {
+     "eng": [
+        "Let us pray for the peace of the one, holy, catholic, and apostolic church, and for God's salvation and comfort to abide in all places, and forgive us our sins."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": "lord_have_mercy"
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Let us pray for our fathers and brethren who are sick with any sickness, whether in this place or in any place, that the Lord our God may grant us, with them health and healing, and forgive us our sins."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": "lord_have_mercy"
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Let us pray for our fathers and brethren in all places who are traveling or planning to travel, that God may ease their ways, whether by seas, rivers, lakes, roads, [air] or by any other means, and may the Lord our God guide them, return them in safety, and forgive us our sins."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": "lord_have_mercy"
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Let us pray and ask for the air of heaven, the fruits of the earth, the trees and vineyards, and all fruit-bearing trees everywhere, that Christ our God may bless them, and forgive us our sins."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": "lord_have_mercy"
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Let us pray and ask that God may grant us mercy before leading authorities, incline their hearts with goodwill towards us always, and forgive us our sins."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": "lord_have_mercy"
+  },
+  {
+    "user": "priest",
+     "text": {
+      "eng": [
+          "Let us pray and ask for our fathers and brethren who have fallen asleep and reposed in the faith of Christ since the beginning, our holy fathers the patriarchs, metropolitans, bishops, hegumens, priests, our brethren the deacons, our fathers the monks and our brethren the laymen, and for the rest of all departed Christians, that the Lord our God may repose all their souls, and forgive us our sins."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for those who care for the sacrifices, offerings, wine, oil, incense, coverings, reading books, and all the altar vessles, that Christ our God may reward their labors in the heavenly Jerusalem, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for the catechumens of our people, that the Lord may bless them, open the eyes of their hearts, and confirm them in the Orthodox faith until their last breath, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for this church and for all the churches of the Orthodox people, for the desert monasteries and their elders, and for the peace of the whole world, that the Lord our God may protect both of us and them from all evil, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for the life and standing of our honorable father, the Patriarch and Archbishop Pope Abba (...), [and his partner the in the apostolic liturgy, our father the bishop (metropolitan), Abba (...),] that the Lord may preserve his life, and confirm him in his see for many years and peaceful times, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for our Orthodox fathers everywhere, the metropolitans, bishops, hegumens, priests, deacons, and all the orders of the church, that Christ our God may preserve and strengthen them, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for this assembly of ours and for all assemblies of the Orthodox people, that the Lord our God may bless them and fulfill them in peace, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for the hierarchs of the holy Church, and for all the orders of the clergy, that the Lord our God may bless and strengthen them, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for those who toil in the holy Church and for the Orthodox people, that the Lord our God may have mercy on them, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for all Christ-loving rulers who asked us to pray for them by name, that the Lord our God may remember them in His mercy and grant them favor before powerful rulers, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for the poor, the weak, the farmers, and for every soul in any type of hardship, that the Lord our God may have compassion on them and us, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for those in distress of jails, prisons, captivity, or exile, and for those bound by devils, that the Lord our God may free them from their hardships, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for all those gathered with us today in this place, seeking mercy for their souls, that the Lord's mercy may encompass both of us and them, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for each person by name who asked us to remember them in our prayers, that the Lord our God may always remember them in His goodness, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for the rising of the waters of the rivers this year, that Christ our God may bless them and raise them according to their measure, give joy to all the earth with the Nile, sustain us and deliver man and animal, and spare the world from death, scarcity, plagues, devastation, the sword of the enemies, and that He may grant calm, peace, and security to the holy Church, and raise the state of the Christians in every place on earth until the last breath, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+      "user": "priest",
+       "text": {
+        "eng": [
+            "Let us pray and ask for this holy Pascha of our good Savior, that He may complete it for us in peace and bring us the joy of His holy Resurrection in safety, and forgive us our sins."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+    }
+
+   ]
+}

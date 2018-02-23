@@ -647,6 +647,38 @@ var FuneralPascha = function (attributes) {
 var PaschaSundayNinth = function (attributes) {
     var docs = [];
     docs.push("prayers/pascha/introduction/sunday_ninth");
+    docs.push("readings/pascha/sunday/day/ninth_hour/lamentations");
+    docs.push("readings/pascha/sunday/day/ninth_hour/zephaniah");
+    docs.push("prayers/pascha/introduction/intro_paschal_praise_sunday_ninth");
+    docs.push("hymns/pascha/thine_is_the_power_short");
+    docs.push("prayers/our_father");
+    docs.push("readings/pascha/sunday/day/ninth_hour/psalm");
+    docs.push("hymns/pascha/ke_eperto");
+    docs.push("readings/pascha/sunday/day/ninth_hour/gospel");
+    docs.push("hymns/pascha/exposition_intro");
+    docs.push("readings/pascha/sunday/day/ninth_hour/exposition");
+    docs.push("hymns/pascha/exposition_conc");
+
+    return docs;
+};
+var PaschaSundayEleventh = function (attributes) {
+    var docs = [];
+    docs.push("prayers/pascha/introduction/sunday_eleventh");
+    docs.push("readings/pascha/sunday/day/eleventh_hour/isaiah");
+    docs.push("readings/pascha/sunday/day/eleventh_hour/nahum");
+    docs.push("prayers/pascha/introduction/intro_paschal_praise_sunday_eleventh");
+    docs.push("hymns/pascha/thine_is_the_power_short");
+    docs.push("prayers/our_father");
+    docs.push("readings/pascha/sunday/day/eleventh_hour/psalm");
+    docs.push("hymns/pascha/ke_eperto");
+    docs.push("readings/pascha/sunday/day/eleventh_hour/gospel");
+    docs.push("hymns/pascha/exposition_intro");
+    docs.push("readings/pascha/sunday/day/eleventh_hour/exposition");
+    docs.push("hymns/pascha/exposition_conc");
+    docs.push("prayers/pascha/daytime_litanies");
+    docs.push("hymns/pascha/pascha_conclusion");
+    docs.push("hymns/concluding_hymn/pascha");
+    docs.push ("prayers/pascha/short_blessing_pascha");
 
     return docs;
 };
@@ -674,3 +706,4 @@ module.exports.Deacons = Deacons;
 module.exports.Priests = Priests;
 module.exports.FuneralPascha = FuneralPascha;
 module.exports.PaschaSundayNinth = PaschaSundayNinth;
+module.exports.PaschaSundayEleventh = PaschaSundayEleventh;

@@ -1,0 +1,122 @@
+{
+    "title": {
+      "cop": "",
+      "eng": "Exposition Introduction",
+      "ara": ""
+    },
+    "items": [
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ"
+          ],
+          "eng": [
+            "In the name of the Trinity,"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "ⲛ̀ⲟ̀ⲙⲟⲟⲩⲥⲓⲟⲥ:"
+          ],
+          "eng": [
+            "One in essence."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲫⲓⲱⲧ ⲛⲉⲙ Ⲡϣⲏⲣⲓ:"
+          ],
+          "eng": [
+            "The Father and the Son,"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ:"
+          ],
+          "eng": [
+            "And the Holy Spirit"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲡⲓⲟⲩⲱⲓⲛⲓ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ:"
+          ],
+          "eng": [
+            "O true Light,"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲫⲏⲉⲧⲉⲣⲟⲩⲱⲓⲛⲓ:"
+          ],
+          "eng": [
+            "Who enlightens,"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲉⲣⲱⲙⲓ ⲛⲓⲃⲉⲛ:"
+          ],
+          "eng": [
+            "Every man,"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲉⲑⲛⲏⲟⲩ ⲉ̀ⲡⲓⲕⲟⲥⲙⲟⲥ."
+          ],
+          "eng": [
+            "Who comes into the world."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      }
+    ]
+  }
+  
