@@ -52,7 +52,6 @@ var sections = {
             }
         }
     },
-
     "2a": {
       "id": "2a",
       "title": "BOOK OF HOURS",
@@ -61,7 +60,6 @@ var sections = {
           "id": "prime",
           "title": "1ST HOUR",
           "load": "first_hour"
-  
         },
         "terce": {
           "id": "terce",
@@ -137,9 +135,404 @@ var sections = {
           }
         }
       }
-    }
+    },
+    "3a": {
+      "id": "3a",
+      "title": "SPECIAL",
+      "node": {
+        "pascha":{
+          "id":"pascha",
+          "title":"PASCHA",
+          "node": {
+            "sunday": {
+              "id": "sunday",
+              "title": "SUNDAY",
+              "node": { 
+                "funeral": {
+                  "id": "funeral",
+                  "title": "GENERAL FUNERAL PRAYER",
+                  "load": "funeral_pascha"
+                },
+                "sunday_day": {
+                  "id": "sunday_day",
+                  "title": "SUNDAY DAY",
+                  "node": {
+                    "ninth": {
+                      "id": "ninth",
+                      "title": "9TH HOUR",
+                      "load": "pascha_sunday_ninth"
+                    },
+                    "eleventh": {
+                      "id": "eleventh",
+                      "title": "11TH HOUR",
+                      "load": "pascha_sunday_eleventh"
+                    },
+                  }
+                },
+                "monday_eve": {
+                  "id": "monday_eve",
+                  "title": "MONDAY EVE",
+                  "node": {
+                    "first": {
+                      "id": "first",
+                      "title": "1ST HOUR",
+                      "load": "monday_eve_first"
+                    },
+                    "third": {
+                      "id": "third",
+                      "title": "3RD HOUR",
+                      "load": "monday_eve_third"
+                    },
+                    "sixth": {
+                      "id": "sixth",
+                      "title": "6TH HOUR",
+                      "load": "monday_eve_sixth"
+                    },
+                    "ninth": {
+                      "id": "ninth",
+                      "title": "9TH HOUR",
+                      "load": "monday_eve_ninth"
+                    },
+                    "eleventh": {
+                      "id": "eleventh",
+                      "title": "11TH HOUR",
+                      "load": "monday_eve_eleventh"
+                    },
+                  }
+                },
+                
+              }
+            },
+            "monday": {
+              "id": "monday",
+              "title": "MONDAY",
+              "node": {
+                "monday_day": {
+                  "id": "monday_day",
+                  "title": "MONDAY DAY",
+                  "node" : {
+                    "first": {
+                      "id": "first",
+                      "title": "1ST HOUR",
+                      "load": "monday_first"
+                    },
+                    "third": {
+                      "id": "third",
+                      "title": "3RD HOUR",
+                      "load": "monday_third"
+                    },
+                    "sixth": {
+                      "id": "sixth",
+                      "title": "6TH HOUR",
+                      "load": "monday_sixth"
+                    },
+                    "ninth": {
+                      "id": "ninth",
+                      "title": "9TH HOUR",
+                      "load": "monday_ninth"
+                    },
+                    "eleventh": {
+                      "id": "eleventh",
+                      "title": "11TH HOUR",
+                      "load": "monday_eleventh"
+                    },
+                  }
+                },
+                "tuesday_eve": {
+                  "id": "tuesday_eve",
+                  "title": "TUESDAY EVE",
+                  "node": {
+                    "first": {
+                      "id": "first",
+                      "title": "1ST HOUR",
+                      "load": "tuesday_eve_first"
+                    },
+                    "third": {
+                      "id": "third",
+                      "title": "3RD HOUR",
+                      "load": "tuesday_eve_third"
+                    },
+                    "sixth": {
+                      "id": "sixth",
+                      "title": "6TH HOUR",
+                      "load": "tuesday_eve_sixth"
+                    },
+                    "ninth": {
+                      "id": "ninth",
+                      "title": "9TH HOUR",
+                      "load": "tuesday_eve_ninth"
+                    },
+                    "eleventh": {
+                      "id": "eleventh",
+                      "title": "11TH HOUR",
+                      "load": "tuesday_eve_eleventh"
+                    },
+                  }
+                },
+
+              }
+            },
+            "tuesday": {
+              "id" : "tuesday",
+              "title": "TUESDAY",
+              "node": {
+                "tuesday_day": {
+                  "id": "tuesday_day",
+                  "title": "TUESDAY DAY",
+                  "node": {
+                    "first": {
+                      "id": "first",
+                      "title": "1ST HOUR",
+                      "load": "tuesday_first"
+                    },
+                    "third": {
+                      "id": "third",
+                      "title": "3RD HOUR",
+                      "load": "tuesday_third"
+                    },
+                    "sixth": {
+                      "id": "sixth",
+                      "title": "6TH HOUR",
+                      "load": "tuesday_sixth"
+                    },
+                    "ninth": {
+                      "id": "ninth",
+                      "title": "9TH HOUR",
+                      "load": "tuesday_ninth"
+                    },
+                    "eleventh": {
+                      "id": "eleventh",
+                      "title": "11TH HOUR",
+                      "load": "tuesday_eleventh"
+                    },
+                  }
+                },
+                "wednesday_eve": {
+                  "id": "wednesday_eve",
+                  "title": "WEDNESDAY EVE",
+                  "node": {
+                    "first": {
+                      "id": "first",
+                      "title": "1ST HOUR",
+                      "load": "wednesday_eve_first"
+                    },
+                    "third": {
+                      "id": "third",
+                      "title": "3RD HOUR",
+                      "load": "wednesday_eve_third"
+                    },
+                    "sixth": {
+                      "id": "sixth",
+                      "title": "6TH HOUR",
+                      "load": "wednesday_eve_sixth"
+                    },
+                    "ninth": {
+                      "id": "ninth",
+                      "title": "9TH HOUR",
+                      "load": "wednesday_eve_ninth"
+                    },
+                    "eleventh": {
+                      "id": "eleventh",
+                      "title": "11TH HOUR",
+                      "load": "wednesday_eve_eleventh"
+                    },
+                  }
+                },
+
+              }
+            },
+            "wednesday": {
+              "id" : "wednesday",
+              "title": "WEDNESDAY",
+              "node": {
+                "wednesday_day": {
+                  "id": "wednesday_day",
+                  "title": "WEDNESDAY DAY",
+                  "node": {
+                    "first": {
+                      "id": "first",
+                      "title": "1ST HOUR",
+                      "load": "wednesday_first"
+                    },
+                    "third": {
+                      "id": "third",
+                      "title": "3RD HOUR",
+                      "load": "wednesday_third"
+                    },
+                    "sixth": {
+                      "id": "sixth",
+                      "title": "6TH HOUR",
+                      "load": "wednesday_sixth"
+                    },
+                    "ninth": {
+                      "id": "ninth",
+                      "title": "9TH HOUR",
+                      "load": "wednesday_ninth"
+                    },
+                    "eleventh": {
+                      "id": "eleventh",
+                      "title": "11TH HOUR",
+                      "load": "wednesday_eleventh"
+                    },
+                  }
+                },
+                "thursday_eve": {
+                  "id": "thursday_eve",
+                  "title": "THURSDAY EVE",
+                  "node": {
+                    "first": {
+                      "id": "first",
+                      "title": "1ST HOUR",
+                      "load": "thursday_eve_first"
+                    },
+                    "third": {
+                      "id": "third",
+                      "title": "3RD HOUR",
+                      "load": "thursday_eve_third"
+                    },
+                    "sixth": {
+                      "id": "sixth",
+                      "title": "6TH HOUR",
+                      "load": "thursday_eve_sixth"
+                    },
+                    "ninth": {
+                      "id": "ninth",
+                      "title": "9TH HOUR",
+                      "load": "thursday_eve_ninth"
+                    },
+                    "eleventh": {
+                      "id": "eleventh",
+                      "title": "11TH HOUR",
+                      "load": "thursday_eve_eleventh"
+                    },
+                  }
+                },
+
+              }
+            },
+            "thursday": {
+              "id" : "thursday",
+              "title": "THURSDAY",
+              "node": {
+                "thursday_day": {
+                  "id": "thursday_day",
+                  "title": "THURSDAY DAY",
+                  "node": {
+                    "first": {
+                      "id": "first",
+                      "title": "1ST HOUR",
+                      "load": "thursday_first"
+                    },
+                    "third": {
+                      "id": "third",
+                      "title": "3RD HOUR",
+                      "load": "thursday_third"
+                    },
+                    "sixth": {
+                      "id": "sixth",
+                      "title": "6TH HOUR",
+                      "load": "thursday_sixth"
+                    },
+                    "ninth": {
+                      "id": "ninth",
+                      "title": "9TH HOUR",
+                      "load": "thursday_ninth"
+                    },
+                    "liturgy_water": {
+                      "id": "liturgy_water",
+                      "title": "LITURGY OF THE WATERS",
+                      "load": "liturgy_waters"
+                    },
+// add in Liturgical portions for Covenant Thursday
+                    "eleventh": {
+                      "id": "eleventh",
+                      "title": "11TH HOUR",
+                      "load": "thursday_eleventh"
+                    },
+                  }
+
+                },
+                "friday_eve": {
+                  "id": "friday_eve",
+                  "title": "FRIDAY EVE",
+                  "node": {
+                    "first": {
+                      "id": "first",
+                      "title": "1ST HOUR",
+                      "load": "friday_eve_first"
+                    },
+                    "third": {
+                      "id": "third",
+                      "title": "3RD HOUR",
+                      "load": "friday_eve_third"
+                    },
+                    "sixth": {
+                      "id": "sixth",
+                      "title": "6TH HOUR",
+                      "load": "friday_eve_sixth"
+                    },
+                    "ninth": {
+                      "id": "ninth",
+                      "title": "9TH HOUR",
+                      "load": "friday_eve_ninth"
+                    },
+                    "eleventh": {
+                      "id": "eleventh",
+                      "title": "11TH HOUR",
+                      "load": "friday_eve_eleventh"
+                    },
+
+                  }
+                },
+
+              }
+            },
+            "friday": {
+              "id" : "friday",
+              "title": "FRIDAY",
+              "node": {
+                "first": {
+                  "id": "first",
+                  "title": "1ST HOUR",
+                  "load": "friday_first"
+                },
+                "third": {
+                  "id": "third",
+                  "title": "3RD HOUR",
+                  "load": "friday_third"
+                },
+                "sixth": {
+                  "id": "sixth",
+                  "title": "6TH HOUR",
+                  "load": "friday_sixth"
+                },
+                "ninth": {
+                  "id": "ninth",
+                  "title": "9TH HOUR",
+                  "load": "friday_ninth"
+                },
+                "eleventh": {
+                  "id": "eleventh",
+                  "title": "11TH HOUR",
+                  "load": "friday_eleventh"
+                },
+                "twelfth": {
+                  "id": "twelfth",
+                  "title": "12TH HOUR",
+                  "load": "friday_twelfth"
+                },
+              }
+            },
   
-  };
+          }
+        }
+      }
+    },
+    
+    
+
+  
+ };
 
 
 

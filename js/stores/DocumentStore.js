@@ -85,7 +85,16 @@ function autoLoad(category, attributes) {
               break;
         case "sp_priests":
               docs = DocumentBuilder.Priests(attributes);
-              break;                 
+              break;  
+        case "funeral_pascha":
+              docs = DocumentBuilder.FuneralPascha(attributes);
+              break;     
+        case "pascha_sunday_ninth": // ninth hour of the Hosanna Sunday Holy Pascha
+              docs = DocumentBuilder.PaschaSundayNinth(attributes);
+              break;  
+        case "pascha_sunday_eleventh": 
+              docs = DocumentBuilder.PaschaSundayEleventh(attributes);
+              break;                   
 
 
         default:

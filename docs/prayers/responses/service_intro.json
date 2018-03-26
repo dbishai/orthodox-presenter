@@ -1,0 +1,65 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "",
+    "ara": ""
+  },
+  "items": [
+    {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ϣⲗⲏⲗ"
+          ],
+          "eng": [
+            "Let us pray."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "deacon",
+        "text": {
+          "cop": [
+            "Ⲉⲡⲓ ⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲥ̀ⲧⲁⲑⲏⲧⲉ."
+          ],
+          "eng": [
+            "Stand up for prayer."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲓⲣⲏⲛⲏ ⲡⲁⲥⲓ."
+          ],
+          "eng": [
+            "Peace be with all."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ."
+          ],
+          "eng": [
+            "And with your spirit."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      }
+  ]
+}

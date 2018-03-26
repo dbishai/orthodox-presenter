@@ -1,0 +1,122 @@
+{
+    "title": {
+      "cop": "",
+      "eng": "Exposition Conclusion",
+      "ara": ""
+    },
+    "items": [
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲥⲱⲧⲏⲣ:"
+          ],
+          "eng": [
+            "Christ our Savior"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "ⲁϥ̀ⲓ ⲁϥϣⲉⲡⲙ̀ⲕⲁϩ:"
+          ],
+          "eng": [
+            "Has come and has borne suffering"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "ϩⲓⲛⲁ ϧⲉⲛ ⲛⲉϥⲙ̀ⲕⲁⲩϩ:"
+          ],
+          "eng": [
+            "That through His Passion"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "ⲛ̀ⲧⲉϥⲥⲱϯ ⲙ̀ⲙⲟⲛ. "
+          ],
+          "eng": [
+            "He may save us."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲙⲁⲣⲉⲛ ϯⲱ̀ⲟⲩⲛⲁϥ:"
+          ],
+          "eng": [
+            "Let us glorify Him"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "ⲧⲉⲛϭⲓⲥⲓ ⲙ̀ⲡⲉϥⲣⲁⲛ:"
+          ],
+          "eng": [
+            "And exalt His name"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ϫⲉ ⲁϥⲉⲣⲟⲩⲛⲁⲓ ⲛⲉⲙⲁⲛ:"
+          ],
+          "eng": [
+            "For He has done us mercy"
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": {
+          "cop": [
+            "ⲕⲁⲧⲁ ⲡⲉϥⲛⲓϣϯ ⲛ̀ⲛⲁⲓ."
+          ],
+          "eng": [
+            "According to His great mercy."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      }
+    ]
+  }
+  

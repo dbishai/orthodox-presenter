@@ -213,6 +213,7 @@ var StBasilOffering = function (attributes) {
     docs.push("prayers/procession_of_the_lamb");
     docs = docs.concat(offering_hymn(attributes));
     docs.push("prayers/khen_efran_offertory");
+    docs.push("prayers/responses/doxa_patri");
     docs.push("prayers/thanksgiving_prayer");
     docs.push("hymns/papal/nisavev_tero");
     docs.push("hymns/saved_amen");
@@ -248,8 +249,9 @@ var StBasilFaithful = function (attributes) {
     var copticDay = copticDate.day;
     docs.push("hymns/standard/response_gospel_standard_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
     //    docs.push("prayers/litanies/three_great_litanies");
-    //    docs.push("prayers/responses/in_the_wisdom");
+    docs.push("prayers/responses/in_the_wisdom");
     docs.push("prayers/nicene_creed");
+    docs.push("prayers/responses/service_intro");
     docs.push("prayers/prayer_reconciliation");
     docs.push("prayers/responses/greet_one_another_standard");
     docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful_come");
@@ -267,10 +269,14 @@ var StBasilFaithful = function (attributes) {
     docs.push("prayers/litanies/clergy");
     docs.push("prayers/litanies/mercy");
     docs.push("prayers/litanies/place_liturgy");
+    docs.push("prayers/for_your_people");
     docs = docs.concat(season_litanies(attributes));
+    docs.push("prayers/healing_to_the_sick");
     docs.push("prayers/litanies/oblations_liturgy");
     docs.push("prayers/commemoration_stbasil");
+    docs.push("prayers/responses/may_their_holy_blessing");
     docs.push("prayers/those_o_lord");
+    docs.push("prayers/responses/as_it_was_alt");
     docs.push("prayers/lead_us_throughout");
     docs.push("prayers/intro_fraction_stbasil");
     docs.push("prayers/fractions/standard_stbasil");
@@ -602,7 +608,81 @@ var Priests = function (attributes) {
     docs.push("bookofhours/psalms/psalm_92");
 
     return docs;
-}
+};
+var FuneralPascha = function (attributes) {
+    var docs = [];
+    docs.push("prayers/intro_general_funeral");
+    docs.push("prayers/our_father");
+    docs.push("prayers/responses/in_christ_intro");
+    docs.push("prayers/thanksgiving_prayer");
+    // + verses of cymbals for funeral
+    docs.push("bookofhours/psalm_50");
+    docs.push("prayers/responses/glory_be_to_our_god");
+    docs.push("readings/pascha/sunday/funeral/ezekiel_37");
+    docs.push("prayers/litanies/sick");
+    docs.push("hymns/pascha/responses/every_night");
+    docs.push("hymns/pascha/tenousht");
+    docs.push("hymns/pascha/coptic_pauline");
+    docs.push("readings/pascha/sunday/funeral/1_cor_15");
+    docs.push("hymns/pascha/trisagion");
+    docs.push("prayers/litanies/gospel");
+    docs.push("prayers/litanies/gospel_alt");
+    docs.push("readings/pascha/sunday/funeral/psalm");
+    docs.push("hymns/pascha/ke_eperto");
+    docs.push("readings/pascha/sunday/funeral/gospel");
+    docs.push("hymns/pascha/funeral_gospel_response");
+    // + three great litanies
+    docs.push("prayers/responses/in_the_wisdom");
+    docs.push("prayers/nicene_creed");
+    docs.push("prayers/litanies/departed");
+    docs.push("prayers/our_father");
+    // + prayer after Our Father + Submission to the Son
+    docs.push("prayers/prayer_absolution_son");
+    docs.push("hymns/pascha/pascha_conclusion");
+    docs.push("hymns/concluding_hymn/pascha");
+    docs.push ("prayers/pascha/short_blessing_pascha");
+
+    return docs;
+};
+var PaschaSundayNinth = function (attributes) {
+    var docs = [];
+    docs.push("prayers/pascha/introduction/sunday_ninth");
+    docs.push("readings/pascha/sunday/day/ninth_hour/lamentations");
+    docs.push("readings/pascha/sunday/day/ninth_hour/zephaniah");
+    docs.push("prayers/pascha/introduction/intro_paschal_praise_sunday_ninth");
+    docs.push("hymns/pascha/thine_is_the_power_short");
+    docs.push("prayers/our_father");
+    docs.push("readings/pascha/sunday/day/ninth_hour/psalm");
+    docs.push("hymns/pascha/ke_eperto");
+    docs.push("readings/pascha/sunday/day/ninth_hour/gospel");
+    docs.push("hymns/pascha/exposition_intro");
+    docs.push("readings/pascha/sunday/day/ninth_hour/exposition");
+    docs.push("hymns/pascha/exposition_conc");
+
+    return docs;
+};
+var PaschaSundayEleventh = function (attributes) {
+    var docs = [];
+    docs.push("prayers/pascha/introduction/sunday_eleventh");
+    docs.push("readings/pascha/sunday/day/eleventh_hour/isaiah");
+    docs.push("readings/pascha/sunday/day/eleventh_hour/nahum");
+    docs.push("prayers/pascha/introduction/intro_paschal_praise_sunday_eleventh");
+    docs.push("hymns/pascha/thine_is_the_power_short");
+    docs.push("prayers/our_father");
+    docs.push("readings/pascha/sunday/day/eleventh_hour/psalm");
+    docs.push("hymns/pascha/ke_eperto");
+    docs.push("readings/pascha/sunday/day/eleventh_hour/gospel");
+    docs.push("hymns/pascha/exposition_intro");
+    docs.push("readings/pascha/sunday/day/eleventh_hour/exposition");
+    docs.push("hymns/pascha/exposition_conc");
+    docs.push("prayers/pascha/daytime_litanies");
+    docs.push("hymns/pascha/pascha_conclusion");
+    docs.push("hymns/concluding_hymn/pascha");
+    docs.push ("prayers/pascha/short_blessing_pascha");
+
+    return docs;
+};
+
 
 
 module.exports.Vespers = Vespers;
@@ -624,3 +704,6 @@ module.exports.Confession = Confession;
 module.exports.Guidance = Guidance;
 module.exports.Deacons = Deacons;
 module.exports.Priests = Priests;
+module.exports.FuneralPascha = FuneralPascha;
+module.exports.PaschaSundayNinth = PaschaSundayNinth;
+module.exports.PaschaSundayEleventh = PaschaSundayEleventh;

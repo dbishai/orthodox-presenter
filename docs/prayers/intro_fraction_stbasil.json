@@ -13,33 +13,22 @@
       },
       "text": {
         "cop": [
-          ""
+          "Ⲡⲁⲗⲓⲛ ⲟⲛ ⲙⲁⲣⲉⲛϣⲉⲡϩ̀ⲙⲟⲧ ⲛ̀ⲧⲟⲧϥ ⲙ̀Ⲫⲛⲟⲩϯ ⲡⲓⲡⲁⲙⲧⲟⲕⲣⲁⲧⲱⲣ: Ⲫⲓⲱⲧ ⲙ̀Ⲡⲉⲛϭⲟⲓⲥ ⲟⲩⲟϩ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ. Ϫⲉ ⲁϥⲑ̀ⲣⲉⲛⲉⲣⲡ̀ⲉⲙⲡ̀ ϣⲁ ⲟⲛ ϯⲛⲟⲩ ⲉ̀ⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧⲉⲛ ϧⲉⲛ ⲡⲁⲓⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲫⲁⲓ: ⲟⲩⲟϩ ⲉ̀ϥⲁⲓ ⲛ̀ⲛⲉⲛϫⲓϫ ⲉ̀ⲡ̀ϣⲱⲓ: ⲟⲩⲟϩ ⲉ̀ϣⲉⲙϣⲓ ⲙ̀ⲡⲉϥⲣⲁⲛ ⲉⲑⲟⲩⲁⲃ.",
+          "Ⲛⲑⲟϥ ⲟⲛ ⲙⲁⲣⲉⲛϯϩⲟ ⲉ̀ⲣⲟϥ ϩⲟⲡⲱⲥ ⲛ̀ⲧⲉϥⲁⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϯⲙⲉⲧϣ̀ⲫⲏⲣ ⲛⲉⲙ ϯⲙⲉⲧⲁ̀ⲗⲏⲙⲯⲓⲥ ⲛ̀ⲧⲉ ⲛⲉϥⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛ̀ⲛⲟⲩϯ ⲟⲩⲟϩ ⲛ̀ⲁⲑⲙⲟⲩ."
         ],
         "eng": [
-          "Again, let us give thanks to God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ, for He also has made us worthy now to stand in this holy place, to lift up our hands, and to serve His holy name. Let us also ask Him to make us worthy of the communion and partaking of His divine and immortal Mysteries."
+          "Again, let us give thanks to God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ, for He also has made us worthy now to stand in this holy place, to lift up our hands, and to serve His holy name.",
+          " Let us also ask Him to make us worthy of the communion and partaking of His divine and immortal Mysteries."
         ],
         "ara": [
+          "",
           ""
         ]
       }
     },
     {
-      "user": {
-        "cop": "Ⲡⲓⲗⲁⲟⲥ",
-        "eng": "People",
-        "ara": "الشعب "
-      },
-      "text": {
-        "cop": [
-          ""
-        ],
-        "eng": [
-          "Amen."
-        ],
-        "ara": [
-          ""
-        ]
-      }
+      "user": "people",
+      "text": "amen"
     },
     {
         "user": {
@@ -49,7 +38,7 @@
         },
         "text": {
           "cop": [
-            ""
+            "Ⲡⲓⲥⲱⲙⲁ ⲉⲑⲟⲩⲁⲃ..."
           ],
           "eng": [
             "The Holy Body..."
@@ -63,7 +52,7 @@
         "user": "people",
         "text": {
           "cop": [
-            ""
+            "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲡⲉⲕⲥⲱⲙⲁ ⲉⲑⲟⲩⲁⲃ..."
           ],
           "eng": [
             "We worship Your Holy Body..."
@@ -77,7 +66,7 @@
         "user": "priest",
         "text": {
           "cop": [
-            ""
+            "...ⲛⲉⲙ ⲡⲓⲥ̀ⲛⲟϥ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ."
           ],
           "eng": [
             "...and the Precious Blood"
@@ -91,7 +80,7 @@
         "user": "people",
         "text": {
           "cop": [
-            ""
+            "...ⲛⲉⲙ ⲡⲉⲕⲥ̀ⲛⲟϥ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ."
           ],
           "eng": [
             "...and Your Precious Blood"
@@ -105,7 +94,7 @@
         "user": "priest",
         "text": {
           "cop": [
-            ""
+            "Ⲛⲧⲉ Ⲡⲉϥⲭ̀ⲣⲓⲥⲧⲟⲥ ⲛ̀ϫⲉ ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ."
           ],
           "eng": [
             "of His Christ, the Pantocrator, the Lord our God."
@@ -119,7 +108,7 @@
         "user": "deacon",
         "text": {
           "cop": [
-            ""
+            "Ⲁⲙⲏⲛ ⲁ̀ⲙⲏⲛ ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ."
           ],
           "eng": [
             "Amen. Amen. Let us pray."
@@ -131,23 +120,13 @@
       },
       {
         "user": "people",
-        "text": {
-          "cop": [
-            ""
-          ],
-          "eng": [
-            "Lord have mercy"
-          ],
-          "ara": [
-            ""
-          ]
-        }
+        "text": "lord_have_mercy"
       },
       {
         "user": "priest",
         "text": {
           "cop": [
-            ""
+            "Ⲓⲣⲏⲛⲏ ⲡⲁⲥⲓ."
           ],
           "eng": [
             "Peace be with all."
@@ -161,7 +140,7 @@
         "user": "people",
         "text": {
           "cop": [
-            ""
+            "Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ."
           ],
           "eng": [
             "And with your spirit."
