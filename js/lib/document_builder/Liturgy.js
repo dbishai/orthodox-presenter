@@ -2,7 +2,7 @@ var CopticCalendar = require('../CopticCalendar.js');
 var CopticDateComparator = CopticCalendar.CopticDateComparator;
 var moment = require('moment');
 
-var verses_of_the_cymbals = (attributes, selector) => {
+var verses_of_the_cymbals = function (attributes, selector) {
     var day_tune = CopticCalendar.AdamOrWatos(attributes.year, attributes.monthIndex, attributes.day);
     var docs = []
     if (day_tune == "adam") {
@@ -15,7 +15,7 @@ var verses_of_the_cymbals = (attributes, selector) => {
     return docs;
 };
 
-var doxologies = (attributes, selector) => {
+var doxologies = function (attributes, selector) {
     //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     //var easterDate = CopticCalendar.getEasterDate(attributes.year);
     var docs = []
@@ -35,7 +35,7 @@ var doxologies = (attributes, selector) => {
     return docs;
 };
 
-var short_litanies = attributes => {
+var short_litanies = function (attributes) {
     var docs = [];
     var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var copticMonthIndex = copticDate.monthIndex;
@@ -57,7 +57,7 @@ var short_litanies = attributes => {
 
     return docs;
 };
-var season_litanies = attributes => {
+var season_litanies = function (attributes) {
     var docs = [];
     var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var copticMonthIndex = copticDate.monthIndex;
@@ -74,7 +74,7 @@ var season_litanies = attributes => {
     return docs;
 };
 
-var concluding_hymn = attributes => {
+var concluding_hymn = function (attributes) {
     var docs = []
     var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
     var copticMonthIndex = copticDate.monthIndex;
@@ -91,7 +91,7 @@ var concluding_hymn = attributes => {
     return docs;
 };
 
-var offering_hymn = attributes => {
+var offering_hymn = function (attributes) {
     var docs = [];
     if (CopticCalendar.isInFast(attributes)) {
         docs.push("hymns/alleluia_the_thought_of_man");
@@ -102,7 +102,7 @@ var offering_hymn = attributes => {
     return docs;
 };
 
-var censer_hymn = attributes => {
+var censer_hymn = function (attributes) {
     var docs = [];
     if (CopticCalendar.isInFast(attributes)) {
         docs.push("hymns/tishori");
@@ -114,7 +114,7 @@ var censer_hymn = attributes => {
 };
 
 var Liturgy = {
-    Vespers: attributes => {
+    Vespers: function (attributes) {
 
         var docs = [];
         docs.push("prayers/intro_offering_of_incense_vespers");
@@ -144,7 +144,7 @@ var Liturgy = {
 
         return docs;
     },
-    Matins: attributes => {
+    Matins: function (attributes) {
 
         //var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
         var docs = [];
@@ -189,7 +189,7 @@ var Liturgy = {
 
         return docs;
     },
-    StBasilOffering: attributes => {
+    StBasilOffering: function (attributes) {
         var docs = [];
         docs.push("hymns/standard/hymn_blessing");
         docs.push("hymns/standard/hail_to_mary_offering");
@@ -216,7 +216,7 @@ var Liturgy = {
 
         return docs;
     },
-    StBasilWord: attributes => {
+    StBasilWord: function (attributes) {
         var docs = [];
         // On Saturdays, Sundays, and feasts of the Lord, Taishori is prayed
         docs = docs.concat(censer_hymn(attributes));
@@ -236,7 +236,7 @@ var Liturgy = {
         return docs;
 
     },
-    StBasilFaithful: attributes => {
+    StBasilFaithful: function (attributes) {
         var docs = [];
         var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
         var copticMonthIndex = copticDate.monthIndex;
@@ -284,7 +284,7 @@ var Liturgy = {
         return docs;
 
     },
-    StBasilDistribution: attributes => {
+    StBasilDistribution: function (attributes) {
         var docs = [];
         docs.push("prayers/distribution");
         docs.push("hymns/standard/psalm150_standard") // This will need to be changed to the attributes.day to accommodate for other occasions
