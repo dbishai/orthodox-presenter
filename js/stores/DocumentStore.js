@@ -7,7 +7,7 @@ var DocumentBuilder = require('../lib/DocumentBuilder.js');
 
 var CHANGE_EVENT = 'change';
 
-var Document = { 1: require('../../docs/prayers/nicene_creed.json') };
+var Document =  null;
 var lastCategory;
 
 function load(doc, attributes) {
@@ -23,8 +23,12 @@ function load(doc, attributes) {
 }
 
 function autoLoad(category, attributes) {
-    lastCategory = category;
-    var docs = DocumentBuilder.build(category, attributes);
+    if (category == null) {
+        var docs = DocumentBuilder.autoLoad(attributes);
+    } else {
+        lastCategory = category;
+        var docs = DocumentBuilder.build(category, attributes);
+    }
     downloadAsync(docs);
 }
 

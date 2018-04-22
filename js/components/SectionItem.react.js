@@ -55,6 +55,9 @@ var SectionItem = createReactClass({
     _onClick: function () {
         var sectionItem = this.props.sectionItem;
         var attributes = this.props.attributes;
+        if (attributes.autoLoad) {
+            NavActions.setState("autoLoad");
+        }
         if (typeof sectionItem["node"] != 'undefined') {
             NavActions.next(sectionItem.id);
         } else if (this.state.loadDoc && this.state.isLeaf) {

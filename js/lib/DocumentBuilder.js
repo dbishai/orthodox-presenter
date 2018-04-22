@@ -4,6 +4,43 @@ var Pascha = require("./document_builder/Pascha");
 
 
 var DocumentBuilder = {
+    getAgpeyaHour: function (attributes) {
+        var hour = attributes.time;
+        if (hour < 9) {
+            return Agpeya.FirstHour(attributes);
+        } else if (hour < 12) {
+            return Agpeya.ThirdHour(attributes);
+        } else if (hour < 15) {
+            return Agpeya.SixthHour(attributes);
+        } else if (hour < 17) {
+            return Agpeya.NinthHour(attributes);
+        } else if (hour < 18) {
+            return Agpeya.EleventhHour(attributes);
+        } else {
+            return Agpeya.TwelfthHour(attributes);
+        }
+    },
+
+    autoLoad: function (attributes) {
+        var dayIndex = attributes.todayDate.day();
+        var hour = attributes.time;
+        if (dayIndex == 0) {
+            if (hour < 9) {
+                docs = Liturgy.Matins(attributes);
+            } else if (hour < 10) {
+                docs = Liturgy.StBasilWord(attributes);
+            } else if (hour < 11) {
+                docs = Liturgy.StBasilFaithful(attributes);
+            } else {
+                docs = this.getAgpeyaHour(attributes);
+            }
+        } else {
+            docs = this.getAgpeyaHour(attributes);
+        }
+
+        return docs;
+    },
+
     build: function (category, attributes) {
         var docs;
         switch (category) {
@@ -25,7 +62,7 @@ var DocumentBuilder = {
             case "stbasil_distribution":
                 docs = Liturgy.StBasilDistribution(attributes);
                 break;
-            case "first_hour": //first hour of the Book of Hours (Agpeya)
+            case "first_hour":
                 docs = Agpeya.FirstHour(attributes);
                 break;
             case "third_hour":
@@ -46,9 +83,10 @@ var DocumentBuilder = {
             case "veil_hour":
                 docs = Agpeya.Veil(attributes);
                 break;
-                //        case "midnight_watch":
+            /*
                 docs = Agpeya.Midnight(attributes);
                 break;
+            */
             case "selectedprayers":
                 docs = Agpeya.SelectedPrayers(attributes);
                 break;
@@ -70,7 +108,7 @@ var DocumentBuilder = {
             case "funeral_pascha":
                 docs = Pascha.FuneralPascha(attributes);
                 break;
-            case "pascha_sunday_ninth": // ninth hour of the Hosanna Sunday Holy Pascha
+            case "pascha_sunday_ninth":
                 docs = Pascha.PaschaSundayNinth(attributes);
                 break;
             case "pascha_sunday_eleventh":
@@ -84,4 +122,4 @@ var DocumentBuilder = {
     }
 }
 
-module.exports.build = DocumentBuilder.build;
+module.exports = DocumentBuilder;

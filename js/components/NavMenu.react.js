@@ -2,6 +2,7 @@ var React = require('react');
 var PropTypes = require('prop-types');
 var createReactClass = require('create-react-class');
 var NavSubMenuStore = require('../stores/NavSubMenuStore');
+var DocumentStore = require('../stores/DocumentStore');
 var NavMenuItem = require('./NavMenuItem.react');
 var NavItem = require('./NavItem.react');
 var SectionItem = require('./SectionItem.react');
@@ -72,6 +73,10 @@ var NavMenu = createReactClass({
 
     for (var key in allSectionItems) {
       sectionItems.push(<SectionItem key={key} attributes={this.state.attributes} sectionItem={allSectionItems[key]} />);
+    }
+
+    if (this.state.attributes.autoLoad) {
+      DocumentStore.getDocuments(null, this.state.attributes);
     }
 
     return (
