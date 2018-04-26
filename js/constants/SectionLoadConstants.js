@@ -5,6 +5,8 @@ module.exports = keyMirror({
     OFFERING_OF_THE_LAMB: null,
     LITURGY_OF_THE_WORD: null,
     ST_BASIL_LITURGY_OF_THE_FAITHFUL: null,
+    ST_GREGORY_LITURGY_OF_THE_FAITHFUL: null,
+    ST_CYRIL_LITURGY_OF_THE_FAITHFUL: null,
     DISTRIBUTION: null,
     VESPERS: null,
     MATINS: null,

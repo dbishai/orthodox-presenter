@@ -291,6 +291,33 @@ var Liturgy = {
 
 
         return docs;
-    }
+    },  
+    StGregoryFaithful: function (attributes) {
+        var docs = [];
+        var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
+        var copticMonthIndex = copticDate.monthIndex;
+        var copticDay = copticDate.day;
+        docs.push("hymns/standard/response_gospel_standard_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
+        // docs.push("prayers/litanies/three_great_litanies");
+        docs.push("prayers/responses/in_the_wisdom");
+        docs.push("prayers/nicene_creed");
+        docs.push("prayers/responses/service_intro");
+        return docs;
+
+    },
+    StCyrilFaithful: function (attributes) {
+        var docs = [];
+        var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
+        var copticMonthIndex = copticDate.monthIndex;
+        var copticDay = copticDate.day;
+        docs.push("hymns/standard/response_gospel_standard_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
+        // docs.push("prayers/litanies/three_great_litanies");
+        docs.push("prayers/responses/in_the_wisdom");
+        docs.push("prayers/nicene_creed");
+        docs.push("prayers/responses/service_intro");
+        return docs;
+
+    },    
+
 }
 module.exports = Liturgy;

@@ -39,6 +39,62 @@ var sections = {
         },
 
       },
+      "1g": {
+        "id": "1g",
+        "title": "ST. GREGORY",
+        "node": {
+          "1h": {
+            "id": "1h",
+            "title": "OFFERING OF THE LAMB",
+            "load": SectionLoadConstants.OFFERING_OF_THE_LAMB
+          },
+          "1i":{
+            "id": "1i",
+            "title": "LITURGY OF THE WORD",
+            "load": SectionLoadConstants.LITURGY_OF_THE_WORD
+          },
+          "1j": {
+            "id": "1j",
+            "title": "LITURGY OF THE FAITHFUL",
+            "load": SectionLoadConstants.ST_GREGORY_LITURGY_OF_THE_FAITHFUL
+          },
+          "1k": {
+            "id": "1k",
+            "title": "DISTRIBUTION",
+            "load": SectionLoadConstants.DISTRIBUTION
+          },
+
+        },
+
+      },
+      "1l": {
+        "id": "1l",
+        "title": "ST. CYRIL",
+        "node": {
+          "1m": {
+            "id": "1m",
+            "title": "OFFERING OF THE LAMB",
+            "load": SectionLoadConstants.OFFERING_OF_THE_LAMB
+          },
+          "1n":{
+            "id": "1n",
+            "title": "LITURGY OF THE WORD",
+            "load": SectionLoadConstants.LITURGY_OF_THE_WORD
+          },
+          "1o": {
+            "id": "1o",
+            "title": "LITURGY OF THE FAITHFUL",
+            "load": SectionLoadConstants.ST_CYRIL_LITURGY_OF_THE_FAITHFUL
+          },
+          "1p": {
+            "id": "1p",
+            "title": "DISTRIBUTION",
+            "load": SectionLoadConstants.DISTRIBUTION
+          },
+
+        },
+
+      },      
       "2b": {
         "id": "2b",
         "title": "VESPERS",

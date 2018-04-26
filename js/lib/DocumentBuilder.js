@@ -56,6 +56,10 @@ var DocumentBuilder = {
                 return Liturgy.StBasilFaithful(attributes);
             case SectionLoadConstants.DISTRIBUTION:
                 return Liturgy.StBasilDistribution(attributes);
+            case SectionLoadConstants.ST_GREGORY_LITURGY_OF_THE_FAITHFUL:
+                return Liturgy.StGregoryFaithful(attributes);   
+            case SectionLoadConstants.ST_CYRIL_LITURGY_OF_THE_FAITHFUL:
+                return Liturgy.StCyrilFaithful(attributes);                  
             case SectionLoadConstants.AGPEYA_1ST_HOUR:
                 return Agpeya.FirstHour(attributes);
             case SectionLoadConstants.AGPEYA_3RD_HOUR:
