@@ -1,0 +1,33 @@
+var keyMirror = require('keymirror');
+
+module.exports = keyMirror({
+    LITURGIES: null,
+    OFFERING_OF_THE_LAMB: null,
+    LITURGY_OF_THE_WORD: null,
+    ST_BASIL_LITURGY_OF_THE_FAITHFUL: null,
+    DISTRIBUTION: null,
+    VESPERS: null,
+    MATINS: null,
+    BOOK_OF_HOURS: null,
+    AGPEYA_1ST_HOUR: null,
+    AGPEYA_3RD_HOUR: null,
+    AGPEYA_6TH_HOUR: null,
+    AGPEYA_9TH_HOUR: null,
+    AGPEYA_11TH_HOUR: null,
+    AGPEYA_12TH_HOUR: null,
+    AGPEYA_VEIL: null,
+    AGPEYA_MIDNIGHT_HOUR: null,
+    AGPEYA_SELECTED_PRAYERS: null,
+    AGPEYA_CONFESSION: null,
+    AGPEYA_COMMUNION: null,
+    AGPEYA_GUIDANCE: null,
+    AGPEYA_MEALS: null,
+    AGPEYA_PRIESTS: null,
+    AGPEYA_DEACONS: null,
+    AGPEYA_SPECIAL: null,
+    PASCHA: null,
+    PASCHA_SUNDAY: null,
+    PASCHA_GENERAL_FUNERAL_PRAYER: null,
+    PASCHA_SUN_9TH_HOUR: null,
+    PASCHA_SUN_11TH_HOUR: null
+});

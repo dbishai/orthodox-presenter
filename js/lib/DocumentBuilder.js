@@ -1,3 +1,4 @@
+var SectionLoadConstants = require('../constants/SectionLoadConstants');
 var Liturgy = require("./document_builder/Liturgy");
 var Agpeya = require("./document_builder/Agpeya");
 var Pascha = require("./document_builder/Pascha");
@@ -24,101 +25,75 @@ var DocumentBuilder = {
     autoLoad: function (attributes) {
         var dayIndex = attributes.todayDate.day();
         var hour = attributes.time;
+        // Sunday
         if (dayIndex == 0) {
             if (hour < 9) {
-                docs = Liturgy.Matins(attributes);
+                return Liturgy.Matins(attributes);
             } else if (hour < 10) {
-                docs = Liturgy.StBasilWord(attributes);
+                return Liturgy.StBasilWord(attributes);
             } else if (hour < 11) {
-                docs = Liturgy.StBasilFaithful(attributes);
-            } else {
-                docs = this.getAgpeyaHour(attributes);
+                return Liturgy.StBasilFaithful(attributes);
             }
+        // Saturday 6PM - 8PM
+        } else if (dayIndex == 6 && (18 < hour && hour < 20)) {
+                return Liturgy.Vespers(attributes);
         } else {
-            docs = this.getAgpeyaHour(attributes);
+            return this.getAgpeyaHour(attributes);
         }
-
-        return docs;
     },
 
     build: function (category, attributes) {
-        var docs;
         switch (category) {
-            case "vespers":
-                docs = Liturgy.Vespers(attributes);
-                break;
-            case "matins":
-                docs = Liturgy.Matins(attributes);
-                break;
-            case "stbasil_offering":
-                docs = Liturgy.StBasilOffering(attributes);
-                break;
-            case "stbasil_word":
-                docs = Liturgy.StBasilWord(attributes);
-                break;
-            case "stbasil_faithful":
-                docs = Liturgy.StBasilFaithful(attributes);
-                break;
-            case "stbasil_distribution":
-                docs = Liturgy.StBasilDistribution(attributes);
-                break;
-            case "first_hour":
-                docs = Agpeya.FirstHour(attributes);
-                break;
-            case "third_hour":
-                docs = Agpeya.ThirdHour(attributes);
-                break;
-            case "sixth_hour":
-                docs = Agpeya.SixthHour(attributes);
-                break;
-            case "ninth_hour":
-                docs = Agpeya.NinthHour(attributes);
-                break;
-            case "eleventh_hour":
-                docs = Agpeya.EleventhHour(attributes);
-                break;
-            case "twelfth_hour":
-                docs = Agpeya.TwelfthHour(attributes);
-                break;
-            case "veil_hour":
-                docs = Agpeya.Veil(attributes);
-                break;
+            case SectionLoadConstants.VESPERS:
+                return Liturgy.Vespers(attributes);
+            case SectionLoadConstants.MATINS:
+                return Liturgy.Matins(attributes);
+            case SectionLoadConstants.OFFERING_OF_THE_LAMB:
+                return Liturgy.StBasilOffering(attributes);
+            case SectionLoadConstants.LITURGY_OF_THE_WORD:
+                return Liturgy.StBasilWord(attributes);
+            case SectionLoadConstants.ST_BASIL_LITURGY_OF_THE_FAITHFUL:
+                return Liturgy.StBasilFaithful(attributes);
+            case SectionLoadConstants.DISTRIBUTION:
+                return Liturgy.StBasilDistribution(attributes);
+            case SectionLoadConstants.AGPEYA_1ST_HOUR:
+                return Agpeya.FirstHour(attributes);
+            case SectionLoadConstants.AGPEYA_3RD_HOUR:
+                return Agpeya.ThirdHour(attributes);
+            case SectionLoadConstants.AGPEYA_6TH_HOUR:
+                return Agpeya.SixthHour(attributes);
+            case SectionLoadConstants.AGPEYA_9TH_HOUR:
+                return Agpeya.NinthHour(attributes);
+            case SectionLoadConstants.AGPEYA_11TH_HOUR:
+                return Agpeya.EleventhHour(attributes);
+            case SectionLoadConstants.AGPEYA_1ST_HOUR:
+                return Agpeya.TwelfthHour(attributes);
+            case SectionLoadConstants.AGPEYA_VEIL:
+                return Agpeya.Veil(attributes);
             /*
-                docs = Agpeya.Midnight(attributes);
-                break;
+                return Agpeya.Midnight(attributes);
             */
-            case "selectedprayers":
-                docs = Agpeya.SelectedPrayers(attributes);
-                break;
-            case "sp_meals":
-                docs = Agpeya.Meals(attributes);
-                break;
-            case "sp_confession":
-                docs = Agpeya.Confession(attributes);
-                break;
-            case "sp_guidance":
-                docs = Agpeya.Guidance(attributes);
-                break;
-            case "sp_deacons":
-                docs = Agpeya.Deacons(attributes);
-                break;
-            case "sp_priests":
-                docs = Agpeya.Priests(attributes);
-                break;
-            case "funeral_pascha":
-                docs = Pascha.FuneralPascha(attributes);
-                break;
-            case "pascha_sunday_ninth":
-                docs = Pascha.PaschaSundayNinth(attributes);
-                break;
-            case "pascha_sunday_eleventh":
-                docs = Pascha.PaschaSundayEleventh(attributes);
-                break;
-
+            case SectionLoadConstants.AGPEYA_SELECTED_PRAYERS:
+                return Agpeya.SelectedPrayers(attributes);
+            case SectionLoadConstants.AGPEYA_MEALS:
+                return Agpeya.Meals(attributes);
+            case SectionLoadConstants.AGPEYA_CONFESSION:
+                return Agpeya.Confession(attributes);
+            case SectionLoadConstants.AGPEYA_GUIDANCE:
+                return Agpeya.Guidance(attributes);
+            case SectionLoadConstants.AGPEYA_DEACONS:
+                return Agpeya.Deacons(attributes);
+            case SectionLoadConstants.AGPEYA_PRIESTS:
+                return Agpeya.Priests(attributes);
+            case SectionLoadConstants.PASCHA_GENERAL_FUNERAL_PRAYER:
+                return Pascha.FuneralPascha(attributes);
+            case SectionLoadConstants.PASCHA_SUN_9TH_HOUR:
+                return Pascha.PaschaSundayNinth(attributes);
+            case SectionLoadConstants.PASCHA_SUN_11TH_HOUR:
+                return Pascha.PaschaSundayEleventh(attributes);
             default:
-                docs = ["prayers/nicene_creed"];
+                return ["prayers/nicene_creed"];
         }
-        return docs;
     }
 }
 

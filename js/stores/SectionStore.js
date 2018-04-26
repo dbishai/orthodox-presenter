@@ -1,6 +1,7 @@
 var AppDispatcher = require('../dispatcher/AppDispatcher');
 var EventEmitter = require('events').EventEmitter;
 var OPConstants = require('../constants/OPConstants');
+var SectionLoadConstants = require('../constants/SectionLoadConstants');
 var assign = require('object-assign');
 
 var CHANGE_EVENT = 'change';
@@ -9,8 +10,6 @@ var sections = {
   "1a": {
     "id": "1a",
     "title": "LITURGIES",
-    "description": "\"This is My body which is given for you; My blood, which is shed for you.\" (Luke 22:19-20)",
-    "img": "../../images/placeholder.png",
     "node": {
       "1b": {
         "id": "1b",
@@ -19,22 +18,22 @@ var sections = {
           "1c": {
             "id": "1c",
             "title": "OFFERING OF THE LAMB",
-            "load": "stbasil_offering"
+            "load": SectionLoadConstants.OFFERING_OF_THE_LAMB
           },
           "1d": {
             "id": "1d",
             "title": "LITURGY OF THE WORD",
-            "load": "stbasil_word"
+            "load": SectionLoadConstants.LITURGY_OF_THE_WORD
           },
           "1e": {
             "id": "1e",
             "title": "LITURGY OF THE FAITHFUL",
-            "load": "stbasil_faithful"
+            "load": SectionLoadConstants.ST_BASIL_LITURGY_OF_THE_FAITHFUL
           },
           "1f": {
             "id": "1f",
             "title": "DISTRIBUTION",
-            "load": "stbasil_distribution"
+            "load": SectionLoadConstants.DISTRIBUTION
           },
 
         },
@@ -43,12 +42,12 @@ var sections = {
       "2b": {
         "id": "2b",
         "title": "VESPERS",
-        "load": "vespers"
+        "load": SectionLoadConstants.VESPERS
       },
       "3b": {
         "id": "3b",
         "title": "MATINS",
-        "load": "matins"
+        "load": SectionLoadConstants.MATINS
       }
     }
   },
@@ -59,38 +58,38 @@ var sections = {
       "prime": {
         "id": "prime",
         "title": "1ST HOUR",
-        "load": "first_hour"
+        "load": SectionLoadConstants.AGPEYA_1ST_HOUR
       },
       "terce": {
         "id": "terce",
         "title": "3RD HOUR",
-        "load": "third_hour"
+        "load": SectionLoadConstants.AGPEYA_3RD_HOUR
       },
       "sext": {
         "id": "sext",
         "title": "6TH HOUR",
-        "load": "sixth_hour"
+        "load": SectionLoadConstants.AGPEYA_6TH_HOUR
       },
       "none": {
         "id": "none",
         "title": "9TH HOUR",
-        "load": "ninth_hour"
+        "load": SectionLoadConstants.AGPEYA_9TH_HOUR
       },
       "vespers": {
         "id": "vespers",
         "title": "11TH HOUR",
-        "load": "eleventh_hour"
+        "load": SectionLoadConstants.AGPEYA_11TH_HOUR
 
       },
       "twelfth": {
         "id": "twelfth",
         "title": "12TH HOUR",
-        "load": "twelfth_hour"
+        "load": SectionLoadConstants.AGPEYA_12TH_HOUR
       },
       "veil": {
         "id": "veil",
         "title": "VEIL",
-        "load": "veil_hour"
+        "load": SectionLoadConstants.AGPEYA_VEIL
       },
       "midnightwatch": {
         "id": "midnightwatch",
@@ -104,7 +103,7 @@ var sections = {
           "confession": {
             "id": "confession",
             "title": "CONFESSION",
-            "load": "sp_confession"
+            "load": SectionLoadConstants.AGPEYA_CONFESSION
           },
           "communion": {
             "id": "communion",
@@ -114,22 +113,22 @@ var sections = {
           "guidance": {
             "id": "guidance",
             "title": "GUIDANCE",
-            "load": "sp_guidance"
+            "load": SectionLoadConstants.AGPEYA_GUIDANCE
           },
           "meals": {
             "id": "meals",
             "title": "MEALS",
-            "load": "sp_meals"
+            "load": SectionLoadConstants.AGPEYA_MEALS
           },
           "priests": {
             "id": "priests",
             "title": "PRIESTS",
-            "load": "sp_priests"
+            "load": SectionLoadConstants.AGPEYA_PRIESTS
           },
           "deacons": {
             "id": "deacons",
             "title": "DEACONS",
-            "load": "sp_deacons"
+            "load": SectionLoadConstants.AGPEYA_DEACONS
           },
 
         }
@@ -151,7 +150,7 @@ var sections = {
               "funeral": {
                 "id": "funeral",
                 "title": "GENERAL FUNERAL PRAYER",
-                "load": "funeral_pascha"
+                "load": SectionLoadConstants.PASCHA_GENERAL_FUNERAL_PRAYER
               },
               "sunday_day": {
                 "id": "sunday_day",
@@ -160,12 +159,12 @@ var sections = {
                   "ninth": {
                     "id": "ninth",
                     "title": "9TH HOUR",
-                    "load": "pascha_sunday_ninth"
+                    "load": SectionLoadConstants.PASCHA_SUN_9TH_HOUR
                   },
                   "eleventh": {
                     "id": "eleventh",
                     "title": "11TH HOUR",
-                    "load": "pascha_sunday_eleventh"
+                    "load": SectionLoadConstants.PASCHA_SUN_11TH_HOUR
                   },
                 }
               }
