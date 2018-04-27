@@ -246,7 +246,7 @@ var Liturgy = {
         docs.push("prayers/responses/in_the_wisdom");
         docs.push("prayers/nicene_creed");
         docs.push("prayers/responses/service_intro");
-        docs.push("prayers/prayer_reconciliation");
+        docs.push("prayers/reconciliation_stbasil");
         docs.push("prayers/responses/greet_one_another_standard");
         docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful_come");
         docs.push("prayers/anaphora_stbasil");
@@ -302,6 +302,11 @@ var Liturgy = {
         docs.push("prayers/responses/in_the_wisdom");
         docs.push("prayers/nicene_creed");
         docs.push("prayers/responses/service_intro");
+        docs.push("prayers/reconciliation_stgregory");
+        docs.push("prayers/responses/greet_one_another_standard");
+        docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful_come");
+        docs.push("prayers/anaphora_stgregory");
+        docs.push("prayers/prayer_agios_stgregory");
         return docs;
 
     },
@@ -315,6 +320,7 @@ var Liturgy = {
         docs.push("prayers/responses/in_the_wisdom");
         docs.push("prayers/nicene_creed");
         docs.push("prayers/responses/service_intro");
+
         return docs;
 
     },    

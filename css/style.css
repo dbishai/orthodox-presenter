@@ -215,7 +215,6 @@ div.light-theme-background {
 }
 body.light-theme-background, html.light-theme-background {
   background-color: #f8f8f8;
-  /* background: url('../images/bg_cross.png'); */
 }
 div.footer {
   position: fixed;
