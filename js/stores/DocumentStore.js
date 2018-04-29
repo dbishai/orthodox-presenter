@@ -10,6 +10,7 @@ var CHANGE_EVENT = 'change';
 var Document =  null;
 var lastCategory;
 
+/*
 function load(doc, attributes) {
     $.getJSON(doc)
         .done(function (data) {
@@ -21,8 +22,9 @@ function load(doc, attributes) {
             console.log("Request Failed: " + err);
         });
 }
+*/
 
-function autoLoad(category, attributes) {
+function load(category, attributes) {
     if (category == null) {
         var docs = DocumentBuilder.autoLoad(attributes);
     } else {
@@ -33,7 +35,7 @@ function autoLoad(category, attributes) {
 }
 
 function refresh(attributes) {
-    autoLoad(lastCategory, attributes);
+    load(lastCategory, attributes);
 }
 
 function downloadAsync(docs) {
@@ -89,7 +91,7 @@ var DocumentStore = assign({}, EventEmitter.prototype, {
     },
 
     getDocuments: function (category, attributes) {
-        autoLoad(category, attributes);
+        load(category, attributes);
     },
     emitChange: function () {
         this.emit(CHANGE_EVENT);
@@ -108,7 +110,7 @@ AppDispatcher.register(function (action) {
 
     switch (action.actionType) {
         case OPConstants.LOAD:
-            autoLoad(action.doc, action.attributes);
+            load(action.doc, action.attributes);
             break;
         case OPConstants.REFRESH:
             refresh(action.attributes);
