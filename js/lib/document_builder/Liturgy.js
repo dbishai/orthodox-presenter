@@ -307,6 +307,26 @@ var Liturgy = {
         docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful_come");
         docs.push("prayers/anaphora_stgregory");
         docs.push("prayers/prayer_agios_stgregory");
+        docs.push("prayers/institution_stgregory");
+        docs.push("hymns/standard/amen_amen_amen_your_death");
+        docs.push("prayers/therefore_as_we_also_1_stgregory");
+        docs.push("prayers/inaudible/epiclesis_stgregory");
+        docs.push("prayers/therefore_as_we_also_2_stgregory");
+        docs.push("prayers/yea_we_ask_you_stgregory");
+        docs.push("prayers/litanies/intro_seven_short_stgregory");
+        docs.push("prayers/litanies/fathers_liturgy_stgregory");
+        docs.push("prayers/litanies/clergy_stgregory");
+        docs.push("prayers/litanies/leaders");
+        docs.push("prayers/litanies/oblations_liturgy");
+        docs.push("prayers/litanies/captives");
+        docs.push("prayers/for_your_people_stgregory");
+        docs = docs.concat(season_litanies(attributes));
+        docs.push("prayers/healing_to_the_sick_stgregory");
+        docs.push("prayers/litanies/place_liturgy_stgregory");
+        docs.push("prayers/commemoration_stgregory");
+        docs.push("prayers/responses/may_their_holy_blessing_stgregory");
+        docs.push("prayers/responses/as_it_was");
+        docs.push("prayers/lead_us_throughout_stgregory");
         return docs;
 
     },

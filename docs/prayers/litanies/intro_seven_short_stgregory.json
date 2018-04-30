@@ -1,0 +1,55 @@
+{
+  "title": {
+    "eng": "The Short Litanies",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "Remember, O Lord, the peace of Your one, only, holy, catholic, and apostolic Church."
+        ],
+        "cop": [
+          "Ⲁⲣⲓⲫ̀ⲙⲉⲩ̀ⲓ Ⲡϭⲟⲓⲥ ⲛ̀ϯϩⲓⲣⲏⲛⲏ ⲛ̀ⲧⲉ ⲧⲉⲕⲟⲩ̀ⲓ ⲙ̀ⲙⲁⲩⲁⲧⲥ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲕⲁⲑⲟⲗⲓⲕⲏ ⲛ̀ⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲕⲏ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ."
+        ],
+        "ara" : [
+          ""
+        ]
+      }
+    },
+    {
+        "user": "deacon",
+        "text": {
+          "eng": [
+            "Pray for peace of the one, holy, catholic, and apostolic orthodox Church of God"
+          ],
+          "cop": [
+            "Ⲡⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲓⲣⲏⲛⲏⲥ ⲧⲏⲥ ⲁ̀ⲅⲓⲁⲥ ⲙⲟⲛⲏⲥ ⲕⲁⲑⲟⲗⲓⲕⲏⲥ ⲕⲉ ⲁ̀ⲡⲟⲥⲧⲟⲗⲓⲕⲏⲥ ⲟⲣⲑⲟⲇⲟⲝⲟⲩ ⲧⲟⲩ Ⲑⲉⲟⲩ ⲉⲕⲕ̀ⲗⲏⲥⲓⲁⲥ."
+          ],
+          "ara": [
+            " صلوا من أجل سلام الواحدة المقدسة الجامعة الرسولية كنيسة الله الأرثوذكسية "
+          ]
+        }
+      },    
+    {
+        "user": "people",
+        "text": "lord_have_mercy"
+    },
+    {
+        "user": "priest",
+        "text": {
+          "eng": [
+            "this, which exists from one end of the world to the other, and those who rightly handle the word of truth with Her."
+          ],
+          "cop": [
+            "Ⲑⲁⲓ ⲉⲧϣⲟⲡ ⲓⲥϫⲉⲛ ⲁⲩⲣⲏϫⲥ ⲛ̀ϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ ϣⲁ ⲁⲩⲣⲏϫⲥ. Ⲛⲉⲙ ⲛⲏⲉⲧϣⲱⲧ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧⲥ ⲙ̀ⲡ̀ⲥⲁϫⲓ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ ϧⲉⲛ ⲟⲩⲥⲱⲟⲩⲧⲉⲛ."
+          ],
+          "ara" : [
+            ""
+          ]
+        }
+      }
+  ]
+}
