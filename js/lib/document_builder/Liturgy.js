@@ -327,6 +327,7 @@ var Liturgy = {
         docs.push("prayers/responses/may_their_holy_blessing_stgregory");
         docs.push("prayers/responses/as_it_was");
         docs.push("prayers/lead_us_throughout_stgregory");
+        docs.push("prayers/intro_fraction_stgregory");
         return docs;
 
     },
