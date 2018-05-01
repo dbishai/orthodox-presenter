@@ -1,0 +1,93 @@
+{
+  "title": {
+    "eng": "Litany of the Leader",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "Remember, O Lord, those who have reigned in godliness and those who are now kings [leaders]."
+        ],
+        "cop": [
+          "Ⲁⲣⲓⲫ̀ⲙⲉⲩ̀ⲓ Ⲡϭⲟⲓⲥ ⲛ̀ⲛⲏⲉ̀ⲧⲁⲩⲉⲣⲟⲩⲣⲟ ϧⲉⲛ ϯⲙⲉⲧⲉⲩⲥⲉⲃⲏⲥ: ⲛⲉⲙ ⲛⲏⲉⲧⲟⲓ ⲛ̀ⲟⲩⲣⲟ (ⲙ̀ⲡⲣⲟⲉⲇⲣⲟⲥ)."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "deacon",
+      "text": {
+        "eng": [
+          "Pray for our Christ loving kings [leaders]."
+        ],
+        "cop": [
+          "Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲱⲛ ⲫⲓⲗⲟⲭ̀ⲣⲓⲥⲧⲱⲛ ⲏ̀ⲙⲱⲛ ⲃⲁⲥⲓⲗⲉⲱⲛ (ⲡⲣⲟⲉⲇⲣⲱⲛ)."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+    "user": "people",
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ"
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  },
+  {
+    "user": "priest",
+    "text": {
+      "eng": [
+        "Remember, O Lord, our brethren, the orthodox believers who are in the palace [government] and all who are in the military."
+      ],
+      "cop": [
+        "Ⲁⲣⲓⲫ̀ⲙⲉⲩ̀ⲓ Ⲡϭⲟⲓⲥ ⲛ̀ⲛⲉⲛⲥ̀ⲛⲏⲟⲩ ⲙ̀ⲡⲓⲥⲧⲟⲥ ⲟⲩⲟϩ ⲛ̀ⲟⲣⲑⲟⲇⲟⲝⲟⲥ ⲉⲧϧⲉⲛ ⲡⲓⲡⲁⲗⲁⲧⲓⲟⲛ ⲛⲉⲙ ⲡⲓⲥ̀ⲧⲣⲁⲧⲉⲩⲙⲁ ⲧⲏⲣϥ."
+      ],
+      "ara": [
+        ""
+      ]
+    }
+  },
+  {
+    "user": "deacon",
+    "text": {
+      "eng": [
+        "Pray for the faithful and orthodox brethren in the palace [government] and for all the troops."
+      ],
+      "cop": [
+        "Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲱⲛ ⲉⲛ ⲧⲱ ⲡⲁⲗⲁⲧⲓⲱ ⲁ̀ⲇⲉⲗⲫⲱⲛ ⲡⲓⲥⲧⲱⲛ ⲕⲉ ⲟⲣⲑⲟⲇⲟⲝⲱⲛ ⲕⲉ ⲡⲁⲛⲧⲱⲛ ⲧⲱⲛ ⲥ̀ⲧⲣⲁⲧⲟⲡⲉⲧⲱⲛ."
+      ],
+      "ara": [
+        ""
+      ]
+    }
+  },
+  {
+    "user": "people",
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ"
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  } 
+   ]
+}

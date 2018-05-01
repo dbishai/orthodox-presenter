@@ -13,13 +13,13 @@
       },
       "text": {
         "cop": [
-          "Ⲁⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲛ̀ⲧ̀ⲥⲱⲧⲏⲣⲓⲁ ⲙ̀ⲡⲁⲓⲧⲟⲡⲟⲥ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲫⲁⲓ ⲛⲉⲙ ⲧⲟⲡⲟⲥ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ ⲛ̀ⲟⲣⲑⲟⲇⲟⲝⲟⲥ."
+          "Ⲁⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲙ̀ⲡⲁⲓⲧⲟⲡⲟⲥ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲫⲁⲓ: ⲛⲉⲙ ⲧⲟⲡⲟⲥ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ ⲛ̀ⲟⲣⲑⲟⲇⲟⲝⲟⲥ"
         ],
         "eng": [
-          "Remember, O Lord, the salvation of this Your holy place, and every place and every monastery of our orthodox fathers. "
+          "Remember, O Lord, this Your holy place, and every place and every monastery of our orthodox fathers. "
         ],
         "ara": [
-          "أُذكر يا رب خلاص هذا الموضع المقدس الذي لك، وكل المواضع وكل أديرة آبائنا الأرثوذكسيين "
+          ""
         ]
       }
     },
@@ -65,15 +65,33 @@
       "user": "priest",
       "text": {
         "cop": [
-          "Ⲛⲉⲙ ⲛⲏⲉⲧϣⲟⲡ ⲛ̀ϧⲏⲧⲟⲩ ⲡⲓⲛⲁϩϯ ⲛ̀ⲧⲉ Ⲫ̀ⲛⲟⲩϯ.  "
+          "Ⲛⲉⲙ ⲡⲟⲗⲓⲥ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲭⲱⲣⲁ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲛⲓϯⲙⲓ: ⲛⲉⲙ ⲡⲟⲩⲥⲟⲗⲥⲉⲗ ⲧⲏⲣϥ. Ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ ⲧⲏⲣⲉⲛ ⲉ̀ⲃⲟⲗ ϩⲁ ⲟⲩϩ̀ⲃⲱⲛ ⲛⲉⲙ ⲟⲩⲙⲟⲩ ⲛⲉⲙ ⲟⲩⲙⲟⲛⲙⲉⲛ ⲛⲉⲙ ⲟⲩⲕⲁⲧⲁⲡⲟⲛⲧⲓⲥⲙⲟⲥ ⲛⲉⲙ ⲟⲩⲭ̀ⲣⲱⲙ ⲛⲉⲙ ⲟⲩⲉⲭⲙⲁⲗⲱⲥⲓⲁ ⲛ̀ⲧⲉ ϩⲁⲛⲃⲁⲣⲃⲁⲣⲟⲥ: ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲧ̀ⲥⲏϥⲓ ⲛ̀ⲧⲉ ⲡⲓϣⲉⲙⲙⲟ: ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡ̀ϫⲓⲛⲧⲱⲛϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲧⲉ ϩⲁⲛϩⲉⲣⲉⲧⲓⲕⲟⲥ."
         ],
         "eng": [
-          "And those who dwell therein in God's faith"
+          "and every city and every country, and the villages, amd all their adornment. And save us all from famine, plague, earthquakes, drowning, fire, captivity, by barbarians, the sword of the stranger, and the rising up of heretics."
         ],
         "ara": [
           ""
         ]
       }
-    }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲗⲁⲟⲥ",
+        "eng": "People",
+        "ara": "الشعب "
+      },
+      "text": {
+        "cop": [
+          "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+        ],
+        "eng": [
+          "Lord have mercy."
+        ],
+        "ara": [
+          " .يا ربُّ إرحَم"
+        ]
+      }
+    }    
   ]
 }

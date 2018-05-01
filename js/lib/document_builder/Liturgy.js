@@ -246,7 +246,7 @@ var Liturgy = {
         docs.push("prayers/responses/in_the_wisdom");
         docs.push("prayers/nicene_creed");
         docs.push("prayers/responses/service_intro");
-        docs.push("prayers/prayer_reconciliation");
+        docs.push("prayers/reconciliation_stbasil");
         docs.push("prayers/responses/greet_one_another_standard");
         docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful_come");
         docs.push("prayers/anaphora_stbasil");
@@ -291,6 +291,60 @@ var Liturgy = {
 
 
         return docs;
-    }
+    },  
+    StGregoryFaithful: function (attributes) {
+        var docs = [];
+        var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
+        var copticMonthIndex = copticDate.monthIndex;
+        var copticDay = copticDate.day;
+        docs.push("hymns/standard/response_gospel_standard_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
+        // docs.push("prayers/litanies/three_great_litanies");
+        docs.push("prayers/responses/in_the_wisdom");
+        docs.push("prayers/nicene_creed");
+        docs.push("prayers/responses/service_intro");
+        docs.push("prayers/reconciliation_stgregory");
+        docs.push("prayers/responses/greet_one_another_standard");
+        docs.push("hymns/hymn_intercessions_liturgy_of_the_faithful_come");
+        docs.push("prayers/anaphora_stgregory");
+        docs.push("prayers/prayer_agios_stgregory");
+        docs.push("prayers/institution_stgregory");
+        docs.push("hymns/standard/amen_amen_amen_your_death");
+        docs.push("prayers/therefore_as_we_also_1_stgregory");
+        docs.push("prayers/inaudible/epiclesis_stgregory");
+        docs.push("prayers/therefore_as_we_also_2_stgregory");
+        docs.push("prayers/yea_we_ask_you_stgregory");
+        docs.push("prayers/litanies/intro_seven_short_stgregory");
+        docs.push("prayers/litanies/fathers_liturgy_stgregory");
+        docs.push("prayers/litanies/clergy_stgregory");
+        docs.push("prayers/litanies/leaders");
+        docs.push("prayers/litanies/oblations_liturgy");
+        docs.push("prayers/litanies/captives");
+        docs.push("prayers/for_your_people_stgregory");
+        docs = docs.concat(season_litanies(attributes));
+        docs.push("prayers/healing_to_the_sick_stgregory");
+        docs.push("prayers/litanies/place_liturgy_stgregory");
+        docs.push("prayers/commemoration_stgregory");
+        docs.push("prayers/responses/may_their_holy_blessing_stgregory");
+        docs.push("prayers/responses/as_it_was");
+        docs.push("prayers/lead_us_throughout_stgregory");
+        docs.push("prayers/intro_fraction_stgregory");
+        return docs;
+
+    },
+    StCyrilFaithful: function (attributes) {
+        var docs = [];
+        var copticDate = CopticCalendar.getCopticDate(attributes.year, attributes.monthIndex, attributes.day);
+        var copticMonthIndex = copticDate.monthIndex;
+        var copticDay = copticDate.day;
+        docs.push("hymns/standard/response_gospel_standard_liturgy"); // This will need to be changed to the attributes.day to accommodate for other gospel responses
+        // docs.push("prayers/litanies/three_great_litanies");
+        docs.push("prayers/responses/in_the_wisdom");
+        docs.push("prayers/nicene_creed");
+        docs.push("prayers/responses/service_intro");
+
+        return docs;
+
+    },    
+
 }
 module.exports = Liturgy;
