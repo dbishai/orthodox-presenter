@@ -36,10 +36,9 @@ var DocumentBuilder = {
             }
         // Saturday 6PM - 8PM
         } else if (dayIndex == 6 && (18 < hour && hour < 20)) {
-                return Liturgy.Vespers(attributes);
-        } else {
-            return this.getAgpeyaHour(attributes);
+            return Liturgy.Vespers(attributes);
         }
+        return this.getAgpeyaHour(attributes);
     },
 
     build: function (category, attributes) {
@@ -57,9 +56,9 @@ var DocumentBuilder = {
             case SectionLoadConstants.DISTRIBUTION:
                 return Liturgy.StBasilDistribution(attributes);
             case SectionLoadConstants.ST_GREGORY_LITURGY_OF_THE_FAITHFUL:
-                return Liturgy.StGregoryFaithful(attributes);   
+                return Liturgy.StGregoryFaithful(attributes);
             case SectionLoadConstants.ST_CYRIL_LITURGY_OF_THE_FAITHFUL:
-                return Liturgy.StCyrilFaithful(attributes);                  
+                return Liturgy.StCyrilFaithful(attributes);
             case SectionLoadConstants.AGPEYA_1ST_HOUR:
                 return Agpeya.FirstHour(attributes);
             case SectionLoadConstants.AGPEYA_3RD_HOUR:

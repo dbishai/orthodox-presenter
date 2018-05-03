@@ -39,7 +39,8 @@ var TableOfContents = createReactClass({
     var allDocumentItems = this.state.allDocumentItems;
     for (var document in allDocumentItems) {
       var title = allDocumentItems[document].title.eng;
-      if (typeof title !== "undefined" && title !== "") {
+      var visible = allDocumentItems[document].visible;
+      if (typeof title !== "undefined" && title !== "" && visible !== "false") {
         tableOfContentsItems.push(<TableOfContentsItem key={i} id={idFormatter(title)} title={title} />);
         i++;
       }
