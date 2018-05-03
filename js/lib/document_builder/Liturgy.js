@@ -328,6 +328,14 @@ var Liturgy = {
         docs.push("prayers/responses/as_it_was");
         docs.push("prayers/lead_us_throughout_stgregory");
         docs.push("prayers/intro_fraction_stgregory");
+        docs.push("prayers/fractions/standard_stgregory");
+        docs.push("prayers/our_father");
+        docs.push("prayers/responses/in_christ_jesus_our_lord");
+        docs.push("prayers/prayer_before_confession");
+        docs.push("prayers/responses/one_is_the_holy_father_alt");
+        docs.push("prayers/responses/peace_be_with_all");
+        docs.push("prayers/prayer_before_confession_cont");
+        docs.push("prayers/the_confession");
         return docs;
 
     },
