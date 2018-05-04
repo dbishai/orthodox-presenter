@@ -1,0 +1,61 @@
+{
+    "title": {
+      "cop": "",
+      "eng": "Prayer of Reconciliation",
+      "ara": ""
+    },
+    "items": [
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            ""
+          ],
+          "eng": [
+            "O Author of life and King of the ages, O God, unto whom every knee bows, those in the heavens, those on earth, and those under the earth; to whom all are humbled and under the yoke of servitude, bowing the head to the scepter of His kingship;",
+            "who is glorified by the angelic hosts and the heavenly orders and the rational natures with unsilenced voice, declaring His Godhead. "
+          ],
+          "ara": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      {
+        "user": "deacon",
+        "text": {
+          "cop": [
+            "Ⲡⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲧⲉⲗⲓⲁⲥ ⲓ̀ⲣⲏⲛⲏⲥ ⲕⲉ ⲁ̀ⲅⲁⲡⲏⲥ ⲕⲉ ⲧⲱⲛ ⲁ̀ⲅⲓⲱⲛ ⲁⲥⲡⲁⲥⲙⲱⲛ ⲧⲱⲛ ⲁ̀ⲡⲟⲥⲧⲟⲗⲱⲛ."
+          ],
+          "eng": [
+            "Pray for perfect peace, love, and the holy apostolic greetings."
+          ],
+          "ara": [
+            ""
+          ]
+        }
+      },
+      {
+        "user": "people",
+        "text": "lord_have_mercy"
+      },
+      {
+        "user": "priest",
+        "text": {
+          "cop": [
+            "Ⲟⲩⲟϩ ⲁ̀ⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ⲧⲏⲣⲉⲛ ⲡⲉⲛⲛⲏⲃ: ⲉⲑⲣⲉⲛⲉⲣ ⲁⲥⲡⲁⲍⲉⲥⲑⲉ ⲛ̀ⲛⲉⲛⲉ̀ⲣⲏⲟⲩ ϧⲉⲛ ⲟⲩⲫⲓ ⲉⲥⲟⲩⲁⲃ. Ⲉⲡ̀ϫⲓⲛⲧⲉⲛϭⲓ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧϩⲓⲧⲧⲉⲛ ⲉ̀ⲡ̀ϩⲁⲡ: ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧⲉⲕⲇⲱⲣⲉⲁ̀ ⲛ̀ⲁⲑⲙⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲉ̀ⲡⲟⲩⲣⲁⲛⲓⲟⲛ.",
+            "Ϧⲉⲛ ⲫⲏⲉ̀ⲧⲉ ⲫⲱⲕ ⲛ̀ϩ̀ⲙⲟⲧ ⲛⲉⲙ ⲡ̀ϯⲙⲁϯ ⲙ̀Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ ⲛⲉⲙ ϯϫⲓⲛⲉⲣϩⲱⲃ ⲛ̀ⲧⲉ Ⲡⲉⲕⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ. Ⲛⲑⲟⲕ ⲅⲁⲣ ⲡⲉ ⲡⲓⲣⲉϥⲥⲁϩⲛⲓ ⲟⲩⲟϩ ⲫ̀ⲣⲉϥϯ ⲛ̀ⲛⲓⲁ̀ⲅⲁⲑⲟⲛ ⲧⲏⲣⲟⲩ."
+          ],
+          "eng": [
+            "And make us all worthy, O our Master, to greet one another with a holy kiss, that, without falling into condemnation, we may partake of Your immortal and heavenly gift",
+            "through Your grace and the good will of Your Father and the work of Your Holy Spirit. For You are the provider and giver of all goodness,"
+          ],
+          "ara": [
+            "",
+            ""
+          ]
+        }
+      }
+    ]
+  }
