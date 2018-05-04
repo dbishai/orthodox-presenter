@@ -186,13 +186,33 @@ var sections = {
             "title": "DEACONS",
             "load": SectionLoadConstants.AGPEYA_DEACONS
           },
-
         }
       }
     }
   },
   "3a": {
-    "id": "3a",
+    "id":"3a",
+    "title": "PSALMODY",
+    "node": {
+      "vesper_praises": {
+        "id": "vesper_praises",
+        "title": "VESPER PRAISES",
+        "load": SectionLoadConstants.VESPER_PRAISES
+      },
+      "midnight_praises": {
+        "id": "midnight_praises",
+        "title": "MIDNIGHT PRAISES",
+        "load": SectionLoadConstants.MIDNGIHT_PRAISES
+      },
+      "morning_praises": {
+        "id": "morning_praises",
+        "title": "MORNING PRAISES",
+        "load": SectionLoadConstants.MORNING_PRAISES
+      }, 
+    }
+  },
+  "4a": {
+    "id": "4a",
     "title": "SPECIAL",
     "node": {
       "pascha": {
@@ -596,6 +616,7 @@ var sections = {
 
 };
 */
+
 
 
 

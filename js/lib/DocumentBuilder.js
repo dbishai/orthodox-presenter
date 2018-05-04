@@ -2,6 +2,7 @@ var SectionLoadConstants = require('../constants/SectionLoadConstants');
 var Liturgy = require("./document_builder/Liturgy");
 var Agpeya = require("./document_builder/Agpeya");
 var Pascha = require("./document_builder/Pascha");
+var Psalmody = require("./document_builder/Psalmody");
 
 
 var DocumentBuilder = {
@@ -88,6 +89,12 @@ var DocumentBuilder = {
                 return Agpeya.Deacons(attributes);
             case SectionLoadConstants.AGPEYA_PRIESTS:
                 return Agpeya.Priests(attributes);
+            case SectionLoadConstants.VESPER_PRAISES:
+                return Psalmody.VesperPraises(attributes);
+            case SectionLoadConstants.MIDNGIHT_PRAISES:
+                return Psalmody.MidnightPraises(attributes);
+            case SectionLoadConstants.MORNING_PRAISES:
+                return Psalmody.MorningPraises(attributes);           
             case SectionLoadConstants.PASCHA_GENERAL_FUNERAL_PRAYER:
                 return Pascha.FuneralPascha(attributes);
             case SectionLoadConstants.PASCHA_SUN_9TH_HOUR:
