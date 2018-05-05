@@ -55,7 +55,6 @@ Please read [CONTRIBUTING](https://github.com/dbishai/orthodox-presenter/wiki/Co
 ## Authors
 
 * [@dbishai](https://github.com/dbishai)
-* [@abanoubg](https://github.com/AbanoubG)
 
 ## License
 

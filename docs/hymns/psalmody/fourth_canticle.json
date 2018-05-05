@@ -1,0 +1,103 @@
+{
+    "title": {
+        "cop": "Ⲥⲙⲟⲩ ⲉ̀Ⲡⲟ̅ⲥ̅",
+        "eng": "The Fourth Canticle"
+    },
+    "items": [
+        {
+            "text": {
+                "cop": [
+                    "Ⲥⲙⲟⲩ ⲉ̀Ⲡⲟ̅ⲥ̅ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ ⲁ̅ⲗ̅: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲁ̅ⲗ̅: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ ⲁ̅ⲗ̅: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲓⲟⲩⲱⲓⲛⲓ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲫⲏⲟⲩⲓ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ ⲁ̅ⲗ̅: ⲛⲉⲙ ⲛⲓⲕⲉⲙⲱⲟⲩ ⲉⲧⲥⲁ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ.",
+                    "Ⲙⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲁ̅ⲗ̅: ϫⲉ ⲛ̀ⲑⲟϥ ⲁϥϫⲟⲥ ⲟⲩⲟϩ ⲁϥϣⲱⲡⲓ.",
+                    "Ⲛⲑⲟϥ ⲁϥϩⲟⲛϩⲉⲛ ⲟⲩⲟϩ ⲁⲩⲥⲱⲛⲧ ⲁ̅ⲗ̅: ⲁϥⲧⲁϩⲱⲟⲩ ⲉ̀ⲣⲁⲧⲟⲩ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲛⲉϩ.",
+                    "Ⲁϥⲭⲱ ⲛ̀ⲟⲩϩⲱⲛ ⲟⲩⲟϩ ⲛ̀ⲛⲉϥⲥⲓⲛⲓ ⲁ̅ⲗ̅: ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲟ̅ⲥ̅ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ.",
+                    "Ⲛⲓⲇ̀ⲣⲁⲕⲱⲛ ⲛⲉⲙ ⲛⲓⲛⲟⲩⲛ ⲧⲏⲣⲟⲩ ⲁ̅ⲗ̅: ⲟⲩⲭ̀ⲣⲱⲙ ⲟⲩⲁⲗ ⲟⲩⲭⲓⲱⲛ ⲟⲩⲭ̀ⲣⲩⲥⲧⲁⲗⲗⲟⲥ ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲛ̀ⲥⲁⲣⲁⲑⲏⲟⲩ ⲛⲏⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲉϥⲥⲁϫⲓ.",
+                    "Ⲛⲓⲧⲱⲟⲩ ⲉⲧϭⲟⲥⲓ ⲛⲉⲙ ⲛⲓⲕⲁⲗⲁⲙⲫⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲁ̅ⲗ̅: ⲛⲓϣ̀ϣⲏⲛ ⲙ̀ϥⲁⲓⲟⲩⲧⲁϩ ⲛⲉⲙ ⲛⲓϣⲉⲛⲥⲓϥⲓ ⲧⲏⲣⲟⲩ.",
+                    "Ⲛⲓⲑⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲛⲓⲧⲉⲃⲛⲱⲟⲩⲓ ⲧⲏⲣⲟⲩ ⲁ̅ⲗ̅: ⲛⲓϭⲁⲧϥⲓ ⲛⲉⲙ ⲛⲓϩⲁⲗⲁϯ ⲉⲧⲟⲓ ⲛ̀ⲧⲉⲛϩ.",
+                    "Ⲛⲓⲟⲩⲣⲱⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ ⲛⲉⲙ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ ⲁ̅ⲗ̅: ⲛⲓⲁⲣⲭⲱⲛ ⲛⲉⲙ ⲛⲓⲣⲉϥϯϩⲁⲡ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ.",
+                    "Ϩⲁⲛϧⲉⲗϣⲓⲣⲓ ⲛⲉⲙ ϩⲁⲛⲡⲁⲣⲑⲉⲛⲟⲥ ⲁ̅ⲗ̅: ϩⲁⲛϧⲉⲗⲗⲟⲓ ⲛⲉⲙ ϩⲁⲛⲁ̀ⲗⲱⲟⲩⲓ.",
+                    "Ⲙⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲁ̅ⲗ̅: ϫⲉ ⲁϥϭⲓⲥⲓ ⲛ̀ϫⲉ ⲡⲉϥⲣⲁⲛ ⲙ̀ⲙⲁⲩⲁⲧϥ.",
+                    "Ⲡⲉϥⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ϣⲟⲡ ϩⲓϫⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲛⲉⲙ ⲛ̀ϩⲣⲏⲓ ϧⲉⲛ ⲧ̀ⲫⲉ ⲁ̅ⲗ̅: ϥ̀ⲛⲁϭⲓⲥⲓ ⲙ̀ⲡ̀ⲧⲁⲡ ⲛ̀ⲧⲉ ⲡⲉϥⲗⲁⲟⲥ.",
+                    "Ⲟⲩⲥ̀ⲙⲟⲩ ⲛ̀ⲧⲉ ⲛⲏⲉ̅ⲑ̅ⲩ̅ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ ⲁ̅ⲗ̅: ⲛⲉⲛϣⲏⲣⲓ ⲙ̀Ⲡⲓⲥ̅ⲗ̅ ⲡⲓⲗⲁⲟⲥ ⲉⲧϧⲉⲛⲧ ⲉ̀ⲣⲟϥ.",
+                    "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ϫⲱ ⲙ̀Ⲡⲟ̅ⲥ̅ ϧⲉⲛ ⲟⲩϫⲱ ⲙ̀ⲃⲉⲣⲓ ⲁ̅ⲗ̅: ϫⲉ ⲁ̀ⲣⲉ ⲡⲉϥⲥ̀ⲙⲟⲩ ϧⲉⲛ ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ.",
+                    "Ⲙⲁⲣⲉϥⲟⲩⲛⲟϥ ⲛ̀ϫⲉ Ⲡⲓⲥ̀ⲣⲁⲏⲗ ⲉ̀ϫⲉⲛ ⲫⲏⲉⲧⲁϥⲑⲁⲙⲓⲟϥ ⲁ̅ⲗ̅: ⲛⲉⲛϣⲏⲣⲓ ⲛ̀Ⲥⲓⲱⲛ ⲙⲁⲣⲟⲩⲑⲉⲗⲏⲗ ⲉ̀ϫⲉⲛ ⲡⲟⲩⲟⲣⲟ.",
+                    "Ⲙⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅ ϧⲉⲛ ⲟⲩⲭⲟⲣⲟⲥ ⲁ̅ⲗ̅: ϧⲉⲛ ⲟⲩⲕⲉⲙⲕⲉⲙ ⲛⲉⲙ ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ ⲙⲁⲣⲟⲩⲉⲣⲯⲁⲗⲓⲛ ⲉ̀ⲣⲟϥ.",
+                    "Ϫⲉ Ⲡⲟ̅ⲥ̅ ⲛⲁϯⲙⲁϯ ⲉ̀ϫⲉⲛ ⲡⲉϥⲗⲁⲟⲥ ⲁ̅ⲗ̅: ϥ̀ⲛⲁϭⲓⲥⲓ ⲛ̀ⲛⲓⲣⲉⲙⲣⲁⲩϣ ϧⲉⲛ ⲟⲩⲟⲩϫⲁⲓ.",
+                    "Ⲉⲩⲉ̀ϣⲟⲩϣⲟⲩ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ ⲛⲏⲉ̅ⲑ̅ⲩ̅ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲁ̅ⲗ̅: ⲉⲩⲉⲑⲉⲗⲏⲗ ⲙ̀ⲙⲱⲟⲩ ϩⲓϫⲉⲛ ⲛⲟⲩⲙⲁⲛ̀ⲉⲛⲕⲟⲧ.",
+                    "Ⲛⲓϭⲓⲥⲓ ⲛ̀ⲧⲉ Ⲫϯ ⲉⲧⲭⲏ ϧⲉⲛ ⲧⲟⲩϣ̀ⲃⲱⲃⲓ ⲁ̅ⲗ̅: ϩⲁⲛⲥⲏϥⲓ ⲛ̀ⲣⲟⲥ̀ⲛⲁⲩ ⲉⲧⲭⲏ ϧⲉⲛ ⲛⲟⲩϫⲓϫ.",
+                    "Ⲉⲡ̀ϫⲓⲛⲓ̀ⲣⲓ ⲛ̀ⲟⲩϭⲓ ⲙ̀ⲡ̀ϣⲓϣ ϧⲉⲛ ⲛⲓⲉⲑⲛⲟⲥ ⲁ̅ⲗ̅: ⲛⲉⲙ ϩⲁⲛⲥⲟϩⲓ ϧⲉⲛ ⲛⲓⲗⲁⲟⲥ.",
+                    "Ⲉⲡ̀ϫⲓⲛⲥⲱⲛϩ ⲛ̀ϩⲁⲛⲟⲩⲣⲱⲟⲩ ϧⲉⲛ ϩⲁⲛⲡⲉⲇⲏⲥ ⲁ̅ⲗ̅: ⲛⲉⲙ ⲛⲏⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲧⲱⲟⲩ ϧⲉⲛ ϩⲁⲛⲡⲉⲇⲏⲥ ⲛ̀ϫⲓϫ ⲙ̀ⲃⲉⲛⲓⲡⲓ.",
+                    "Ⲉⲡ̀ϫⲓⲛⲓ̀ⲣⲓ ⲛ̀ϧⲏⲧⲟⲩ ⲛ̀ⲟⲩϩⲁⲡ ⲉϥⲥ̀ⲏⲟⲩⲧ ⲁ̅ⲗ̅: ⲡⲁⲓⲱ̀ⲟⲩ ⲫⲁⲓ ⲁϥϣⲟⲡ ϧⲉⲛ ⲛⲏⲉ̅ⲑ̅ⲩ̅ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ.",
+                    "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲥⲙⲟⲩ ⲉ̀Ⲫⲛⲟⲩϯ ϧⲉⲛ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲡⲓⲧⲁϫⲣⲟ ⲛ̀ⲧⲉ ⲧⲉϥϫⲟⲙ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲉ̀ϩ̀ⲣⲏⲓ ϩⲓϫⲉⲛ ⲧⲉϥⲙⲉⲧϫⲱⲣⲓ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲕⲁⲧⲁ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲧⲉϥⲙⲉⲧⲛⲓϣϯ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲥⲁⲗⲡⲓⲅⲅⲟⲥ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲟⲩⲕⲩⲑⲁⲣⲁ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲉⲙⲕⲉⲙ ⲛⲉⲙ ϩⲁⲛⲭⲟⲣⲟⲥ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲁⲡ ⲛⲉⲙ ⲟⲩⲟⲣⲅⲁⲛⲟⲛ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲩⲙⲃⲁⲗⲟⲛ ⲉ̀ⲛⲉⲥⲉ ⲧⲟⲩⲥ̀ⲙⲏ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲥⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲩⲙⲃⲁⲗⲟⲛ ⲛ̀ⲧⲉ ⲟⲩⲉ̀ϣ̀ⲗⲏⲗⲟⲩⲓ̀. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲛⲓϥⲓ ⲛⲓⲃⲉⲛ ⲙⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡϭⲟⲓⲥ Ⲡⲉⲛⲛⲟⲩϯ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ ⲁ̀ⲅⲓⲱ ⲡ̀ⲛⲉⲩⲁⲙⲧⲓ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ ⲁ̀ⲙⲏⲛ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. Ⲇⲟⲝⲁ ⲥⲓ ⲟ Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. Ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ. ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.",
+                    "Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡϣⲏⲣⲓ ⲙ̀Ⲫϯ ⲭⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ ⲟⲩⲟϩ ⲛⲁⲓ ⲛⲁⲛ."
+
+                ],
+                "eng": [
+                    "Praise the Lord from the heavens: Alleluia. Praise Him in the heights.",
+                    "Praise Him, all His angels: Alleluia. Praise Him, all His hosts.",
+                    "Praise Him, sun and moon: Alleluia. Praise Him all you stars of light.",
+                    "Praise Him you heavens of heavens: Alleluia. And you waters above the heavens.",
+                    "Let them praise the name of the Lord: Alleluia. For He commanded and they were created.",
+                    "He has ordered and they were created: Alleluia. He has established them forever and ever.",
+                    "He has made a decree which shall not pass away: Alleluia. Praise the Lord from the earth.",
+                    "You great sea creatures and all the depths: Alleluia. Fire and hail, snow and clouds, and stormy wind, fulfilling His word.",
+                    "Mountains and all hills: Alleluia. Fruitful trees and all cedars.",
+                    "Beasts and all cattle: Alleluia. Creeping things and flying birds.",
+                    "Kings of the earth and all people: Alleluia. Princes and all judges of the earth.",
+                    "Both young men and maidens: Alleluia. Old men and children.",
+                    "Let them praise the name of the Lord: Alleluia. For His name alone is exalted.",
+                    "His glory is above the earth and heaven: Alleluia. And He has exalted the horn of His people.",
+                    "The praise of all His saints: Alleluia. The children of Israel, a people near unto Him.",
+                    "Alleluia, Alleluia, Alleluia. Sing to the Lord a new song: Alleluia. And His praise in the congregation of the saints.",
+                    "Let Israel rejoice in their maker: Alleluia. Let the children of Zion be joyful in their King.",
+                    "Let the praise His name in the chorus: Alleluia. Let them sing praises unto Him with timbrel and harp.",
+                    "For the Lord takes pleasure in His people: Alleluia. He will raise the meek with salvation.",
+                    "Let the saints be joyful in glory: Alleluia. Let them sing aloud on their beds.",
+                    "Let the high praises of God be in their mouth: Alleluia. And a two edged sword in their hand.",
+                    "To execute vengeance on the nations: Alleluia. And punishments on the people.",
+                    "To bind their kings with chains: Alleluia. And their nobles with fetters of iron.",
+                    "To execute on them the written judgement: Alleluia. This honor have all His saints.",
+                    "Alleluia, Alleluia, Alleluia. Praise God in all His saints. Alleluia.",
+                    "Praise Him, in the firmament of His power. Alleluia.",
+                    "Praise Him, for His mighty acts. Alleluia.",
+                    "Praise Him, according to the multitudes of His greatness. Alleluia.",
+                    "Praise Him, with the sound of the trumpet. Alleluia.",
+                    "Praise Him, with psaltery and harp. Alleluia.",
+                    "Praise Him, with timbrel and chorus. Alleluia.",
+                    "Praise Him, with strings and organs. Alleluia.",
+                    "Praise Him with pleasant sounding cymbals. Alleluia.",
+                    "Praise Him, upon the cymbals of joy. Alleluia.",
+                    "Let everything that has breath praise the name of the Lord our God. Alleluia",
+                    "Glory to the Father and to the Son and to the Holy Spirit. Alleluia.",
+                    "Now and ever and unto the ages of the ages. Amen. Alleluia.",
+                    "Alleluia. Alleluia. Glory to You, our God. Alleluia.",
+                    "Alleluia. Alleluia. Glory be to You our God. Alleluia.",
+                    "O Jesus Christ, the Son of God, hear us and have mercy upon us."                    
+                    
+                ],
+                "ara": [
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        }
+    ]
+}
