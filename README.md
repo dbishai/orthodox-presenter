@@ -9,10 +9,7 @@ Orthodox Presenter is an open source web application designed for use in Coptic 
 
 - [git](https://git-scm.com/)
 
-- [Node JS](https://nodejs.org/en/)
-
-- [local-web-server package](https://www.npmjs.com/package/local-web-server)
-
+- [npm](https://www.npmjs.com/)
 
 ### Installation
 
@@ -34,12 +31,13 @@ Start the build process
 npm start
 ```
 
-Launch local-web-server in another terminal
+Launch local-web-server from the root directory in another terminal
 
 ```
 ws
 ```
 
+Open [localhost:8000](localhost:8000) in a browser
 
 ## Built With
 
@@ -50,11 +48,6 @@ ws
 ## Contributing
 
 Please read [CONTRIBUTING](https://github.com/dbishai/orthodox-presenter/wiki/Contributing) before submitting pull requests.
-
-
-## Authors
-
-* [@dbishai](https://github.com/dbishai)
 
 ## License
 

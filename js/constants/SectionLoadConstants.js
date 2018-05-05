@@ -28,7 +28,7 @@ module.exports = keyMirror({
     AGPEYA_DEACONS: null,
     AGPEYA_SPECIAL: null,
     VESPER_PRAISES: null,
-    MIDNGIHT_PRAISES: null,
+    MIDNIGHT_PRAISES: null,
     MORNING_PRAISES: null,
     PASCHA: null,
     PASCHA_SUNDAY: null,

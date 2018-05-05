@@ -91,7 +91,7 @@ var DocumentBuilder = {
                 return Agpeya.Priests(attributes);
             case SectionLoadConstants.VESPER_PRAISES:
                 return Psalmody.VesperPraises(attributes);
-            case SectionLoadConstants.MIDNGIHT_PRAISES:
+            case SectionLoadConstants.MIDNIGHT_PRAISES:
                 return Psalmody.MidnightPraises(attributes);
             case SectionLoadConstants.MORNING_PRAISES:
                 return Psalmody.MorningPraises(attributes);           
