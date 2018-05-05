@@ -1,0 +1,48 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": {
+        "cop": "Ⲡⲓⲟⲩⲏⲃ",
+        "eng": "Priest",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "cop": [
+          "Ϩⲓⲛⲁ ⲛⲉⲙ ϧⲉⲛ ⲫⲁⲓ ⲕⲁⲧⲁ ⲫ̀ⲣⲏϯ ⲟⲛ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉϥϭⲓⲱ̀ⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥϭⲓⲥ̀ⲙⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥϭⲓⲥⲓ: ⲛ̀ϫⲉ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲣⲁⲛ ⲉⲑⲟⲩⲁⲃ: ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲟⲩⲟϩ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ: ⲛⲉⲙ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ ⲡⲉⲕⲙⲉⲛⲣⲓⲧ ⲛ̀Ϣⲏⲣⲓ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ.",
+          "Ⲓⲣⲏⲛⲏ ⲡⲁⲥⲓ."
+        ],
+        "eng": [
+          "That as in this, so also in all things, Your great and holy name be glorified, blessed, and exalted in everything, honored and blessed with Jesus Christ, Your beloved Son, and the Holy Spirit.",
+          "Peace be with all."
+        ],
+        "ara": [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲗⲁⲟⲥ",
+        "eng": "People",
+        "ara": "الشعب "
+      },
+      "text": {
+        "cop": [
+          "Ⲕⲉ ⲧⲱ ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ ⲥⲟⲩ."
+        ],
+        "eng": [
+          "And with your spirit."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    }
+  ]
+}

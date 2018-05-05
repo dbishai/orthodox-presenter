@@ -1,0 +1,101 @@
+{
+  "title": {
+    "eng": "Litany of the Captives",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "Remember, O Lord, those who dwell in the mountains and the caves, and our brethren who are in captivity."
+        ],
+        "cop": [
+          "Ⲁⲣⲓⲫ̀ⲙⲉⲩ̀ⲓ Ⲡϭⲟⲓⲥ ⲛ̀ⲛⲏⲉⲧϣⲟⲡ ϧⲉⲛ ⲛⲓⲧⲱⲟⲩ ⲛⲉⲙ ⲛⲓⲥ̀ⲡⲏⲗⲉⲟⲛ: ⲟⲩⲟϩ ⲛⲉⲛⲥ̀ⲛⲏⲟⲩ ⲉⲧϧⲉⲛ ⲛⲓⲉⲭⲙⲁⲗⲱⲥⲓⲁ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "deacon",
+      "text": {
+        "eng": [
+          "Pray for the captives."
+        ],
+        "cop": [
+          "Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲱⲛ ⲉⲭⲙⲁⲗⲱⲧⲱⲛ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user":"people",
+      "text": "lord_have_mercy"
+  },
+  {
+    "user": "priest",
+    "text": {
+      "eng": [
+        "Grant them a peaceful return into their own."
+      ],
+      "cop": [
+        "Ⲁⲣⲓϩ̀ⲙⲟⲧ ⲛⲱⲟⲩ ⲉ̀ϩⲁⲛϫⲓⲛⲧⲁⲥⲑⲟ ⲛ̀ϩⲓⲣⲏⲛⲓⲕⲟⲛ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲛⲏⲉ̀ⲧⲉ ⲛⲟⲩⲟⲩ."
+      ],
+      "ara": [
+        ""
+      ]
+    }
+  },
+  {
+    "user": "deacon",
+    "text": {
+      "eng": [
+        "Bow before God in fear."
+      ],
+      "cop": [
+        "Ⲕⲗⲓⲛⲁⲧⲉ Ⲑⲉⲱ̀ ⲙⲉⲧⲁ ⲫⲟⲃⲟⲩ."
+      ],
+      "ara": [
+        ""
+      ]
+    }
+  },
+  {
+    "user": "deacon",
+    "text": {
+      "eng": [
+        "Worship the Lamb, the Logos of God."
+      ],
+      "cop": [
+        "Ⲟⲩⲱϣⲧ ⲙ̀Ⲡⲓϩⲓⲏⲃ ⲛ̀ⲗⲟⲅⲟⲥ ⲛ̀ⲧⲉ Ⲫⲛⲟⲩϯ."
+      ],
+      "ara": [
+        ""
+      ]
+    }
+  },  
+  {
+    "user": "people",
+    "text": {
+      "eng": [
+        "Have mercy upon us, O God, our Savior.",
+        "Have mercy upon us, O God, our Savior.",
+        "Have mercy upon us, O God, our Savior."
+      ],
+      "cop": [
+        "Ⲉⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ ⲟ̀ Ⲑⲉⲟⲥ ⲟ̀ ⲥⲱⲧⲏⲣ ⲏ̀ⲙⲱⲛ.",
+        "Ⲉⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ ⲟ̀ Ⲑⲉⲟⲥ ⲟ̀ ⲥⲱⲧⲏⲣ ⲏ̀ⲙⲱⲛ.",
+        "Ⲉⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ ⲟ̀ Ⲑⲉⲟⲥ ⲟ̀ ⲥⲱⲧⲏⲣ ⲏ̀ⲙⲱⲛ."
+      ],
+      "ara": [
+        ""
+        ]
+      }
+    }  
+  ]
+}

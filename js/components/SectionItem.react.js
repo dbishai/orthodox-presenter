@@ -14,17 +14,10 @@ var SectionItem = createReactClass({
     },
 
     getInitialState: function () {
-        var states = {
-            isLeaf: false,
-            loadDoc: false
+        return {
+            isLeaf: typeof this.props.sectionItem["node"] === 'undefined',
+            loadDoc: typeof this.props.sectionItem["load"] != 'undefined'
         }
-        if (typeof this.props.sectionItem["node"] === 'undefined') {
-            states.isLeaf = true;
-        }
-        if (typeof this.props.sectionItem["load"] != 'undefined') {
-            states.loadDoc = true;
-        }
-        return states;
     },
 
     componentDidMount: function () {
@@ -55,6 +48,10 @@ var SectionItem = createReactClass({
     _onClick: function () {
         var sectionItem = this.props.sectionItem;
         var attributes = this.props.attributes;
+        if (attributes.autoLoad) {
+            NavActions.setState("autoLoad");
+        }
+
         if (typeof sectionItem["node"] != 'undefined') {
             NavActions.next(sectionItem.id);
         } else if (this.state.loadDoc && this.state.isLeaf) {

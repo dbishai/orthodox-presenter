@@ -33,7 +33,7 @@ var MainSection = createReactClass({
    */
   render: function () {
     var allDocumentItems = this.state.allDocumentItems;
-    if (allDocumentItems.length < 1) {
+    if (allDocumentItems == null || allDocumentItems.length < 1) {
       return null;
     }
     var langStates = {

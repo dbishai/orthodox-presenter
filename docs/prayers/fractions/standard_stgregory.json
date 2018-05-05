@@ -1,0 +1,48 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "Standard Gregorian Fraction",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": {
+        "cop": "Ⲡⲓⲟⲩⲏⲃ",
+        "eng": "Priest",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "cop": [
+          "Ⲕⲥ̀ⲙⲁⲣⲱⲟⲩⲧ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ: ⲡⲓⲣⲉϥⲥⲱϯ ⲛ̀ⲧⲉ ⲑⲏⲉ̀ⲧⲉ ⲑⲱⲕ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ: ⲱ̀ ⲡⲓⲗⲟⲅⲟⲥ ⲉ̀ⲧⲟⲩⲉⲣⲛⲟⲓⲛ ⲙ̀ⲙⲟϥ: ⲟⲩⲟϩ ⲫ̀ⲣⲱⲙⲓ ⲉ̀ⲧⲟⲩⲉⲣⲑⲉⲑ̀ⲣⲓⲛ ⲙ̀ⲙⲟϥ.",
+          "Ⲫⲏⲉ̀ⲧⲉ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡⲉⲕϫⲓⲛϭⲓⲥⲁⲣⲝ ⲛ̀ⲧⲁϣ̀ⲧⲁϩⲟϥ ⲁⲕⲥⲟⲃϯ ⲛⲁⲛ ⲛ̀ⲟⲩⲱⲓⲕ ⲛ̀ⲧⲉ ⲧ̀ⲫⲉ: ⲡⲁⲓⲥⲱⲙⲁ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲫⲁⲓ: ⲉⲧϧⲉⲛ ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲟⲩⲟϩ ⲉⲑⲟⲩⲁⲃ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ.",
+          "Ⲁⲕⲑⲱⲧ ⲛⲁⲛ ⲛ̀ⲟⲩⲁ̀ⲫⲟⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲟⲩⲃⲱ ⲛ̀ⲁ̀ⲗⲟⲗⲓ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ: ⲉ̀ⲧⲉ ⲡⲉⲕⲥ̀ⲫⲓⲣ ⲛ̀ⲛⲟⲩϯ ⲡⲉ ⲟⲩⲟϩ ⲛ̀ⲁⲧⲑⲱⲗⲉⲃ. Ⲫⲁⲓ ⲉ̀ⲧⲉ ⲙⲉⲛⲉⲛⲥⲁ ⲑ̀ⲣⲉⲕϯ ⲙ̀ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲁϥϧⲁϯ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ ⲛ̀ϫⲉ ⲟⲩⲙⲱⲟⲩ ⲛⲉⲙ ⲟⲩⲥ̀ⲛⲟϥ: ⲛⲁⲓ ⲉⲧⲟⲓ ⲙ̀ⲙⲁⲛ̀ⲧⲟⲩⲃⲟ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ ⲧⲏⲣϥ.",
+          "Ϫⲫⲟⲛ ⲛⲁⲕ ⲡⲓⲁ̀ⲅⲁⲑⲟⲥ ϧⲁ ⲛⲉⲕⲉ̀ⲃⲓⲁⲓⲕ ⲛ̀ⲁⲧⲉⲙⲡ̀ϣⲁ. Ⲙⲁⲑⲁⲙⲓⲟⲛ ⲛⲁⲕ ⲛ̀ⲟⲩⲗⲁⲟⲥ ⲉϥⲑⲟⲩⲏⲧ: ⲟⲩⲙⲉⲧⲟⲩⲣⲟ: ⲟⲩⲙⲉⲧⲟⲩⲏⲃ ⲟⲩϣ̀ⲗⲟⲗ ⲉϥⲟⲩⲁⲃ.",
+          "Ⲙⲁⲧⲟⲩⲃⲟⲛ ϩⲱⲛ ⲡⲉⲛⲛⲏⲃ ⲙ̀ⲫⲣⲏϯ ⲉ̀ⲧⲁⲕⲉⲣⲁ̀ⲅⲓⲁⲍⲓⲛ ⲛ̀ⲛⲁⲓⲇⲱⲣⲟⲛ ⲛⲁⲓ ⲉⲧⲭⲏ ⲉ̀ϧ̀ⲣⲏⲓ ⲟⲩⲟϩ ⲁⲕⲑ̀ⲣⲟⲩϣⲱⲡⲓ ⲛ̀ⲁ̀ⲟⲣⲁⲧⲟⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉ̀ⲧⲟⲩⲛⲁⲩ ⲉ̀ⲣⲱⲟⲩ: ⲟⲩⲟϩ ⲙ̀ⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉ̀ⲧⲟⲩⲉⲣⲛⲟⲓⲛ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ⲧⲁⲕ: Ⲡⲉⲛϭⲟⲓⲥ ⲟⲩⲟϩ Ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲡⲉⲛⲥⲱⲧⲏⲣ Ⲓⲏⲥⲟⲩⲥ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ.",
+          "Ⲛⲑⲟⲕ ⲅⲁⲣ ⲉⲑⲃⲉ ⲛⲉⲕⲙⲉⲧϣⲁⲛⲑ̀ⲙⲁϧⲧ ⲉⲧⲟϣ: ⲁⲕⲑ̀ⲣⲉⲛⲉⲣⲡ̀ⲉⲙⲡ̀ϣⲁ ⲛ̀ϯⲙⲉⲧϣⲏⲣⲓ ⲧⲏⲣⲉⲛ ϩⲓⲧⲉⲛ ⲡⲓⲱⲙⲥ ⲉⲑⲟⲩⲁⲃ. Ⲁⲕϯⲥ̀ⲃⲱ ⲛⲁⲛ ⲛ̀ⲛⲓⲧⲩⲡⲟⲥ ⲛ̀ⲧⲉ ϯⲡ̀ⲣⲟⲥⲉⲩⲭⲏ ⲉⲧϧⲉⲛ ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟⲛ: ⲉⲑⲣⲉⲛⲧⲱⲃϩ ⲙ̀Ⲡⲉⲕⲓⲱⲧ ⲛ̀ϧⲏⲧⲥ.",
+          "Ⲛⲑⲟⲕ ⲟⲛ ϯⲛⲟⲩ ⲡⲉⲛⲛⲏⲃ ⲁ̀ⲣⲓⲧⲉⲛ ⲛ̀ⲉⲙⲡ̀ϣⲁ ϧⲉⲛ ⲟⲩⲥⲩⲛⲓⲇⲏⲥⲓⲥ ⲉⲥⲧⲟⲩⲃⲏⲟⲩⲧ: ⲛⲉⲙ ⲟⲩⲙⲉⲩ̀ⲓ ⲉ̀ⲛⲁⲛⲉϥ ⲉϥⲉⲣⲡ̀ⲣⲉⲡⲓ ⲛ̀ⲛⲓϣⲏⲣⲓ: ⲛⲉⲙ ⲟⲩϭⲓϣϣⲱⲟⲩ: ⲛⲉⲙ ⲟⲩⲡⲁⲣⲣⲏⲥⲓⲁ. Ⲉⲑⲣⲉⲛⲉⲣⲧⲟⲗⲙⲁⲛ ⲉ̀ⲱϣ ⲟⲩⲃⲉ Ⲫⲛⲟⲩϯ Ⲡⲉⲕⲓⲱⲧ ⲉⲑⲟⲩⲁⲃ ⲉⲧϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ ⲟⲩⲟϩ ⲉ̀ϫⲟⲥ.",
+          "Ϫⲉ Ⲡⲉⲛⲓⲱⲧ..."
+        ],
+        "eng": [
+          "Blessed are You, O Christ our God, the Pantocrator, Savior of Your Church, O Logos who can be perceived and Man that can be seen,",
+          "who through Your incomprehensible incarnation have prepared for us the Bread of Heaven- this Your Holy Body which is mystical and holy in every way.",
+          "You have mixed for us a cup from a true vine, Your unblemished divine side, which, after after You had given up the spirit, flowed for us blood and water, and became purification for the whole world.",
+          "Acquire us to Yourself, O Good One, we Your undeserving servants. Make us for Yourself an assembled people, a kingdom, a priesthood, and a holy nation.",
+          "Purify us also, O our Master, as You have sanctified these gifts set forth, which You have made unseen out of those things which are seen and to be Your perceptible Mysteries, O our Lord, God, and Savior Jesus Christ.",
+          "For because of the multitude of Your compassions, You have made us all worthy of sonship through Holy Baptism. You have taught us types of mystical prayer, so that we may entreat Your Father thereby.",
+          "You also now, O our Master, make us worthy, that with a pure conscience and good thoughts that befit sons, and with yearning and boldness, we may dare to cry to God, Your holy Father who is in the heavens, and say:",
+          "Our Father..."
+        ],
+        "ara": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    }
+  ]
+}

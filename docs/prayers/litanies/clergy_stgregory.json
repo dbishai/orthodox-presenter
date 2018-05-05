@@ -1,0 +1,51 @@
+{
+  "title": {
+    "eng": "Litany of the Clergy",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "And for those who are in this place, and those who have fallen asleep, the bishops, hegumens, priests, deacons, and subdeacons."
+        ],
+        "cop": [
+          "Ⲛⲉⲙ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲛⲏⲉⲧϣⲟⲡ ⲙ̀ⲡⲁⲓⲙⲁ: ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲁⲩⲉⲛⲕⲟⲧ. Ⲛⲓⲉ̀ⲡⲓⲥⲕⲟⲡⲟⲥ: ⲛⲓϩⲏⲅⲟⲩⲙⲉⲛⲟⲥ: ⲛⲓⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ: ⲛⲓⲇⲓⲁⲕⲱⲛ: ⲛⲓϩⲩⲡⲟⲇⲓⲁⲕⲱⲛ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "deacon",
+      "text": {
+        "eng": [
+          "Pray for the hegumens, priests, deacons, subdeacons, and the seven orders of the Church of God."
+        ],
+        "cop": [
+          "Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲱⲛ ⲏ̀ⲅⲟⲩⲙⲉⲛⲱⲛ ⲕⲉ ⲡ̀ⲣⲉⲥⲃⲩⲧⲉⲣⲱⲛ ⲕⲉ ⲇⲓⲁⲕⲟⲛⲱⲛ ⲕⲉ ⲩ̀ⲡⲟⲇⲓⲁⲕⲱⲛⲱⲛ ⲉⲡⲧⲁ ⲧⲁⲅⲙⲁⲧⲱⲛ ⲧⲟ Ⲑⲉⲟⲩ ⲧⲏⲥ Ⲉⲕⲕⲗⲏⲥⲓⲁⲥ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+    "text": {
+      "eng": [
+        "Lord have mercy."
+      ],
+      "cop": [
+        "Ⲕⲩⲣⲓⲉ ⲉⲗⲉⲏ̀ⲥⲟⲛ"
+      ],
+      "ara":[
+        " .يا ربُّ إرحَم"
+      ]
+    }
+  }
+  ]
+}

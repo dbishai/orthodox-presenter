@@ -24,7 +24,8 @@ Attributes = {
     monthIndex: today.month(),
     year: today.year(),
     time: today.hours(),
-    fontScale: 1
+    fontScale: 1,
+    autoLoad: true
 };
 
 var setState = function (state) {

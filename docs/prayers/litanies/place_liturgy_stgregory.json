@@ -1,0 +1,97 @@
+{
+  "title": {
+    "cop": "",
+    "eng": "Litany of the Place",
+    "ara": " أُذكر يا رب خلاص هذا "
+  },
+  "items": [
+    {
+      "user": {
+        "cop": "Ⲡⲓⲟⲩⲏⲃ",
+        "eng": "Priest",
+        "ara": " الكاهن "
+      },
+      "text": {
+        "cop": [
+          "Ⲁⲣⲓⲫ̀ⲙⲉⲩⲓ Ⲡ̀ϭⲟⲓⲥ ⲙ̀ⲡⲁⲓⲧⲟⲡⲟⲥ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲫⲁⲓ: ⲛⲉⲙ ⲧⲟⲡⲟⲥ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ ⲛ̀ⲟⲣⲑⲟⲇⲟⲝⲟⲥ"
+        ],
+        "eng": [
+          "Remember, O Lord, this Your holy place, and every place and every monastery of our orthodox fathers. "
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲇⲓⲁⲕⲱⲛ",
+        "eng": "Deacon",
+        "ara": " الشماس "
+      },
+      "text": {
+        "cop": [
+          "Ⲡⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ ⲩ̀ⲡⲉⲣ ⲧⲏⲥ ⲥⲱⲧⲏⲣⲓⲁⲥ ⲧⲟⲩ ⲕⲟⲥⲙⲟⲩ ⲕⲉ ⲧⲏⲥ ⲡⲟⲗⲉⲱⲥ+ ⲏ̀ⲙⲱⲛ ⲧⲁⲩⲧⲏⲥ ⲕⲉ ⲡⲁⲥⲱⲛ ⲡⲟⲗⲉⲱⲛ ⲕⲉ ⲧⲱⲛ ⲭⲱⲣⲱⲛ ⲕⲉ ⲛⲏⲥⲱⲛ ⲕⲉ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ. ",
+          "+Ⲕⲉ ⲧⲟⲩ ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ ⲏ̀ⲙⲱⲛ ⲦⲟⲩⲦⲟⲩ "
+        ],
+        "eng": [
+          "Pray for the salvation of the this world and of this city+ of ours and of all cities, districts, islands, and monasteries. ",
+          "\"This monastery of ours\" is said in the monasteries instead of the cities."
+        ],
+        "ara": [
+          " صلوا من أجل خلاص هذا العالم ومدينتنا هذة، وسائر المدن والأقاليم والجزائر والأديرة  "
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲗⲁⲟⲥ",
+        "eng": "People",
+        "ara": "الشعب "
+      },
+      "text": {
+        "cop": [
+          "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+        ],
+        "eng": [
+          "Lord have mercy."
+        ],
+        "ara": [
+          " .يا ربُّ إرحَم"
+        ]
+      }
+    },
+    {
+      "user": "priest",
+      "text": {
+        "cop": [
+          "Ⲛⲉⲙ ⲡⲟⲗⲓⲥ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲭⲱⲣⲁ ⲛⲓⲃⲉⲛ: ⲛⲉⲙ ⲛⲓϯⲙⲓ: ⲛⲉⲙ ⲡⲟⲩⲥⲟⲗⲥⲉⲗ ⲧⲏⲣϥ. Ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ ⲧⲏⲣⲉⲛ ⲉ̀ⲃⲟⲗ ϩⲁ ⲟⲩϩ̀ⲃⲱⲛ ⲛⲉⲙ ⲟⲩⲙⲟⲩ ⲛⲉⲙ ⲟⲩⲙⲟⲛⲙⲉⲛ ⲛⲉⲙ ⲟⲩⲕⲁⲧⲁⲡⲟⲛⲧⲓⲥⲙⲟⲥ ⲛⲉⲙ ⲟⲩⲭ̀ⲣⲱⲙ ⲛⲉⲙ ⲟⲩⲉⲭⲙⲁⲗⲱⲥⲓⲁ ⲛ̀ⲧⲉ ϩⲁⲛⲃⲁⲣⲃⲁⲣⲟⲥ: ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲧ̀ⲥⲏϥⲓ ⲛ̀ⲧⲉ ⲡⲓϣⲉⲙⲙⲟ: ⲛⲉⲙ ⲉ̀ⲃⲟⲗϩⲁ ⲡ̀ϫⲓⲛⲧⲱⲛϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲧⲉ ϩⲁⲛϩⲉⲣⲉⲧⲓⲕⲟⲥ."
+        ],
+        "eng": [
+          "and every city and every country, and the villages, amd all their adornment. And save us all from famine, plague, earthquakes, drowning, fire, captivity, by barbarians, the sword of the stranger, and the rising up of heretics."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": {
+        "cop": "Ⲡⲓⲗⲁⲟⲥ",
+        "eng": "People",
+        "ara": "الشعب "
+      },
+      "text": {
+        "cop": [
+          "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+        ],
+        "eng": [
+          "Lord have mercy."
+        ],
+        "ara": [
+          " .يا ربُّ إرحَم"
+        ]
+      }
+    }    
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "title": {
+    "eng": "For Your People",
+    "cop": "",
+    "ara": ""
+  },
+  "items": [
+    {
+      "user": "priest",
+      "text": {
+        "eng": [
+          "For Your people and Your church ask You, and through You the Father with You, saying",
+          "Have mercy upon us, O God, our Savior.",
+          "Have mercy upon us, O God, our Savior.",
+          "Have mercy upon us, O God, our Savior.",
+          "Lord have mercy."
+        ],
+        "cop": [
+          "Ⲡⲉⲕⲗⲁⲟⲥ ⲅⲁⲣ ⲛⲉⲙ ⲧⲉⲕⲉⲕⲕ̀ⲗⲏⲥⲓⲁ ⲥⲉϯϩⲟ ⲉ̀ⲣⲟⲕ: ⲟⲩⲟϩ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧⲕ ⲉ̀Ⲫⲓⲱⲧ ⲛⲉⲙⲁⲕ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ.",
+          "Ϫⲉ ⲛⲁⲓ ⲛⲁⲛ Ⲫⲛⲟⲩϯ ⲡⲉⲛⲥⲱⲧⲏⲣ.",
+          "Ϫⲉ ⲛⲁⲓ ⲛⲁⲛ Ⲫⲛⲟⲩϯ ⲡⲉⲛⲥⲱⲧⲏⲣ.",
+          "Ϫⲉ ⲛⲁⲓ ⲛⲁⲛ Ⲫⲛⲟⲩϯ ⲡⲉⲛⲥⲱⲧⲏⲣ.",
+          "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    },
+    {
+      "user": "people",
+      "text": {
+      "eng": [
+        "Have mercy upon us, O God, our Savior.",
+        "Have mercy upon us, O God, our Savior.",
+        "Have mercy upon us, O God, our Savior."
+      ],
+      "cop": [
+        "Ⲉⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ ⲟ̀ Ⲑⲉⲟⲥ ⲟ̀ ⲥⲱⲧⲏⲣ ⲏ̀ⲙⲱⲛ.",
+        "Ⲉⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ ⲟ̀ Ⲑⲉⲟⲥ ⲟ̀ ⲥⲱⲧⲏⲣ ⲏ̀ⲙⲱⲛ.",
+        "Ⲉⲗⲉⲏ̀ⲥⲟⲛ ⲏ̀ⲙⲁⲥ ⲟ̀ Ⲑⲉⲟⲥ ⲟ̀ ⲥⲱⲧⲏⲣ ⲏ̀ⲙⲱⲛ."
+      ],
+      "ara":[
+        ""
+      ]
+    }
+  },
+  {
+    "user": "priest",
+    "text": {
+     "eng": [
+        "Grant Your people oneness of heart. Give dignity to the world, good temper to the air."
+        ],
+        "cop": [
+          "Ⲁⲣⲓϩ̀ⲙⲟⲧ ⲙ̀ⲡⲉⲕⲗⲁⲟⲥ ⲛ̀ϯⲙⲉⲧϩⲉⲧ ⲛ̀ⲟⲩⲱⲧ: ⲙⲟⲓ ⲛ̀ⲟⲩⲥⲉⲙⲛⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲟⲩⲑⲱⲧ ⲉ̀ⲛⲁⲛⲉϥ ⲙ̀ⲡⲓⲁ̀ⲏⲣ."
+        ],
+        "ara": [
+          ""
+        ]
+      }
+    }
+   ]
+}
