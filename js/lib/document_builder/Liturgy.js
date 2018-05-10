@@ -288,7 +288,9 @@ var Liturgy = {
         var docs = [];
         docs.push("prayers/distribution");
         docs.push("hymns/standard/psalm150_standard") // This will need to be changed to the attributes.day to accommodate for other occasions
-
+        docs.push("hymns/standard/ekesmarout_come")
+        docs.push("hymns/standard/pioik")
+        docs.push("hymns/standard/je_efesmarout")
 
         return docs;
     },  
