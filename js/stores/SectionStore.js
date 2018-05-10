@@ -164,7 +164,7 @@ var sections = {
           "communion": {
             "id": "communion",
             "title": "COMMUNION",
-            //"load" : "sp_communion"
+            "load" : SectionLoadConstants.AGPEYA_COMMUNION
           },
           "guidance": {
             "id": "guidance",

@@ -79,6 +79,8 @@ var DocumentBuilder = {
             */
             case SectionLoadConstants.AGPEYA_SELECTED_PRAYERS:
                 return Agpeya.SelectedPrayers(attributes);
+            case SectionLoadConstants.AGPEYA_COMMUNION:
+                return Agpeya.Communion(attributes);    
             case SectionLoadConstants.AGPEYA_MEALS:
                 return Agpeya.Meals(attributes);
             case SectionLoadConstants.AGPEYA_CONFESSION:
