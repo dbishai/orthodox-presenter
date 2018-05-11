@@ -1,0 +1,27 @@
+{
+    "title": {
+        "cop": "Ϫⲉ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ",
+        "eng": "Blessed be the Father",
+        "ara": ""
+    },
+    "items": [
+        {
+            "user": {
+                "cop": "Ⲡⲓⲗⲁⲟⲥ",
+                "eng": "People",
+                "ara": "الشعب "
+            },
+            "text": {
+                "cop": [
+                    "Ϫⲉ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ϫⲉ Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ Ⲉⲑⲟⲩⲁⲃ: Ϯⲧ̀ⲣⲓⲁⲥ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ: ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲥ ⲧⲉⲛϯⲱ̀ⲟⲩ ⲛⲁⲥ."
+                ],
+                "eng": [
+                    "Blessed be the Father and the Son, and the Holy Spirit, the perfect Trinity, we worship Him and glorify Him."
+                ],
+                "ara": [
+                    " .لأنه مبارك الآب والإبن، والروح القدس، الثالوث الكامل، نسجد له ونمجده "
+                ]
+            }
+        }
+    ]
+}

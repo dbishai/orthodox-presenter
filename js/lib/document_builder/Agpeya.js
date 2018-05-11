@@ -272,6 +272,16 @@ var Agpeya = {
         return docs;
 
     },
+
+    Communion: function (attributes) {
+        var docs = [];
+        docs.push("bookofhours/prayer_before_communion");
+        docs.push("bookofhours/prayer_after_communion");
+
+        return docs;
+
+    },    
+
     Guidance: function (attributes) {
         var docs = [];
         docs.push("bookofhours/prayer_guidance");
