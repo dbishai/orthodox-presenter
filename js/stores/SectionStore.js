@@ -135,7 +135,6 @@ var sections = {
         "id": "vespers",
         "title": "11TH HOUR",
         "load": SectionLoadConstants.AGPEYA_11TH_HOUR
-
       },
       "twelfth": {
         "id": "twelfth",
