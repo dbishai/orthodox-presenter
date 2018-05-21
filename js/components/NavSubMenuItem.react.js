@@ -13,6 +13,8 @@ var Slider = require('rc-slider').default;
 
 var classNames = require('classnames');
 
+var DEFAULT_FONT_SCALE = 2;
+
 var NavSubMenuItem = createReactClass({
 
   propTypes: {
@@ -26,7 +28,9 @@ var NavSubMenuItem = createReactClass({
     var monthIndex = this.props.attributes.monthIndex;
     return {
       inputDate: this.props.attributes.todayDate,
-      inputCopticDate: CopticCalendar.getCopticDateString(year, monthIndex, day)
+      inputCopticDate: CopticCalendar.getCopticDateString(year, monthIndex, day),
+      oldFontScale: this.props.attributes.fontScale,
+      scrollPosition: 0,
     }
   },
 
@@ -101,6 +105,12 @@ var NavSubMenuItem = createReactClass({
       case "mode":
         return (
           <div className="nav-sub-menu-item">
+            <button onClick={this._onClickLeft}>
+              left
+            </button>
+            <button onClick={this._onClickRight}>
+              right
+            </button>
             <div className="checkbox">
               <Toggle defaultChecked={this.props.attributes.presentationModeCheckbox}
                 onChange={this.handlePresentationModeCheckbox} aria-label="..." />
@@ -158,6 +168,7 @@ var NavSubMenuItem = createReactClass({
       (document.mozFullScreen || document.webkitIsFullScreen);
     var docElm = document.documentElement;
 
+
     if (!isInFullScreen && !checked) {
 
       if (docElm.requestFullscreen) {
@@ -170,6 +181,8 @@ var NavSubMenuItem = createReactClass({
         docElm.webkitRequestFullScreen();
       }
 
+      this.setState({ oldFontScale: this.props.attributes.fontScale });
+      this.setAttribute("fontScale", DEFAULT_FONT_SCALE);
     } else if (isInFullScreen) {
 
       if (docElm.requestFullscreen) {
@@ -182,6 +195,7 @@ var NavSubMenuItem = createReactClass({
         document.webkitExitFullscreen();
       }
 
+      this.setAttribute("fontScale", this.state.oldFontScale);
     }
 
     NavActions.setState("presentationModeCheckbox");
@@ -193,6 +207,22 @@ var NavSubMenuItem = createReactClass({
 
   setAttribute: function (key, value) {
     NavActions.setAttribute(key, value);
+  },
+
+  _onClickLeft: function () {
+    // get scroll delta on every call in case window size changes, nav bar is 50px
+    var scrollDelta = window.innerHeight - 50;
+    var scrollPosition = Math.max(0, this.state.scrollPosition - scrollDelta);
+    window.scrollTo(0, scrollPosition);
+    this.setState({ scrollPosition: scrollPosition });
+  },
+
+  _onClickRight: function () {
+    // get scroll delta on every call in case window size changes, nav bar is 50px
+    var scrollDelta = window.innerHeight - 50;
+    var scrollPosition = this.state.scrollPosition + scrollDelta;
+    window.scrollTo(0, scrollPosition);
+    this.setState({ scrollPosition: scrollPosition });
   }
 
 });
