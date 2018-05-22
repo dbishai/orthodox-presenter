@@ -29,8 +29,7 @@ var NavSubMenuItem = createReactClass({
     return {
       inputDate: this.props.attributes.todayDate,
       inputCopticDate: CopticCalendar.getCopticDateString(year, monthIndex, day),
-      oldFontScale: this.props.attributes.fontScale,
-      scrollPosition: 0,
+      oldFontScale: this.props.attributes.fontScale
     }
   },
 
@@ -170,7 +169,6 @@ var NavSubMenuItem = createReactClass({
 
 
     if (!isInFullScreen && !checked) {
-
       if (docElm.requestFullscreen) {
         docElm.requestFullscreen();
       }
@@ -181,10 +179,11 @@ var NavSubMenuItem = createReactClass({
         docElm.webkitRequestFullScreen();
       }
 
+      $("body").toggleClass("no-scroll");
       this.setState({ oldFontScale: this.props.attributes.fontScale });
       this.setAttribute("fontScale", DEFAULT_FONT_SCALE);
-    } else if (isInFullScreen) {
 
+    } else if (isInFullScreen) {
       if (docElm.requestFullscreen) {
         document.exitFullscreen();
       }
@@ -195,6 +194,7 @@ var NavSubMenuItem = createReactClass({
         document.webkitExitFullscreen();
       }
 
+      $("body").toggleClass("no-scroll");
       this.setAttribute("fontScale", this.state.oldFontScale);
     }
 
@@ -209,20 +209,24 @@ var NavSubMenuItem = createReactClass({
     NavActions.setAttribute(key, value);
   },
 
-  _onClickLeft: function () {
+  scrollPage: function (direction) {
     // get scroll delta on every call in case window size changes, nav bar is 50px
     var scrollDelta = window.innerHeight - 50;
-    var scrollPosition = Math.max(0, this.state.scrollPosition - scrollDelta);
+    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop
+    if (direction == "up") {
+      scrollPosition = Math.max(0, scrollPosition - scrollDelta);
+    } else if (direction == "down") {
+      scrollPosition += scrollDelta;
+    }
     window.scrollTo(0, scrollPosition);
-    this.setState({ scrollPosition: scrollPosition });
+  },
+
+  _onClickLeft: function () {
+    this.scrollPage("up");
   },
 
   _onClickRight: function () {
-    // get scroll delta on every call in case window size changes, nav bar is 50px
-    var scrollDelta = window.innerHeight - 50;
-    var scrollPosition = this.state.scrollPosition + scrollDelta;
-    window.scrollTo(0, scrollPosition);
-    this.setState({ scrollPosition: scrollPosition });
+    this.scrollPage("down");
   }
 
 });

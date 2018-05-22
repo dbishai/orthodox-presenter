@@ -287,3 +287,7 @@ div.table-of-contents {
   background-color: #1a75ff;
   cursor: pointer;
 }
+
+body.no-scroll {
+  overflow-y: hidden;
+}
