@@ -19,6 +19,7 @@ var Psalmody = {
         docs.push("hymns/psalmody/fourth_canticle");
         if (day == 0) {
             docs.push("hymns/psalmody/psali/standard_sunday");
+            docs.push("hymns/psalmody/psali/standard_lord");
         } 
         if (day == 1) {
             docs.push("hymns/psalmody/psali/standard_monday");
@@ -36,6 +37,7 @@ var Psalmody = {
             docs.push("hymns/psalmody/psali/standard_friday");
         } 
         if (day == 6) {
+            docs.push("hymns/psalmody/psali/standard_virgin");
             docs.push("hymns/psalmody/psali/standard_saturday");
         } 
         if (day_tune == "adam") {
