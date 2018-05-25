@@ -213,7 +213,7 @@ var NavSubMenuItem = createReactClass({
     window.scrollTo(0, scrollPosition);
   },
 
-  _handleKeyDown(e) {
+  _handleKeyDown: function (e) {
     if (e.key == "ArrowLeft") {
       this._onClickLeft();
     } else if (e.key == "ArrowRight") {
