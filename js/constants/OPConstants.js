@@ -5,7 +5,7 @@ module.exports = keyMirror({
   NEXT: null,
   PREV: null,
   LOAD: null,
-  SET_STATE: null,
+  TOGGLE_STATE: null,
   SET_DATE: null,
   SET_TIME: null,
   TOGGLE_MENU: null,

@@ -49,7 +49,7 @@ var SectionItem = createReactClass({
         var sectionItem = this.props.sectionItem;
         var attributes = this.props.attributes;
         if (attributes.autoLoad) {
-            NavActions.setState("autoLoad");
+            NavActions.toggleState("autoLoad");
         }
 
         if (typeof sectionItem["node"] != 'undefined') {

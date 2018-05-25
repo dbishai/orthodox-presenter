@@ -28,7 +28,7 @@ Attributes = {
     autoLoad: true
 };
 
-var setState = function (state) {
+var toggleState = function (state) {
     Attributes[state] = !Attributes[state];
 };
 
@@ -78,8 +78,8 @@ var NavSubMenuStore = assign({}, EventEmitter.prototype, {
 AppDispatcher.register(function (action) {
 
     switch (action.actionType) {
-        case OPConstants.SET_STATE:
-            setState(action.state);
+        case OPConstants.TOGGLE_STATE:
+            toggleState(action.state);
             NavSubMenuStore.emitChange();
             break;
         case OPConstants.SET_DATE:

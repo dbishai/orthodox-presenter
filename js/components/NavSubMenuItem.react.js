@@ -148,7 +148,7 @@ var NavSubMenuItem = createReactClass({
     //use jQuery to toggle class on body which is inaccessible by React
     $("body").toggleClass("light-theme-background");
     $("html").toggleClass("light-theme-background");
-    NavActions.setState("lightThemeCheckbox");
+    NavActions.toggleState("lightThemeCheckbox");
   },
 
   handlePresentationModeCheckbox: function () {
@@ -190,11 +190,11 @@ var NavSubMenuItem = createReactClass({
       this.setAttribute("fontScale", this.state.oldFontScale);
     }
 
-    NavActions.setState("presentationModeCheckbox");
+    NavActions.toggleState("presentationModeCheckbox");
   },
 
   handleCheckbox: function (checkbox) {
-    NavActions.setState(checkbox);
+    NavActions.toggleState(checkbox);
   },
 
   setAttribute: function (key, value) {

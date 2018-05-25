@@ -17,9 +17,9 @@ var NavActions = {
     });
   },
 
-  setState: function (state) {
+  toggleState: function (state) {
     AppDispatcher.dispatch({
-      actionType: OPConstants.SET_STATE,
+      actionType: OPConstants.TOGGLE_STATE,
       state: state
     });
   },
