@@ -17,38 +17,37 @@ var Psalmody = {
         var docs = [];
         docs.push("hymns/psalmody/intro_psalm_116");
         docs.push("hymns/psalmody/fourth_canticle");
-        if (day == 0) {
+        switch (day) {
+            case 0:
             docs.push("hymns/psalmody/psali/standard_sunday");
-        } 
-        if (day == 1) {
+            break;
+            case 1:
             docs.push("hymns/psalmody/psali/standard_monday");
-        } 
-        if (day == 2) {
+            break;
+            case 2:
             docs.push("hymns/psalmody/psali/standard_tuesday");
-        } 
-        if (day == 3) {
+            break;
+            case 3:
             docs.push("hymns/psalmody/psali/standard_wednesday");
-        } 
-        if (day == 4) {
+            break;
+            case 4:
             docs.push("hymns/psalmody/psali/standard_thursday");
-        } 
-        if (day == 5) {
+            break;
+            case 5:
             docs.push("hymns/psalmody/psali/standard_friday");
-        } 
-        if (day == 6) {
+            break;
+            case 6:
             docs.push("hymns/psalmody/psali/standard_saturday");
-        } 
+            break;
+        }
         if (day_tune == "adam") {
             docs.push("hymns/psalmody/concl_psali_adam");
-        } else {
-            docs.push("hymns/psalmody/concl_psali_watos");
-        }
-
-        if (day_tune == "adam") {
             docs.push("hymns/psalmody/concl_adam_theotokia");
         } else {
+            docs.push("hymns/psalmody/concl_psali_watos");
             docs.push("hymns/psalmody/concl_watos_theotokia");
         }
+
         docs.push("prayers/our_father");
         
         return docs;
