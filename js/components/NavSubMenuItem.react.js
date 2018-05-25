@@ -23,12 +23,8 @@ var NavSubMenuItem = createReactClass({
   },
 
   getInitialState: function () {
-    var year = this.props.attributes.year;
-    var day = this.props.attributes.day;
-    var monthIndex = this.props.attributes.monthIndex;
     return {
       inputDate: this.props.attributes.todayDate,
-      inputCopticDate: CopticCalendar.getCopticDateString(year, monthIndex, day),
       oldFontScale: this.props.attributes.fontScale
     }
   },
@@ -104,12 +100,6 @@ var NavSubMenuItem = createReactClass({
       case "mode":
         return (
           <div className="nav-sub-menu-item">
-            <button onClick={this._onClickLeft}>
-              left
-            </button>
-            <button onClick={this._onClickRight}>
-              right
-            </button>
             <div className="checkbox">
               <Toggle defaultChecked={this.props.attributes.presentationModeCheckbox}
                 onChange={this.handlePresentationModeCheckbox} aria-label="..." />
@@ -180,6 +170,7 @@ var NavSubMenuItem = createReactClass({
       }
 
       $("body").toggleClass("no-scroll");
+      document.addEventListener("keydown", this._handleKeyDown);
       this.setState({ oldFontScale: this.props.attributes.fontScale });
       this.setAttribute("fontScale", DEFAULT_FONT_SCALE);
 
@@ -195,6 +186,7 @@ var NavSubMenuItem = createReactClass({
       }
 
       $("body").toggleClass("no-scroll");
+      document.removeEventListener("keydown", this._handleKeyDown);
       this.setAttribute("fontScale", this.state.oldFontScale);
     }
 
@@ -219,6 +211,14 @@ var NavSubMenuItem = createReactClass({
       scrollPosition += scrollDelta;
     }
     window.scrollTo(0, scrollPosition);
+  },
+
+  _handleKeyDown(e) {
+    if (e.key == "ArrowLeft") {
+      this._onClickLeft();
+    } else if (e.key == "ArrowRight") {
+      this._onClickRight();
+    }
   },
 
   _onClickLeft: function () {
