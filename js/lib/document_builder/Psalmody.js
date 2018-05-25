@@ -20,6 +20,7 @@ var Psalmody = {
         switch (day) {
             case 0:
             docs.push("hymns/psalmody/psali/standard_sunday");
+            docs.push("hymns/psalmody/psali/standard_lord");
             break;
             case 1:
             docs.push("hymns/psalmody/psali/standard_monday");
@@ -37,6 +38,7 @@ var Psalmody = {
             docs.push("hymns/psalmody/psali/standard_friday");
             break;
             case 6:
+            docs.push("hymns/psalmody/psali/standard_virgin");
             docs.push("hymns/psalmody/psali/standard_saturday");
             break;
         }
