@@ -13,6 +13,8 @@ var Slider = require('rc-slider').default;
 
 var classNames = require('classnames');
 
+var DEFAULT_FONT_SCALE = 2;
+
 var NavSubMenuItem = createReactClass({
 
   propTypes: {
@@ -21,12 +23,9 @@ var NavSubMenuItem = createReactClass({
   },
 
   getInitialState: function () {
-    var year = this.props.attributes.year;
-    var day = this.props.attributes.day;
-    var monthIndex = this.props.attributes.monthIndex;
     return {
       inputDate: this.props.attributes.todayDate,
-      inputCopticDate: CopticCalendar.getCopticDateString(year, monthIndex, day)
+      oldFontScale: this.props.attributes.fontScale
     }
   },
 
@@ -158,8 +157,8 @@ var NavSubMenuItem = createReactClass({
       (document.mozFullScreen || document.webkitIsFullScreen);
     var docElm = document.documentElement;
 
-    if (!isInFullScreen && !checked) {
 
+    if (!isInFullScreen && !checked) {
       if (docElm.requestFullscreen) {
         docElm.requestFullscreen();
       }
@@ -170,8 +169,12 @@ var NavSubMenuItem = createReactClass({
         docElm.webkitRequestFullScreen();
       }
 
-    } else if (isInFullScreen) {
+      $("body").toggleClass("no-scroll");
+      document.addEventListener("keydown", this._handleKeyDown);
+      this.setState({ oldFontScale: this.props.attributes.fontScale });
+      this.setAttribute("fontScale", DEFAULT_FONT_SCALE);
 
+    } else if (isInFullScreen) {
       if (docElm.requestFullscreen) {
         document.exitFullscreen();
       }
@@ -182,6 +185,9 @@ var NavSubMenuItem = createReactClass({
         document.webkitExitFullscreen();
       }
 
+      $("body").toggleClass("no-scroll");
+      document.removeEventListener("keydown", this._handleKeyDown);
+      this.setAttribute("fontScale", this.state.oldFontScale);
     }
 
     NavActions.setState("presentationModeCheckbox");
@@ -193,6 +199,34 @@ var NavSubMenuItem = createReactClass({
 
   setAttribute: function (key, value) {
     NavActions.setAttribute(key, value);
+  },
+
+  scrollPage: function (direction) {
+    // get scroll delta on every call in case window size changes, nav bar is 50px
+    var scrollDelta = window.innerHeight - 50;
+    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop
+    if (direction == "up") {
+      scrollPosition = Math.max(0, scrollPosition - scrollDelta);
+    } else if (direction == "down") {
+      scrollPosition += scrollDelta;
+    }
+    window.scrollTo(0, scrollPosition);
+  },
+
+  _handleKeyDown(e) {
+    if (e.key == "ArrowLeft") {
+      this._onClickLeft();
+    } else if (e.key == "ArrowRight") {
+      this._onClickRight();
+    }
+  },
+
+  _onClickLeft: function () {
+    this.scrollPage("up");
+  },
+
+  _onClickRight: function () {
+    this.scrollPage("down");
   }
 
 });

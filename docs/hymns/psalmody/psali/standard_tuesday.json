@@ -6,17 +6,34 @@
         {
             "text": {
                 "cop": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Ⲁⲙⲟⲩ ϣⲁⲣⲟⲛ ⲙ̀ⲫⲟⲟⲩ: ⲱ̀ Ⲡⲉⲛⲛⲏⲃ Ⲡⲭ̅ⲥ̅: ⲁ̀ⲣⲓⲟⲩⲱⲓⲛⲓ ⲉ̀ⲣⲟⲛ: ϧⲉⲛ ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ ⲉⲧϭⲟⲥⲓ.",
+                    "Ⲟⲩⲱⲣⲡ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ: ⲙ̀ⲡⲁⲓⲛⲓϣϯ ⲛ̀ϩ̀ⲙⲟⲧ: ⲛ̀ⲧⲉ Ⲡⲉⲕⲡ̅ⲛ̅ⲁ̅ ⲉ̅ⲑ̅ⲩ̅: ⲙ̀ⲡⲁⲣⲁⲕⲗⲏⲧⲟⲛ.",
+                    "Ϩⲓⲛⲁ ⲧ̀ⲁⲥⲁϫⲓ: ⲛ̀ϩⲁⲛⲕⲟⲩϫⲓ ⲛ̀ⲧⲁⲓⲟ̀: ⲉⲑⲃⲉ ⲡⲉⲕⲣⲁⲛ ⲉⲑⲟⲩⲁⲃ: ⲟⲩⲟϩ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ.",
+                    "Ⲫⲁⲓ ⲉ̀ⲧⲁϥϭⲓⲱ̀ⲟⲩ: ϧⲉⲛ ⲣⲱⲟⲩ ⲛ̀ⲛⲓⲑ̀ⲙⲏⲓ: ⲛⲏⲉ̅ⲑ̅ⲩ̅ ⲛ̀ⲧⲁⲕ: ⲉⲧϣⲟⲡ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ.",
+                    "Ⲛⲁⲓ ⲉⲧⲥⲱⲣⲉⲙ ⲉ̀ⲃⲟⲗ: ϧⲉⲛ ⲛⲓⲧⲱⲟⲩ ⲛ̀ϣⲁϥⲉ: ϧⲉⲛ ⲟⲩϩ̀ⲕⲟ ⲛⲉⲙ ⲟⲩⲓ̀ⲃⲓ: ϧⲉⲛ ⲟⲩϫⲁϥ ⲛⲉⲙ ⲟⲩⲱ̀ϫⲉⲃ.",
+                    "Ⲉⲩⲉⲣⲕϧⲁⲉ̀ ⲉⲩϩⲉϫϩⲱϫ: ⲟⲩⲟϩ ⲉⲩϭⲓⲙ̀ⲕⲁϩ: ⲕⲁⲧⲁ ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡⲁⲩⲗⲟⲥ: ⲡⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ.",
+                    "Ⲁⲗⲗⲁ ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅: ⲱ̀Ⲡⲁⲟ̅ⲥ̅ Ⲓⲏ̅ⲥ̅: ⲉⲧϣⲟⲡ ⲛⲱⲟⲩ ⲛ̀ⲛⲁϣϯ: ϧⲉⲛ ⲛⲟⲩϩⲟϫϩⲉϫ ⲧⲏⲣⲟⲩ.",
+                    "Ⲡⲉⲕⲣⲁⲛ ⲉ̅ⲑ̅ⲩ̅: ⲱ̀ Ⲡⲁⲟ̅ⲥ̅ Ⲓⲏ̅ⲥ̅: ⲉⲑⲛⲟϩⲉⲙ ⲙ̀ⲙⲱⲟⲩ: ϧⲉⲛ ⲛⲟⲩⲑ̀ⲗⲓⲯⲓⲥ ⲧⲏⲣⲟⲩ.",
+                    "Ⲛⲑⲟϥ ⲉⲧϣⲟⲡ ⲛⲱⲟⲩ: ⲛ̀ⲟⲩⲧ̀ⲣⲟⲫⲏ ⲛ̀ⲱⲛϧ: ⲉⲥϣⲁⲛϣ ⲛ̀ⲛⲟⲩⲯⲩⲭⲏ: ⲛⲉⲙ ⲛⲟⲩⲥⲱⲙⲁ ⲉⲩⲥⲟⲡ.",
+                    "Ⲛⲑⲟϥ ⲉⲧϣⲟⲡ ⲛⲱⲟⲩ: ⲛ̀ⲟⲩⲙⲟⲩⲙⲓ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ⲱⲙϧ: ⲉⲥϩⲟⲗϫ ϧⲉⲛ ⲧⲟⲩϣ̀ⲃⲱⲃⲓ: ⲉ̀ϩⲟⲧⲉ ⲡⲓⲉ̀ⲃⲓⲱ.",
+                    "Ⲁⲩϣⲁⲛⲫⲓⲣⲓ ⲉ̀ⲣⲟϥ: ϣⲁⲣⲉ ⲡⲟⲩϩⲏⲧ ⲟⲩⲛⲟϥ: ⲛ̀ⲧⲉⲥⲫⲓⲣⲓ ⲉ̀ⲃⲟⲗ: ⲛ̀ϫⲉ ⲧⲟⲩⲕⲉⲥⲁⲣⲝ.",
+                    "Ⲁⲩϣⲁⲛⲥⲁϫⲓ ⲉ̀ⲣⲟϥ: ϣⲁⲣⲉ ⲡⲟⲩⲛⲟⲩⲥ ϭⲓⲟⲩⲱⲓⲛⲓ: ⲛ̀ⲧⲉϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϭⲓⲥⲓ: ⲛ̀ϫⲉ ⲡⲟⲩⲕⲉϩⲏⲧ."
+                    
 
                 ],
                 "eng": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Come unto us today, O Christ our Master, shine upon us, with Your exalted divinity.",
+                    "Send unto us, this great grace, of Your Holy Spirit, the Comforter",
+                    "So that I may speak, with great honor, about Your Holy, and blessed name.",
+                    "This is He who was glorified, by the mouths of, Your righteous saints, who lived upon the earth.",
+                    "By those wandering people, in the barren mountains, threatened by hunger and thirst, frost and cold.",
+                    "They were needy and suffering, and afflicted, according to, Paul the Apostle.",
+                    "But Your holy name, O my Lord Jesus, upheld and delivered them, in all their sufferings.",
+                    "Your holy name, O my Lord Jesus, saved them from all, their afflictions.",
+                    "For them it was, a Living food, which filled their souls, and their bodies too.",
+                    "For them it was, a fountain of living water, sweeter than honey, in their mouths.",
+                    "When they call upon it, their hearts rejoiced, and their bodies, blossomed.",
+                    "When they uttered it, their minds were enlightened, and their hearts ascended, to the heights."
                 ],
                 "ara": [
                     "",

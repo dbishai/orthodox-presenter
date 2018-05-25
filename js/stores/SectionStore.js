@@ -135,7 +135,6 @@ var sections = {
         "id": "vespers",
         "title": "11TH HOUR",
         "load": SectionLoadConstants.AGPEYA_11TH_HOUR
-
       },
       "twelfth": {
         "id": "twelfth",
@@ -164,7 +163,7 @@ var sections = {
           "communion": {
             "id": "communion",
             "title": "COMMUNION",
-            //"load" : "sp_communion"
+            "load" : SectionLoadConstants.AGPEYA_COMMUNION
           },
           "guidance": {
             "id": "guidance",
@@ -202,7 +201,7 @@ var sections = {
       "midnight_praises": {
         "id": "midnight_praises",
         "title": "MIDNIGHT PRAISES",
-        "load": SectionLoadConstants.MIDNGIHT_PRAISES
+        "load": SectionLoadConstants.MIDNIGHT_PRAISES
       },
       "morning_praises": {
         "id": "morning_praises",

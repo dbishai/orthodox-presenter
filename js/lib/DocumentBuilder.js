@@ -70,7 +70,7 @@ var DocumentBuilder = {
                 return Agpeya.NinthHour(attributes);
             case SectionLoadConstants.AGPEYA_11TH_HOUR:
                 return Agpeya.EleventhHour(attributes);
-            case SectionLoadConstants.AGPEYA_1ST_HOUR:
+            case SectionLoadConstants.AGPEYA_12TH_HOUR:
                 return Agpeya.TwelfthHour(attributes);
             case SectionLoadConstants.AGPEYA_VEIL:
                 return Agpeya.Veil(attributes);
@@ -79,6 +79,8 @@ var DocumentBuilder = {
             */
             case SectionLoadConstants.AGPEYA_SELECTED_PRAYERS:
                 return Agpeya.SelectedPrayers(attributes);
+            case SectionLoadConstants.AGPEYA_COMMUNION:
+                return Agpeya.Communion(attributes);    
             case SectionLoadConstants.AGPEYA_MEALS:
                 return Agpeya.Meals(attributes);
             case SectionLoadConstants.AGPEYA_CONFESSION:
