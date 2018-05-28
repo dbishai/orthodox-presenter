@@ -88,7 +88,7 @@ var NavSubMenuItem = createReactClass({
                   min={0.5}
                   max={2.5}
                   step={0.25}
-                  defaultValue={this.props.attributes.fontScale}
+                  value={this.props.attributes.fontScale}
                   onChange={function (value) {
                     thisState.setAttribute("fontScale", value)
                   }} />
@@ -101,7 +101,7 @@ var NavSubMenuItem = createReactClass({
         return (
           <div className="nav-sub-menu-item">
             <div className="checkbox">
-              <Toggle defaultChecked={this.props.attributes.presentationModeCheckbox}
+              <Toggle checked={this.props.attributes.presentationModeCheckbox}
                 onChange={this.handlePresentationModeCheckbox} aria-label="..." />
               <label>{this.props.attributes.presentationModeCheckbox ? "On" : "Off"}</label>
             </div>
@@ -155,42 +155,70 @@ var NavSubMenuItem = createReactClass({
     var checked = this.props.attributes.presentationModeCheckbox;
     var isInFullScreen = (document.fullScreenElement && document.fullScreenElement !== null) ||
       (document.mozFullScreen || document.webkitIsFullScreen);
-    var docElm = document.documentElement;
 
 
     if (!isInFullScreen && !checked) {
-      if (docElm.requestFullscreen) {
-        docElm.requestFullscreen();
-      }
-      else if (docElm.mozRequestFullScreen) {
-        docElm.mozRequestFullScreen();
-      }
-      else if (docElm.webkitRequestFullScreen) {
-        docElm.webkitRequestFullScreen();
-      }
-
-      $("body").toggleClass("no-scroll");
-      document.addEventListener("keydown", this._handleKeyDown);
-      this.setState({ oldFontScale: this.props.attributes.fontScale });
-      this.setAttribute("fontScale", DEFAULT_FONT_SCALE);
+      this.enterPresentationMode();
 
     } else if (isInFullScreen) {
-      if (docElm.requestFullscreen) {
-        document.exitFullscreen();
-      }
-      else if (docElm.mozRequestFullScreen) {
-        document.mozCancelFullScreen();
-      }
-      else if (docElm.webkitRequestFullScreen) {
-        document.webkitExitFullscreen();
-      }
-
-      $("body").toggleClass("no-scroll");
-      document.removeEventListener("keydown", this._handleKeyDown);
-      this.setAttribute("fontScale", this.state.oldFontScale);
+      this.exitPresentationMode();
     }
 
     NavActions.toggleState("presentationModeCheckbox");
+  },
+
+  enterPresentationMode: function () {
+    var docElm = document.documentElement;
+    if (docElm.requestFullscreen) {
+      docElm.requestFullscreen();
+    }
+    else if (docElm.mozRequestFullScreen) {
+      docElm.mozRequestFullScreen();
+    }
+    else if (docElm.webkitRequestFullScreen) {
+      docElm.webkitRequestFullScreen();
+    }
+
+    $("body").toggleClass("no-scroll");
+    document.addEventListener("keydown", this._handleKeyDown);
+    document.addEventListener('webkitfullscreenchange', this.exitHandler);
+    document.addEventListener('mozfullscreenchange', this.exitHandler);
+    document.addEventListener('fullscreenchange', this.exitHandler);
+    document.addEventListener('MSFullscreenChange', this.exitHandler);
+    this.setState({ oldFontScale: this.props.attributes.fontScale });
+    this.setAttribute("fontScale", DEFAULT_FONT_SCALE);
+  },
+
+  exitPresentationMode: function () {
+    var docElm = document.documentElement;
+    if (docElm.requestFullscreen) {
+      document.exitFullscreen();
+    }
+    else if (docElm.mozRequestFullScreen) {
+      document.mozCancelFullScreen();
+    }
+    else if (docElm.webkitRequestFullScreen) {
+      document.webkitExitFullscreen();
+    }
+
+    $("body").toggleClass("no-scroll");
+    document.removeEventListener("keydown", this._handleKeyDown);
+    document.removeEventListener('webkitfullscreenchange', this.exitHandler);
+    document.removeEventListener('mozfullscreenchange', this.exitHandler);
+    document.removeEventListener('fullscreenchange', this.exitHandler);
+    document.removeEventListener('MSFullscreenChange', this.exitHandler);
+    this.setAttribute("fontScale", this.state.oldFontScale);
+
+  },
+
+  exitHandler: function () {
+    // for when user hits ESC key
+    var isInFullScreen = (document.fullScreenElement && document.fullScreenElement !== null) ||
+      (document.mozFullScreen || document.webkitIsFullScreen);
+    if (!isInFullScreen) {
+      NavActions.toggleState("presentationModeCheckbox");
+      this.exitPresentationMode();
+    }
   },
 
   handleCheckbox: function (checkbox) {
