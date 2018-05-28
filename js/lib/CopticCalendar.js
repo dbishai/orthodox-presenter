@@ -493,6 +493,13 @@ var isInFast = function (attributes) {
   // ignore time and use date only
   var todayDate = moment([attributes.year, attributes.monthIndex, attributes.day]);
 
+
+  // if in Holy 50 return false
+  var Holy50 = fastsfeasts[FastFeastNames.HOLY_50];
+  if (todayDate.isBetween(Holy50.start, Holy50.end, null, '[)')) {
+    return false;
+  }
+
   // if day is Saturday or Sunday and not in Great Lent return false
   var GreatLent = fastsfeasts[FastFeastNames.GREAT_LENT];
   if ((todayDate.day() == 6 || todayDate.day() == 0)
@@ -503,17 +510,19 @@ var isInFast = function (attributes) {
   for (var x in fastsfeasts) {
     // beginning of date range is inclusive
     /*
-    check if date falls in fast, in major feast period, or on major feast day
+    check if date falls in fast, on major feast day, or in major feast period
     */
     if (fastsfeasts[x].type == "fast" && fastsfeasts[x].end !== null
       && todayDate.isBetween(fastsfeasts[x].start, fastsfeasts[x].end, null, '[)')) {
       return true;
     } else if (fastsfeasts[x].type == "feast" && fastsfeasts[x].major && fastsfeasts[x].start.isSame(todayDate)) {
       return false;
-    } else if (fastsfeasts[x].type == "feast" && fastsfeasts[x].major && fastsfeasts[x].end !== null
+      
+    } /*else if (fastsfeasts[x].type == "feast" && fastsfeasts[x].major && fastsfeasts[x].end !== null
       && todayDate.isBetween(fastsfeasts[x].start, fastsfeasts[x].end, null, '[)')) {
       return false;
     }
+    */
   }
 
   // finally if day is Wed or Fri return true
@@ -539,6 +548,15 @@ var getCurrentFastFeasts = function (attributes) {
   }
 
   return collection;
+};
+
+/**
+ * @param {Object} attributes - Attributes object defined in NavSubMenuStore
+ * @param {String} fastFeastName - String defined in FastFeastNames
+ * @returns {Boolean} 
+ */
+var isInSeason = function (attributes, fastFeastName) {
+  return getCurrentFastFeasts(attributes).indexOf(fastFeastName) !== -1;
 };
 
 var isLeapYear = function (year) {
@@ -684,5 +702,6 @@ module.exports.AdamOrWatos = AdamOrWatos;
 module.exports.CopticDateComparator = CopticDateComparator;
 //module.exports.getCopticFastsFeasts = getCopticFastsFeasts;
 module.exports.isInFast = isInFast;
+module.exports.isInSeason = isInSeason;
 module.exports.FastFeastNames = FastFeastNames;
 module.exports.getCurrentFastFeasts = getCurrentFastFeasts;
